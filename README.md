@@ -49,8 +49,8 @@ Esta planificação serve para dar uma ideia resumida das aulas planeadas e/ou d
 
 ### Práticas
 
-* P01 (Semana 15/02): Desenferrujar
-* P02 (Semana 22/02): Desenferrujar
+* P01 (Semana 15/02): [Projeto 0 - Desenferrujar](projetos/Projeto0.ipynb)
+* P02 (Semana 22/02): [Projeto 0 - Desenferrujar](projetos/Projeto0.ipynb)
 * P03 (Semana 01/03): [Projeto 1 - Análise de texto](projetos/Projeto1.ipynb)
 * P04 (Semana 08/03): [Projeto 1 - Análise de texto](projetos/Projeto1.ipynb)
 
