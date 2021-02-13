@@ -18,7 +18,7 @@ Esta planificação serve para dar uma ideia resumida das aulas planeadas e/ou d
 
 ### Teóricas
 
-* T01 (Semana 15/02): Apresentação da cadeira [slides](slides/t01.pdf) [vídeo](https://mega.nz/file/gxZHmSzQ#-nXJcjGF4SWMAyyf6-QgtpiZg5TlRfQU9FI0MsannsA)
+* T01 (Semana 15/02): Apresentação da cadeira [[slides](slides/t01.pdf)] [[vídeo](https://mega.nz/file/gxZHmSzQ#-nXJcjGF4SWMAyyf6-QgtpiZg5TlRfQU9FI0MsannsA)]
 * T02 (Semana 15/02): Ambiente de desenvolvimento e conceitos base
 * T03 (Semana 22/02): Iteração, condicionais e funções 
 * T04 (Semana 22/02): Strings, listas e tuplos
