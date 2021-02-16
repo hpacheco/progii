@@ -13,7 +13,8 @@ Neste repositório poderá encontrar todo o material de suporte à cadeira.
 
 ## Avaliação
 
-Os projetos práticos devem ser entregues até às seguintes datas. Estas datas podem vir a ser alteradas consoante o calendário académico.
+Os projetos práticos devem ser entregues por email para o docente do turno respetivo até às seguintes datas.
+Estas datas podem vir a ser alteradas consoante o calendário académico.
 
 * Projeto 1: 22 Março
 * Projeto 2: 19 Abril
