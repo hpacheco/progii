@@ -3,6 +3,25 @@
 Bem-vindo ao repositório de suporte à cadeira de [Programação II](https://sigarra.up.pt/fcup/pt/ucurr_geral.ficha_uc_view?pv_ocorrencia_id=464142).
 Neste repositório poderá encontrar todo o material de suporte à cadeira.
 
+## Projetos
+
+* [Projeto 0 - Desenferrujar](projetos/Projeto0.ipynb) [[Soluções](projetos/Solucoes0.ipynb)]
+* [Projeto 1 - Análise de texto](projetos/Projeto1.ipynb)
+* Projeto 2 - Análise de dados
+* Projeto 3 - Visualização de dados
+* Projeto 4 - Animações e aplicações interativas
+
+## Avaliação
+
+Os projetos práticos devem ser entregues até às seguintes datas. Estas datas podem vir a ser alteradas consoante o calendário académico.
+
+* Projeto 1: 22 Março
+* Projeto 2: 19 Abril
+* Projeto 3: 17 Maio
+* Projeto 4: 1 Junho
+
+As orais serão em data a decidir no fim do semestre.
+
 ## Bibliografia
 
 - Allen Downey; How to think like a computer scientist. ISBN: 0-9716775-0-6 [interactive edition](https://runestone.academy/runestone/books/published/thinkcspy/index.html) 
