@@ -42,8 +42,8 @@ Esta planificação serve para dar uma ideia resumida das aulas planeadas e/ou d
 * T02 (Semana 15/02): Ambiente de desenvolvimento e conceitos base [[slides](slides/t02.pdf)] [[vídeo](https://drive.google.com/file/d/11WR57Rje7onDoGWgG03IOtyMXf3innQo/view?usp=sharing)]
 * T03 (Semana 22/02): Iteração, condicionais e funções [[slides](slides/t03.pdf)] [[vídeo](https://drive.google.com/file/d/1rhMCPS8VfXEu6uyzjBIhv5k1kTdvALsW/view?usp=sharing)]
 * T04 (Semana 22/02): Strings, listas e tuplos [[slides](slides/t04.pdf)] [[vídeo](https://drive.google.com/file/d/1GLCWzH_OpXjjp7h0qQOfoF1z5tzwf_BZ/view?usp=sharing)]
-* T05 (Semana 01/03): Ficheiros
-* T06 (Semana 01/03): Dicionários e sets
+* T05 (Semana 01/03): Ficheiros [[slides](slides/t05.pdf)] [[vídeo](https://drive.google.com/file/d/1ozFlmVuz2Hem6vik_zukjWJBS8_WM1MY/view?usp=sharing)]
+* T06 (Semana 01/03): Dicionários e sets [[slides](slides/t06.pdf)] [[vídeo](https://drive.google.com/file/d/1IPElxxntRVvWxNK9mSUUE8yyAGkNAvfj/view?usp=sharing)]
 * T07 (Semana 08/03): Compreensões
 * T08 (Semana 08/03): Classes e objetos
 
@@ -51,20 +51,20 @@ Esta planificação serve para dar uma ideia resumida das aulas planeadas e/ou d
 * T10 (Semana 15/03): Computação numérica com arrays (numpy)
 * T11 (Semana 22/03): Análise de dados tabulares (pandas)
 * T12 (Semana 22/03): Análise de dados tabulares (pandas)
-* T13 (Semana 05/04): Gráficos
+* T13 (Semana 05/04): Apoio à resolução dos projetos
 
 * T14 (Semana 12/04): Gráficos
-* T15 (Semana 12/04): Gráficos interativos
-* T16 (Semana 19/04): Mapas
+* T15 (Semana 12/04): Gráficos
+* T16 (Semana 19/04): Gráficos interativos
 * T17 (Semana 19/04): Mapas
-* T18 (Semana 26/04): Recursividade
-* T19 (Semana 26/04): Imagens (pygame)
+* T18 (Semana 26/04): Mapas
+* T19 (Semana 26/04): Apoio à resolução dos projetos
 
-* T20 (Semana 10/05): Animações (pygame)
-* T21 (Semana 10/05): Animações (pygame)
-* T22 (Semana 17/05): Aplicações interativas (pygame)
-* T23 (Semana 17/05): Computação científica (scipy)
-* T24 (Semana 24/05): Apoio à resolução dos projetos
+* T20 (Semana 10/05): Mapas web (folium)
+* T21 (Semana 10/05): Imagens (pygame)
+* T22 (Semana 17/05): Animações (pygame)
+* T23 (Semana 17/05): Animações (pygame)
+* T24 (Semana 24/05): Aplicações interativas (pygame)
 * T25 (Semana 24/05): Apoio à resolução dos projetos
 
 ### Práticas
