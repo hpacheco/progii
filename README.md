@@ -44,7 +44,7 @@ Esta planificação serve para dar uma ideia resumida das aulas planeadas e/ou d
 * T04 (Semana 22/02): Strings, listas e tuplos [[slides](slides/t04.pdf)] [[vídeo](https://drive.google.com/file/d/1GLCWzH_OpXjjp7h0qQOfoF1z5tzwf_BZ/view?usp=sharing)]
 * T05 (Semana 01/03): Ficheiros [[slides](slides/t05.pdf)] [[vídeo](https://drive.google.com/file/d/1ozFlmVuz2Hem6vik_zukjWJBS8_WM1MY/view?usp=sharing)]
 * T06 (Semana 01/03): Dicionários e sets [[slides](slides/t06.pdf)] [[vídeo](https://drive.google.com/file/d/1IPElxxntRVvWxNK9mSUUE8yyAGkNAvfj/view?usp=sharing)]
-* T07 (Semana 08/03): Compreensões
+* T07 (Semana 08/03): Compreensões [[slides](slides/t07.pdf)] [[vídeo](https://drive.google.com/file/d/11Jpa_dNhwwp-WWmX3vNT1raHQ9zno7U2/view?usp=sharing)]
 * T08 (Semana 08/03): Classes e objetos
 
 * T09 (Semana 15/03): Formatos de dados 
