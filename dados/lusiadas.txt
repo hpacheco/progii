@@ -1,4 +1,4 @@
-Luís Vaz de Camões
+﻿Luís Vaz de Camões
 Os Lusíadas
 
 Canto Primeiro
@@ -533,7 +533,6 @@ Nós temos a Lei certa, que ensinou
 O claro descendente de Abraão
 Que agora tem do mundo o senhorio,
 A mãe Hebréia teve, e o pai Gentio.
-Informações. A Ilha de Moçambique.
 
 54
 "Esta ilha pequena, que habitamos,
@@ -3492,7 +3491,6 @@ Estas relíquias suas que aqui viste,
 Que refrigério sejam da mãe triste."--
 
 130
---Morte de Inês de Castro
 "Queria perdoar-lhe o Rei benino,
 Movido das palavras que o magoam;
 Mas o pertinaz povo, e seu destino
@@ -6817,6 +6815,7 @@ Depois que a branda Vénus enfraquece
 O furor vão dos ventos repugnantes:
 Depois que a larga terra lhe aparece,
 Fim de suas porfias tão constantes,
+Onde vem semear de Cristo a lei
 E dar novo costume e novo Rei.
 
 16
@@ -8142,7 +8141,6 @@ Confessar-me a verdade limpa e nua,
 Perdão alcançarás da culpa tua.
 
 61
-Fala do Samorim ao Gama
 "Eu sou bem informado que a embaixada
 Que de teu Rei me deste, que é fingida;
 Porque nem tu tens Rei, nem pátria amada,

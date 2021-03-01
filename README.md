@@ -61,7 +61,7 @@ Esta planificação serve para dar uma ideia resumida das aulas planeadas e/ou d
 * T19 (Semana 26/04): Apoio à resolução dos projetos
 
 * T20 (Semana 10/05): Mapas web (folium)
-* T21 (Semana 10/05): Imagens (pygame)
+* T21 (Semana 10/05): Gráficos 2D (pygame)
 * T22 (Semana 17/05): Animações (pygame)
 * T23 (Semana 17/05): Animações (pygame)
 * T24 (Semana 24/05): Aplicações interativas (pygame)
