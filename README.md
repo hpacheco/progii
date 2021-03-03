@@ -45,9 +45,9 @@ Esta planificação serve para dar uma ideia resumida das aulas planeadas e/ou d
 * T05 (Semana 01/03): Ficheiros [[slides](slides/t05.pdf)] [[vídeo](https://drive.google.com/file/d/1ozFlmVuz2Hem6vik_zukjWJBS8_WM1MY/view?usp=sharing)]
 * T06 (Semana 01/03): Dicionários e sets [[slides](slides/t06.pdf)] [[vídeo](https://drive.google.com/file/d/1IPElxxntRVvWxNK9mSUUE8yyAGkNAvfj/view?usp=sharing)]
 * T07 (Semana 08/03): Compreensões [[slides](slides/t07.pdf)] [[vídeo](https://drive.google.com/file/d/11Jpa_dNhwwp-WWmX3vNT1raHQ9zno7U2/view?usp=sharing)]
-* T08 (Semana 08/03): Classes e objetos
+* T08 (Semana 08/03): Classes e objetos [[slides](slides/t08.pdf)] [[vídeo](https://drive.google.com/file/d/1D3MQIq7g3XqdhJzHewEJUbb9UNmDtCAx/view?usp=sharing)]
 
-* T09 (Semana 15/03): Formatos de dados 
+* T09 (Semana 15/03): Formatos de dados [[slides](slides/t09.pdf)] [[vídeo](https://drive.google.com/file/d/1ggdM3F5ZdEHp3MlWOK54xOL8SeJUdKIj/view?usp=sharing)]
 * T10 (Semana 15/03): Computação numérica com arrays (numpy)
 * T11 (Semana 22/03): Análise de dados tabulares (pandas)
 * T12 (Semana 22/03): Análise de dados tabulares (pandas)
