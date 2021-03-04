@@ -5,7 +5,7 @@ Neste repositório poderá encontrar todo o material de suporte à cadeira.
 
 ## Projetos
 
-* [Projeto 0 - Desenferrujar](projetos/Projeto0.ipynb) [[Soluções](projetos/Solucoes0.ipynb)] [Teste0](projetos/Teste0.ipynb)] 
+* [Projeto 0 - Desenferrujar](projetos/Projeto0.ipynb) [[Soluções](projetos/Solucoes0.ipynb)] [[Teste0](projetos/Teste0.ipynb)] 
 * [Projeto 1 - Análise de texto](projetos/Projeto1.ipynb)
 * Projeto 2 - Análise de dados
 * Projeto 3 - Visualização de dados
