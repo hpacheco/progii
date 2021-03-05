@@ -48,8 +48,8 @@ Esta planificação serve para dar uma ideia resumida das aulas planeadas e/ou d
 * T08 (Semana 08/03): Classes e objetos [[slides](slides/t08.pdf)] [[vídeo](https://drive.google.com/file/d/1D3MQIq7g3XqdhJzHewEJUbb9UNmDtCAx/view?usp=sharing)]
 
 * T09 (Semana 15/03): Formatos de dados [[slides](slides/t09.pdf)] [[vídeo](https://drive.google.com/file/d/1ggdM3F5ZdEHp3MlWOK54xOL8SeJUdKIj/view?usp=sharing)]
-* T10 (Semana 15/03): Computação numérica com arrays (numpy)
-* T11 (Semana 22/03): Análise de dados tabulares (pandas)
+* T10 (Semana 15/03): Computação numérica com arrays (numpy) [[slides](slides/t10.pdf)] [[vídeo](https://drive.google.com/file/d/1p9uJcCpC4kQuZAJYPKZaVGa12UohDoDS/view?usp=sharing)]
+* T11 (Semana 22/03): Análise de dados tabulares (pandas) [[slides](slides/t11.pdf)] [[vídeo](https://drive.google.com/file/d/1tUfulMvoKdJ3OON6HnQC3Y0EAcjv8jBC/view?usp=sharing)]
 * T12 (Semana 22/03): Análise de dados tabulares (pandas)
 * T13 (Semana 05/04): Apoio à resolução dos projetos
 

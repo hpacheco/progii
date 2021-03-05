@@ -1,15 +1,15 @@
 import pandas as pd
 import numpy as np
 
-df = pd.read_excel('../dados/PT100-tx-tn-prec.xlsx',sheet_name=3)
-
-dados = df.to_numpy()
+dados = pd.read_excel('../dados/PT100-tx-tn-prec.xlsx',sheet_name=3).to_numpy()
+print(dados)
 print(dados.shape)
 
 anual = dados[:89,[0,17]]
 print(anual)
 
 min_prec = anual[:,1].min()
+print(min_prec)
 max_prec = anual[:,1].max()
 
 print(anual[anual[:,1] == min_prec])
