@@ -38,6 +38,7 @@ Esta planificação serve para dar uma ideia resumida das aulas planeadas e/ou d
 
 ### Teóricas
 
+#### Projeto 0 & Projeto 1
 * T01 (Semana 15/02): Apresentação da cadeira [[slides](slides/t01.pdf)] [[vídeo](https://drive.google.com/file/d/1dE0zT8Sa_-ft5thdC6omBbZQs3CEfFGd/view?usp=sharing)]
 * T02 (Semana 15/02): Ambiente de desenvolvimento e conceitos base [[slides](slides/t02.pdf)] [[vídeo](https://drive.google.com/file/d/11WR57Rje7onDoGWgG03IOtyMXf3innQo/view?usp=sharing)]
 * T03 (Semana 22/02): Iteração, condicionais e funções [[slides](slides/t03.pdf)] [[vídeo](https://drive.google.com/file/d/1rhMCPS8VfXEu6uyzjBIhv5k1kTdvALsW/view?usp=sharing)]
@@ -47,19 +48,22 @@ Esta planificação serve para dar uma ideia resumida das aulas planeadas e/ou d
 * T07 (Semana 08/03): Compreensões [[slides](slides/t07.pdf)] [[vídeo](https://drive.google.com/file/d/11Jpa_dNhwwp-WWmX3vNT1raHQ9zno7U2/view?usp=sharing)]
 * T08 (Semana 08/03): Classes e objetos [[slides](slides/t08.pdf)] [[vídeo](https://drive.google.com/file/d/1D3MQIq7g3XqdhJzHewEJUbb9UNmDtCAx/view?usp=sharing)]
 
+#### Projeto 2
 * T09 (Semana 15/03): Formatos de dados [[slides](slides/t09.pdf)] [[vídeo](https://drive.google.com/file/d/1ggdM3F5ZdEHp3MlWOK54xOL8SeJUdKIj/view?usp=sharing)]
 * T10 (Semana 15/03): Computação numérica com arrays (numpy) [[slides](slides/t10.pdf)] [[vídeo](https://drive.google.com/file/d/1p9uJcCpC4kQuZAJYPKZaVGa12UohDoDS/view?usp=sharing)]
 * T11 (Semana 22/03): Análise de dados tabulares (pandas) [[slides](slides/t11.pdf)] [[vídeo](https://drive.google.com/file/d/1tUfulMvoKdJ3OON6HnQC3Y0EAcjv8jBC/view?usp=sharing)]
-* T12 (Semana 22/03): Análise de dados tabulares (pandas)
+* T12 (Semana 22/03): Análise de dados tabulares (pandas) [[slides](slides/t12.pdf)] [[vídeo](https://drive.google.com/file/d/16MkO_leHX4LIafaNYr9TOP0oIhoGYWUz/view?usp=sharing)]
 * T13 (Semana 05/04): Apoio à resolução dos projetos
 
-* T14 (Semana 12/04): Gráficos
+#### Projeto 3 
+* T14 (Semana 12/04): Gráficos [[slides](slides/t14.pdf)] [[vídeo](https://drive.google.com/file/d/1e4RoUefp624N5K0nne_UloHSFxkE-Y42/view?usp=sharing)]
 * T15 (Semana 12/04): Gráficos
 * T16 (Semana 19/04): Gráficos interativos
 * T17 (Semana 19/04): Mapas
 * T18 (Semana 26/04): Mapas
 * T19 (Semana 26/04): Apoio à resolução dos projetos
 
+#### Projeto 4
 * T20 (Semana 10/05): Mapas web (folium)
 * T21 (Semana 10/05): Gráficos 2D (pygame)
 * T22 (Semana 17/05): Animações (pygame)
