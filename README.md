@@ -62,7 +62,7 @@ Esta planificação serve para dar uma ideia resumida das aulas planeadas e/ou d
 * T15 (Semana 12/04): Gráficos [[slides](slides/t15.pdf)] [[vídeo](https://drive.google.com/file/d/109WI4TejOHxb4Qr3YjYnQnm6n35bj7-j/view?usp=sharing)]
 * T16 (Semana 19/04): Gráficos interativos [[slides](slides/t16.pdf)] [[vídeo](https://drive.google.com/file/d/1VCTR4y6tPfmoxpKjOmsnIlyT1buJ8pWo/view?usp=sharing)]
 * T17 (Semana 19/04): Mapas [[slides](slides/t17.pdf)] [[vídeo](https://drive.google.com/file/d/18A3DrBQcHlhgR5L7YgI-4FXKYnj2FGzW/view?usp=sharing)] 
-* T18 (Semana 26/04): Mapas
+* T18 (Semana 26/04): Mapas [[slides](slides/t18.pdf)] [[vídeo](https://drive.google.com/file/d/15A8s_0WclYuuiDQPMppXukBltFIsA6ZA/view?usp=sharing)]
 * T19 (Semana 26/04): Apoio à resolução dos projetos
 
 #### Projeto 4
