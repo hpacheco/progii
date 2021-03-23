@@ -66,7 +66,7 @@ Esta planificação serve para dar uma ideia resumida das aulas planeadas e/ou d
 * T19 (10/05): Apoio à resolução dos projetos
 
 #### Projeto 4
-* T20 (13/05): Mapas web (folium)
+* T20 (13/05): Mapas web (folium) [[slides](slides/t20.pdf)] [[vídeo](https://drive.google.com/file/d/1_M5GOtTZZegs3GgGG9FjT_xSy9hZfR9Q/view?usp=sharing)]
 * T21 (17/05): Gráficos 2D (pygame)
 * T22 (20/05): Animações (pygame)
 * T23 (24/05): Animações (pygame)
