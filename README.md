@@ -67,7 +67,7 @@ Esta planificação serve para dar uma ideia resumida das aulas planeadas e/ou d
 
 #### Projeto 4
 * T20 (13/05): Mapas web (folium) [[slides](slides/t20.pdf)] [[vídeo](https://drive.google.com/file/d/1_M5GOtTZZegs3GgGG9FjT_xSy9hZfR9Q/view?usp=sharing)]
-* T21 (17/05): Gráficos 2D (pygame)
+* T21 (17/05): Gráficos 2D (pygame) [[slides](slides/t21.pdf)] [[vídeo]https://drive.google.com/file/d/1FddSWUHpec6HWfc5IIY5GIuEZ7WEjnm8/view?usp=sharing]
 * T22 (20/05): Animações (pygame)
 * T23 (24/05): Animações (pygame)
 * T24 (27/05): Aplicações interativas (pygame)
