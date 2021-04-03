@@ -70,7 +70,7 @@ Esta planificação serve para dar uma ideia resumida das aulas planeadas e/ou d
 * T21 (17/05): Gráficos 2D (pygame) [[slides](slides/t21.pdf)] [[vídeo](https://drive.google.com/file/d/1FddSWUHpec6HWfc5IIY5GIuEZ7WEjnm8/view?usp=sharing)]
 * T22 (20/05): Animações (pygame) [[slides](slides/t22.pdf)] [[vídeo](https://drive.google.com/file/d/1HnpIq1twzNcEkuLcjE6ZYfLpgm5d_kSx/view?usp=sharing)]
 * T23 (24/05): Aplicações interativas (pygame) [[slides](slides/t23.pdf)] [[vídeo](https://drive.google.com/file/d/1RtmiXFiA5bFV7DnPkfROHilHst_rXBhg/view?usp=sharing)]
-* T24 (27/05): Mais exemplos (pygame)
+* T24 (27/05): Mais exemplos (pygame) [[slides](slides/t24.pdf)] [[vídeo](https://drive.google.com/file/d/19-aSWOQR78hj_E8i1IQqdAlXtJhvWw9X/view?usp=sharing)]
 * T25 (31/05): Apoio à resolução dos projetos
 
 ### Práticas
