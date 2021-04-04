@@ -8,7 +8,7 @@ Neste repositório poderá encontrar todo o material de suporte à cadeira.
 * [Projeto 0 - Desenferrujar](projetos/Projeto0.ipynb) [[Soluções](projetos/Solucoes0.ipynb)] [[Teste0](projetos/Teste0.ipynb)] 
 * [Projeto 1 - Análise de texto](projetos/Projeto1.ipynb)
 * [Projeto 2 - Análise de dados](projetos/Projeto2.ipynb)
-* Projeto 3 - Visualização de dados
+* [Projeto 3 - Visualização de dados](projetos/Projeto3.ipynb)
 * Projeto 4 - Animações e aplicações interativas
 
 **Nota:** Tarefas de **Valorização** são opcionais, e contarão para além da nota máxima do projeto. Servirão para colmatar as notas de outros exercícios no mesmo ou noutro Projeto.
@@ -84,9 +84,9 @@ Esta planificação serve para dar uma ideia resumida das aulas planeadas e/ou d
 * P06 (Semana 22/03): [Projeto 2 - Análise de dados](projetos/Projeto2.ipynb)
 * P07 (Semana 29/03): [Projeto 2 - Análise de dados](projetos/Projeto2.ipynb)
 
-* P08 (Semana 05/04): Projeto 3 - Visualização de dados
-* P09 (Semana 03/05): Projeto 3 - Visualização de dados
-* P10 (Semana 10/05): Projeto 3 - Visualização de dados
+* P08 (Semana 05/04): [Projeto 3 - Visualização de dados](projetos/Projeto3.ipynb)
+* P09 (Semana 03/05): [Projeto 3 - Visualização de dados](projetos/Projeto3.ipynb)
+* P10 (Semana 10/05): [Projeto 3 - Visualização de dados](projetos/Projeto3.ipynb)
 
 * P11 (Semana 17/05): Projeto 4 - Animações e aplicações interativas
 * P12 (Semana 24/05): Projeto 4 - Animações e aplicações interativas
