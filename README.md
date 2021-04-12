@@ -5,7 +5,7 @@ Neste repositório poderá encontrar todo o material de suporte à cadeira.
 
 ## Projetos
 
-* [Projeto 0 - Desenferrujar](https://hpacheco.github.io/progii/projetos/Projeto0.html) [[Soluções](projetos/Solucoes0.ipynb)] [[Teste0](projetos/Teste0.ipynb)] 
+* [Projeto 0 - Desenferrujar](https://hpacheco.github.io/progii/projetos/Projeto0.html) [[Soluções](https://hpacheco.github.io/progii/projetos/Solucoes0.html)] [[Teste0](https://hpacheco.github.io/progii/projetos/Teste0.html)] 
 * [Projeto 1 - Análise de texto](https://hpacheco.github.io/progii/projetos/Projeto1.html)
 * [Projeto 2 - Análise de dados](https://hpacheco.github.io/progii/projetos/Projeto2.html)
 * [Projeto 3 - Visualização de dados](https://hpacheco.github.io/progii/projetos/Projeto3.html)
