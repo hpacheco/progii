@@ -19,7 +19,7 @@ Os projetos práticos devem ser entregues por email para o docente do turno resp
 Estas datas podem vir a ser alteradas consoante o calendário académico.
 
 * Projeto 1: 22 Março
-* Projeto 2: 3 Maio
+* Projeto 2: <s>3 Maio</s> 9 Maio
 * Projeto 3: 24 Maio
 * Projeto 4: 14 Junho
 
