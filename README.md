@@ -92,5 +92,3 @@ Esta planificação serve para dar uma ideia resumida das aulas planeadas e/ou d
 * P12 (Semana 24/05): Projeto 4 - Animações e aplicações interativas
 * P13 (Semana 31/05): Projeto 4 - Animações e aplicações interativas
 
-* P14 (Semana 07/06): Apoio à resolução dos projetos
-
