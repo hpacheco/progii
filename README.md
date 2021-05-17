@@ -9,7 +9,7 @@ Neste repositório poderá encontrar todo o material de suporte à cadeira.
 * [Projeto 1 - Análise de texto](https://hpacheco.github.io/progii/projetos/Projeto1.html)
 * [Projeto 2 - Análise de dados](https://hpacheco.github.io/progii/projetos/Projeto2.html)
 * [Projeto 3 - Visualização de dados](https://hpacheco.github.io/progii/projetos/Projeto3.html)
-* Projeto 4 - Animações e aplicações interativas
+* [Projeto 4 - Animações e aplicações interativas](https://hpacheco.github.io/progii/projetos/Projeto4.html)
 
 **Nota:** Tarefas de **Valorização** são opcionais, e contarão para além da nota máxima do projeto. Servirão para colmatar as notas de outros exercícios no mesmo ou noutro Projeto.
 
@@ -88,9 +88,9 @@ Esta planificação serve para dar uma ideia resumida das aulas planeadas e/ou d
 * P09 (Semana 03/05): [Projeto 3 - Visualização de dados](https://hpacheco.github.io/progii/projetos/Projeto3.html)
 * P10 (Semana 10/05): [Projeto 3 - Visualização de dados](https://hpacheco.github.io/progii/projetos/Projeto3.html)
 
-* P11 (Semana 17/05): Projeto 4 - Animações e aplicações interativas
-* P12 (Semana 24/05): Projeto 4 - Animações e aplicações interativas
-* P13 (Semana 31/05): Projeto 4 - Animações e aplicações interativas
+* P11 (Semana 17/05): [Projeto 4 - Animações e aplicações interativas](https://hpacheco.github.io/progii/projetos/Projeto4.html)
+* P12 (Semana 24/05): [Projeto 4 - Animações e aplicações interativas](https://hpacheco.github.io/progii/projetos/Projeto4.html)
+* P13 (Semana 31/05): [Projeto 4 - Animações e aplicações interativas](https://hpacheco.github.io/progii/projetos/Projeto4.html)
 
 * P14 (Semana 07/06): Apoio à resolução dos projetos
 
