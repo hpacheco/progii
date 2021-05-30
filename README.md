@@ -21,9 +21,10 @@ Estas datas podem vir a ser alteradas consoante o calendário académico.
 * Projeto 1: 22 Março
 * Projeto 2: <s>3 Maio</s> 9 Maio
 * Projeto 3: 24 Maio
-* Projeto 4: 14 Junho
+* Projeto 4: <s>14 Junho</s> 10 Junho
 
-As orais serão em data a decidir no fim do semestre.
+As defesas presenciais dos projetos práticos decorrerão no dia 11 de Junho, na sala FC6 008.
+O calendário encontra-se neste [link](https://docs.google.com/spreadsheets/d/1W6i65alkT8L8OSPIvQC-CfJl87KSj2L_qaKdwCFzEH0/edit?usp=sharing), que os alunos podem consultar fazendo login com a conta google UP.
 
 ## Bibliografia
 
