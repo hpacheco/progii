@@ -30,7 +30,7 @@ O calendário encontra-se neste [link](https://docs.google.com/spreadsheets/d/1W
 
 A melhoria dos trabalhos pode ser feita realizando todas as tarefas (normais e de valorização) dos projetos 1,2,3 e 4. As tarefas de valorização, opcionais na época normal, são obrigatórias para efetuar melhoria. O trabalho de melhoria deve incluir também as seguintes tarefas adicionais:
 
-* [Melhoria](https://hpacheco.github.io/progii/projetos/Melhoria.html)
+* [Projeto 5 - Melhoria](https://hpacheco.github.io/progii/projetos/Melhoria.html)
 
 **Os alunos que desejem efetuar melhoria de nota devem ter aprovação à cadeira na época normal, e contactar o docente a informar da sua intenção em fazer melhoria.**
 
