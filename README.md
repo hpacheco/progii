@@ -26,6 +26,14 @@ Estas datas podem vir a ser alteradas consoante o calendário académico.
 As defesas presenciais dos projetos práticos decorrerão no dia 11 de Junho, na sala FC6 008.
 O calendário encontra-se neste [link](https://docs.google.com/spreadsheets/d/1W6i65alkT8L8OSPIvQC-CfJl87KSj2L_qaKdwCFzEH0/edit?usp=sharing), que os alunos podem consultar fazendo login com a conta google UP.
 
+## Melhoria de Nota
+
+A melhoria dos trabalhos pode ser feita realizando todas as tarefas (normais e de valorização) dos projetos 1,2,3 e 4. As tarefas de valorização, opcionais na época normal, são obrigatórias para efetuar melhoria. O trabalho de melhoria deve incluir também as seguintes tarefas adicionais:
+
+* [Melhoria](https://hpacheco.github.io/progii/projetos/Melhoria.html))
+
+**Os alunos que desejem efetuar melhoria de nota devem ter aprovação à cadeira na época normal, e contactar o docente a informar da sua intenção em fazer melhoria.**
+
 ## Bibliografia
 
 - Allen Downey; How to think like a computer scientist. ISBN: 0-9716775-0-6 [interactive edition](https://runestone.academy/runestone/books/published/thinkcspy/index.html) 
