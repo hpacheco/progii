@@ -38,10 +38,9 @@ area_circ(4)
 
 ### Exercício 1.3
 
-A conversão entre medidas de temperatura em *Fahrenheit* e *Celsius* pode ser efectuada pela fórmula
-$$ C = \frac{5}{9} (F - 32)$$,
-onde $F$ é a temperatura em *Fahrenheit* e $C$ em *Celsius*. Escreva uma função celsius($F$) que efetue a
-conversão de *Fahrenheit* para *Celsius* de uma temperatura $F$.
+A conversão entre medidas de temperatura em *Fahrenheit* e *Celsius* pode ser efectuada pela fórmula $$ C = \frac{5}{9} (F - 32)$$,
+onde `F` é a temperatura em *Fahrenheit* e `C` em *Celsius*. Escreva uma função `celsius(F)` que efetue a
+conversão de *Fahrenheit* para *Celsius* de uma temperatura `F`.
 
 ```python
 def celsius(F):
