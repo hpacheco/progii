@@ -14,7 +14,7 @@ Este projeto é completamente livre e não sujeito a avaliação. Os alunos deve
 
 Escreva uma função ``perim_circ(r)`` que calcule o perímetro de um círculo com raio `r`.
 Por exemplo:
-```
+```python
 > perim_circ(4)
 25.132741228718345
 ```
@@ -31,7 +31,7 @@ def perim_circ(r):
 
 Escreva uma função `area_circ(r)` que calcule a área de um círculo com raio `rª .
 Por exemplo:
-```
+```python
 > area_circ(4)
 50.26548245743669
 ```
@@ -50,7 +50,7 @@ def area_circ(r):
 A conversão entre medidas de temperatura em *Fahrenheit* e *Celsius* pode ser efectuada pela fórmula $$C = \frac{5}{9} (F - 32)$$, onde `F` é a temperatura em *Fahrenheit* e `C` em *Celsius*. Escreva uma função `celsius(F)` que efetue a
 conversão de *Fahrenheit* para *Celsius* de uma temperatura `F`.
 Por exemplo:
-```
+```python
 > celsius(0)
 -17.77777777777778
 > celsius(20)
@@ -71,7 +71,7 @@ A distância entre dois pontos no plano de coordenadas $(x_1,y_1)$ e $(x_2,y_2)$
 $$ d = \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2} $$
 Implemente uma função dist($x_1$,$y_1$,$x_2$,$y_2$) que use esta fórmula para calcular a distância.
 Por exemplo:
-```
+```python
 > dist(1,1,4,4)
 4.242640687119285
 ```
@@ -92,7 +92,7 @@ minutos e segundos, converte-o para radianos. Relembre que $360º$
 corresponde a $2 \pi$ radianos, cada grau
 tem 60 minutos e cada minuto tem 60 segundos.
 Por exemplo:
-```
+```python
 > radianos(0,0,60)
 0.0002908882086657216
 > radianos(0,60,0)
@@ -116,7 +116,7 @@ def radianos(graus,mins,segs):
 
 Escreva uma função `segundos(horas,mins,segs)` que, dada uma duração em horas, minutos e segundos, calcula e retorna essa mesma duração em segundos.
 Por exemplo:
-```
+```python
 > segundos(2,15,30)
 8130
 ```
@@ -143,7 +143,7 @@ tempC = [-5,0,5,10,15,20,25]
 
 * Defina uma função `tempC1` contendo um ciclo `for` que imprime cada um dos valores da lista `tempC` numa linha separada.
 O resultado deve ser
-```
+```python
 > tempC1()
 -5
 0
@@ -211,7 +211,7 @@ xs = [12, 10, 32, 3, 66, 17, 42, 99, 20]
 
 * Defina uma função `ex22_1` contendo um ciclo `for` que imprime cada um dos números da lista `xs` numa linha separada.
 Ou seja:
-```
+```python
 > ex22_1()
 12
 10
@@ -226,16 +226,18 @@ Ou seja:
 <details>
 <summary>Solução</summary>
 
+```python
 def ex22_1():
     for x in xs:
         print(x)
+```
 </details>
     
 * Defina uma função `ex22_2` contendo um outro ciclo em que, em cada linha, imprime o número, o seu quadrado, e a sua raiz quadrada.
 <details>
 <summary>Solução</summary>
 
-```
+```python
 def ex22_2():
     for x in xs:
         print(x,x**2,math.sqrt(x))
@@ -246,7 +248,7 @@ def ex22_2():
 <details>
 <summary>Solução</summary>
 
-```
+```python
 def ex22_3():
     total = 0
     for x in xs:
@@ -266,7 +268,7 @@ com `poligono_reg(t,3,100)` a tartaruga `t` desenha um triângulo equilátero co
 <details>
 <summary>Solução</summary>
 
-```
+```python
 def poligono_reg(t,n,lado):
     deg = 360 / n
     for _ in range(n):
@@ -314,7 +316,7 @@ window.mainloop()
 O preço atual da gasolina é 1.63 euros por litro. Implemente a função `valor(v)` que, dada a lista
 `v` de litros abastecidos numa viagem, retorna o valor total despendido.
 Por exemplo:
-```
+```python
 > valor([24.8, 49.1])
 120.457
 ```
@@ -365,7 +367,7 @@ studs = [("UP194187304", "José Fonseca", 97),\
          ("UP194739889", "Manuela Faria", 50)]
 ```
 a invocação `classifica(studs)` deve imprimir:
-```
+```python
 UP194187304 José Fonseca excelente
 UP194209183 Manuel Ferreira muito bom
 UP194294793 Maria Ramos suficiente
@@ -397,16 +399,19 @@ $$ \pi = 4 x (1 - \frac{1}{3} + \frac{1}{5} - \frac{1}{7} + \frac{1}{9} + \dots)
 
 Implemente a função `leibniz(k)` que resulta no somatório dos primeiros `k` termos desta série.
 Por exemplo: 
-```
+```python
 > leibniz(4)
 2.8952380952380956
 ```
 Adicionalmente, documente a sua função com uma docstring.
 <details>
 <summary>Solução</summary>
+
+```python
 def leibniz(k):
     """Calcula a fórmula de Leibniz para os primeiros k termos"""
     return 4 * sum([ ((-1)**n / (2 * n + 1)) for n in range(k) ])
+```
 </details>
 
 ## Exercício 2.8
@@ -441,7 +446,7 @@ sum_wihin([4, 7, 44, 23], 17, 46)
 Escreva a função `maximo2(xs)` que calcula o segundo maior valor numa lista `xs`. Verifique que o procedimento retorna o valor correcto quando o maior valor ocorre mais do que uma vez.
 
 Exemplos:
-```
+```python
 > maximo2([3, -2, 1, 0, -2, 1])
 1
 > maximo2([1, 3, 2, 3, 0])
@@ -479,7 +484,7 @@ deve ser um valor lógico. A sua função deve funcionar com listas de vários t
 de cadeias de carateres).
 
 Exemplos:
-```
+```python
 > repetidos(['ola', 'ole', 'abba', 'ole'])
 True
 > repetidos([3, 2, -5, 0, 1])
@@ -517,7 +522,7 @@ ou minúsculas) sem acentos da cadeia de caracteres `txt`; numa das versões com
 `txt` com `'a'`, `'A'`, `'z'`, `'Z'` e na outra utilize as funções pré-definidas ``string.letters`` ou ``string.ascii_letters``.
 
 Exemplo:
-```
+```python
 > conta_letras('Ola, mundo!')
 8
 ```
@@ -562,7 +567,7 @@ Escreva uma definição da função `filtra_letras(txt)` que, dada uma cadeia de
 retorna uma cadeia com apenas as suas letras maiúsculas ou minúsculas.
 
 Exemplo:
-```
+```python
 > filtra_letras('Ola!, -- disse ele...')
 'Oladisseele'
 ````
@@ -596,7 +601,7 @@ e vice-versa são iguais, independentemente das letras serem maiúsculas ou min�
 Escreva uma definição da função `palindromo(txt)` que verifica se uma cadeia de caracteres (ignorando capitalização) é um
 palindromo; o resultado deve ser True ou False.
 Por exemplo:
-```
+```python
 > palindrono("reviveR")
 True
 > palindrono("aaaa")
@@ -621,7 +626,7 @@ A cifra de Cesar consiste em substituir cada carater alfabético de uma mensagem
 que está k posições à sua direita, na ordem alfabética. Escreva a função `cesar(k,txt)` que retorna o
 valor cifrado de txt usando a *chave* `k`.
 Por exemplo:
-```
+```python
 > cesar(3,"mensagem secreta")
 phqvdjhp#vhfuhwd
 ```
@@ -642,7 +647,7 @@ os sinais de cardinal `#` e tudo o que estiver à sua direita. Note que se o car
 string não é um comentário (considere apenas as strings delimitadas por aspas `"`).
 
 Exemplos:
-```
+```python
 > remove_py_com("def f(x): # f function ")
 'def f(x): '
 > remove_py_com('def "#" f(x) # comentário')
@@ -671,7 +676,7 @@ Defina uma função `forte(passwd)` que verifica se uma palavra-passe, dada pela
 pelo menos uma letra maiúscula, uma letra minúscula e um algarismo. O resultado deve ser um valor
 lógico (`True` ou `False`).
 Exemplos:
-```
+```python
 > forte('9EwL56')
 False
 > forte('HXKW1393')
