@@ -20,35 +20,52 @@ Por exemplo:
 ```
 <details>
 <summary>Solução</summary>
+    
 ```python
 def perim_circ(r):
     return 2 * math.pi * r
-
 ```
+</details>
 
 ### Exercício 1.2
 
-Escreva uma função area_circ(r) que calcule a área de um círculo com raio r.
+Escreva uma função `area_circ(r)` que calcule a área de um círculo com raio `rª .
+Por exemplo:
+```
+> area_circ(4)
+50.26548245743669
+```
+
+<details>
+<summary>Solução</summary>
+    
 ```python
 def area_circ(r):
     return math.pi * r**2
-area_circ(4)
 ```
-50.26548245743669
+</details>
 
 ### Exercício 1.3
 
 A conversão entre medidas de temperatura em *Fahrenheit* e *Celsius* pode ser efectuada pela fórmula
-$$ C = \frac{5}{9} (F - 32)$$,
+$C = \frac{5}{9} (F - 32)$,
 onde $F$ é a temperatura em *Fahrenheit* e $C$ em *Celsius*. Escreva uma função celsius($F$) que efetue a
 conversão de *Fahrenheit* para *Celsius* de uma temperatura $F$.
+Por exemplo:
+```
+> celsius(0)
+-17.77777777777778
+> celsius(20)
+-6.666666666666667
+```
+<details>
+<summary>Solução</summary>
 
 ```python
 def celsius(F):
     return (5/9) * (F - 32)
-print(celsius(0))
-print(celsius(20))
 ```
+</details>
 
 ### Exercício 1.4
 
