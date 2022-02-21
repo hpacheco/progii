@@ -28,9 +28,9 @@ Solução
 </details>
 <h3 id="exercício-1.3">Exercício 1.3</h3>
 <p>A conversão entre medidas de temperatura em <em>Fahrenheit</em> e <em>Celsius</em> pode ser efectuada pela fórmula</p>
-<p><span class="math display">\[
+<p><span class="math display">$$
 C = \frac{5}{9} (F - 32)
-\]</span></p>
+$$</span></p>
 <p>onde <code>F</code> é a temperatura em <em>Fahrenheit</em> e <code>C</code> em <em>Celsius</em>. Escreva uma função <code>celsius(F)</code> que efetue a conversão de <em>Fahrenheit</em> para <em>Celsius</em> de uma temperatura <code>F</code>. Por exemplo:</p>
 <pre><code>&gt; celsius(0)
 -17.77777777777778
@@ -44,12 +44,12 @@ Solução
 <span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> (<span class="dv">5</span><span class="op">/</span><span class="dv">9</span>) <span class="op">*</span> (F <span class="op">-</span> <span class="dv">32</span>)</span></code></pre></div>
 </details>
 <h3 id="exercício-1.4">Exercício 1.4</h3>
-<p>A distância entre dois pontos no plano de coordenadas <span class="math inline">\((x_1,y_1)\)</span> e <span class="math inline">\((x_2,y_2)\)</span> é dada por: <span class="math display">\[ d = \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2} \]</span> Implemente uma função dist(<span class="math inline">\(x_1\)</span>,<span class="math inline">\(y_1\)</span>,<span class="math inline">\(x_2\)</span>,<span class="math inline">\(y_2\)</span>) que use esta fórmula para calcular a distância.</p>
+<p>A distância entre dois pontos no plano de coordenadas <span class="math inline">(<em>x</em><sub>1</sub>,<em>y</em><sub>1</sub>)</span> e <span class="math inline">(<em>x</em><sub>2</sub>,<em>y</em><sub>2</sub>)</span> é dada por: <span class="math display">$$ d = \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2} $$</span> Implemente uma função dist(<span class="math inline"><em>x</em><sub>1</sub></span>,<span class="math inline"><em>y</em><sub>1</sub></span>,<span class="math inline"><em>x</em><sub>2</sub></span>,<span class="math inline"><em>y</em><sub>2</sub></span>) que use esta fórmula para calcular a distância.</p>
 <div class="sourceCode" id="cb7"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> dist(x1,y1,x2,y2):</span>
 <span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> math.sqrt((x2<span class="op">-</span>x1)<span class="op">**</span><span class="dv">2</span> <span class="op">+</span> (y2<span class="op">-</span>y1)<span class="op">**</span><span class="dv">2</span>)</span>
 <span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a>dist(<span class="dv">1</span>,<span class="dv">1</span>,<span class="dv">4</span>,<span class="dv">4</span>)</span></code></pre></div>
 <h3 id="exercício-1.5">Exercício 1.5</h3>
-<p>Escreva uma função <code>radianos(graus,mins,segs)</code> que, dado o valor de um ângulo em graus, minutos e segundos, converte-o para radianos. Relembre que <span class="math inline">\(360º\)</span> corresponde a <span class="math inline">\(2 \pi\)</span> radianos, cada grau tem 60 minutos e cada minuto tem 60 segundos.</p>
+<p>Escreva uma função <code>radianos(graus,mins,segs)</code> que, dado o valor de um ângulo em graus, minutos e segundos, converte-o para radianos. Relembre que <span class="math inline">360<em>º</em></span> corresponde a <span class="math inline">2<em>π</em></span> radianos, cada grau tem 60 minutos e cada minuto tem 60 segundos.</p>
 <div class="sourceCode" id="cb8"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> radianos(graus,mins,segs):</span>
 <span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a>    mins <span class="op">=</span> mins <span class="op">+</span> segs <span class="op">/</span> <span class="dv">60</span></span>
 <span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a>    graus <span class="op">=</span> graus <span class="op">+</span> mins <span class="op">/</span> <span class="dv">60</span></span>
@@ -114,7 +114,7 @@ Solução
 <p>total = 0 for x in xs: print(x,total) total += x</p>
 <h2 id="exercício-8">Exercício 8</h2>
 <p>Usando o módulo <code>turtle</code>, escreva uma função poligono_reg(t,n,lado), sem valor de retorno, que faz uma tartaruga t desenhar um polígono regular com n lados de comprimento lado. Por exemplo, com poligono_reg(t, 3, 100) a tartaruga t desenha um triângulo equilátero com 100 pixels de lado.</p>
-<p>Nota: a soma dos ângulos externos de um polígono é <span class="math inline">\(360°\)</span></p>
+<p>Nota: a soma dos ângulos externos de um polígono é <span class="math inline">360°</span></p>
 <p>def poligono_reg(t,n,lado): deg = 360 / n for _ in range(n): t.forward(lado) t.right(deg)</p>
 <p>window = turtle.Screen() alex = turtle.Turtle() poligono_reg(alex,3,100) window.mainloop()</p>
 <h2 id="exercício-9">Exercício 9</h2>
@@ -138,27 +138,27 @@ Solução
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: center;"><span class="math display">\[&lt; 0 \,\vee &gt; 100\]</span></td>
+<td style="text-align: center;"><span class="math display"> &lt; 0  ∨  &gt; 100</span></td>
 <td style="text-align: center;">“inválido”</td>
 </tr>
 <tr class="even">
-<td style="text-align: center;"><span class="math display">\[&lt; 50\]</span></td>
+<td style="text-align: center;"><span class="math display"> &lt; 50</span></td>
 <td style="text-align: center;">“insuficiente”</td>
 </tr>
 <tr class="odd">
-<td style="text-align: center;"><span class="math display">\[\geq 50 \,\wedge &lt; 70\]</span></td>
+<td style="text-align: center;"><span class="math display"> ≥ 50  ∧  &lt; 70</span></td>
 <td style="text-align: center;">“suficiente”</td>
 </tr>
 <tr class="even">
-<td style="text-align: center;"><span class="math display">\[\geq 70 \,\wedge &lt; 80\]</span></td>
+<td style="text-align: center;"><span class="math display"> ≥ 70  ∧  &lt; 80</span></td>
 <td style="text-align: center;">“bom”</td>
 </tr>
 <tr class="odd">
-<td style="text-align: center;"><span class="math display">\[\geq 80 \,\wedge &lt; 90\]</span></td>
+<td style="text-align: center;"><span class="math display"> ≥ 80  ∧  &lt; 90</span></td>
 <td style="text-align: center;">“muito bom”</td>
 </tr>
 <tr class="even">
-<td style="text-align: center;"><span class="math display">\[\geq 90\]</span></td>
+<td style="text-align: center;"><span class="math display"> ≥ 90</span></td>
 <td style="text-align: center;">“excelente”</td>
 </tr>
 </tbody>
@@ -171,7 +171,7 @@ Solução
 (“UP194739889”, “Manuela Faria”, 50)]</p>
 <p>def converte_nota(n): if n &lt; 0 | n &gt; 100: return “inválido” elif n &lt; 50: return “insuficiente” elif n &gt;=50 and n &lt; 70: return “suficiente” elif n &gt;= 70 and n &lt; 80: return “bom” elif n &gt;= 80 and n &lt; 90: return “muito bom” else: return “excelente” def classifica(p): for numero,nome,nota in studs: print(numero,nome,converte_nota(nota)) classifica(studs)</p>
 <h2 id="exercício-12">Exercício 12</h2>
-<p>A fórmula de Leibniz para aproximar <span class="math inline">\(\pi\)</span> é: <span class="math display">\[ \pi = 4 x (1 - \frac{1}{3} + \frac{1}{5} - \frac{1}{7} + \frac{1}{9} + \dots) = 4 * \sum_{n=0}^{\infty} \frac{(-1)^n}{2 n + 1} \]</span></p>
+<p>A fórmula de Leibniz para aproximar <span class="math inline"><em>π</em></span> é: <span class="math display">$$ \pi = 4 x (1 - \frac{1}{3} + \frac{1}{5} - \frac{1}{7} + \frac{1}{9} + \dots) = 4 * \sum_{n=0}^{\infty} \frac{(-1)^n}{2 n + 1} $$</span></p>
 <p>Implemente a função leibniz(k) que resulta no somatório dos primeiros k termos desta série. Documente a sua função com uma docstring.</p>
 <p>def leibniz(k): “““Calcula a fórmula de Leibniz para os primeiros k termos”“” return 4 * sum([ ((-1)**n / (2 * n + 1)) for n in range(k) ]) leibniz(4)</p>
 <h2 id="exercício-13">Exercício 13</h2>
