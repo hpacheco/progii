@@ -1,0 +1,240 @@
+<h1 id="projeto-0---desenferrujar">Projeto 0 - Desenferrujar</h1>
+<p>Nas primeiras aulas vamos reavivar os nossos conhecimentos fundamentais de programação em Python: cálculo numérico, listas, iteração e processamento de strings.</p>
+<p>Crie um novo ficheiro projeto0.py para desenvolver o projeto e abra-o com um IDE à sua escolha.</p>
+<p>Neste projeto (primeiras duas semanas de aulas práticas) vamos resolver livremente alguns exercícios lecionados em edições anteriores da cadeira anterior de Programação I. Sinta-se à vontade para requisitar mais ou novos exercícios aos docentes.</p>
+<p>Este projeto é completamente livre e não sujeito a avaliação. Os alunos devem sentir-se à vontade para explorar exercícios de diferentes tipos, resolver exercícios em conjunto, discutir soluções com a turma ou pedir sugestões aos docentes.</p>
+<h2 id="cálculo-numérico">Cálculo numérico</h2>
+<h3 id="exercício-1.1">Exercício 1.1</h3>
+<p>Escreva uma função <code>perim_circ(r)</code> que calcule o perímetro de um círculo com raio <code>r</code>. Por exemplo:</p>
+<pre><code>&gt; perim_circ(4)
+25.132741228718345</code></pre>
+<details>
+<summary>
+Solução
+</summary>
+<div class="sourceCode" id="cb2"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> perim_circ(r):</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> <span class="dv">2</span> <span class="op">*</span> math.pi <span class="op">*</span> r</span></code></pre></div>
+</details>
+<h3 id="exercício-1.2">Exercício 1.2</h3>
+<p>Escreva uma função <code>area_circ(r)</code> que calcule a área de um círculo com raio `rª . Por exemplo:</p>
+<pre><code>&gt; area_circ(4)
+50.26548245743669</code></pre>
+<details>
+<summary>
+Solução
+</summary>
+<div class="sourceCode" id="cb4"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> area_circ(r):</span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> math.pi <span class="op">*</span> r<span class="op">**</span><span class="dv">2</span></span></code></pre></div>
+</details>
+<h3 id="exercício-1.3">Exercício 1.3</h3>
+<p>A conversão entre medidas de temperatura em <em>Fahrenheit</em> e <em>Celsius</em> pode ser efectuada pela fórmula</p>
+<p><span class="math display">\[
+C = \frac{5}{9} (F - 32)
+\]</span></p>
+<p>onde <code>F</code> é a temperatura em <em>Fahrenheit</em> e <code>C</code> em <em>Celsius</em>. Escreva uma função <code>celsius(F)</code> que efetue a conversão de <em>Fahrenheit</em> para <em>Celsius</em> de uma temperatura <code>F</code>. Por exemplo:</p>
+<pre><code>&gt; celsius(0)
+-17.77777777777778
+&gt; celsius(20)
+-6.666666666666667</code></pre>
+<details>
+<summary>
+Solução
+</summary>
+<div class="sourceCode" id="cb6"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> celsius(F):</span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> (<span class="dv">5</span><span class="op">/</span><span class="dv">9</span>) <span class="op">*</span> (F <span class="op">-</span> <span class="dv">32</span>)</span></code></pre></div>
+</details>
+<h3 id="exercício-1.4">Exercício 1.4</h3>
+<p>A distância entre dois pontos no plano de coordenadas <span class="math inline">\((x_1,y_1)\)</span> e <span class="math inline">\((x_2,y_2)\)</span> é dada por: <span class="math display">\[ d = \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2} \]</span> Implemente uma função dist(<span class="math inline">\(x_1\)</span>,<span class="math inline">\(y_1\)</span>,<span class="math inline">\(x_2\)</span>,<span class="math inline">\(y_2\)</span>) que use esta fórmula para calcular a distância.</p>
+<div class="sourceCode" id="cb7"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> dist(x1,y1,x2,y2):</span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> math.sqrt((x2<span class="op">-</span>x1)<span class="op">**</span><span class="dv">2</span> <span class="op">+</span> (y2<span class="op">-</span>y1)<span class="op">**</span><span class="dv">2</span>)</span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a>dist(<span class="dv">1</span>,<span class="dv">1</span>,<span class="dv">4</span>,<span class="dv">4</span>)</span></code></pre></div>
+<h3 id="exercício-1.5">Exercício 1.5</h3>
+<p>Escreva uma função <code>radianos(graus,mins,segs)</code> que, dado o valor de um ângulo em graus, minutos e segundos, converte-o para radianos. Relembre que <span class="math inline">\(360º\)</span> corresponde a <span class="math inline">\(2 \pi\)</span> radianos, cada grau tem 60 minutos e cada minuto tem 60 segundos.</p>
+<div class="sourceCode" id="cb8"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> radianos(graus,mins,segs):</span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a>    mins <span class="op">=</span> mins <span class="op">+</span> segs <span class="op">/</span> <span class="dv">60</span></span>
+<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a>    graus <span class="op">=</span> graus <span class="op">+</span> mins <span class="op">/</span> <span class="dv">60</span></span>
+<span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> graus <span class="op">*</span> (<span class="dv">2</span> <span class="op">*</span> math.pi <span class="op">/</span> <span class="dv">360</span>)</span>
+<span id="cb8-5"><a href="#cb8-5" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(radianos(<span class="dv">0</span>,<span class="dv">0</span>,<span class="dv">60</span>))</span>
+<span id="cb8-6"><a href="#cb8-6" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(radianos(<span class="dv">0</span>,<span class="dv">60</span>,<span class="dv">0</span>))</span>
+<span id="cb8-7"><a href="#cb8-7" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(radianos(<span class="dv">180</span>,<span class="dv">10</span>,<span class="dv">40</span>))</span></code></pre></div>
+<h2 id="exercício-1.6">Exercício 1.6</h2>
+<p>Escreva uma função <code>segundos(horas,mins,segs)</code> que, dada uma duração em horas, minutos e segundos, calcula e retorna essa mesma duração em segundos.</p>
+<div class="sourceCode" id="cb9"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> segundos(horas,mins,segs):</span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>    mins <span class="op">=</span> mins <span class="op">+</span> horas <span class="op">*</span> <span class="dv">60</span></span>
+<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a>    segs <span class="op">=</span> segs <span class="op">+</span> mins <span class="op">*</span> <span class="dv">60</span></span>
+<span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> segs</span>
+<span id="cb9-5"><a href="#cb9-5" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(segundos(<span class="dv">2</span>,<span class="dv">15</span>,<span class="dv">30</span>))</span></code></pre></div>
+<h1 id="listas-e-iteração">Listas e iteração</h1>
+<h2 id="exercício-2.1">Exercício 2.1</h2>
+<p>Considere um programa que começa com a atribuição de uma lista de valores de temperatura (em Celsius) à variável <code>tempC</code>:</p>
+<div class="sourceCode" id="cb10"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a>tempC <span class="op">=</span> [<span class="op">-</span><span class="dv">5</span>,<span class="dv">0</span>,<span class="dv">5</span>,<span class="dv">10</span>,<span class="dv">15</span>,<span class="dv">20</span>,<span class="dv">25</span>]</span></code></pre></div>
+<ul>
+<li>Escreva um ciclo <code>for</code> que imprime cada um dos valores da lista <code>tempC</code> numa linha separada.</li>
+</ul>
+<div class="sourceCode" id="cb11"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> tempC1():</span>
+<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> temp <span class="kw">in</span> tempC:</span>
+<span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a>        <span class="bu">print</span>(temp)</span>
+<span id="cb11-4"><a href="#cb11-4" aria-hidden="true" tabindex="-1"></a>``</span>
+<span id="cb11-5"><a href="#cb11-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-6"><a href="#cb11-6" aria-hidden="true" tabindex="-1"></a><span class="op">*</span> Imprima os mesmos valores, gerando<span class="op">-</span>os com a função `range`.</span>
+<span id="cb11-7"><a href="#cb11-7" aria-hidden="true" tabindex="-1"></a>```python</span>
+<span id="cb11-8"><a href="#cb11-8" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> tempC2():</span>
+<span id="cb11-9"><a href="#cb11-9" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> temp <span class="kw">in</span> <span class="bu">range</span>(<span class="op">-</span><span class="dv">5</span>,<span class="dv">30</span>,<span class="dv">5</span>):</span>
+<span id="cb11-10"><a href="#cb11-10" aria-hidden="true" tabindex="-1"></a>        <span class="bu">print</span>(temp)</span></code></pre></div>
+<ul>
+<li>Escreva um ciclo <code>while</code> que produza o mesmo resultado da alínea anterior.</li>
+</ul>
+<div class="sourceCode" id="cb12"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> tempC3():</span>
+<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a>    temp <span class="op">=</span> <span class="op">-</span><span class="dv">5</span></span>
+<span id="cb12-3"><a href="#cb12-3" aria-hidden="true" tabindex="-1"></a>    <span class="cf">while</span> (temp <span class="op">&lt;=</span> <span class="dv">25</span>):</span>
+<span id="cb12-4"><a href="#cb12-4" aria-hidden="true" tabindex="-1"></a>        <span class="bu">print</span>(temp)</span>
+<span id="cb12-5"><a href="#cb12-5" aria-hidden="true" tabindex="-1"></a>        temp <span class="op">+=</span> <span class="dv">5</span></span></code></pre></div>
+<ul>
+<li>Escreva um ciclo em que para os valores de temperatura acima, em cada linha imprime o valor em Celsius e o valor correspondente em Fahrenheit.</li>
+</ul>
+<div class="sourceCode" id="cb13"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> fahrenheit(c):</span>
+<span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> c <span class="op">*</span> (<span class="dv">9</span><span class="op">/</span><span class="dv">5</span>) <span class="op">+</span> <span class="dv">32</span></span>
+<span id="cb13-3"><a href="#cb13-3" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> tempC4():</span>
+<span id="cb13-4"><a href="#cb13-4" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> temp <span class="kw">in</span> tempC:</span>
+<span id="cb13-5"><a href="#cb13-5" aria-hidden="true" tabindex="-1"></a>        <span class="bu">print</span>(temp,fahrenheit(temp))</span></code></pre></div>
+<h2 id="exercício-2.2">Exercício 2.2</h2>
+<p>Considere um programa que começa com a seguinte atribuição:</p>
+<div class="sourceCode" id="cb14"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a>xs <span class="op">=</span> [<span class="dv">12</span>, <span class="dv">10</span>, <span class="dv">32</span>, <span class="dv">3</span>, <span class="dv">66</span>, <span class="dv">17</span>, <span class="dv">42</span>, <span class="dv">99</span>, <span class="dv">20</span>]</span></code></pre></div>
+<ul>
+<li>Escreva um ciclo <code>for</code> que imprime cada um dos números da lista xs numa linha separada.</li>
+</ul>
+<p>for x in xs: print(x)</p>
+<ul>
+<li>Escreva um outro ciclo em que, em cada linha, imprime o número, o seu quadrado, e a sua raiz quadrada.</li>
+</ul>
+<p>for x in xs: print(x,x**2,math.sqrt(x))</p>
+<ul>
+<li>Escreva um ciclo que soma todos os números em xs usando uma variável auxiliar total, e imprime numa linha separada cada um dos números da lista e a soma parcial até esse número.</li>
+</ul>
+<p>total = 0 for x in xs: print(x,total) total += x</p>
+<h2 id="exercício-8">Exercício 8</h2>
+<p>Usando o módulo <code>turtle</code>, escreva uma função poligono_reg(t,n,lado), sem valor de retorno, que faz uma tartaruga t desenhar um polígono regular com n lados de comprimento lado. Por exemplo, com poligono_reg(t, 3, 100) a tartaruga t desenha um triângulo equilátero com 100 pixels de lado.</p>
+<p>Nota: a soma dos ângulos externos de um polígono é <span class="math inline">\(360°\)</span></p>
+<p>def poligono_reg(t,n,lado): deg = 360 / n for _ in range(n): t.forward(lado) t.right(deg)</p>
+<p>window = turtle.Screen() alex = turtle.Turtle() poligono_reg(alex,3,100) window.mainloop()</p>
+<h2 id="exercício-9">Exercício 9</h2>
+<p>Usando o módulo turtle, escreva uma função friso(t, n, lado), sem valor de retorno, que desenha um friso em forma de muralha com n ameias em que a largura de cada segmento é lado. Por exemplo: com friso(t, 3, 50) uma tartaruga t produz o desenho da figura seguinte.</p>
+<p>Note que a tartaruga deve terminar com a orientação original</p>
+<p>def friso(t,n,lado): t.right(90) for _ in range(n): t.forward(lado) t.left(90) t.forward(lado) t.right(90) t.forward(lado) t.right(90) t.forward(lado) t.left(90)</p>
+<p>window = turtle.Screen() alex = turtle.Turtle() friso(alex,3,100) window.mainloop()</p>
+<h2 id="exercício-10">Exercício 10</h2>
+<p>O preço atual da gasolina é 1.63 euros por litro. Implemente a função valor(v) que, dada a lista v de litros abastecidos numa viagem, retorna o valor total despendido. Por exemplo, o resultado de <code>valor([24.8, 49.1])</code> é 120.457.</p>
+<p>def valor(v): total = 0 for litro in v: total += litro * 1.63 return total valor([24.8, 49.1])</p>
+<p>def valor_funcional(v): return sum(map(lambda litro : litro * 1.63,v)) valor_funcional([24.8, 49.1])</p>
+<h2 id="processamento-de-strings">Processamento de strings</h2>
+<h2 id="exercício-11">Exercício 11</h2>
+<p>Escreva uma função classifica(p) que, dada a pontuação p obtida num exame (de 0 a 100), retorna uma mensagem de classificação de acordo com a tabela seguinte. Utilize essa função para escrever um programa que imprime o número, nome e classificação segundo essa tabela da lista de alunos que se segue (cada tuplo contém o número de aluno, o seu nome, e a classificação de 0 a 100).</p>
+<table>
+<thead>
+<tr class="header">
+<th style="text-align: center;">pontuação</th>
+<th style="text-align: center;">mensagem</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;"><span class="math display">\[&lt; 0 \,\vee &gt; 100\]</span></td>
+<td style="text-align: center;">“inválido”</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;"><span class="math display">\[&lt; 50\]</span></td>
+<td style="text-align: center;">“insuficiente”</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;"><span class="math display">\[\geq 50 \,\wedge &lt; 70\]</span></td>
+<td style="text-align: center;">“suficiente”</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;"><span class="math display">\[\geq 70 \,\wedge &lt; 80\]</span></td>
+<td style="text-align: center;">“bom”</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;"><span class="math display">\[\geq 80 \,\wedge &lt; 90\]</span></td>
+<td style="text-align: center;">“muito bom”</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;"><span class="math display">\[\geq 90\]</span></td>
+<td style="text-align: center;">“excelente”</td>
+</tr>
+</tbody>
+</table>
+<p>studs = [(“UP194187304”, “José Fonseca”, 97),<br />
+(“UP194209183”, “Manuel Ferreira”, 87),<br />
+(“UP194294793”, “Maria Ramos”, 50),<br />
+(“UP194399128”, “Antonio Fernandes”, 45),<br />
+(“UP194739873”, “Júlia Pinto”, -1),<br />
+(“UP194739889”, “Manuela Faria”, 50)]</p>
+<p>def converte_nota(n): if n &lt; 0 | n &gt; 100: return “inválido” elif n &lt; 50: return “insuficiente” elif n &gt;=50 and n &lt; 70: return “suficiente” elif n &gt;= 70 and n &lt; 80: return “bom” elif n &gt;= 80 and n &lt; 90: return “muito bom” else: return “excelente” def classifica(p): for numero,nome,nota in studs: print(numero,nome,converte_nota(nota)) classifica(studs)</p>
+<h2 id="exercício-12">Exercício 12</h2>
+<p>A fórmula de Leibniz para aproximar <span class="math inline">\(\pi\)</span> é: <span class="math display">\[ \pi = 4 x (1 - \frac{1}{3} + \frac{1}{5} - \frac{1}{7} + \frac{1}{9} + \dots) = 4 * \sum_{n=0}^{\infty} \frac{(-1)^n}{2 n + 1} \]</span></p>
+<p>Implemente a função leibniz(k) que resulta no somatório dos primeiros k termos desta série. Documente a sua função com uma docstring.</p>
+<p>def leibniz(k): “““Calcula a fórmula de Leibniz para os primeiros k termos”“” return 4 * sum([ ((-1)**n / (2 * n + 1)) for n in range(k) ]) leibniz(4)</p>
+<h2 id="exercício-13">Exercício 13</h2>
+<p>Implemente a função sum_within(x, a, b) que calcula a soma dos valores da lista x que estão compreendidos entre a e b. Por exemplo, o resultado de <code>sum_within([4, 7, 44, 23], 17, 46)</code> é 67.</p>
+<p>def sum_within(x,a,b): s = 0 for n in x: if n &gt;= a and n &lt;= b: s+= n return s sum_within([4, 7, 44, 23], 17, 46)</p>
+<p>def sum_wihin_compreensao(x,a,b): return sum([n for n in x if n &gt;= a and n &lt;= b ]) sum_wihin_compreensao([4, 7, 44, 23], 17, 46)</p>
+<h2 id="exercício-6.5">Exercício 6.5</h2>
+<p>Escreva a função maximo2(xs) que calcula o segundo maior valor numa lista xs. Verifique que o procedimento retorna o valor correcto quando o maior valor ocorre mais do que uma vez.</p>
+<p>Nota: Ignore a palavra distinto no enunciado original.</p>
+<p>Exemplos:</p>
+<pre><code>&gt;&gt;&gt; maximo2([3, -2, 1, 0, -2, 1])
+1
+&gt;&gt;&gt; maximo2([1, 3, 2, 3, 0])
+2</code></pre>
+<p>def maximo2(xs): m1 = float(‘-inf’) m2 = float(‘-inf’) for x in xs: if x &gt; m1: m1=x elif x &gt; m2 and x != m1: m2=x return m2 print(maximo2([3, -2, 1, 0, -2, 1])) print(maximo2([1, 3, 2, 3, 0]))</p>
+<p>def maximo2_set(xs): non_reps = set(xs) non_reps.remove(max(non_reps)) return max(non_reps) print(maximo2_set([3, -2, 1, 0, -2, 1])) print(maximo2_set([1, 3, 2, 3, 0]))</p>
+<h2 id="exercício-6.7">Exercício 6.7</h2>
+<p>Escreva uma função repetidos(lista) que testa se há elementos repetidos numa lista; o resultado deve ser um valor lógico. A sua função deve funcionar com listas de vários tipos (e.g. de números ou de cadeias de carateres).</p>
+<p>Exemplos:</p>
+<pre><code>&gt;&gt;&gt; repetidos([&#39;ola&#39;, &#39;ole&#39;, &#39;abba&#39;, &#39;ole&#39;])
+True
+&gt;&gt;&gt; repetidos([3, 2, -5, 0, 1])
+False</code></pre>
+<p>def repetidos(lista): vistos = [] for x in lista: if x in vistos: return True else: vistos.append(x) return False print(repetidos([‘ola’, ‘ole’, ‘abba’, ‘ole’])) print(repetidos([3, 2, -5, 0, 1]))</p>
+<p>def repetidos_set(lista): return len(lista) != len(set(lista)) print(repetidos_set([‘ola’, ‘ole’, ‘abba’, ‘ole’])) print(repetidos_set([3, 2, -5, 0, 1]))</p>
+<h2 id="exercício-5.1">Exercício 5.1</h2>
+<p>Escreva duas definições da função conta_letras(txt) que retorna o número de letras (maiúsculas ou minúsculas) sem acentos da cadeia de caracteres txt; numa das versões compare os carateres de txt com ‘a’, ‘A’, ‘z’, ‘Z’ e na outra utilize <code>string.letters</code> ou <code>string.ascii_letters</code>.</p>
+<p>Nota: No exercício original dizia para utilizar apenas <code>string.letters</code>, que pode não existir nas versões mais recentes do Python.</p>
+<p>Exemplo:</p>
+<pre><code>&gt;&gt;&gt; conta_letras(&#39;Ola, mundo!&#39;)
+8</code></pre>
+<p>def is_letra(c): return (c &gt;= ‘a’ and c &lt;= ‘z’) or (c &gt;= ‘A’ and c &lt;= ‘Z’) def conta_letras(txt): n = 0 for c in txt: if is_letra(c): n+=1 return n conta_letras(‘Ola, mundo!’)</p>
+<p>def conta_letras_compreensao(txt): return len([ c for c in txt if is_letra(c) ]) conta_letras_compreensao(‘Ola, mundo!’)</p>
+<p>def is_letra2(c): return c.lower() in string.ascii_letters def conta_letras_compreensao2(txt): return len([ c for c in txt if is_letra2(c) ]) conta_letras_compreensao2(‘Ola, mundo!’)</p>
+<h2 id="exercício-5.3">Exercício 5.3</h2>
+<p>Escreva uma definição da função filtra_letras(txt) que, dada uma cadeia de caracteres txt, retorna uma cadeia com apenas as suas letras maiúsculas ou minúsculas.</p>
+<p>Exemplo:</p>
+<pre><code>&gt;&gt;&gt; filtra_letras(&#39;Ola!, -- disse ele...&#39;)
+&#39;Oladisseele&#39;</code></pre>
+<p>def filtra_letras(txt): res = “” for c in txt: if is_letra(c): res+=c return res filtra_letras(‘Ola!, – disse ele…’)</p>
+<p>def filtra_letras_compreensao(txt): return ““.join([c for c in txt if is_letra(c) ]) filtra_letras_compreensao(‘Ola!, – disse ele…’)</p>
+<h2 id="exercício-5.5">Exercício 5.5</h2>
+<p>Uma cadeia de carateres é um palíndromo se as sequências obtidas lida da esquerda para a direita e vice-versa são iguais, independentemente das letras serem maiúsculas ou minúsculas. Exemplo: “reviveR” é um palíndromo. Escreva uma definição da função palindromo(txt) que verifica se uma cadeia de caracteres é um palindromo; o resultado deve ser True ou False.</p>
+<p>def palindrono(txt): for i in range(len(txt)//2): if txt[i].lower() != txt[-i-1].lower(): return False return True</p>
+<p>print(palindrono(“reviveR”)) print(palindrono(“aaaa”)) print(palindrono(“ola olo”))</p>
+<h2 id="exercício-5.8">Exercício 5.8</h2>
+<p>A cifra de Cesar consiste em substituir cada carater alfabético de uma mensagem pelo carater que está k posições à sua direita, na ordem alfabética. Escreva a função cesar(k,txt) que retorna o valor cifrado de txt usando a “chave” k.</p>
+<p>def cesar(k,txt): return ““.join([ chr(ord(c)+k) for c in txt ]) cesar(3,”mensagem secreta”)</p>
+<h2 id="exercício-5.11">Exercício 5.11</h2>
+<p>Escreva a função remove_py_com(txt) que remove comentários de linhas de código Python, i.e., os sinais de cardinal # e tudo o que estiver à sua direita. Note que se o cardinal estiver dentro de uma string não é um comentário (considere apenas as strings delimitadas por aspas (“)).</p>
+<p>Exemplo:</p>
+<pre><code>&gt;&gt;&gt; remove_py_com(&quot;def f(x): # f function &quot;)
+&#39;def f(x): &#39;</code></pre>
+<p>Sugestão: use ciclos while. Nota: não é necessário usar métodos da classe str.</p>
+<p>def remove_py_com(txt): stop = False isstring = False i = 0 while (not stop and i &lt; len(txt)): if txt[i] == ‘"’: isstring = not isstring elif txt[i] == ‘#’ and not isstring: stop=True i+=1 return txt[:i-1]</p>
+<p>print(remove_py_com(“def f(x): # f function”)) print(remove_py_com(‘def “#” f(x) # comentário’))</p>
+<h2 id="exercício-6.1">Exercício 6.1</h2>
+<p>Defina uma função forte(passwd) que verifica se uma palavra-passe, dada pela cadeia de caracteres passwd, é forte. Considera-se que a palavra-passe é forte se tiver 8 caracteres ou mais, e incluir pelo menos uma letra maiúscula, uma letra minúscula e um algarismo. O resultado deve ser um valor lógico (True ou False).</p>
+<pre><code>&gt;&gt;&gt; forte(&#39;9EwL56&#39;)
+False
+&gt;&gt;&gt; forte(&#39;HXKW1393&#39;)
+False
+&gt;&gt;&gt; forte(&#39;ffu4G7Fghjk&#39;)
+True</code></pre>
+<p>def forte(passwd): maiusculas = { c for c in passwd if c.isupper() } minusculas = { c for c in passwd if c.islower() } algarismos = { c for c in passwd if c.isdigit() } return len(passwd) &gt;= 8 and len(maiusculas) &gt; 0 and len(minusculas) &gt; 0 and len(algarismos) &gt; 0</p>
+<p>print(forte(‘9EwL56’)) print(forte(‘HXKW1393’)) print(forte(‘ffu4G7Fghjk’))</p>
