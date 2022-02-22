@@ -215,7 +215,7 @@
 <body>
 <h1 id="projeto-0---desenferrujar">Projeto 0 - Desenferrujar</h1>
 <p>Nas primeiras aulas vamos reavivar os nossos conhecimentos fundamentais de programação em Python: cálculo numérico, listas, iteração e processamento de strings.</p>
-<p>Aceda ao repositório <a href="https://replit.com/@up652136/Prog2-Proj0">replit</a> do Projeto 0, onde pode encontrar um ficheiro <code>projeto0.py</code>: * Criando uma conta no <a href="https://replit.com/">replit</a> e fazendo <code>Fork</code> do projeto, pode resolver o projeto online utilizando o IDE web. * Pode também fazer download do repositório <a href="https://replit.com/@up652136/Prog2-Proj0">replit</a> como um ficheiro <code>zip</code> para desenvolver o projeto no seu computador e utilizando um IDE à sua escolha.</p>
+<p>Aceda ao repositório <a href="https://replit.com/@up652136/Prog2-Proj0">replit</a> do Projeto 0, onde pode encontrar um ficheiro <code>projeto0.py</code>: - Criando uma conta no <a href="https://replit.com/">replit</a> e fazendo <code>Fork</code> do projeto, pode resolver o projeto online utilizando o IDE web. - Pode também fazer download do repositório <a href="https://replit.com/@up652136/Prog2-Proj0">replit</a> como um ficheiro <code>zip</code> para desenvolver o projeto no seu computador e utilizando um IDE à sua escolha.</p>
 <p>Neste projeto (primeiras duas semanas de aulas práticas) vamos resolver livremente alguns exercícios lecionados em edições anteriores da cadeira anterior de <a href="https://sigarra.up.pt/fcup/pt/UCURR_GERAL.FICHA_UC_VIEW?pv_ocorrencia_id=489202">Programação I</a>. Sinta-se à vontade para requisitar mais ou novos exercícios aos docentes.</p>
 <p>Este projeto é completamente livre e não sujeito a avaliação. Os alunos devem sentir-se à vontade para explorar exercícios de diferentes tipos, resolver exercícios em conjunto, discutir soluções com a turma ou pedir sugestões aos docentes. Este enunciado contém também uma potencial solução para cada exercício. A ideia é aferirmos os conhecimentos e lacunas de cada um para podermos adaptar o ritmo da cadeira e a matéria seguinte. Tentem resolver os exercícios antes de olhar para as soluções! O <a href="https://replit.com/@up652136/Prog2-Proj0">replit</a> tem também um conjunto de testes para poderem testar a correção das vossas soluções para cada questão.</p>
 <h2 id="cálculo-numérico">1 - Cálculo numérico</h2>
@@ -551,7 +551,7 @@ Solução
 <p>Implemente a função <code>leibniz(k)</code> que resulta no somatório dos primeiros <code>k</code> termos desta série. Por exemplo:</p>
 <div class="sourceCode" id="cb35"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb35-1"><a href="#cb35-1" aria-hidden="true" tabindex="-1"></a><span class="op">&gt;</span> leibniz(<span class="dv">4</span>)</span>
 <span id="cb35-2"><a href="#cb35-2" aria-hidden="true" tabindex="-1"></a><span class="fl">2.8952380952380956</span></span></code></pre></div>
-Adicionalmente, documente a sua função com uma docstring.
+<p>Adicionalmente, documente a sua função com uma docstring.</p>
 <details>
 <summary>
 Solução
@@ -561,7 +561,7 @@ Solução
 <span id="cb36-3"><a href="#cb36-3" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> <span class="dv">4</span> <span class="op">*</span> <span class="bu">sum</span>([ ((<span class="op">-</span><span class="dv">1</span>)<span class="op">**</span>n <span class="op">/</span> (<span class="dv">2</span> <span class="op">*</span> n <span class="op">+</span> <span class="dv">1</span>)) <span class="cf">for</span> n <span class="kw">in</span> <span class="bu">range</span>(k) ])</span></code></pre></div>
 </details>
 <h3 id="exercício-2.8">Exercício 2.8</h3>
-Implemente a função <code>sum_within(x, a, b)</code> que calcula a soma dos valores da lista <code>x</code> que estão compreendidos entre <code>a</code> e <code>b</code>. Por exemplo, o resultado de <code>sum_within([4, 7, 44, 23], 17, 46)</code> é <code>67</code>.
+<p>Implemente a função <code>sum_within(x, a, b)</code> que calcula a soma dos valores da lista <code>x</code> que estão compreendidos entre <code>a</code> e <code>b</code>. Por exemplo, o resultado de <code>sum_within([4, 7, 44, 23], 17, 46)</code> é <code>67</code>.</p>
 <details>
 <summary>
 Solução
@@ -742,7 +742,7 @@ Solução
 <span id="cb58-2"><a href="#cb58-2" aria-hidden="true" tabindex="-1"></a><span class="co">&#39;def f(x): &#39;</span></span>
 <span id="cb58-3"><a href="#cb58-3" aria-hidden="true" tabindex="-1"></a><span class="op">&gt;</span> remove_py_com(<span class="st">&#39;def &quot;#&quot; f(x) # comentário&#39;</span>)</span>
 <span id="cb58-4"><a href="#cb58-4" aria-hidden="true" tabindex="-1"></a><span class="co">&#39;def &quot;#&quot; f(x) &#39;</span></span></code></pre></div>
-Sugestão: use ciclos while. <strong>Nota:</strong> não é necessário usar métodos da classe <code>str</code>.
+<p>Sugestão: use ciclos while. <strong>Nota:</strong> não é necessário usar métodos da classe <code>str</code>.</p>
 <details>
 <summary>
 Solução
