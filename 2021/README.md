@@ -1,15 +1,17 @@
 # Programação II
 
-Bem-vindo ao repositório de suporte à cadeira de [Programação II](https://sigarra.up.pt/fcup/pt/ucurr_geral.ficha_uc_view?pv_ocorrencia_id=464142).
+Bem-vindo ao repositório de suporte à cadeira de [Programação II 2020/2021](https://sigarra.up.pt/fcup/pt/ucurr_geral.ficha_uc_view?pv_ocorrencia_id=464142).
 Neste repositório poderá encontrar todo o material de suporte à cadeira.
+
+Pode navegar todo o conteúdo desta página no [repositório](https://github.com/hpacheco/progii/2021) associado.
 
 ## Projetos
 
-* [Projeto 0 - Desenferrujar](https://hpacheco.github.io/progii/projetos/Projeto0.html) [[Soluções](https://hpacheco.github.io/progii/projetos/Solucoes0.html)] [[Teste0](https://hpacheco.github.io/progii/projetos/Teste0.html)] 
-* [Projeto 1 - Análise de texto](https://hpacheco.github.io/progii/projetos/Projeto1.html)
-* [Projeto 2 - Análise de dados](https://hpacheco.github.io/progii/projetos/Projeto2.html)
-* [Projeto 3 - Visualização de dados](https://hpacheco.github.io/progii/projetos/Projeto3.html)
-* [Projeto 4 - Animações e aplicações interativas](https://hpacheco.github.io/progii/projetos/Projeto4.html)
+* [Projeto 0 - Desenferrujar](projetos/Projeto0.ipynb) [[Soluções](projetos/Solucoes0.ipynb)] [[Teste0](projetos/Teste0.ipynb)] 
+* [Projeto 1 - Análise de texto](projetos/Projeto1.ipynb)
+* [Projeto 2 - Análise de dados](projetos/Projeto2.ipynb)
+* [Projeto 3 - Visualização de dados](projetos/Projeto3.ipynb)
+* [Projeto 4 - Animações e aplicações interativas](projetos/Projeto4.ipynb)
 
 **Nota:** Tarefas de **Valorização** são opcionais, e contarão para além da nota máxima do projeto. Servirão para colmatar as notas de outros exercícios no mesmo ou noutro Projeto.
 
@@ -30,7 +32,7 @@ O calendário encontra-se neste [link](https://docs.google.com/spreadsheets/d/1W
 
 A melhoria dos trabalhos pode ser feita realizando todas as tarefas (normais e de valorização) dos Projetos 1,2,3 e 4. As tarefas de valorização, opcionais na época normal, são obrigatórias para efetuar melhoria. O trabalho de melhoria inclui também o Projeto 5 adicional:
 
-* [Projeto 5 - Melhoria](https://hpacheco.github.io/progii/projetos/Melhoria.html)
+* [Projeto 5 - Melhoria](projetos/Melhoria.ipynb)
 
 **Os alunos que desejem efetuar melhoria de nota devem ter aprovação à cadeira na época normal, e contactar o docente a informar da sua intenção em fazer melhoria.**
 
@@ -84,20 +86,20 @@ Esta planificação serve para dar uma ideia resumida das aulas planeadas e/ou d
 
 ### Práticas
 
-* P01 (Semana 15/02): [Projeto 0 - Desenferrujar](https://hpacheco.github.io/progii/projetos/Projeto0.html)
-* P02 (Semana 22/02): [Projeto 0 - Desenferrujar](https://hpacheco.github.io/progii/projetos/Projeto0.html)
-* P03 (Semana 01/03): [Projeto 1 - Análise de texto](https://hpacheco.github.io/progii/projetos/Projeto1.html)
-* P04 (Semana 08/03): [Projeto 1 - Análise de texto](https://hpacheco.github.io/progii/projetos/Projeto1.html)
+* P01 (Semana 15/02): [Projeto 0 - Desenferrujar](projetos/Projeto0.ipynb)
+* P02 (Semana 22/02): [Projeto 0 - Desenferrujar](projetos/Projeto0.ipynb)
+* P03 (Semana 01/03): [Projeto 1 - Análise de texto](projetos/Projeto1.ipynb)
+* P04 (Semana 08/03): [Projeto 1 - Análise de texto](projetos/Projeto1.ipynb)
 
-* P05 (Semana 15/03): [Projeto 2 - Análise de dados](https://hpacheco.github.io/progii/projetos/Projeto2.html)
-* P06 (Semana 22/03): [Projeto 2 - Análise de dados](https://hpacheco.github.io/progii/projetos/Projeto0.html)
-* P07 (Semana 29/03): [Projeto 2 - Análise de dados](https://hpacheco.github.io/progii/projetos/Projeto2.html)
+* P05 (Semana 15/03): [Projeto 2 - Análise de dados](projetos/Projeto2.ipynb)
+* P06 (Semana 22/03): [Projeto 2 - Análise de dados](projetos/Projeto2.ipynb)
+* P07 (Semana 29/03): [Projeto 2 - Análise de dados](projetos/Projeto2.ipynb)
 
-* P08 (Semana 05/04): [Projeto 3 - Visualização de dados](https://hpacheco.github.io/progii/projetos/Projeto3.html)
-* P09 (Semana 03/05): [Projeto 3 - Visualização de dados](https://hpacheco.github.io/progii/projetos/Projeto3.html)
-* P10 (Semana 10/05): [Projeto 3 - Visualização de dados](https://hpacheco.github.io/progii/projetos/Projeto3.html)
+* P08 (Semana 05/04): [Projeto 3 - Visualização de dados](projetos/Projeto3.ipynb)
+* P09 (Semana 03/05): [Projeto 3 - Visualização de dados](projetos/Projeto3.ipynb)
+* P10 (Semana 10/05): [Projeto 3 - Visualização de dados](projetos/Projeto3.ipynb)
 
-* P11 (Semana 17/05): [Projeto 4 - Animações e aplicações interativas](https://hpacheco.github.io/progii/projetos/Projeto4.html)
-* P12 (Semana 24/05): [Projeto 4 - Animações e aplicações interativas](https://hpacheco.github.io/progii/projetos/Projeto4.html)
-* P13 (Semana 31/05): [Projeto 4 - Animações e aplicações interativas](https://hpacheco.github.io/progii/projetos/Projeto4.html)
+* P11 (Semana 17/05): [Projeto 4 - Animações e aplicações interativas](projetos/Projeto4.ipynb)
+* P12 (Semana 24/05): [Projeto 4 - Animações e aplicações interativas](projetos/Projeto4.ipynb)
+* P13 (Semana 31/05): [Projeto 4 - Animações e aplicações interativas](projetos/Projeto4.ipynb)
 
