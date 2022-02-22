@@ -2,11 +2,15 @@
 
 Nas primeiras aulas vamos reavivar os nossos conhecimentos fundamentais de programação em Python: cálculo numérico, listas, iteração e processamento de strings.
 
-Crie um novo ficheiro projeto0.py para desenvolver o projeto e abra-o com um IDE à sua escolha.
+Aceda ao repositório [replit](https://replit.com/@up652136/Prog2-Proj0) do Projeto 0, onde pode encontrar um ficheiro `projeto0.py`:
+* Criando uma conta no [replit](https://replit.com/) e fazendo `Fork` do projeto, pode resolver o projeto online utilizando o IDE web.
+* Pode também fazer download do repositório [replit](https://replit.com/@up652136/Prog2-Proj0) como um ficheiro `zip` para desenvolver o projeto no seu computador e utilizando um IDE à sua escolha.
 
-Neste projeto (primeiras duas semanas de aulas práticas) vamos resolver livremente alguns exercícios lecionados em edições anteriores da cadeira anterior de Programação I. Sinta-se à vontade para requisitar mais ou novos exercícios aos docentes.
+Neste projeto (primeiras duas semanas de aulas práticas) vamos resolver livremente alguns exercícios lecionados em edições anteriores da cadeira anterior de [Programação I](https://sigarra.up.pt/fcup/pt/UCURR_GERAL.FICHA_UC_VIEW?pv_ocorrencia_id=489202). Sinta-se à vontade para requisitar mais ou novos exercícios aos docentes.
 
 Este projeto é completamente livre e não sujeito a avaliação. Os alunos devem sentir-se à vontade para explorar exercícios de diferentes tipos, resolver exercícios em conjunto, discutir soluções com a turma ou pedir sugestões aos docentes.
+Este enunciado contém também uma potencial solução para cada exercício. A ideia é aferirmos os conhecimentos e lacunas de cada um para podermos adaptar o ritmo da cadeira e a matéria seguinte. Tentem resolver os exercícios antes de olhar para as soluções!
+O [replit](https://replit.com/@up652136/Prog2-Proj0) tem também um conjunto de testes para poderem testar a correção das vossas soluções para cada questão.
 
 ## 1 - Cálculo numérico
 
@@ -112,7 +116,7 @@ def radianos(graus,mins,segs):
 ````
 </details>
 
-## Exercício 1.6
+### Exercício 1.6
 
 Escreva uma função `segundos(horas,mins,segs)` que, dada uma duração em horas, minutos e segundos, calcula e retorna essa mesma duração em segundos.
 Por exemplo:
@@ -132,9 +136,27 @@ def segundos(horas,mins,segs):
 ```
 </details>
 
-# 2 - Listas e iteração
+### Exercício 1.7
 
-## Exercício 2.1
+Normalmente calcula-se juros com base num número inteiro de períodos (o número de anos, por exemplo). No entanto, em algumas situações é útil calcular o juro como uma função contínua do tempo.
+A fórmula para calcular o valor de um investimento ao longo do tempo t é apresentada ao lado, onde $P_0$ é o montante inicial investido, $r$ é a taxa de juro e $t$ é o tempo que passou desde o momento em que se fez o investimento.
+
+$P(t) = P_0 e^{rt}$
+
+Escreva uma função `juros($P_0,r,t$)` que calcule $P(P_0)$, ou seja, que retorne o valor de um investimento $P_0$ no instante $t$, a uma taxa de juro $r$.
+
+<details>
+<summary>Solução</summary>
+
+```python
+def juros(p0,r,t):
+    return p0 * math.exp(r * t)
+````
+</details>
+
+## 2 - Listas e iteração
+
+### Exercício 2.1
 
 Considere um programa que começa com a atribuição de uma lista de valores de temperatura (em Celsius) à variável `tempC`:
 ```python
@@ -201,7 +223,7 @@ def tempC4():
 ````
 </details>
 
-## Exercício 2.2
+### Exercício 2.2
 
 Considere um programa que começa com a seguinte atribuição:
 
@@ -257,13 +279,24 @@ def ex22_3():
 ```
 </details>
     
-## Exercício 2.3
+### Exercício 2.3
 
 Usando o módulo `turtle`, escreva uma função `poligono_reg(t,n,lado)`, sem valor de retorno,
 que faz uma tartaruga `t` desenhar um polígono regular com `n` lados de comprimento `lado`. Por exemplo,
 com `poligono_reg(t,3,100)` a tartaruga `t` desenha um triângulo equilátero com 100 pixels de lado.
 
 **Nota:** a soma dos ângulos externos de um polígono é $360°$.
+
+Para testar, pode utilizar o seguinte programa:
+```python
+window = turtle.Screen()
+alex = turtle.Turtle()
+poligono_reg(alex,3,100)
+window.mainloop()
+```
+O resultado esperado será:
+
+![](ex_2_3_turtle.png)
 
 <details>
 <summary>Solução</summary>
@@ -274,19 +307,25 @@ def poligono_reg(t,n,lado):
     for _ in range(n):
         t.forward(lado)
         t.right(deg)
-
-window = turtle.Screen()
-alex = turtle.Turtle()
-poligono_reg(alex,3,100)
-window.mainloop()
 ```
 </details>
 
-## Exercício 2.4
+### Exercício 2.4
 
-Usando o módulo `turtle`, escreva uma função `friso(t, n, lado)`, sem valor de retorno, que desenha um friso em forma de muralha com `n` ameias em que a largura de cada segmento é `lado`. Por exemplo: com `friso(t, 3, 50)` uma tartaruga `t` produz o desenho da figura seguinte.
+Usando o módulo `turtle`, escreva uma função `friso(t, n, lado)`, sem valor de retorno, que desenha um friso em forma de muralha com `n` ameias em que a largura de cada segmento é `lado`. 
 
 Note que a tartaruga deve terminar com a orientação original.
+
+Para testar, pode utilizar o seguinte programa:
+```python
+window = turtle.Screen()
+alex = turtle.Turtle()
+friso(alex,2,50)
+window.mainloop()
+```
+O resultado esperado será o desenho da figura seguinte:
+
+![](ex_2_4_turtle.png)
 
 <details>
 <summary>Solução</summary>
@@ -303,15 +342,10 @@ def friso(t,n,lado):
         t.right(90)
         t.forward(lado)
         t.left(90)
-        
-window = turtle.Screen()
-alex = turtle.Turtle()
-friso(alex,3,100)
-window.mainloop()
 ```
 </details>
 
-## Exercício 2.5
+### Exercício 2.5
 
 O preço atual da gasolina é 1.63 euros por litro. Implemente a função `valor(v)` que, dada a lista
 `v` de litros abastecidos numa viagem, retorna o valor total despendido.
@@ -341,7 +375,7 @@ def valor(v):
 ```
 </details>
 
-## Exercício 2.6
+### Exercício 2.6
 
 Escreva uma função `classifica(p)` que, dada uma pontuação `p` obtida num exame (de 0 a 100) retorna
 uma mensagem de classificação de acordo com a tabela seguinte. Utilize essa função para escrever um
@@ -392,7 +426,7 @@ def classifica(p):
 ```
 </details>
 
-## Exercício 2.7
+### Exercício 2.7
 
 A fórmula de Leibniz para aproximar $\pi$ é:
 $$ \pi = 4 x (1 - \frac{1}{3} + \frac{1}{5} - \frac{1}{7} + \frac{1}{9} + \dots) = 4 * \sum_{n=0}^{\infty} \frac{(-1)^n}{2 n + 1} $$
@@ -414,7 +448,7 @@ def leibniz(k):
 ```
 </details>
 
-## Exercício 2.8
+### Exercício 2.8
 
 Implemente a função `sum_within(x, a, b)` que calcula a soma dos valores da lista `x` que estão
 compreendidos entre `a` e `b`.
@@ -441,7 +475,7 @@ sum_wihin([4, 7, 44, 23], 17, 46)
 ```
 </details>
 
-## Exercício 2.9
+### Exercício 2.9
 
 Escreva a função `maximo2(xs)` que calcula o segundo maior valor numa lista `xs`. Verifique que o procedimento retorna o valor correcto quando o maior valor ocorre mais do que uma vez.
 
@@ -477,10 +511,10 @@ def maximo2(xs):
     return max(non_reps)
 ```
 
-## Exercício 2.10
+### Exercício 2.10
 
 Escreva uma função `repetidos(lista)` que testa se há elementos repetidos numa `lista`; o resultado
-deve ser um valor lógico. A sua função deve funcionar com listas de vários tipos (e.g. de números ou
+deve ser um valor lógico. A sua função deve funcionar com listas de elementos de vários tipos (e.g. de números ou
 de cadeias de carateres).
 
 Exemplos:
@@ -513,9 +547,36 @@ def repetidos_set(lista):
 ```
 </details>
 
+### Exercício 2.11
+
+Podemos contar algarismos decimais na representação de um número fazendo divisões inteiras por dez. Por exemplo: 9733 tem 4 algarismos porque podemos fazer quatro divisões sucessivas por 10 obtendo os quocientes 973, 97, 9 e 0 (paramos quando chegamos a zero).
+
+Escreva uma função `algarismos(n)` cujo resultado é o número de algarismos decimais de n.
+**Sugestão:** use um ciclo `while` para repetir as divisões sucessivas e contar o número de iterações.
+
+Exemplos:
+```python
+> algarismos(9)
+1
+> algarismos(1234)
+4
+```
+<details>
+<summary>Solução</summary>
+
+```python
+def algarismos(n):
+    i = 0
+    while (n > 0):
+        n //= 10
+        i+=1
+    return i
+```
+</details>
+
 ## 3 - Processamento de strings
 
-## Exercício 3.1
+### Exercício 3.1
 
 Escreva duas definições da função `conta_letras(txt)` que retorna o número de letras (maiúsculas
 ou minúsculas) sem acentos da cadeia de caracteres `txt`; numa das versões compare os carateres de
@@ -561,7 +622,7 @@ def conta_letras_compreensao2(txt):
 ```
 </details>
 
-## Exercício 3.2
+### Exercício 3.2
 
 Escreva uma definição da função `filtra_letras(txt)` que, dada uma cadeia de caracteres `txt`,
 retorna uma cadeia com apenas as suas letras maiúsculas ou minúsculas.
@@ -593,7 +654,7 @@ def filtra_letras(txt):
 ```
 </details>
 
-## Exercício 3.3
+### Exercício 3.3
 
 Uma cadeia de carateres é um palíndromo se as sequências obtidas lida da esquerda para a direita
 e vice-versa são iguais, independentemente das letras serem maiúsculas ou minúsculas. Exemplo:
@@ -620,7 +681,7 @@ def palindrono(txt):
 ```
 </details>
 
-## Exercício 3.4
+### Exercício 3.4
 
 A cifra de Cesar consiste em substituir cada carater alfabético de uma mensagem pelo carater
 que está k posições à sua direita, na ordem alfabética. Escreva a função `cesar(k,txt)` que retorna o
@@ -640,7 +701,7 @@ def cesar(k,txt):
 ```
 </details>
 
-## Exercício 3.5
+### Exercício 3.5
 
 Escreva a função `remove_py_com(txt)` que remove comentários de linhas de código Python, i.e.,
 os sinais de cardinal `#` e tudo o que estiver à sua direita. Note que se o cardinal estiver dentro de uma
@@ -670,7 +731,7 @@ def remove_py_com(txt):
 ```
 </details>
 
-## Exercício 3.6
+### Exercício 3.6
 
 Defina uma função `forte(passwd)` que verifica se uma palavra-passe, dada pela cadeia de caracteres `passwd`, é forte. Considera-se que a palavra-passe é forte se tiver 8 caracteres ou mais, e incluir
 pelo menos uma letra maiúscula, uma letra minúscula e um algarismo. O resultado deve ser um valor
@@ -696,6 +757,53 @@ def forte(passwd):
 ```
 </details>
 
+### Exercício 3.7
+
+Uma cadeia é um palíndromo se se lê da mesma forma nos dois sentidos, ignorando os espaços entre letras, sinais de pontuação e/ou a troca de maiúsculas e minúsculas. Assim, os exemplos seguintes são palíndromos:
+````python
+"Amora me tem aroma."
+"Madam, I'm Adam."
+"A man, a plan, a canal: Panama"
+````
+Escreva uma função `palindrono_geral(txt)` para testar se uma cadeia de caracteres txt é um palíndromo neste sentido geral.
+**Sugestão:** pode resolver este problema combinando os métodos `lower()` e `isalpha()` de cadeias de carateres.
+
+<details>
+<summary>Solução</summary>
+
+```python
+def palindrono(txt):
+    # só temos que percorrer a string até meio
+    for i in range(len(txt)//2):
+        # a cada passo compara com o caracter na posição inversa
+        if txt[i] != txt[-1-i]: return False
+    return True
+
+def palindrono_geral(txt):
+    alphas = [ c for c in txt.lower() if c.isalpha() ]
+    return palindrono(alphas)
+```
+</details>
+
+### Exercício 3.8
+
+Escreva uma função `ocorrencias(txt,c)` que retorna uma lista com os índices das ocorrências de um caracter `c` na cadeia `txt`.
+Por exemplo:
+```python
+> ocorrencias('banana','a')
+[1, 3, 5]
+```
+<details>
+<summary>Soluções</summary>
+
+```python
+def ocorrencias(txt,c):
+    cs = []
+    for i,t in enumerate(txt):
+        if t==c: cs.append(i)
+    return cs
+```
+</details>
 
 
 

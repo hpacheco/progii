@@ -1,13 +1,228 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>Projeto0</title>
+  <style>
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      {   }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+    code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+    code span.at { color: #7d9029; } /* Attribute */
+    code span.bn { color: #40a070; } /* BaseN */
+    code span.bu { } /* BuiltIn */
+    code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #4070a0; } /* Char */
+    code span.cn { color: #880000; } /* Constant */
+    code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+    code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+    code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+    code span.dt { color: #902000; } /* DataType */
+    code span.dv { color: #40a070; } /* DecVal */
+    code span.er { color: #ff0000; font-weight: bold; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #40a070; } /* Float */
+    code span.fu { color: #06287e; } /* Function */
+    code span.im { } /* Import */
+    code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+    code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+    code span.op { color: #666666; } /* Operator */
+    code span.ot { color: #007020; } /* Other */
+    code span.pp { color: #bc7a00; } /* Preprocessor */
+    code span.sc { color: #4070a0; } /* SpecialChar */
+    code span.ss { color: #bb6688; } /* SpecialString */
+    code span.st { color: #4070a0; } /* String */
+    code span.va { color: #19177c; } /* Variable */
+    code span.vs { color: #4070a0; } /* VerbatimString */
+    code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+  </style>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
 <h1 id="projeto-0---desenferrujar">Projeto 0 - Desenferrujar</h1>
 <p>Nas primeiras aulas vamos reavivar os nossos conhecimentos fundamentais de programação em Python: cálculo numérico, listas, iteração e processamento de strings.</p>
-<p>Crie um novo ficheiro projeto0.py para desenvolver o projeto e abra-o com um IDE à sua escolha.</p>
-<p>Neste projeto (primeiras duas semanas de aulas práticas) vamos resolver livremente alguns exercícios lecionados em edições anteriores da cadeira anterior de Programação I. Sinta-se à vontade para requisitar mais ou novos exercícios aos docentes.</p>
-<p>Este projeto é completamente livre e não sujeito a avaliação. Os alunos devem sentir-se à vontade para explorar exercícios de diferentes tipos, resolver exercícios em conjunto, discutir soluções com a turma ou pedir sugestões aos docentes.</p>
-<h2 id="cálculo-numérico">Cálculo numérico</h2>
+<p>Aceda ao repositório <a href="https://replit.com/@up652136/Prog2-Proj0">replit</a> do Projeto 0, onde pode encontrar um ficheiro <code>projeto0.py</code>: * Criando uma conta no <a href="https://replit.com/">replit</a> e fazendo <code>Fork</code> do projeto, pode resolver o projeto online utilizando o IDE web. * Pode também fazer download do repositório <a href="https://replit.com/@up652136/Prog2-Proj0">replit</a> como um ficheiro <code>zip</code> para desenvolver o projeto no seu computador e utilizando um IDE à sua escolha.</p>
+<p>Neste projeto (primeiras duas semanas de aulas práticas) vamos resolver livremente alguns exercícios lecionados em edições anteriores da cadeira anterior de <a href="https://sigarra.up.pt/fcup/pt/UCURR_GERAL.FICHA_UC_VIEW?pv_ocorrencia_id=489202">Programação I</a>. Sinta-se à vontade para requisitar mais ou novos exercícios aos docentes.</p>
+<p>Este projeto é completamente livre e não sujeito a avaliação. Os alunos devem sentir-se à vontade para explorar exercícios de diferentes tipos, resolver exercícios em conjunto, discutir soluções com a turma ou pedir sugestões aos docentes. Este enunciado contém também uma potencial solução para cada exercício. A ideia é aferirmos os conhecimentos e lacunas de cada um para podermos adaptar o ritmo da cadeira e a matéria seguinte. Tentem resolver os exercícios antes de olhar para as soluções! O <a href="https://replit.com/@up652136/Prog2-Proj0">replit</a> tem também um conjunto de testes para poderem testar a correção das vossas soluções para cada questão.</p>
+<h2 id="cálculo-numérico">1 - Cálculo numérico</h2>
 <h3 id="exercício-1.1">Exercício 1.1</h3>
 <p>Escreva uma função <code>perim_circ(r)</code> que calcule o perímetro de um círculo com raio <code>r</code>. Por exemplo:</p>
-<pre><code>&gt; perim_circ(4)
-25.132741228718345</code></pre>
+<div class="sourceCode" id="cb1"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="op">&gt;</span> perim_circ(<span class="dv">4</span>)</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fl">25.132741228718345</span></span></code></pre></div>
 <details>
 <summary>
 Solução
@@ -17,8 +232,8 @@ Solução
 </details>
 <h3 id="exercício-1.2">Exercício 1.2</h3>
 <p>Escreva uma função <code>area_circ(r)</code> que calcule a área de um círculo com raio `rª . Por exemplo:</p>
-<pre><code>&gt; area_circ(4)
-50.26548245743669</code></pre>
+<div class="sourceCode" id="cb3"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="op">&gt;</span> area_circ(<span class="dv">4</span>)</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="fl">50.26548245743669</span></span></code></pre></div>
 <details>
 <summary>
 Solução
@@ -27,15 +242,11 @@ Solução
 <span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> math.pi <span class="op">*</span> r<span class="op">**</span><span class="dv">2</span></span></code></pre></div>
 </details>
 <h3 id="exercício-1.3">Exercício 1.3</h3>
-<p>A conversão entre medidas de temperatura em <em>Fahrenheit</em> e <em>Celsius</em> pode ser efectuada pela fórmula</p>
-<p><span class="math display">$$
-C = \frac{5}{9} (F - 32)
-$$</span></p>
-<p>onde <code>F</code> é a temperatura em <em>Fahrenheit</em> e <code>C</code> em <em>Celsius</em>. Escreva uma função <code>celsius(F)</code> que efetue a conversão de <em>Fahrenheit</em> para <em>Celsius</em> de uma temperatura <code>F</code>. Por exemplo:</p>
-<pre><code>&gt; celsius(0)
--17.77777777777778
-&gt; celsius(20)
--6.666666666666667</code></pre>
+<p>A conversão entre medidas de temperatura em <em>Fahrenheit</em> e <em>Celsius</em> pode ser efectuada pela fórmula <span class="math display">\[C = \frac{5}{9} (F - 32)\]</span>, onde <code>F</code> é a temperatura em <em>Fahrenheit</em> e <code>C</code> em <em>Celsius</em>. Escreva uma função <code>celsius(F)</code> que efetue a conversão de <em>Fahrenheit</em> para <em>Celsius</em> de uma temperatura <code>F</code>. Por exemplo:</p>
+<div class="sourceCode" id="cb5"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="op">&gt;</span> celsius(<span class="dv">0</span>)</span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="op">-</span><span class="fl">17.77777777777778</span></span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a><span class="op">&gt;</span> celsius(<span class="dv">20</span>)</span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a><span class="op">-</span><span class="fl">6.666666666666667</span></span></code></pre></div>
 <details>
 <summary>
 Solução
@@ -44,91 +255,234 @@ Solução
 <span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> (<span class="dv">5</span><span class="op">/</span><span class="dv">9</span>) <span class="op">*</span> (F <span class="op">-</span> <span class="dv">32</span>)</span></code></pre></div>
 </details>
 <h3 id="exercício-1.4">Exercício 1.4</h3>
-<p>A distância entre dois pontos no plano de coordenadas <span class="math inline">(<em>x</em><sub>1</sub>,<em>y</em><sub>1</sub>)</span> e <span class="math inline">(<em>x</em><sub>2</sub>,<em>y</em><sub>2</sub>)</span> é dada por: <span class="math display">$$ d = \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2} $$</span> Implemente uma função dist(<span class="math inline"><em>x</em><sub>1</sub></span>,<span class="math inline"><em>y</em><sub>1</sub></span>,<span class="math inline"><em>x</em><sub>2</sub></span>,<span class="math inline"><em>y</em><sub>2</sub></span>) que use esta fórmula para calcular a distância.</p>
-<div class="sourceCode" id="cb7"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> dist(x1,y1,x2,y2):</span>
-<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> math.sqrt((x2<span class="op">-</span>x1)<span class="op">**</span><span class="dv">2</span> <span class="op">+</span> (y2<span class="op">-</span>y1)<span class="op">**</span><span class="dv">2</span>)</span>
-<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a>dist(<span class="dv">1</span>,<span class="dv">1</span>,<span class="dv">4</span>,<span class="dv">4</span>)</span></code></pre></div>
+<p>A distância entre dois pontos no plano de coordenadas <span class="math inline">\((x_1,y_1)\)</span> e <span class="math inline">\((x_2,y_2)\)</span> é dada por: <span class="math display">\[ d = \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2} \]</span> Implemente uma função dist(<span class="math inline">\(x_1\)</span>,<span class="math inline">\(y_1\)</span>,<span class="math inline">\(x_2\)</span>,<span class="math inline">\(y_2\)</span>) que use esta fórmula para calcular a distância. Por exemplo:</p>
+<div class="sourceCode" id="cb7"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="op">&gt;</span> dist(<span class="dv">1</span>,<span class="dv">1</span>,<span class="dv">4</span>,<span class="dv">4</span>)</span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a><span class="fl">4.242640687119285</span></span></code></pre></div>
+<details>
+<summary>
+Solução
+</summary>
+<div class="sourceCode" id="cb8"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> dist(x1,y1,x2,y2):</span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> math.sqrt((x2<span class="op">-</span>x1)<span class="op">**</span><span class="dv">2</span> <span class="op">+</span> (y2<span class="op">-</span>y1)<span class="op">**</span><span class="dv">2</span>)</span></code></pre></div>
+</details>
 <h3 id="exercício-1.5">Exercício 1.5</h3>
-<p>Escreva uma função <code>radianos(graus,mins,segs)</code> que, dado o valor de um ângulo em graus, minutos e segundos, converte-o para radianos. Relembre que <span class="math inline">360<em>º</em></span> corresponde a <span class="math inline">2<em>π</em></span> radianos, cada grau tem 60 minutos e cada minuto tem 60 segundos.</p>
-<div class="sourceCode" id="cb8"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> radianos(graus,mins,segs):</span>
-<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a>    mins <span class="op">=</span> mins <span class="op">+</span> segs <span class="op">/</span> <span class="dv">60</span></span>
-<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a>    graus <span class="op">=</span> graus <span class="op">+</span> mins <span class="op">/</span> <span class="dv">60</span></span>
-<span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> graus <span class="op">*</span> (<span class="dv">2</span> <span class="op">*</span> math.pi <span class="op">/</span> <span class="dv">360</span>)</span>
-<span id="cb8-5"><a href="#cb8-5" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(radianos(<span class="dv">0</span>,<span class="dv">0</span>,<span class="dv">60</span>))</span>
-<span id="cb8-6"><a href="#cb8-6" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(radianos(<span class="dv">0</span>,<span class="dv">60</span>,<span class="dv">0</span>))</span>
-<span id="cb8-7"><a href="#cb8-7" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(radianos(<span class="dv">180</span>,<span class="dv">10</span>,<span class="dv">40</span>))</span></code></pre></div>
-<h2 id="exercício-1.6">Exercício 1.6</h2>
-<p>Escreva uma função <code>segundos(horas,mins,segs)</code> que, dada uma duração em horas, minutos e segundos, calcula e retorna essa mesma duração em segundos.</p>
-<div class="sourceCode" id="cb9"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> segundos(horas,mins,segs):</span>
-<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>    mins <span class="op">=</span> mins <span class="op">+</span> horas <span class="op">*</span> <span class="dv">60</span></span>
-<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a>    segs <span class="op">=</span> segs <span class="op">+</span> mins <span class="op">*</span> <span class="dv">60</span></span>
-<span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> segs</span>
-<span id="cb9-5"><a href="#cb9-5" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(segundos(<span class="dv">2</span>,<span class="dv">15</span>,<span class="dv">30</span>))</span></code></pre></div>
-<h1 id="listas-e-iteração">Listas e iteração</h1>
-<h2 id="exercício-2.1">Exercício 2.1</h2>
+<p>Escreva uma função <code>radianos(graus,mins,segs)</code> que, dado o valor de um ângulo em graus, minutos e segundos, converte-o para radianos. Relembre que <span class="math inline">\(360º\)</span> corresponde a <span class="math inline">\(2 \pi\)</span> radianos, cada grau tem 60 minutos e cada minuto tem 60 segundos. Por exemplo:</p>
+<div class="sourceCode" id="cb9"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="op">&gt;</span> radianos(<span class="dv">0</span>,<span class="dv">0</span>,<span class="dv">60</span>)</span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a><span class="fl">0.0002908882086657216</span></span>
+<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a><span class="op">&gt;</span> radianos(<span class="dv">0</span>,<span class="dv">60</span>,<span class="dv">0</span>)</span>
+<span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a><span class="fl">0.017453292519943295</span></span>
+<span id="cb9-5"><a href="#cb9-5" aria-hidden="true" tabindex="-1"></a><span class="op">&gt;</span> radianos(<span class="dv">180</span>,<span class="dv">10</span>,<span class="dv">40</span>)</span>
+<span id="cb9-6"><a href="#cb9-6" aria-hidden="true" tabindex="-1"></a><span class="fl">3.144695461148894</span></span></code></pre></div>
+<details>
+<summary>
+Solução
+</summary>
+<div class="sourceCode" id="cb10"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> radianos(graus,mins,segs):</span>
+<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a>    mins <span class="op">=</span> mins <span class="op">+</span> segs <span class="op">/</span> <span class="dv">60</span></span>
+<span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a>    graus <span class="op">=</span> graus <span class="op">+</span> mins <span class="op">/</span> <span class="dv">60</span></span>
+<span id="cb10-4"><a href="#cb10-4" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> graus <span class="op">*</span> (<span class="dv">2</span> <span class="op">*</span> math.pi <span class="op">/</span> <span class="dv">360</span>)</span></code></pre></div>
+</details>
+<h3 id="exercício-1.6">Exercício 1.6</h3>
+<p>Escreva uma função <code>segundos(horas,mins,segs)</code> que, dada uma duração em horas, minutos e segundos, calcula e retorna essa mesma duração em segundos. Por exemplo:</p>
+<div class="sourceCode" id="cb11"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="op">&gt;</span> segundos(<span class="dv">2</span>,<span class="dv">15</span>,<span class="dv">30</span>)</span>
+<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a><span class="dv">8130</span></span></code></pre></div>
+<details>
+<summary>
+Solução
+</summary>
+<div class="sourceCode" id="cb12"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> segundos(horas,mins,segs):</span>
+<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a>    mins <span class="op">=</span> mins <span class="op">+</span> horas <span class="op">*</span> <span class="dv">60</span></span>
+<span id="cb12-3"><a href="#cb12-3" aria-hidden="true" tabindex="-1"></a>    segs <span class="op">=</span> segs <span class="op">+</span> mins <span class="op">*</span> <span class="dv">60</span></span>
+<span id="cb12-4"><a href="#cb12-4" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> segs</span></code></pre></div>
+</details>
+<h3 id="exercício-1.7">Exercício 1.7</h3>
+<p>Normalmente calcula-se juros com base num número inteiro de períodos (o número de anos, por exemplo). No entanto, em algumas situações é útil calcular o juro como uma função contínua do tempo. A fórmula para calcular o valor de um investimento ao longo do tempo t é apresentada ao lado, onde <span class="math inline">\(P_0\)</span> é o montante inicial investido, <span class="math inline">\(r\)</span> é a taxa de juro e <span class="math inline">\(t\)</span> é o tempo que passou desde o momento em que se fez o investimento.</p>
+<p><span class="math inline">\(P(t) = P_0 e^{rt}\)</span></p>
+<p>Escreva uma função <code>juros($P_0,r,t$)</code> que calcule <span class="math inline">\(P(P_0)\)</span>, ou seja, que retorne o valor de um investimento <span class="math inline">\(P_0\)</span> no instante <span class="math inline">\(t\)</span>, a uma taxa de juro <span class="math inline">\(r\)</span>.</p>
+<details>
+<summary>
+Solução
+</summary>
+<div class="sourceCode" id="cb13"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> juros(p0,r,t):</span>
+<span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> p0 <span class="op">*</span> math.exp(r <span class="op">*</span> t)</span></code></pre></div>
+</details>
+<h2 id="listas-e-iteração">2 - Listas e iteração</h2>
+<h3 id="exercício-2.1">Exercício 2.1</h3>
 <p>Considere um programa que começa com a atribuição de uma lista de valores de temperatura (em Celsius) à variável <code>tempC</code>:</p>
-<div class="sourceCode" id="cb10"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a>tempC <span class="op">=</span> [<span class="op">-</span><span class="dv">5</span>,<span class="dv">0</span>,<span class="dv">5</span>,<span class="dv">10</span>,<span class="dv">15</span>,<span class="dv">20</span>,<span class="dv">25</span>]</span></code></pre></div>
+<div class="sourceCode" id="cb14"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a>tempC <span class="op">=</span> [<span class="op">-</span><span class="dv">5</span>,<span class="dv">0</span>,<span class="dv">5</span>,<span class="dv">10</span>,<span class="dv">15</span>,<span class="dv">20</span>,<span class="dv">25</span>]</span></code></pre></div>
 <ul>
-<li>Escreva um ciclo <code>for</code> que imprime cada um dos valores da lista <code>tempC</code> numa linha separada.</li>
+<li>Defina uma função <code>tempC1</code> contendo um ciclo <code>for</code> que imprime cada um dos valores da lista <code>tempC</code> numa linha separada. O resultado deve ser</li>
 </ul>
-<div class="sourceCode" id="cb11"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> tempC1():</span>
-<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> temp <span class="kw">in</span> tempC:</span>
-<span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a>        <span class="bu">print</span>(temp)</span>
-<span id="cb11-4"><a href="#cb11-4" aria-hidden="true" tabindex="-1"></a>``</span>
-<span id="cb11-5"><a href="#cb11-5" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb11-6"><a href="#cb11-6" aria-hidden="true" tabindex="-1"></a><span class="op">*</span> Imprima os mesmos valores, gerando<span class="op">-</span>os com a função `range`.</span>
-<span id="cb11-7"><a href="#cb11-7" aria-hidden="true" tabindex="-1"></a>```python</span>
-<span id="cb11-8"><a href="#cb11-8" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> tempC2():</span>
-<span id="cb11-9"><a href="#cb11-9" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> temp <span class="kw">in</span> <span class="bu">range</span>(<span class="op">-</span><span class="dv">5</span>,<span class="dv">30</span>,<span class="dv">5</span>):</span>
-<span id="cb11-10"><a href="#cb11-10" aria-hidden="true" tabindex="-1"></a>        <span class="bu">print</span>(temp)</span></code></pre></div>
+<div class="sourceCode" id="cb15"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a><span class="op">&gt;</span> tempC1()</span>
+<span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a><span class="op">-</span><span class="dv">5</span></span>
+<span id="cb15-3"><a href="#cb15-3" aria-hidden="true" tabindex="-1"></a><span class="dv">0</span></span>
+<span id="cb15-4"><a href="#cb15-4" aria-hidden="true" tabindex="-1"></a><span class="dv">5</span></span>
+<span id="cb15-5"><a href="#cb15-5" aria-hidden="true" tabindex="-1"></a><span class="dv">10</span></span>
+<span id="cb15-6"><a href="#cb15-6" aria-hidden="true" tabindex="-1"></a><span class="dv">15</span></span>
+<span id="cb15-7"><a href="#cb15-7" aria-hidden="true" tabindex="-1"></a><span class="dv">20</span></span>
+<span id="cb15-8"><a href="#cb15-8" aria-hidden="true" tabindex="-1"></a><span class="dv">25</span></span></code></pre></div>
+<details>
+<summary>
+Solução
+</summary>
+<div class="sourceCode" id="cb16"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> tempC1():</span>
+<span id="cb16-2"><a href="#cb16-2" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> temp <span class="kw">in</span> tempC:</span>
+<span id="cb16-3"><a href="#cb16-3" aria-hidden="true" tabindex="-1"></a>        <span class="bu">print</span>(temp)</span></code></pre></div>
+</details>
 <ul>
-<li>Escreva um ciclo <code>while</code> que produza o mesmo resultado da alínea anterior.</li>
+<li>Defina uma função <code>tempC2</code> que imprima os mesmos valores, gerando-os com a função <code>range</code>.
+<details>
+<summary>
+Solução
+</summary></li>
 </ul>
-<div class="sourceCode" id="cb12"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> tempC3():</span>
-<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a>    temp <span class="op">=</span> <span class="op">-</span><span class="dv">5</span></span>
-<span id="cb12-3"><a href="#cb12-3" aria-hidden="true" tabindex="-1"></a>    <span class="cf">while</span> (temp <span class="op">&lt;=</span> <span class="dv">25</span>):</span>
-<span id="cb12-4"><a href="#cb12-4" aria-hidden="true" tabindex="-1"></a>        <span class="bu">print</span>(temp)</span>
-<span id="cb12-5"><a href="#cb12-5" aria-hidden="true" tabindex="-1"></a>        temp <span class="op">+=</span> <span class="dv">5</span></span></code></pre></div>
+<div class="sourceCode" id="cb17"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> tempC2():</span>
+<span id="cb17-2"><a href="#cb17-2" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> temp <span class="kw">in</span> <span class="bu">range</span>(<span class="op">-</span><span class="dv">5</span>,<span class="dv">30</span>,<span class="dv">5</span>):</span>
+<span id="cb17-3"><a href="#cb17-3" aria-hidden="true" tabindex="-1"></a>        <span class="bu">print</span>(temp)</span></code></pre></div>
+</details>
 <ul>
-<li>Escreva um ciclo em que para os valores de temperatura acima, em cada linha imprime o valor em Celsius e o valor correspondente em Fahrenheit.</li>
+<li>Defina uma função <code>tempC3</code> que utilize um ciclo <code>while</code> para produzir o mesmo resultado da alínea anterior.
+<details>
+<summary>
+Solução
+</summary></li>
 </ul>
-<div class="sourceCode" id="cb13"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> fahrenheit(c):</span>
-<span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> c <span class="op">*</span> (<span class="dv">9</span><span class="op">/</span><span class="dv">5</span>) <span class="op">+</span> <span class="dv">32</span></span>
-<span id="cb13-3"><a href="#cb13-3" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> tempC4():</span>
-<span id="cb13-4"><a href="#cb13-4" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> temp <span class="kw">in</span> tempC:</span>
-<span id="cb13-5"><a href="#cb13-5" aria-hidden="true" tabindex="-1"></a>        <span class="bu">print</span>(temp,fahrenheit(temp))</span></code></pre></div>
-<h2 id="exercício-2.2">Exercício 2.2</h2>
+<div class="sourceCode" id="cb18"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> tempC3():</span>
+<span id="cb18-2"><a href="#cb18-2" aria-hidden="true" tabindex="-1"></a>    temp <span class="op">=</span> <span class="op">-</span><span class="dv">5</span></span>
+<span id="cb18-3"><a href="#cb18-3" aria-hidden="true" tabindex="-1"></a>    <span class="cf">while</span> (temp <span class="op">&lt;=</span> <span class="dv">25</span>):</span>
+<span id="cb18-4"><a href="#cb18-4" aria-hidden="true" tabindex="-1"></a>        <span class="bu">print</span>(temp)</span>
+<span id="cb18-5"><a href="#cb18-5" aria-hidden="true" tabindex="-1"></a>        temp <span class="op">+=</span> <span class="dv">5</span></span></code></pre></div>
+</details>
+<ul>
+<li>Defina uma função <code>tempC4</code> que utilize um ciclo em que para os valores de temperatura acima, em cada linha imprime o valor em Celsius e o valor correspondente em Fahrenheit.
+<details>
+<summary>
+Solução
+</summary></li>
+</ul>
+<div class="sourceCode" id="cb19"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> fahrenheit(c):</span>
+<span id="cb19-2"><a href="#cb19-2" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> c <span class="op">*</span> (<span class="dv">9</span><span class="op">/</span><span class="dv">5</span>) <span class="op">+</span> <span class="dv">32</span></span>
+<span id="cb19-3"><a href="#cb19-3" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> tempC4():</span>
+<span id="cb19-4"><a href="#cb19-4" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> temp <span class="kw">in</span> tempC:</span>
+<span id="cb19-5"><a href="#cb19-5" aria-hidden="true" tabindex="-1"></a>        <span class="bu">print</span>(temp,fahrenheit(temp))</span></code></pre></div>
+</details>
+<h3 id="exercício-2.2">Exercício 2.2</h3>
 <p>Considere um programa que começa com a seguinte atribuição:</p>
-<div class="sourceCode" id="cb14"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a>xs <span class="op">=</span> [<span class="dv">12</span>, <span class="dv">10</span>, <span class="dv">32</span>, <span class="dv">3</span>, <span class="dv">66</span>, <span class="dv">17</span>, <span class="dv">42</span>, <span class="dv">99</span>, <span class="dv">20</span>]</span></code></pre></div>
+<div class="sourceCode" id="cb20"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a>xs <span class="op">=</span> [<span class="dv">12</span>, <span class="dv">10</span>, <span class="dv">32</span>, <span class="dv">3</span>, <span class="dv">66</span>, <span class="dv">17</span>, <span class="dv">42</span>, <span class="dv">99</span>, <span class="dv">20</span>]</span></code></pre></div>
 <ul>
-<li>Escreva um ciclo <code>for</code> que imprime cada um dos números da lista xs numa linha separada.</li>
+<li>Defina uma função <code>ex22_1</code> contendo um ciclo <code>for</code> que imprime cada um dos números da lista <code>xs</code> numa linha separada. Ou seja:</li>
 </ul>
-<p>for x in xs: print(x)</p>
+<div class="sourceCode" id="cb21"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a><span class="op">&gt;</span> ex22_1()</span>
+<span id="cb21-2"><a href="#cb21-2" aria-hidden="true" tabindex="-1"></a><span class="dv">12</span></span>
+<span id="cb21-3"><a href="#cb21-3" aria-hidden="true" tabindex="-1"></a><span class="dv">10</span></span>
+<span id="cb21-4"><a href="#cb21-4" aria-hidden="true" tabindex="-1"></a><span class="dv">32</span></span>
+<span id="cb21-5"><a href="#cb21-5" aria-hidden="true" tabindex="-1"></a><span class="dv">3</span></span>
+<span id="cb21-6"><a href="#cb21-6" aria-hidden="true" tabindex="-1"></a><span class="dv">66</span></span>
+<span id="cb21-7"><a href="#cb21-7" aria-hidden="true" tabindex="-1"></a><span class="dv">17</span></span>
+<span id="cb21-8"><a href="#cb21-8" aria-hidden="true" tabindex="-1"></a><span class="dv">42</span></span>
+<span id="cb21-9"><a href="#cb21-9" aria-hidden="true" tabindex="-1"></a><span class="dv">99</span></span>
+<span id="cb21-10"><a href="#cb21-10" aria-hidden="true" tabindex="-1"></a><span class="dv">20</span></span></code></pre></div>
+<details>
+<summary>
+Solução
+</summary>
+<div class="sourceCode" id="cb22"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> ex22_1():</span>
+<span id="cb22-2"><a href="#cb22-2" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> x <span class="kw">in</span> xs:</span>
+<span id="cb22-3"><a href="#cb22-3" aria-hidden="true" tabindex="-1"></a>        <span class="bu">print</span>(x)</span></code></pre></div>
+</details>
 <ul>
-<li>Escreva um outro ciclo em que, em cada linha, imprime o número, o seu quadrado, e a sua raiz quadrada.</li>
+<li>Defina uma função <code>ex22_2</code> contendo um outro ciclo em que, em cada linha, imprime o número, o seu quadrado, e a sua raiz quadrada.
+<details>
+<summary>
+Solução
+</summary></li>
 </ul>
-<p>for x in xs: print(x,x**2,math.sqrt(x))</p>
+<div class="sourceCode" id="cb23"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> ex22_2():</span>
+<span id="cb23-2"><a href="#cb23-2" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> x <span class="kw">in</span> xs:</span>
+<span id="cb23-3"><a href="#cb23-3" aria-hidden="true" tabindex="-1"></a>        <span class="bu">print</span>(x,x<span class="op">**</span><span class="dv">2</span>,math.sqrt(x))</span></code></pre></div>
+</details>
 <ul>
-<li>Escreva um ciclo que soma todos os números em xs usando uma variável auxiliar total, e imprime numa linha separada cada um dos números da lista e a soma parcial até esse número.</li>
+<li>Defina uma função <code>ex22_3</code> contendo um ciclo que soma todos os números em xs usando uma variável auxiliar total, e imprime numa linha separada cada um dos números da lista e a soma parcial até esse número.
+<details>
+<summary>
+Solução
+</summary></li>
 </ul>
-<p>total = 0 for x in xs: print(x,total) total += x</p>
-<h2 id="exercício-8">Exercício 8</h2>
-<p>Usando o módulo <code>turtle</code>, escreva uma função poligono_reg(t,n,lado), sem valor de retorno, que faz uma tartaruga t desenhar um polígono regular com n lados de comprimento lado. Por exemplo, com poligono_reg(t, 3, 100) a tartaruga t desenha um triângulo equilátero com 100 pixels de lado.</p>
-<p>Nota: a soma dos ângulos externos de um polígono é <span class="math inline">360°</span></p>
-<p>def poligono_reg(t,n,lado): deg = 360 / n for _ in range(n): t.forward(lado) t.right(deg)</p>
-<p>window = turtle.Screen() alex = turtle.Turtle() poligono_reg(alex,3,100) window.mainloop()</p>
-<h2 id="exercício-9">Exercício 9</h2>
-<p>Usando o módulo turtle, escreva uma função friso(t, n, lado), sem valor de retorno, que desenha um friso em forma de muralha com n ameias em que a largura de cada segmento é lado. Por exemplo: com friso(t, 3, 50) uma tartaruga t produz o desenho da figura seguinte.</p>
-<p>Note que a tartaruga deve terminar com a orientação original</p>
-<p>def friso(t,n,lado): t.right(90) for _ in range(n): t.forward(lado) t.left(90) t.forward(lado) t.right(90) t.forward(lado) t.right(90) t.forward(lado) t.left(90)</p>
-<p>window = turtle.Screen() alex = turtle.Turtle() friso(alex,3,100) window.mainloop()</p>
-<h2 id="exercício-10">Exercício 10</h2>
-<p>O preço atual da gasolina é 1.63 euros por litro. Implemente a função valor(v) que, dada a lista v de litros abastecidos numa viagem, retorna o valor total despendido. Por exemplo, o resultado de <code>valor([24.8, 49.1])</code> é 120.457.</p>
-<p>def valor(v): total = 0 for litro in v: total += litro * 1.63 return total valor([24.8, 49.1])</p>
-<p>def valor_funcional(v): return sum(map(lambda litro : litro * 1.63,v)) valor_funcional([24.8, 49.1])</p>
-<h2 id="processamento-de-strings">Processamento de strings</h2>
-<h2 id="exercício-11">Exercício 11</h2>
-<p>Escreva uma função classifica(p) que, dada a pontuação p obtida num exame (de 0 a 100), retorna uma mensagem de classificação de acordo com a tabela seguinte. Utilize essa função para escrever um programa que imprime o número, nome e classificação segundo essa tabela da lista de alunos que se segue (cada tuplo contém o número de aluno, o seu nome, e a classificação de 0 a 100).</p>
+<div class="sourceCode" id="cb24"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb24-1"><a href="#cb24-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> ex22_3():</span>
+<span id="cb24-2"><a href="#cb24-2" aria-hidden="true" tabindex="-1"></a>    total <span class="op">=</span> <span class="dv">0</span></span>
+<span id="cb24-3"><a href="#cb24-3" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> x <span class="kw">in</span> xs:</span>
+<span id="cb24-4"><a href="#cb24-4" aria-hidden="true" tabindex="-1"></a>        <span class="bu">print</span>(x,total)</span>
+<span id="cb24-5"><a href="#cb24-5" aria-hidden="true" tabindex="-1"></a>        total <span class="op">+=</span> x</span></code></pre></div>
+</details>
+<h3 id="exercício-2.3">Exercício 2.3</h3>
+<p>Usando o módulo <code>turtle</code>, escreva uma função <code>poligono_reg(t,n,lado)</code>, sem valor de retorno, que faz uma tartaruga <code>t</code> desenhar um polígono regular com <code>n</code> lados de comprimento <code>lado</code>. Por exemplo, com <code>poligono_reg(t,3,100)</code> a tartaruga <code>t</code> desenha um triângulo equilátero com 100 pixels de lado.</p>
+<p><strong>Nota:</strong> a soma dos ângulos externos de um polígono é <span class="math inline">\(360°\)</span>.</p>
+<p>Para testar, pode utilizar o seguinte programa:</p>
+<div class="sourceCode" id="cb25"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb25-1"><a href="#cb25-1" aria-hidden="true" tabindex="-1"></a>window <span class="op">=</span> turtle.Screen()</span>
+<span id="cb25-2"><a href="#cb25-2" aria-hidden="true" tabindex="-1"></a>alex <span class="op">=</span> turtle.Turtle()</span>
+<span id="cb25-3"><a href="#cb25-3" aria-hidden="true" tabindex="-1"></a>poligono_reg(alex,<span class="dv">3</span>,<span class="dv">100</span>)</span>
+<span id="cb25-4"><a href="#cb25-4" aria-hidden="true" tabindex="-1"></a>window.mainloop()</span></code></pre></div>
+<p>O resultado esperado será:</p>
+<p><img src="ex_2_3_turtle.png" /></p>
+<details>
+<summary>
+Solução
+</summary>
+<div class="sourceCode" id="cb26"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb26-1"><a href="#cb26-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> poligono_reg(t,n,lado):</span>
+<span id="cb26-2"><a href="#cb26-2" aria-hidden="true" tabindex="-1"></a>    deg <span class="op">=</span> <span class="dv">360</span> <span class="op">/</span> n</span>
+<span id="cb26-3"><a href="#cb26-3" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> _ <span class="kw">in</span> <span class="bu">range</span>(n):</span>
+<span id="cb26-4"><a href="#cb26-4" aria-hidden="true" tabindex="-1"></a>        t.forward(lado)</span>
+<span id="cb26-5"><a href="#cb26-5" aria-hidden="true" tabindex="-1"></a>        t.right(deg)</span></code></pre></div>
+</details>
+<h3 id="exercício-2.4">Exercício 2.4</h3>
+<p>Usando o módulo <code>turtle</code>, escreva uma função <code>friso(t, n, lado)</code>, sem valor de retorno, que desenha um friso em forma de muralha com <code>n</code> ameias em que a largura de cada segmento é <code>lado</code>.</p>
+<p>Note que a tartaruga deve terminar com a orientação original.</p>
+<p>Para testar, pode utilizar o seguinte programa:</p>
+<div class="sourceCode" id="cb27"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb27-1"><a href="#cb27-1" aria-hidden="true" tabindex="-1"></a>window <span class="op">=</span> turtle.Screen()</span>
+<span id="cb27-2"><a href="#cb27-2" aria-hidden="true" tabindex="-1"></a>alex <span class="op">=</span> turtle.Turtle()</span>
+<span id="cb27-3"><a href="#cb27-3" aria-hidden="true" tabindex="-1"></a>friso(alex,<span class="dv">2</span>,<span class="dv">50</span>)</span>
+<span id="cb27-4"><a href="#cb27-4" aria-hidden="true" tabindex="-1"></a>window.mainloop()</span></code></pre></div>
+<p>O resultado esperado será o desenho da figura seguinte:</p>
+<p><img src="ex_2_4_turtle.png" /></p>
+<details>
+<summary>
+Solução
+</summary>
+<div class="sourceCode" id="cb28"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb28-1"><a href="#cb28-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> friso(t,n,lado):</span>
+<span id="cb28-2"><a href="#cb28-2" aria-hidden="true" tabindex="-1"></a>    t.right(<span class="dv">90</span>)</span>
+<span id="cb28-3"><a href="#cb28-3" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> _ <span class="kw">in</span> <span class="bu">range</span>(n):</span>
+<span id="cb28-4"><a href="#cb28-4" aria-hidden="true" tabindex="-1"></a>        t.forward(lado)</span>
+<span id="cb28-5"><a href="#cb28-5" aria-hidden="true" tabindex="-1"></a>        t.left(<span class="dv">90</span>)</span>
+<span id="cb28-6"><a href="#cb28-6" aria-hidden="true" tabindex="-1"></a>        t.forward(lado)</span>
+<span id="cb28-7"><a href="#cb28-7" aria-hidden="true" tabindex="-1"></a>        t.right(<span class="dv">90</span>)</span>
+<span id="cb28-8"><a href="#cb28-8" aria-hidden="true" tabindex="-1"></a>        t.forward(lado)</span>
+<span id="cb28-9"><a href="#cb28-9" aria-hidden="true" tabindex="-1"></a>        t.right(<span class="dv">90</span>)</span>
+<span id="cb28-10"><a href="#cb28-10" aria-hidden="true" tabindex="-1"></a>        t.forward(lado)</span>
+<span id="cb28-11"><a href="#cb28-11" aria-hidden="true" tabindex="-1"></a>        t.left(<span class="dv">90</span>)</span></code></pre></div>
+</details>
+<h3 id="exercício-2.5">Exercício 2.5</h3>
+<p>O preço atual da gasolina é 1.63 euros por litro. Implemente a função <code>valor(v)</code> que, dada a lista <code>v</code> de litros abastecidos numa viagem, retorna o valor total despendido. Por exemplo:</p>
+<div class="sourceCode" id="cb29"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb29-1"><a href="#cb29-1" aria-hidden="true" tabindex="-1"></a><span class="op">&gt;</span> valor([<span class="fl">24.8</span>, <span class="fl">49.1</span>])</span>
+<span id="cb29-2"><a href="#cb29-2" aria-hidden="true" tabindex="-1"></a><span class="fl">120.457</span></span></code></pre></div>
+<details>
+<summary>
+Solução
+</summary>
+<div class="sourceCode" id="cb30"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb30-1"><a href="#cb30-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> valor(v):</span>
+<span id="cb30-2"><a href="#cb30-2" aria-hidden="true" tabindex="-1"></a>    total <span class="op">=</span> <span class="dv">0</span></span>
+<span id="cb30-3"><a href="#cb30-3" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> litro <span class="kw">in</span> v:</span>
+<span id="cb30-4"><a href="#cb30-4" aria-hidden="true" tabindex="-1"></a>        total <span class="op">+=</span> litro <span class="op">*</span> <span class="fl">1.63</span></span>
+<span id="cb30-5"><a href="#cb30-5" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> total</span></code></pre></div>
+</details>
+<details>
+<summary>
+Solução 2 - Funcional
+</summary>
+<div class="sourceCode" id="cb31"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb31-1"><a href="#cb31-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> valor(v):</span>
+<span id="cb31-2"><a href="#cb31-2" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> <span class="bu">sum</span>(<span class="bu">map</span>(<span class="kw">lambda</span> litro : litro <span class="op">*</span> <span class="fl">1.63</span>,v))</span></code></pre></div>
+</details>
+<h3 id="exercício-2.6">Exercício 2.6</h3>
+<p>Escreva uma função <code>classifica(p)</code> que, dada uma pontuação <code>p</code> obtida num exame (de 0 a 100) retorna uma mensagem de classificação de acordo com a tabela seguinte. Utilize essa função para escrever um programa que imprime o número, nome e classificação segundo essa tabela da lista de alunos que se segue (cada tuplo contém o número de aluno, o seu nome, e a classificação de 0 a 100).</p>
 <table>
 <thead>
 <tr class="header">
@@ -138,103 +492,323 @@ Solução
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: center;"><span class="math display"> &lt; 0  ∨  &gt; 100</span></td>
+<td style="text-align: center;"><span class="math display">\[&lt; 0 \,\vee &gt; 100\]</span></td>
 <td style="text-align: center;">“inválido”</td>
 </tr>
 <tr class="even">
-<td style="text-align: center;"><span class="math display"> &lt; 50</span></td>
+<td style="text-align: center;"><span class="math display">\[&lt; 50\]</span></td>
 <td style="text-align: center;">“insuficiente”</td>
 </tr>
 <tr class="odd">
-<td style="text-align: center;"><span class="math display"> ≥ 50  ∧  &lt; 70</span></td>
+<td style="text-align: center;"><span class="math display">\[\geq 50 \,\wedge &lt; 70\]</span></td>
 <td style="text-align: center;">“suficiente”</td>
 </tr>
 <tr class="even">
-<td style="text-align: center;"><span class="math display"> ≥ 70  ∧  &lt; 80</span></td>
+<td style="text-align: center;"><span class="math display">\[\geq 70 \,\wedge &lt; 80\]</span></td>
 <td style="text-align: center;">“bom”</td>
 </tr>
 <tr class="odd">
-<td style="text-align: center;"><span class="math display"> ≥ 80  ∧  &lt; 90</span></td>
+<td style="text-align: center;"><span class="math display">\[\geq 80 \,\wedge &lt; 90\]</span></td>
 <td style="text-align: center;">“muito bom”</td>
 </tr>
 <tr class="even">
-<td style="text-align: center;"><span class="math display"> ≥ 90</span></td>
+<td style="text-align: center;"><span class="math display">\[\geq 90\]</span></td>
 <td style="text-align: center;">“excelente”</td>
 </tr>
 </tbody>
 </table>
-<p>studs = [(“UP194187304”, “José Fonseca”, 97),<br />
-(“UP194209183”, “Manuel Ferreira”, 87),<br />
-(“UP194294793”, “Maria Ramos”, 50),<br />
-(“UP194399128”, “Antonio Fernandes”, 45),<br />
-(“UP194739873”, “Júlia Pinto”, -1),<br />
-(“UP194739889”, “Manuela Faria”, 50)]</p>
-<p>def converte_nota(n): if n &lt; 0 | n &gt; 100: return “inválido” elif n &lt; 50: return “insuficiente” elif n &gt;=50 and n &lt; 70: return “suficiente” elif n &gt;= 70 and n &lt; 80: return “bom” elif n &gt;= 80 and n &lt; 90: return “muito bom” else: return “excelente” def classifica(p): for numero,nome,nota in studs: print(numero,nome,converte_nota(nota)) classifica(studs)</p>
-<h2 id="exercício-12">Exercício 12</h2>
-<p>A fórmula de Leibniz para aproximar <span class="math inline"><em>π</em></span> é: <span class="math display">$$ \pi = 4 x (1 - \frac{1}{3} + \frac{1}{5} - \frac{1}{7} + \frac{1}{9} + \dots) = 4 * \sum_{n=0}^{\infty} \frac{(-1)^n}{2 n + 1} $$</span></p>
-<p>Implemente a função leibniz(k) que resulta no somatório dos primeiros k termos desta série. Documente a sua função com uma docstring.</p>
-<p>def leibniz(k): “““Calcula a fórmula de Leibniz para os primeiros k termos”“” return 4 * sum([ ((-1)**n / (2 * n + 1)) for n in range(k) ]) leibniz(4)</p>
-<h2 id="exercício-13">Exercício 13</h2>
-<p>Implemente a função sum_within(x, a, b) que calcula a soma dos valores da lista x que estão compreendidos entre a e b. Por exemplo, o resultado de <code>sum_within([4, 7, 44, 23], 17, 46)</code> é 67.</p>
-<p>def sum_within(x,a,b): s = 0 for n in x: if n &gt;= a and n &lt;= b: s+= n return s sum_within([4, 7, 44, 23], 17, 46)</p>
-<p>def sum_wihin_compreensao(x,a,b): return sum([n for n in x if n &gt;= a and n &lt;= b ]) sum_wihin_compreensao([4, 7, 44, 23], 17, 46)</p>
-<h2 id="exercício-6.5">Exercício 6.5</h2>
-<p>Escreva a função maximo2(xs) que calcula o segundo maior valor numa lista xs. Verifique que o procedimento retorna o valor correcto quando o maior valor ocorre mais do que uma vez.</p>
-<p>Nota: Ignore a palavra distinto no enunciado original.</p>
+<p>Por exemplo, para a seguinte lista de pontuações:</p>
+<div class="sourceCode" id="cb32"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb32-1"><a href="#cb32-1" aria-hidden="true" tabindex="-1"></a>studs <span class="op">=</span> [(<span class="st">&quot;UP194187304&quot;</span>, <span class="st">&quot;José Fonseca&quot;</span>, <span class="dv">97</span>),<span class="op">\</span></span>
+<span id="cb32-2"><a href="#cb32-2" aria-hidden="true" tabindex="-1"></a>         (<span class="st">&quot;UP194209183&quot;</span>, <span class="st">&quot;Manuel Ferreira&quot;</span>, <span class="dv">87</span>),<span class="op">\</span></span>
+<span id="cb32-3"><a href="#cb32-3" aria-hidden="true" tabindex="-1"></a>         (<span class="st">&quot;UP194294793&quot;</span>, <span class="st">&quot;Maria Ramos&quot;</span>, <span class="dv">50</span>),<span class="op">\</span></span>
+<span id="cb32-4"><a href="#cb32-4" aria-hidden="true" tabindex="-1"></a>         (<span class="st">&quot;UP194399128&quot;</span>, <span class="st">&quot;Antonio Fernandes&quot;</span>, <span class="dv">45</span>),<span class="op">\</span></span>
+<span id="cb32-5"><a href="#cb32-5" aria-hidden="true" tabindex="-1"></a>         (<span class="st">&quot;UP194739873&quot;</span>, <span class="st">&quot;Júlia Pinto&quot;</span>, <span class="op">-</span><span class="dv">1</span>),<span class="op">\</span></span>
+<span id="cb32-6"><a href="#cb32-6" aria-hidden="true" tabindex="-1"></a>         (<span class="st">&quot;UP194739889&quot;</span>, <span class="st">&quot;Manuela Faria&quot;</span>, <span class="dv">50</span>)]</span></code></pre></div>
+<p>a invocação <code>classifica(studs)</code> deve imprimir:</p>
+<div class="sourceCode" id="cb33"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb33-1"><a href="#cb33-1" aria-hidden="true" tabindex="-1"></a>UP194187304 José Fonseca excelente</span>
+<span id="cb33-2"><a href="#cb33-2" aria-hidden="true" tabindex="-1"></a>UP194209183 Manuel Ferreira muito bom</span>
+<span id="cb33-3"><a href="#cb33-3" aria-hidden="true" tabindex="-1"></a>UP194294793 Maria Ramos suficiente</span>
+<span id="cb33-4"><a href="#cb33-4" aria-hidden="true" tabindex="-1"></a>UP194399128 Antonio Fernandes insuficiente</span>
+<span id="cb33-5"><a href="#cb33-5" aria-hidden="true" tabindex="-1"></a>UP194739873 Júlia Pinto insuficiente</span>
+<span id="cb33-6"><a href="#cb33-6" aria-hidden="true" tabindex="-1"></a>UP194739889 Manuela Faria suficiente</span></code></pre></div>
+<details>
+<summary>
+Solução
+</summary>
+<div class="sourceCode" id="cb34"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb34-1"><a href="#cb34-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> converte_nota(n):</span>
+<span id="cb34-2"><a href="#cb34-2" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> n <span class="op">&lt;</span> <span class="dv">0</span> <span class="op">|</span> n <span class="op">&gt;</span> <span class="dv">100</span>: <span class="cf">return</span> <span class="st">&quot;inválido&quot;</span></span>
+<span id="cb34-3"><a href="#cb34-3" aria-hidden="true" tabindex="-1"></a>    <span class="cf">elif</span> n <span class="op">&lt;</span> <span class="dv">50</span>: <span class="cf">return</span> <span class="st">&quot;insuficiente&quot;</span></span>
+<span id="cb34-4"><a href="#cb34-4" aria-hidden="true" tabindex="-1"></a>    <span class="cf">elif</span> n <span class="op">&gt;=</span><span class="dv">50</span> <span class="kw">and</span> n <span class="op">&lt;</span> <span class="dv">70</span>: <span class="cf">return</span> <span class="st">&quot;suficiente&quot;</span></span>
+<span id="cb34-5"><a href="#cb34-5" aria-hidden="true" tabindex="-1"></a>    <span class="cf">elif</span> n <span class="op">&gt;=</span> <span class="dv">70</span> <span class="kw">and</span> n <span class="op">&lt;</span> <span class="dv">80</span>: <span class="cf">return</span> <span class="st">&quot;bom&quot;</span></span>
+<span id="cb34-6"><a href="#cb34-6" aria-hidden="true" tabindex="-1"></a>    <span class="cf">elif</span> n <span class="op">&gt;=</span> <span class="dv">80</span> <span class="kw">and</span> n <span class="op">&lt;</span> <span class="dv">90</span>: <span class="cf">return</span> <span class="st">&quot;muito bom&quot;</span></span>
+<span id="cb34-7"><a href="#cb34-7" aria-hidden="true" tabindex="-1"></a>    <span class="cf">else</span>: <span class="cf">return</span> <span class="st">&quot;excelente&quot;</span></span>
+<span id="cb34-8"><a href="#cb34-8" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> classifica(p):</span>
+<span id="cb34-9"><a href="#cb34-9" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> numero,nome,nota <span class="kw">in</span> p:</span>
+<span id="cb34-10"><a href="#cb34-10" aria-hidden="true" tabindex="-1"></a>        <span class="bu">print</span>(numero,nome,converte_nota(nota))</span></code></pre></div>
+</details>
+<h3 id="exercício-2.7">Exercício 2.7</h3>
+<p>A fórmula de Leibniz para aproximar <span class="math inline">\(\pi\)</span> é: <span class="math display">\[ \pi = 4 x (1 - \frac{1}{3} + \frac{1}{5} - \frac{1}{7} + \frac{1}{9} + \dots) = 4 * \sum_{n=0}^{\infty} \frac{(-1)^n}{2 n + 1} \]</span></p>
+<p>Implemente a função <code>leibniz(k)</code> que resulta no somatório dos primeiros <code>k</code> termos desta série. Por exemplo:</p>
+<div class="sourceCode" id="cb35"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb35-1"><a href="#cb35-1" aria-hidden="true" tabindex="-1"></a><span class="op">&gt;</span> leibniz(<span class="dv">4</span>)</span>
+<span id="cb35-2"><a href="#cb35-2" aria-hidden="true" tabindex="-1"></a><span class="fl">2.8952380952380956</span></span></code></pre></div>
+Adicionalmente, documente a sua função com uma docstring.
+<details>
+<summary>
+Solução
+</summary>
+<div class="sourceCode" id="cb36"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb36-1"><a href="#cb36-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> leibniz(k):</span>
+<span id="cb36-2"><a href="#cb36-2" aria-hidden="true" tabindex="-1"></a>    <span class="co">&quot;&quot;&quot;Calcula a fórmula de Leibniz para os primeiros k termos&quot;&quot;&quot;</span></span>
+<span id="cb36-3"><a href="#cb36-3" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> <span class="dv">4</span> <span class="op">*</span> <span class="bu">sum</span>([ ((<span class="op">-</span><span class="dv">1</span>)<span class="op">**</span>n <span class="op">/</span> (<span class="dv">2</span> <span class="op">*</span> n <span class="op">+</span> <span class="dv">1</span>)) <span class="cf">for</span> n <span class="kw">in</span> <span class="bu">range</span>(k) ])</span></code></pre></div>
+</details>
+<h3 id="exercício-2.8">Exercício 2.8</h3>
+Implemente a função <code>sum_within(x, a, b)</code> que calcula a soma dos valores da lista <code>x</code> que estão compreendidos entre <code>a</code> e <code>b</code>. Por exemplo, o resultado de <code>sum_within([4, 7, 44, 23], 17, 46)</code> é <code>67</code>.
+<details>
+<summary>
+Solução
+</summary>
+<div class="sourceCode" id="cb37"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb37-1"><a href="#cb37-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> sum_within(x,a,b):</span>
+<span id="cb37-2"><a href="#cb37-2" aria-hidden="true" tabindex="-1"></a>    s <span class="op">=</span> <span class="dv">0</span></span>
+<span id="cb37-3"><a href="#cb37-3" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> n <span class="kw">in</span> x:</span>
+<span id="cb37-4"><a href="#cb37-4" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> n <span class="op">&gt;=</span> a <span class="kw">and</span> n <span class="op">&lt;=</span> b: s<span class="op">+=</span> n</span>
+<span id="cb37-5"><a href="#cb37-5" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> s</span></code></pre></div>
+</details>
+<details>
+<summary>
+Solução 2 - Compreensão
+</summary>
+<div class="sourceCode" id="cb38"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb38-1"><a href="#cb38-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> sum_wihin(x,a,b):</span>
+<span id="cb38-2"><a href="#cb38-2" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> <span class="bu">sum</span>([n  <span class="cf">for</span> n <span class="kw">in</span> x <span class="cf">if</span> n <span class="op">&gt;=</span> a <span class="kw">and</span> n <span class="op">&lt;=</span> b ])</span>
+<span id="cb38-3"><a href="#cb38-3" aria-hidden="true" tabindex="-1"></a>sum_wihin([<span class="dv">4</span>, <span class="dv">7</span>, <span class="dv">44</span>, <span class="dv">23</span>], <span class="dv">17</span>, <span class="dv">46</span>)</span></code></pre></div>
+</details>
+<h3 id="exercício-2.9">Exercício 2.9</h3>
+<p>Escreva a função <code>maximo2(xs)</code> que calcula o segundo maior valor numa lista <code>xs</code>. Verifique que o procedimento retorna o valor correcto quando o maior valor ocorre mais do que uma vez.</p>
 <p>Exemplos:</p>
-<pre><code>&gt;&gt;&gt; maximo2([3, -2, 1, 0, -2, 1])
-1
-&gt;&gt;&gt; maximo2([1, 3, 2, 3, 0])
-2</code></pre>
-<p>def maximo2(xs): m1 = float(‘-inf’) m2 = float(‘-inf’) for x in xs: if x &gt; m1: m1=x elif x &gt; m2 and x != m1: m2=x return m2 print(maximo2([3, -2, 1, 0, -2, 1])) print(maximo2([1, 3, 2, 3, 0]))</p>
-<p>def maximo2_set(xs): non_reps = set(xs) non_reps.remove(max(non_reps)) return max(non_reps) print(maximo2_set([3, -2, 1, 0, -2, 1])) print(maximo2_set([1, 3, 2, 3, 0]))</p>
-<h2 id="exercício-6.7">Exercício 6.7</h2>
-<p>Escreva uma função repetidos(lista) que testa se há elementos repetidos numa lista; o resultado deve ser um valor lógico. A sua função deve funcionar com listas de vários tipos (e.g. de números ou de cadeias de carateres).</p>
+<div class="sourceCode" id="cb39"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb39-1"><a href="#cb39-1" aria-hidden="true" tabindex="-1"></a><span class="op">&gt;</span> maximo2([<span class="dv">3</span>, <span class="op">-</span><span class="dv">2</span>, <span class="dv">1</span>, <span class="dv">0</span>, <span class="op">-</span><span class="dv">2</span>, <span class="dv">1</span>])</span>
+<span id="cb39-2"><a href="#cb39-2" aria-hidden="true" tabindex="-1"></a><span class="dv">1</span></span>
+<span id="cb39-3"><a href="#cb39-3" aria-hidden="true" tabindex="-1"></a><span class="op">&gt;</span> maximo2([<span class="dv">1</span>, <span class="dv">3</span>, <span class="dv">2</span>, <span class="dv">3</span>, <span class="dv">0</span>])</span>
+<span id="cb39-4"><a href="#cb39-4" aria-hidden="true" tabindex="-1"></a><span class="dv">2</span></span></code></pre></div>
+<details>
+<summary>
+Solução
+</summary>
+<div class="sourceCode" id="cb40"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb40-1"><a href="#cb40-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> maximo2(xs):</span>
+<span id="cb40-2"><a href="#cb40-2" aria-hidden="true" tabindex="-1"></a>    m1 <span class="op">=</span> <span class="bu">float</span>(<span class="st">&#39;-inf&#39;</span>)</span>
+<span id="cb40-3"><a href="#cb40-3" aria-hidden="true" tabindex="-1"></a>    m2 <span class="op">=</span> <span class="bu">float</span>(<span class="st">&#39;-inf&#39;</span>)</span>
+<span id="cb40-4"><a href="#cb40-4" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> x <span class="kw">in</span> xs:</span>
+<span id="cb40-5"><a href="#cb40-5" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> x <span class="op">&gt;</span> m1: m1<span class="op">=</span>x</span>
+<span id="cb40-6"><a href="#cb40-6" aria-hidden="true" tabindex="-1"></a>        <span class="cf">elif</span> x <span class="op">&gt;</span> m2 <span class="kw">and</span> x <span class="op">!=</span> m1: m2<span class="op">=</span>x</span>
+<span id="cb40-7"><a href="#cb40-7" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> m2</span></code></pre></div>
+</details>
+<details>
+<summary>
+Solução 2 - Set
+</summary>
+<div class="sourceCode" id="cb41"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb41-1"><a href="#cb41-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> maximo2(xs):</span>
+<span id="cb41-2"><a href="#cb41-2" aria-hidden="true" tabindex="-1"></a>    non_reps <span class="op">=</span> <span class="bu">set</span>(xs)</span>
+<span id="cb41-3"><a href="#cb41-3" aria-hidden="true" tabindex="-1"></a>    non_reps.remove(<span class="bu">max</span>(non_reps))</span>
+<span id="cb41-4"><a href="#cb41-4" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> <span class="bu">max</span>(non_reps)</span></code></pre></div>
+<h3 id="exercício-2.10">Exercício 2.10</h3>
+<p>Escreva uma função <code>repetidos(lista)</code> que testa se há elementos repetidos numa <code>lista</code>; o resultado deve ser um valor lógico. A sua função deve funcionar com listas de elementos de vários tipos (e.g. de números ou de cadeias de carateres).</p>
 <p>Exemplos:</p>
-<pre><code>&gt;&gt;&gt; repetidos([&#39;ola&#39;, &#39;ole&#39;, &#39;abba&#39;, &#39;ole&#39;])
-True
-&gt;&gt;&gt; repetidos([3, 2, -5, 0, 1])
-False</code></pre>
-<p>def repetidos(lista): vistos = [] for x in lista: if x in vistos: return True else: vistos.append(x) return False print(repetidos([‘ola’, ‘ole’, ‘abba’, ‘ole’])) print(repetidos([3, 2, -5, 0, 1]))</p>
-<p>def repetidos_set(lista): return len(lista) != len(set(lista)) print(repetidos_set([‘ola’, ‘ole’, ‘abba’, ‘ole’])) print(repetidos_set([3, 2, -5, 0, 1]))</p>
-<h2 id="exercício-5.1">Exercício 5.1</h2>
-<p>Escreva duas definições da função conta_letras(txt) que retorna o número de letras (maiúsculas ou minúsculas) sem acentos da cadeia de caracteres txt; numa das versões compare os carateres de txt com ‘a’, ‘A’, ‘z’, ‘Z’ e na outra utilize <code>string.letters</code> ou <code>string.ascii_letters</code>.</p>
-<p>Nota: No exercício original dizia para utilizar apenas <code>string.letters</code>, que pode não existir nas versões mais recentes do Python.</p>
+<div class="sourceCode" id="cb42"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb42-1"><a href="#cb42-1" aria-hidden="true" tabindex="-1"></a><span class="op">&gt;</span> repetidos([<span class="st">&#39;ola&#39;</span>, <span class="st">&#39;ole&#39;</span>, <span class="st">&#39;abba&#39;</span>, <span class="st">&#39;ole&#39;</span>])</span>
+<span id="cb42-2"><a href="#cb42-2" aria-hidden="true" tabindex="-1"></a><span class="va">True</span></span>
+<span id="cb42-3"><a href="#cb42-3" aria-hidden="true" tabindex="-1"></a><span class="op">&gt;</span> repetidos([<span class="dv">3</span>, <span class="dv">2</span>, <span class="op">-</span><span class="dv">5</span>, <span class="dv">0</span>, <span class="dv">1</span>])</span>
+<span id="cb42-4"><a href="#cb42-4" aria-hidden="true" tabindex="-1"></a><span class="va">False</span></span></code></pre></div>
+<details>
+<summary>
+Solução
+</summary>
+<div class="sourceCode" id="cb43"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb43-1"><a href="#cb43-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> repetidos(lista):</span>
+<span id="cb43-2"><a href="#cb43-2" aria-hidden="true" tabindex="-1"></a>    vistos <span class="op">=</span> []</span>
+<span id="cb43-3"><a href="#cb43-3" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> x <span class="kw">in</span> lista:</span>
+<span id="cb43-4"><a href="#cb43-4" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> x <span class="kw">in</span> vistos: <span class="cf">return</span> <span class="va">True</span></span>
+<span id="cb43-5"><a href="#cb43-5" aria-hidden="true" tabindex="-1"></a>        <span class="cf">else</span>: vistos.append(x)</span>
+<span id="cb43-6"><a href="#cb43-6" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> <span class="va">False</span></span></code></pre></div>
+</details>
+<details>
+<summary>
+Solução 2 - Set
+</summary>
+<div class="sourceCode" id="cb44"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb44-1"><a href="#cb44-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> repetidos_set(lista):</span>
+<span id="cb44-2"><a href="#cb44-2" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> <span class="bu">len</span>(lista) <span class="op">!=</span> <span class="bu">len</span>(<span class="bu">set</span>(lista))</span></code></pre></div>
+</details>
+<h3 id="exercício-2.11">Exercício 2.11</h3>
+<p>Podemos contar algarismos decimais na representação de um número fazendo divisões inteiras por dez. Por exemplo: 9733 tem 4 algarismos porque podemos fazer quatro divisões sucessivas por 10 obtendo os quocientes 973, 97, 9 e 0 (paramos quando chegamos a zero).</p>
+<p>Escreva uma função <code>algarismos(n)</code> cujo resultado é o número de algarismos decimais de n. <strong>Sugestão:</strong> use um ciclo <code>while</code> para repetir as divisões sucessivas e contar o número de iterações.</p>
+<p>Exemplos:</p>
+<div class="sourceCode" id="cb45"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb45-1"><a href="#cb45-1" aria-hidden="true" tabindex="-1"></a><span class="op">&gt;</span> algarismos(<span class="dv">9</span>)</span>
+<span id="cb45-2"><a href="#cb45-2" aria-hidden="true" tabindex="-1"></a><span class="dv">1</span></span>
+<span id="cb45-3"><a href="#cb45-3" aria-hidden="true" tabindex="-1"></a><span class="op">&gt;</span> algarismos(<span class="dv">1234</span>)</span>
+<span id="cb45-4"><a href="#cb45-4" aria-hidden="true" tabindex="-1"></a><span class="dv">4</span></span></code></pre></div>
+<details>
+<summary>
+Solução
+</summary>
+<div class="sourceCode" id="cb46"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb46-1"><a href="#cb46-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> algarismos(n):</span>
+<span id="cb46-2"><a href="#cb46-2" aria-hidden="true" tabindex="-1"></a>    i <span class="op">=</span> <span class="dv">0</span></span>
+<span id="cb46-3"><a href="#cb46-3" aria-hidden="true" tabindex="-1"></a>    <span class="cf">while</span> (n <span class="op">&gt;</span> <span class="dv">0</span>):</span>
+<span id="cb46-4"><a href="#cb46-4" aria-hidden="true" tabindex="-1"></a>        n <span class="op">//=</span> <span class="dv">10</span></span>
+<span id="cb46-5"><a href="#cb46-5" aria-hidden="true" tabindex="-1"></a>        i<span class="op">+=</span><span class="dv">1</span></span>
+<span id="cb46-6"><a href="#cb46-6" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> i</span></code></pre></div>
+</details>
+<h2 id="processamento-de-strings">3 - Processamento de strings</h2>
+<h3 id="exercício-3.1">Exercício 3.1</h3>
+<p>Escreva duas definições da função <code>conta_letras(txt)</code> que retorna o número de letras (maiúsculas ou minúsculas) sem acentos da cadeia de caracteres <code>txt</code>; numa das versões compare os carateres de <code>txt</code> com <code>'a'</code>, <code>'A'</code>, <code>'z'</code>, <code>'Z'</code> e na outra utilize as funções pré-definidas <code>string.letters</code> ou <code>string.ascii_letters</code>.</p>
 <p>Exemplo:</p>
-<pre><code>&gt;&gt;&gt; conta_letras(&#39;Ola, mundo!&#39;)
-8</code></pre>
-<p>def is_letra(c): return (c &gt;= ‘a’ and c &lt;= ‘z’) or (c &gt;= ‘A’ and c &lt;= ‘Z’) def conta_letras(txt): n = 0 for c in txt: if is_letra(c): n+=1 return n conta_letras(‘Ola, mundo!’)</p>
-<p>def conta_letras_compreensao(txt): return len([ c for c in txt if is_letra(c) ]) conta_letras_compreensao(‘Ola, mundo!’)</p>
-<p>def is_letra2(c): return c.lower() in string.ascii_letters def conta_letras_compreensao2(txt): return len([ c for c in txt if is_letra2(c) ]) conta_letras_compreensao2(‘Ola, mundo!’)</p>
-<h2 id="exercício-5.3">Exercício 5.3</h2>
-<p>Escreva uma definição da função filtra_letras(txt) que, dada uma cadeia de caracteres txt, retorna uma cadeia com apenas as suas letras maiúsculas ou minúsculas.</p>
+<div class="sourceCode" id="cb47"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb47-1"><a href="#cb47-1" aria-hidden="true" tabindex="-1"></a><span class="op">&gt;</span> conta_letras(<span class="st">&#39;Ola, mundo!&#39;</span>)</span>
+<span id="cb47-2"><a href="#cb47-2" aria-hidden="true" tabindex="-1"></a><span class="dv">8</span></span></code></pre></div>
+<details>
+<summary>
+Solução
+</summary>
+<div class="sourceCode" id="cb48"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb48-1"><a href="#cb48-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> is_letra(c):</span>
+<span id="cb48-2"><a href="#cb48-2" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> (c <span class="op">&gt;=</span> <span class="st">&#39;a&#39;</span> <span class="kw">and</span> c <span class="op">&lt;=</span> <span class="st">&#39;z&#39;</span>) <span class="kw">or</span> (c <span class="op">&gt;=</span> <span class="st">&#39;A&#39;</span> <span class="kw">and</span> c <span class="op">&lt;=</span> <span class="st">&#39;Z&#39;</span>)</span>
+<span id="cb48-3"><a href="#cb48-3" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> conta_letras(txt):</span>
+<span id="cb48-4"><a href="#cb48-4" aria-hidden="true" tabindex="-1"></a>    n <span class="op">=</span> <span class="dv">0</span></span>
+<span id="cb48-5"><a href="#cb48-5" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> c <span class="kw">in</span> txt:</span>
+<span id="cb48-6"><a href="#cb48-6" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> is_letra(c): n<span class="op">+=</span><span class="dv">1</span></span>
+<span id="cb48-7"><a href="#cb48-7" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> n</span></code></pre></div>
+</details>
+<details>
+<summary>
+Solução 2 - Compreensão
+</summary>
+<div class="sourceCode" id="cb49"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb49-1"><a href="#cb49-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> conta_letras(txt):</span>
+<span id="cb49-2"><a href="#cb49-2" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> <span class="bu">len</span>([ c <span class="cf">for</span> c <span class="kw">in</span> txt <span class="cf">if</span> is_letra(c) ])</span></code></pre></div>
+</details>
+<details>
+<summary>
+Solução 3 - Compreensão + string function
+</summary>
+<div class="sourceCode" id="cb50"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb50-1"><a href="#cb50-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> is_letra2(c):</span>
+<span id="cb50-2"><a href="#cb50-2" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> c.lower() <span class="kw">in</span> string.ascii_letters</span>
+<span id="cb50-3"><a href="#cb50-3" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> conta_letras_compreensao2(txt):</span>
+<span id="cb50-4"><a href="#cb50-4" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> <span class="bu">len</span>([ c <span class="cf">for</span> c <span class="kw">in</span> txt <span class="cf">if</span> is_letra2(c) ])</span></code></pre></div>
+</details>
+<h3 id="exercício-3.2">Exercício 3.2</h3>
+<p>Escreva uma definição da função <code>filtra_letras(txt)</code> que, dada uma cadeia de caracteres <code>txt</code>, retorna uma cadeia com apenas as suas letras maiúsculas ou minúsculas.</p>
 <p>Exemplo:</p>
-<pre><code>&gt;&gt;&gt; filtra_letras(&#39;Ola!, -- disse ele...&#39;)
-&#39;Oladisseele&#39;</code></pre>
-<p>def filtra_letras(txt): res = “” for c in txt: if is_letra(c): res+=c return res filtra_letras(‘Ola!, – disse ele…’)</p>
-<p>def filtra_letras_compreensao(txt): return ““.join([c for c in txt if is_letra(c) ]) filtra_letras_compreensao(‘Ola!, – disse ele…’)</p>
-<h2 id="exercício-5.5">Exercício 5.5</h2>
-<p>Uma cadeia de carateres é um palíndromo se as sequências obtidas lida da esquerda para a direita e vice-versa são iguais, independentemente das letras serem maiúsculas ou minúsculas. Exemplo: “reviveR” é um palíndromo. Escreva uma definição da função palindromo(txt) que verifica se uma cadeia de caracteres é um palindromo; o resultado deve ser True ou False.</p>
-<p>def palindrono(txt): for i in range(len(txt)//2): if txt[i].lower() != txt[-i-1].lower(): return False return True</p>
-<p>print(palindrono(“reviveR”)) print(palindrono(“aaaa”)) print(palindrono(“ola olo”))</p>
-<h2 id="exercício-5.8">Exercício 5.8</h2>
-<p>A cifra de Cesar consiste em substituir cada carater alfabético de uma mensagem pelo carater que está k posições à sua direita, na ordem alfabética. Escreva a função cesar(k,txt) que retorna o valor cifrado de txt usando a “chave” k.</p>
-<p>def cesar(k,txt): return ““.join([ chr(ord(c)+k) for c in txt ]) cesar(3,”mensagem secreta”)</p>
-<h2 id="exercício-5.11">Exercício 5.11</h2>
-<p>Escreva a função remove_py_com(txt) que remove comentários de linhas de código Python, i.e., os sinais de cardinal # e tudo o que estiver à sua direita. Note que se o cardinal estiver dentro de uma string não é um comentário (considere apenas as strings delimitadas por aspas (“)).</p>
-<p>Exemplo:</p>
-<pre><code>&gt;&gt;&gt; remove_py_com(&quot;def f(x): # f function &quot;)
-&#39;def f(x): &#39;</code></pre>
-<p>Sugestão: use ciclos while. Nota: não é necessário usar métodos da classe str.</p>
-<p>def remove_py_com(txt): stop = False isstring = False i = 0 while (not stop and i &lt; len(txt)): if txt[i] == ‘"’: isstring = not isstring elif txt[i] == ‘#’ and not isstring: stop=True i+=1 return txt[:i-1]</p>
-<p>print(remove_py_com(“def f(x): # f function”)) print(remove_py_com(‘def “#” f(x) # comentário’))</p>
-<h2 id="exercício-6.1">Exercício 6.1</h2>
-<p>Defina uma função forte(passwd) que verifica se uma palavra-passe, dada pela cadeia de caracteres passwd, é forte. Considera-se que a palavra-passe é forte se tiver 8 caracteres ou mais, e incluir pelo menos uma letra maiúscula, uma letra minúscula e um algarismo. O resultado deve ser um valor lógico (True ou False).</p>
-<pre><code>&gt;&gt;&gt; forte(&#39;9EwL56&#39;)
-False
-&gt;&gt;&gt; forte(&#39;HXKW1393&#39;)
-False
-&gt;&gt;&gt; forte(&#39;ffu4G7Fghjk&#39;)
-True</code></pre>
-<p>def forte(passwd): maiusculas = { c for c in passwd if c.isupper() } minusculas = { c for c in passwd if c.islower() } algarismos = { c for c in passwd if c.isdigit() } return len(passwd) &gt;= 8 and len(maiusculas) &gt; 0 and len(minusculas) &gt; 0 and len(algarismos) &gt; 0</p>
-<p>print(forte(‘9EwL56’)) print(forte(‘HXKW1393’)) print(forte(‘ffu4G7Fghjk’))</p>
+<div class="sourceCode" id="cb51"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb51-1"><a href="#cb51-1" aria-hidden="true" tabindex="-1"></a><span class="op">&gt;</span> filtra_letras(<span class="st">&#39;Ola!, -- disse ele...&#39;</span>)</span>
+<span id="cb51-2"><a href="#cb51-2" aria-hidden="true" tabindex="-1"></a><span class="co">&#39;Oladisseele&#39;</span></span></code></pre></div>
+<details>
+<summary>
+Solução
+</summary>
+<div class="sourceCode" id="cb52"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb52-1"><a href="#cb52-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> filtra_letras(txt):</span>
+<span id="cb52-2"><a href="#cb52-2" aria-hidden="true" tabindex="-1"></a>    res <span class="op">=</span> <span class="st">&quot;&quot;</span></span>
+<span id="cb52-3"><a href="#cb52-3" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> c <span class="kw">in</span> txt:</span>
+<span id="cb52-4"><a href="#cb52-4" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> is_letra(c): res<span class="op">+=</span>c</span>
+<span id="cb52-5"><a href="#cb52-5" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> res</span></code></pre></div>
+</details>
+<details>
+<summary>
+Solução 2 - Compreensão
+</summary>
+<div class="sourceCode" id="cb53"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb53-1"><a href="#cb53-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> filtra_letras(txt):</span>
+<span id="cb53-2"><a href="#cb53-2" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> <span class="st">&quot;&quot;</span>.join([c <span class="cf">for</span> c <span class="kw">in</span> txt <span class="cf">if</span> is_letra(c) ])</span></code></pre></div>
+</details>
+<h3 id="exercício-3.3">Exercício 3.3</h3>
+<p>Uma cadeia de carateres é um palíndromo se as sequências obtidas lida da esquerda para a direita e vice-versa são iguais, independentemente das letras serem maiúsculas ou minúsculas. Exemplo: <code>"reviveR"</code> é um palíndromo. Escreva uma definição da função <code>palindromo(txt)</code> que verifica se uma cadeia de caracteres (ignorando capitalização) é um palindromo; o resultado deve ser True ou False. Por exemplo:</p>
+<div class="sourceCode" id="cb54"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb54-1"><a href="#cb54-1" aria-hidden="true" tabindex="-1"></a><span class="op">&gt;</span> palindrono(<span class="st">&quot;reviveR&quot;</span>)</span>
+<span id="cb54-2"><a href="#cb54-2" aria-hidden="true" tabindex="-1"></a><span class="va">True</span></span>
+<span id="cb54-3"><a href="#cb54-3" aria-hidden="true" tabindex="-1"></a><span class="op">&gt;</span> palindrono(<span class="st">&quot;aaaa&quot;</span>)</span>
+<span id="cb54-4"><a href="#cb54-4" aria-hidden="true" tabindex="-1"></a><span class="va">True</span></span>
+<span id="cb54-5"><a href="#cb54-5" aria-hidden="true" tabindex="-1"></a><span class="op">&gt;</span> palindrono(<span class="st">&quot;ola olo&quot;</span>)</span>
+<span id="cb54-6"><a href="#cb54-6" aria-hidden="true" tabindex="-1"></a><span class="va">False</span></span></code></pre></div>
+<details>
+<summary>
+Solução
+</summary>
+<div class="sourceCode" id="cb55"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb55-1"><a href="#cb55-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> palindrono(txt):</span>
+<span id="cb55-2"><a href="#cb55-2" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(<span class="bu">len</span>(txt)<span class="op">//</span><span class="dv">2</span>):</span>
+<span id="cb55-3"><a href="#cb55-3" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> txt[i].lower() <span class="op">!=</span> txt[<span class="op">-</span>i<span class="op">-</span><span class="dv">1</span>].lower(): <span class="cf">return</span> <span class="va">False</span></span>
+<span id="cb55-4"><a href="#cb55-4" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> <span class="va">True</span></span></code></pre></div>
+</details>
+<h3 id="exercício-3.4">Exercício 3.4</h3>
+<p>A cifra de Cesar consiste em substituir cada carater alfabético de uma mensagem pelo carater que está k posições à sua direita, na ordem alfabética. Escreva a função <code>cesar(k,txt)</code> que retorna o valor cifrado de txt usando a <em>chave</em> <code>k</code>. Por exemplo:</p>
+<div class="sourceCode" id="cb56"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb56-1"><a href="#cb56-1" aria-hidden="true" tabindex="-1"></a><span class="op">&gt;</span> cesar(<span class="dv">3</span>,<span class="st">&quot;mensagem secreta&quot;</span>)</span>
+<span id="cb56-2"><a href="#cb56-2" aria-hidden="true" tabindex="-1"></a>phqvdjhp<span class="co">#vhfuhwd</span></span></code></pre></div>
+<details>
+<summary>
+Solução
+</summary>
+<div class="sourceCode" id="cb57"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb57-1"><a href="#cb57-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> cesar(k,txt):</span>
+<span id="cb57-2"><a href="#cb57-2" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> <span class="st">&quot;&quot;</span>.join([ <span class="bu">chr</span>(<span class="bu">ord</span>(c)<span class="op">+</span>k) <span class="cf">for</span> c <span class="kw">in</span> txt ])</span></code></pre></div>
+</details>
+<h3 id="exercício-3.5">Exercício 3.5</h3>
+<p>Escreva a função <code>remove_py_com(txt)</code> que remove comentários de linhas de código Python, i.e., os sinais de cardinal <code>#</code> e tudo o que estiver à sua direita. Note que se o cardinal estiver dentro de uma string não é um comentário (considere apenas as strings delimitadas por aspas <code>"</code>).</p>
+<p>Exemplos:</p>
+<div class="sourceCode" id="cb58"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb58-1"><a href="#cb58-1" aria-hidden="true" tabindex="-1"></a><span class="op">&gt;</span> remove_py_com(<span class="st">&quot;def f(x): # f function &quot;</span>)</span>
+<span id="cb58-2"><a href="#cb58-2" aria-hidden="true" tabindex="-1"></a><span class="co">&#39;def f(x): &#39;</span></span>
+<span id="cb58-3"><a href="#cb58-3" aria-hidden="true" tabindex="-1"></a><span class="op">&gt;</span> remove_py_com(<span class="st">&#39;def &quot;#&quot; f(x) # comentário&#39;</span>)</span>
+<span id="cb58-4"><a href="#cb58-4" aria-hidden="true" tabindex="-1"></a><span class="co">&#39;def &quot;#&quot; f(x) &#39;</span></span></code></pre></div>
+Sugestão: use ciclos while. <strong>Nota:</strong> não é necessário usar métodos da classe <code>str</code>.
+<details>
+<summary>
+Solução
+</summary>
+<div class="sourceCode" id="cb59"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb59-1"><a href="#cb59-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> remove_py_com(txt):</span>
+<span id="cb59-2"><a href="#cb59-2" aria-hidden="true" tabindex="-1"></a>    stop <span class="op">=</span> <span class="va">False</span></span>
+<span id="cb59-3"><a href="#cb59-3" aria-hidden="true" tabindex="-1"></a>    isstring <span class="op">=</span> <span class="va">False</span></span>
+<span id="cb59-4"><a href="#cb59-4" aria-hidden="true" tabindex="-1"></a>    i <span class="op">=</span> <span class="dv">0</span></span>
+<span id="cb59-5"><a href="#cb59-5" aria-hidden="true" tabindex="-1"></a>    <span class="cf">while</span> (<span class="kw">not</span> stop <span class="kw">and</span> i <span class="op">&lt;</span> <span class="bu">len</span>(txt)):</span>
+<span id="cb59-6"><a href="#cb59-6" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> txt[i] <span class="op">==</span> <span class="st">&#39;</span><span class="ch">\&quot;</span><span class="st">&#39;</span>: isstring <span class="op">=</span> <span class="kw">not</span> isstring</span>
+<span id="cb59-7"><a href="#cb59-7" aria-hidden="true" tabindex="-1"></a>        <span class="cf">elif</span> txt[i] <span class="op">==</span> <span class="st">&#39;#&#39;</span> <span class="kw">and</span> <span class="kw">not</span> isstring: stop<span class="op">=</span><span class="va">True</span></span>
+<span id="cb59-8"><a href="#cb59-8" aria-hidden="true" tabindex="-1"></a>        i<span class="op">+=</span><span class="dv">1</span></span>
+<span id="cb59-9"><a href="#cb59-9" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> txt[:i<span class="op">-</span><span class="dv">1</span>]</span></code></pre></div>
+</details>
+<h3 id="exercício-3.6">Exercício 3.6</h3>
+<p>Defina uma função <code>forte(passwd)</code> que verifica se uma palavra-passe, dada pela cadeia de caracteres <code>passwd</code>, é forte. Considera-se que a palavra-passe é forte se tiver 8 caracteres ou mais, e incluir pelo menos uma letra maiúscula, uma letra minúscula e um algarismo. O resultado deve ser um valor lógico (<code>True</code> ou <code>False</code>). Exemplos:</p>
+<div class="sourceCode" id="cb60"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb60-1"><a href="#cb60-1" aria-hidden="true" tabindex="-1"></a><span class="op">&gt;</span> forte(<span class="st">&#39;9EwL56&#39;</span>)</span>
+<span id="cb60-2"><a href="#cb60-2" aria-hidden="true" tabindex="-1"></a><span class="va">False</span></span>
+<span id="cb60-3"><a href="#cb60-3" aria-hidden="true" tabindex="-1"></a><span class="op">&gt;</span> forte(<span class="st">&#39;HXKW1393&#39;</span>)</span>
+<span id="cb60-4"><a href="#cb60-4" aria-hidden="true" tabindex="-1"></a><span class="va">False</span></span>
+<span id="cb60-5"><a href="#cb60-5" aria-hidden="true" tabindex="-1"></a><span class="op">&gt;</span> forte(<span class="st">&#39;ffu4G7Fghjk&#39;</span>)</span>
+<span id="cb60-6"><a href="#cb60-6" aria-hidden="true" tabindex="-1"></a><span class="va">True</span></span></code></pre></div>
+<details>
+<summary>
+Solução
+</summary>
+<div class="sourceCode" id="cb61"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb61-1"><a href="#cb61-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> forte(passwd):</span>
+<span id="cb61-2"><a href="#cb61-2" aria-hidden="true" tabindex="-1"></a>    maiusculas <span class="op">=</span> { c <span class="cf">for</span> c <span class="kw">in</span> passwd <span class="cf">if</span> c.isupper() }</span>
+<span id="cb61-3"><a href="#cb61-3" aria-hidden="true" tabindex="-1"></a>    minusculas <span class="op">=</span> { c <span class="cf">for</span> c <span class="kw">in</span> passwd <span class="cf">if</span> c.islower() }</span>
+<span id="cb61-4"><a href="#cb61-4" aria-hidden="true" tabindex="-1"></a>    algarismos <span class="op">=</span> { c <span class="cf">for</span> c <span class="kw">in</span> passwd <span class="cf">if</span> c.isdigit() }</span>
+<span id="cb61-5"><a href="#cb61-5" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> <span class="bu">len</span>(passwd) <span class="op">&gt;=</span> <span class="dv">8</span> <span class="kw">and</span> <span class="bu">len</span>(maiusculas) <span class="op">&gt;</span> <span class="dv">0</span> <span class="kw">and</span> <span class="bu">len</span>(minusculas) <span class="op">&gt;</span> <span class="dv">0</span> <span class="kw">and</span> <span class="bu">len</span>(algarismos) <span class="op">&gt;</span> <span class="dv">0</span></span></code></pre></div>
+</details>
+<h3 id="exercício-3.7">Exercício 3.7</h3>
+<p>Uma cadeia é um palíndromo se se lê da mesma forma nos dois sentidos, ignorando os espaços entre letras, sinais de pontuação e/ou a troca de maiúsculas e minúsculas. Assim, os exemplos seguintes são palíndromos:</p>
+<div class="sourceCode" id="cb62"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb62-1"><a href="#cb62-1" aria-hidden="true" tabindex="-1"></a><span class="co">&quot;Amora me tem aroma.&quot;</span></span>
+<span id="cb62-2"><a href="#cb62-2" aria-hidden="true" tabindex="-1"></a><span class="co">&quot;Madam, I&#39;m Adam.&quot;</span></span>
+<span id="cb62-3"><a href="#cb62-3" aria-hidden="true" tabindex="-1"></a><span class="co">&quot;A man, a plan, a canal: Panama&quot;</span></span></code></pre></div>
+<p>Escreva uma função <code>palindrono_geral(txt)</code> para testar se uma cadeia de caracteres txt é um palíndromo neste sentido geral. <strong>Sugestão:</strong> pode resolver este problema combinando os métodos <code>lower()</code> e <code>isalpha()</code> de cadeias de carateres.</p>
+<details>
+<summary>
+Solução
+</summary>
+<div class="sourceCode" id="cb63"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb63-1"><a href="#cb63-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> palindrono(txt):</span>
+<span id="cb63-2"><a href="#cb63-2" aria-hidden="true" tabindex="-1"></a>    <span class="co"># só temos que percorrer a string até meio</span></span>
+<span id="cb63-3"><a href="#cb63-3" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(<span class="bu">len</span>(txt)<span class="op">//</span><span class="dv">2</span>):</span>
+<span id="cb63-4"><a href="#cb63-4" aria-hidden="true" tabindex="-1"></a>        <span class="co"># a cada passo compara com o caracter na posição inversa</span></span>
+<span id="cb63-5"><a href="#cb63-5" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> txt[i] <span class="op">!=</span> txt[<span class="op">-</span><span class="dv">1</span><span class="op">-</span>i]: <span class="cf">return</span> <span class="va">False</span></span>
+<span id="cb63-6"><a href="#cb63-6" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> <span class="va">True</span></span>
+<span id="cb63-7"><a href="#cb63-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb63-8"><a href="#cb63-8" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> palindrono_geral(txt):</span>
+<span id="cb63-9"><a href="#cb63-9" aria-hidden="true" tabindex="-1"></a>    alphas <span class="op">=</span> [ c <span class="cf">for</span> c <span class="kw">in</span> txt.lower() <span class="cf">if</span> c.isalpha() ]</span>
+<span id="cb63-10"><a href="#cb63-10" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> palindrono(alphas)</span></code></pre></div>
+</details>
+<h3 id="exercício-3.8">Exercício 3.8</h3>
+<p>Escreva uma função <code>ocorrencias(txt,c)</code> que retorna uma lista com os índices das ocorrências de um caracter <code>c</code> na cadeia <code>txt</code>. Por exemplo:</p>
+<div class="sourceCode" id="cb64"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb64-1"><a href="#cb64-1" aria-hidden="true" tabindex="-1"></a><span class="op">&gt;</span> ocorrencias(<span class="st">&#39;banana&#39;</span>,<span class="st">&#39;a&#39;</span>)</span>
+<span id="cb64-2"><a href="#cb64-2" aria-hidden="true" tabindex="-1"></a>[<span class="dv">1</span>, <span class="dv">3</span>, <span class="dv">5</span>]</span></code></pre></div>
+<details>
+<summary>
+Soluções
+</summary>
+<div class="sourceCode" id="cb65"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb65-1"><a href="#cb65-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> ocorrencias(txt,c):</span>
+<span id="cb65-2"><a href="#cb65-2" aria-hidden="true" tabindex="-1"></a>    cs <span class="op">=</span> []</span>
+<span id="cb65-3"><a href="#cb65-3" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> i,t <span class="kw">in</span> <span class="bu">enumerate</span>(txt):</span>
+<span id="cb65-4"><a href="#cb65-4" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> t<span class="op">==</span>c: cs.append(i)</span>
+<span id="cb65-5"><a href="#cb65-5" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> cs</span></code></pre></div>
+</details>
+</body>
+</html>
