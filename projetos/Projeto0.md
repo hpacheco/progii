@@ -175,6 +175,7 @@ O resultado deve ser
 20
 25
 ```
+
 <details>
 <summary>Solução</summary>
 
@@ -187,6 +188,7 @@ def tempC1():
 
 
 * Defina uma função `tempC2` que imprima os mesmos valores, gerando-os com a função `range`.
+
 <details>
 <summary>Solução</summary>
 
@@ -198,6 +200,7 @@ def tempC2():
 </details>
 
 * Defina uma função `tempC3` que utilize um ciclo `while` para produzir o mesmo resultado da alínea anterior.
+
 <details>
 <summary>Solução</summary>
 
@@ -211,6 +214,7 @@ def tempC3():
 </details>
 
 * Defina uma função `tempC4` que utilize um ciclo em que para os valores de temperatura acima, em cada linha imprime o valor em Celsius e o valor correspondente em Fahrenheit.
+
 <details>
 <summary>Solução</summary>
 
@@ -245,6 +249,7 @@ Ou seja:
 99
 20
 ```
+
 <details>
 <summary>Solução</summary>
 
@@ -256,6 +261,7 @@ def ex22_1():
 </details>
     
 * Defina uma função `ex22_2` contendo um outro ciclo em que, em cada linha, imprime o número, o seu quadrado, e a sua raiz quadrada.
+
 <details>
 <summary>Solução</summary>
 
@@ -267,6 +273,7 @@ def ex22_2():
 </details>
     
 * Defina uma função `ex22_3` contendo um ciclo que soma todos os números em xs usando uma variável auxiliar total, e imprime numa linha separada cada um dos números da lista e a soma parcial até esse número.
+
 <details>
 <summary>Solução</summary>
 
