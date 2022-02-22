@@ -3,8 +3,8 @@
 Nas primeiras aulas vamos reavivar os nossos conhecimentos fundamentais de programação em Python: cálculo numérico, listas, iteração e processamento de strings.
 
 Aceda ao repositório [replit](https://replit.com/@up652136/Prog2-Proj0) do Projeto 0, onde pode encontrar um ficheiro `projeto0.py`:
-* Criando uma conta no [replit](https://replit.com/) e fazendo `Fork` do projeto, pode resolver o projeto online utilizando o IDE web.
-* Pode também fazer download do repositório [replit](https://replit.com/@up652136/Prog2-Proj0) como um ficheiro `zip` para desenvolver o projeto no seu computador e utilizando um IDE à sua escolha.
+- Criando uma conta no [replit](https://replit.com/) e fazendo `Fork` do projeto, pode resolver o projeto online utilizando o IDE web.
+- Pode também fazer download do repositório [replit](https://replit.com/@up652136/Prog2-Proj0) como um ficheiro `zip` para desenvolver o projeto no seu computador e utilizando um IDE à sua escolha.
 
 Neste projeto (primeiras duas semanas de aulas práticas) vamos resolver livremente alguns exercícios lecionados em edições anteriores da cadeira anterior de [Programação I](https://sigarra.up.pt/fcup/pt/UCURR_GERAL.FICHA_UC_VIEW?pv_ocorrencia_id=489202). Sinta-se à vontade para requisitar mais ou novos exercícios aos docentes.
 
@@ -22,6 +22,7 @@ Por exemplo:
 > perim_circ(4)
 25.132741228718345
 ```
+
 <details>
 <summary>Solução</summary>
     
@@ -60,6 +61,7 @@ Por exemplo:
 > celsius(20)
 -6.666666666666667
 ```
+
 <details>
 <summary>Solução</summary>
 
@@ -361,6 +363,7 @@ Por exemplo:
 > valor([24.8, 49.1])
 120.457
 ```
+
 <details>
 <summary>Solução</summary>
 
@@ -416,6 +419,7 @@ UP194399128 Antonio Fernandes insuficiente
 UP194739873 Júlia Pinto insuficiente
 UP194739889 Manuela Faria suficiente
 ```
+
 <details>
 <summary>Solução</summary>
 
@@ -445,6 +449,7 @@ Por exemplo:
 2.8952380952380956
 ```
 Adicionalmente, documente a sua função com uma docstring.
+
 <details>
 <summary>Solução</summary>
 
@@ -460,6 +465,7 @@ def leibniz(k):
 Implemente a função `sum_within(x, a, b)` que calcula a soma dos valores da lista `x` que estão
 compreendidos entre `a` e `b`.
 Por exemplo, o resultado de `sum_within([4, 7, 44, 23], 17, 46)` é `67`.
+
 <details>
 <summary>Solução</summary>
 
@@ -568,6 +574,7 @@ Exemplos:
 > algarismos(1234)
 4
 ```
+
 <details>
 <summary>Solução</summary>
 
@@ -677,6 +684,7 @@ True
 > palindrono("ola olo")
 False
 ```
+
 <details>
 <summary>Solução</summary>
 
@@ -722,6 +730,7 @@ Exemplos:
 'def "#" f(x) '
 ```
 Sugestão: use ciclos while. **Nota:** não é necessário usar métodos da classe `str`.
+
 <details>
 <summary>Solução</summary>
     
@@ -752,6 +761,7 @@ False
 > forte('ffu4G7Fghjk')
 True
 ```
+
 <details>
 <summary>Solução</summary>
 
@@ -800,6 +810,7 @@ Por exemplo:
 > ocorrencias('banana','a')
 [1, 3, 5]
 ```
+
 <details>
 <summary>Soluções</summary>
 
