@@ -12,10 +12,10 @@ Podem consultar todo o material do ano anterior na sub-página [2021](2021/) no 
 
 ## Projetos
 
-* [Projeto 0 - Desenferrujar](Projeto0.md)
-* [Projeto 1 - Análise de texto](Projeto1.md)
-* [Projeto 2 - Análise de dados](Projeto2.md)
-* [Projeto 3 - Visualização e animação de dados](Projeto3.md)
+* [Projeto 0 - Desenferrujar](projetos/Projeto0.md)
+* [Projeto 1 - Análise de texto](projetos/Projeto1.md)
+* [Projeto 2 - Análise de dados](projetos/Projeto2.md)
+* [Projeto 3 - Visualização e animação de dados](projetos/Projeto3.md)
 
 ## Avaliação
 
