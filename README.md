@@ -62,7 +62,7 @@ Esta planificação serve para dar uma ideia resumida das aulas planeadas e/ou d
 * T08 (28/03): Classes e objetos 
 * T09 (31/03): Formatos de dados 
 
-> Entrega do Projeto 1
+> *Entrega do Projeto 1*
 
 * T10 (04/04): Computação numérica com arrays (numpy) 
 * T11 (07/04): Análise de dados tabulares (pandas) 
@@ -72,7 +72,7 @@ Esta planificação serve para dar uma ideia resumida das aulas planeadas e/ou d
 * T15 (09/05): Gráficos interativos 
 * T16 (12/05): Apoio à resolução dos projetos
 
-> Entrega do Projeto 2
+> *Entrega do Projeto 2*
 
 * T17 (16/05): Mapas 
 * T18 (19/05): Mapas
@@ -82,7 +82,7 @@ Esta planificação serve para dar uma ideia resumida das aulas planeadas e/ou d
 * T22 (02/06): Aplicações interativas (pygame) 
 * T23 (06/06): Apoio à resolução dos projetos
 
-> Entrega do Projeto 3
+> *Entrega do Projeto 3*
 
 ### Práticas
 
