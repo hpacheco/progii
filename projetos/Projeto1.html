@@ -242,27 +242,25 @@
 <h1 id="tarefa-4">Tarefa 4</h1>
 <p>Faça download para uma pasta local dos ficheiros <a href="../scripts/projeto1/dados/la.txt">la.txt</a> e <a href="../scripts/projeto1/dados/pt.txt">pt.txt</a>, que contêm dois dicionários que consistem em listas exaustivas de palavras em Latim e em Português.</p>
 <p>Analise o código que lê o conteúdo dos ficheiros para dois <code>set</code>s de palavras <code>la_dic</code> e <code>pt_dic</code>. Dada uma palavra normalizada (sem pontuação nem maiúsculas), podemos definir facilmente a função <code>spellcheck</code> que verifica se uma palavra dada está em algum dos dicionários.</p>
-<p>Complete a função <code>normalizaPalavra</code> que recebe uma string sem espaços e retira pontuação (qualquer caracter não alfanumérico) <strong>apenas</strong> no início e no fim da palavra e converte todos os caracteres em minúsculas, retornando um tuplo (prefixo,palavra original,palavra normalizada,sufixo). Por exemplo: <code>python normalizaPalavra('-Normalizá-lo-ei!!') ``` Deve retornar:</code>python (‘-’,‘Normalizá-lo-ei’,‘normalizá-lo-ei’,‘!!’)</p>
-<pre><code>
-# Tarefa 5
-
-Complete a função ``formataSermao`` que recebe como argumento um sermão organizado como descrito na Tarefa 2 e retorna uma string no formato [Markdown](https://www.markdownguide.org/basic-syntax/). Por exemplo, para o sermão:
-```python
-([&#39;SERMÃO&#39;,&#39;DE&#39;,&#39;EXEMPLO&#39;],[[&#39;A&#39;,&#39;título&#39;,&#39;de&#39;,&#39;exemplo,&#39;,&#39;Blah!&#39;],[&#39;Veni,&#39;,&#39;vidi,&#39;,&#39;vici.&#39;]],[(&#39;I&#39;,[[&#39;Parágrafo&#39;,&#39;um.&#39;],[&#39;Parágrafo&#39;,&#39;dois.&#39;]])])</code></pre>
+<p>Complete a função <code>normalizaPalavra</code> que recebe uma string sem espaços e retira pontuação (qualquer caracter não alfanumérico) <strong>apenas</strong> no início e no fim da palavra e converte todos os caracteres em minúsculas, retornando um tuplo (prefixo,palavra original,palavra normalizada,sufixo). Por exemplo: ```<code>python normalizaPalavra('-Normalizá-lo-ei!!')</code> Deve retornar:</p>
+<div class="sourceCode" id="cb3"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>(<span class="st">&#39;-&#39;</span>,<span class="st">&#39;Normalizá-lo-ei&#39;</span>,<span class="st">&#39;normalizá-lo-ei&#39;</span>,<span class="st">&#39;!!&#39;</span>)</span></code></pre></div>
+<h1 id="tarefa-5">Tarefa 5</h1>
+<p>Complete a função <code>formataSermao</code> que recebe como argumento um sermão organizado como descrito na Tarefa 2 e retorna uma string no formato <a href="https://www.markdownguide.org/basic-syntax/">Markdown</a>. Por exemplo, para o sermão:</p>
+<div class="sourceCode" id="cb4"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>([<span class="st">&#39;SERMÃO&#39;</span>,<span class="st">&#39;DE&#39;</span>,<span class="st">&#39;EXEMPLO&#39;</span>],[[<span class="st">&#39;A&#39;</span>,<span class="st">&#39;título&#39;</span>,<span class="st">&#39;de&#39;</span>,<span class="st">&#39;exemplo,&#39;</span>,<span class="st">&#39;Blah!&#39;</span>],[<span class="st">&#39;Veni,&#39;</span>,<span class="st">&#39;vidi,&#39;</span>,<span class="st">&#39;vici.&#39;</span>]],[(<span class="st">&#39;I&#39;</span>,[[<span class="st">&#39;Parágrafo&#39;</span>,<span class="st">&#39;um.&#39;</span>],[<span class="st">&#39;Parágrafo&#39;</span>,<span class="st">&#39;dois.&#39;</span>]])])</span></code></pre></div>
 <p>A string resultante deverá ter a seguinte formatação:</p>
-<div class="sourceCode" id="cb4"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co"># SERMÃO DE EXEMPLO</span></span>
-<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="op">&gt;</span> A título de exemplo, <span class="op">~~</span>Blah<span class="op">~~!</span></span>
-<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a><span class="op">&gt;</span> </span>
-<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a><span class="op">&gt;</span> <span class="op">*</span>Veni<span class="op">*</span>, <span class="op">*</span>vidi<span class="op">*</span>, <span class="op">*</span>vici<span class="op">*</span>.</span>
-<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a><span class="co">## I</span></span>
-<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a>Parágrafo um.</span>
-<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a>Parágrafo dois.</span></code></pre></div>
+<div class="sourceCode" id="cb5"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="co"># SERMÃO DE EXEMPLO</span></span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="op">&gt;</span> A título de exemplo, <span class="op">~~</span>Blah<span class="op">~~!</span></span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a><span class="op">&gt;</span> </span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a><span class="op">&gt;</span> <span class="op">*</span>Veni<span class="op">*</span>, <span class="op">*</span>vidi<span class="op">*</span>, <span class="op">*</span>vici<span class="op">*</span>.</span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a><span class="co">## I</span></span>
+<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a>Parágrafo um.</span>
+<span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-9"><a href="#cb5-9" aria-hidden="true" tabindex="-1"></a>Parágrafo dois.</span></code></pre></div>
 <p>O formato <a href="https://www.markdownguide.org/basic-syntax/">Markdown</a> suporta uma sintaxe especial de texto para definir títulos, estilos de letra e outras formatações; consulte a documentação. Pode visualizar o texto formatado utilizando escrevendo o seu conteúdo para um ficheiro com extensão <code>.md</code>, por exemplo <code>sermao.md</code> e utilizar a pré-visualização automática do IDE. Pode também copiar o texto para um pré-visualizador web como <a href="https://markdownlivepreview.com/">este</a></p>
 <p>Neste exemplo, o título aparece formatado como Título 1, e cada capítulo como Título 2. Cada parágrafo encontra-se separado por uma linha em branco. Os parágrafos da descrição encontram-se formatados como um só bloco de citação. Cada palavra do texto também se encontra formatada de acordo com o resultado da função <code>spellcheck</code>(para a palavra normalizada) definida acima: * palavras no dicionário Português não têm qualquer formatação; * palavras no dicionário Latim encontram-se em <em>itálico</em>; * palavras que não se encontrem em nenhum dos dicionários encontram-se <del>rasuradas</del>. Repare que apenas a palavra original (excluindo caracteres de pontuação) se encontra formatada. Para isso, é útil definir a função auxiliar <code>formataPalavra</code>, que deve receber uma palavra, normalizá-la, correr o spellchecker e retornar a palavra formatada. Por exemplo, para uma palavra em Inglês:</p>
-<div class="sourceCode" id="cb5"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(formataPalavra(<span class="st">&#39;English?&#39;</span>))</span></code></pre></div>
+<div class="sourceCode" id="cb6"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(formataPalavra(<span class="st">&#39;English?&#39;</span>))</span></code></pre></div>
 <p>Deve retornar a palavra rasurada:</p>
-<div class="sourceCode" id="cb6"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="op">~~</span>English<span class="op">~~</span>?</span></code></pre></div>
+<div class="sourceCode" id="cb7"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="op">~~</span>English<span class="op">~~</span>?</span></code></pre></div>
 </body>
 </html>

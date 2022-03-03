@@ -59,7 +59,7 @@ Complete a função `normalizaPalavra` que recebe uma string sem espaços e reti
 normalizaPalavra('-Normalizá-lo-ei!!')
 ```
 Deve retornar:
-``````python
+```python
 ('-','Normalizá-lo-ei','normalizá-lo-ei','!!')
 ```
 
