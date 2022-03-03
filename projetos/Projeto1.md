@@ -55,7 +55,7 @@ Analise o código que lê o conteúdo dos ficheiros para dois ``set``s de palavr
 Dada uma palavra normalizada (sem pontuação nem maiúsculas), podemos definir facilmente a função `spellcheck` que verifica se uma palavra dada está em algum dos dicionários.
 
 Complete a função `normalizaPalavra` que recebe uma string sem espaços e retira pontuação (qualquer caracter não alfanumérico) **apenas** no início e no fim da palavra e converte todos os caracteres em minúsculas, retornando um tuplo (prefixo,palavra original,palavra normalizada,sufixo). Por exemplo:
-``````python
+```python
 normalizaPalavra('-Normalizá-lo-ei!!')
 ```
 Deve retornar:
