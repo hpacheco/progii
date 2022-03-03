@@ -91,7 +91,7 @@ Cada palavra do texto também se encontra formatada de acordo com o resultado da
 Repare que apenas a palavra original (excluindo caracteres de pontuação) se encontra formatada.
 Para isso, é útil definir a função auxiliar `formataPalavra`, que deve receber uma palavra, normalizá-la, correr o spellchecker e retornar a palavra formatada. Por exemplo, para uma palavra em Inglês:
 ```python
-print(formataPalavra('English?'))
+formataPalavra('English?')
 ```
 Deve retornar a palavra rasurada:
 ```python
