@@ -7,6 +7,7 @@ Pode navegar todo o conteúdo desta página no [repositório](https://github.com
 
 O formato da cadeira deste ano será similar à do ano anterior, exceptuando os temas dos projetos.
 Podem consultar todo o material do ano anterior na sub-página [2021](2021/) no mesmo repositório, incluindo:
+
 * slides e vídeos das aulas teóricas
 * ficheiros de dados e programas Python de exemplo utilizados nas aulas práticas
 
@@ -52,7 +53,7 @@ Esta planificação serve para dar uma ideia resumida das aulas planeadas e/ou d
 
 ### Teóricas
 
-* T01 (03/03): Apresentação da cadeira 
+* T01 (03/03): [Apresentação da cadeira](slides/t01.pdf)
 * T02 (07/03): Ambiente de desenvolvimento e conceitos base 
 * T03 (10/03): Iteração, condicionais e funções 
 * T04 (14/03): Strings, listas e tuplos 
