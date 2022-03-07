@@ -234,7 +234,7 @@ Solução
 <span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> <span class="dv">2</span> <span class="op">*</span> math.pi <span class="op">*</span> r</span></code></pre></div>
 </details>
 <h3 id="exercício-1.2">Exercício 1.2</h3>
-<p>Escreva uma função <code>area_circ(r)</code> que calcule a área de um círculo com raio `rª . Por exemplo:</p>
+<p>Escreva uma função <code>area_circ(r)</code> que calcule a área de um círculo com raio <code>r</code>. Por exemplo:</p>
 <div class="sourceCode" id="cb3"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="op">&gt;</span> area_circ(<span class="dv">4</span>)</span>
 <span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="fl">50.26548245743669</span></span></code></pre></div>
 <details>
@@ -301,7 +301,7 @@ Solução
 <h3 id="exercício-1.7">Exercício 1.7</h3>
 <p>Normalmente calcula-se juros com base num número inteiro de períodos (o número de anos, por exemplo). No entanto, em algumas situações é útil calcular o juro como uma função contínua do tempo. A fórmula para calcular o valor de um investimento ao longo do tempo t é apresentada ao lado, onde <span class="math inline">\(P_0\)</span> é o montante inicial investido, <span class="math inline">\(r\)</span> é a taxa de juro e <span class="math inline">\(t\)</span> é o tempo que passou desde o momento em que se fez o investimento.</p>
 <p><span class="math inline">\(P(t) = P_0 e^{rt}\)</span></p>
-<p>Escreva uma função <code>juros($P_0,r,t$)</code> que calcule <span class="math inline">\(P(P_0)\)</span>, ou seja, que retorne o valor de um investimento <span class="math inline">\(P_0\)</span> no instante <span class="math inline">\(t\)</span>, a uma taxa de juro <span class="math inline">\(r\)</span>.</p>
+<p>Escreva uma função <code>juros(</code><span class="math inline">\(P_0,r,t\)</span><code>)</code> que calcule <span class="math inline">\(P(P_0)\)</span>, ou seja, que retorne o valor de um investimento <span class="math inline">\(P_0\)</span> no instante <span class="math inline">\(t\)</span>, a uma taxa de juro <span class="math inline">\(r\)</span>.</p>
 <details>
 <summary>
 Solução
@@ -610,6 +610,7 @@ Solução 2 - Set
 <span id="cb41-2"><a href="#cb41-2" aria-hidden="true" tabindex="-1"></a>    non_reps <span class="op">=</span> <span class="bu">set</span>(xs)</span>
 <span id="cb41-3"><a href="#cb41-3" aria-hidden="true" tabindex="-1"></a>    non_reps.remove(<span class="bu">max</span>(non_reps))</span>
 <span id="cb41-4"><a href="#cb41-4" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> <span class="bu">max</span>(non_reps)</span></code></pre></div>
+</details>
 <h3 id="exercício-2.10">Exercício 2.10</h3>
 <p>Escreva uma função <code>repetidos(lista)</code> que testa se há elementos repetidos numa <code>lista</code>; o resultado deve ser um valor lógico. A sua função deve funcionar com listas de elementos de vários tipos (e.g. de números ou de cadeias de carateres).</p>
 <p>Exemplos:</p>

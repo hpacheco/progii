@@ -34,7 +34,7 @@ def perim_circ(r):
 
 ### Exercício 1.2
 
-Escreva uma função `area_circ(r)` que calcule a área de um círculo com raio `rª .
+Escreva uma função `area_circ(r)` que calcule a área de um círculo com raio `r`.
 Por exemplo:
 ```python
 > area_circ(4)
@@ -145,7 +145,7 @@ A fórmula para calcular o valor de um investimento ao longo do tempo t é apres
 
 $P(t) = P_0 e^{rt}$
 
-Escreva uma função `juros($P_0,r,t$)` que calcule $P(P_0)$, ou seja, que retorne o valor de um investimento $P_0$ no instante $t$, a uma taxa de juro $r$.
+Escreva uma função `juros(`$P_0,r,t$`)` que calcule $P(P_0)$, ou seja, que retorne o valor de um investimento $P_0$ no instante $t$, a uma taxa de juro $r$.
 
 <details>
 <summary>Solução</summary>
@@ -523,6 +523,7 @@ def maximo2(xs):
     non_reps.remove(max(non_reps))
     return max(non_reps)
 ```
+</details>
 
 ### Exercício 2.10
 
