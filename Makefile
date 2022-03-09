@@ -6,3 +6,6 @@ render:
 	pandoc projetos/Projeto1.md -t html --mathjax --standalone --metadata title="Projeto 1" > projetos/Projeto1.html
 	pandoc README.md -t html --standalone --metadata title="21/22" > index.html
 	perl -i -pe's/.md/.html/g' index.html
+	
+	cd scripts/projeto0; tree -H '.' --noreport --charset utf-8 -P "*.py" -o index.html
+	cd scripts/projeto1; tree -H '.' --noreport --charset utf-8 -P "*.py" -o index.html
