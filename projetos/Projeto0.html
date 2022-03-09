@@ -539,7 +539,7 @@ Solução 2 - Funcional
 Solução
 </summary>
 <div class="sourceCode" id="cb34"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb34-1"><a href="#cb34-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> converte_nota(n):</span>
-<span id="cb34-2"><a href="#cb34-2" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> n <span class="op">&lt;</span> <span class="dv">0</span> <span class="op">|</span> n <span class="op">&gt;</span> <span class="dv">100</span>: <span class="cf">return</span> <span class="st">&quot;inválido&quot;</span></span>
+<span id="cb34-2"><a href="#cb34-2" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> n <span class="op">&lt;</span> <span class="dv">0</span> <span class="kw">or</span> n <span class="op">&gt;</span> <span class="dv">100</span>: <span class="cf">return</span> <span class="st">&quot;inválido&quot;</span></span>
 <span id="cb34-3"><a href="#cb34-3" aria-hidden="true" tabindex="-1"></a>    <span class="cf">elif</span> n <span class="op">&lt;</span> <span class="dv">50</span>: <span class="cf">return</span> <span class="st">&quot;insuficiente&quot;</span></span>
 <span id="cb34-4"><a href="#cb34-4" aria-hidden="true" tabindex="-1"></a>    <span class="cf">elif</span> n <span class="op">&gt;=</span><span class="dv">50</span> <span class="kw">and</span> n <span class="op">&lt;</span> <span class="dv">70</span>: <span class="cf">return</span> <span class="st">&quot;suficiente&quot;</span></span>
 <span id="cb34-5"><a href="#cb34-5" aria-hidden="true" tabindex="-1"></a>    <span class="cf">elif</span> n <span class="op">&gt;=</span> <span class="dv">70</span> <span class="kw">and</span> n <span class="op">&lt;</span> <span class="dv">80</span>: <span class="cf">return</span> <span class="st">&quot;bom&quot;</span></span>
@@ -550,7 +550,7 @@ Solução
 <span id="cb34-10"><a href="#cb34-10" aria-hidden="true" tabindex="-1"></a>        <span class="bu">print</span>(numero,nome,converte_nota(nota))</span></code></pre></div>
 </details>
 <h3 id="exercício-2.7">Exercício 2.7</h3>
-<p>A fórmula de Leibniz para aproximar <span class="math inline">\(\pi\)</span> é: <span class="math display">\[ \pi = 4 x (1 - \frac{1}{3} + \frac{1}{5} - \frac{1}{7} + \frac{1}{9} + \dots) = 4 * \sum_{n=0}^{\infty} \frac{(-1)^n}{2 n + 1} \]</span></p>
+<p>A fórmula de Leibniz para aproximar <span class="math inline">\(\pi\)</span> é: <span class="math display">\[ \pi = 4 * (1 - \frac{1}{3} + \frac{1}{5} - \frac{1}{7} + \frac{1}{9} + \dots) = 4 * \sum_{n=0}^{\infty} \frac{(-1)^n}{2 n + 1} \]</span></p>
 <p>Implemente a função <code>leibniz(k)</code> que resulta no somatório dos primeiros <code>k</code> termos desta série. Por exemplo:</p>
 <div class="sourceCode" id="cb35"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb35-1"><a href="#cb35-1" aria-hidden="true" tabindex="-1"></a><span class="op">&gt;</span> leibniz(<span class="dv">4</span>)</span>
 <span id="cb35-2"><a href="#cb35-2" aria-hidden="true" tabindex="-1"></a><span class="fl">2.8952380952380956</span></span></code></pre></div>

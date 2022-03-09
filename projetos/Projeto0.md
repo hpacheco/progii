@@ -425,7 +425,7 @@ UP194739889 Manuela Faria suficiente
 
 ```python
 def converte_nota(n):
-    if n < 0 | n > 100: return "inválido"
+    if n < 0 or n > 100: return "inválido"
     elif n < 50: return "insuficiente"
     elif n >=50 and n < 70: return "suficiente"
     elif n >= 70 and n < 80: return "bom"
@@ -440,7 +440,7 @@ def classifica(p):
 ### Exercício 2.7
 
 A fórmula de Leibniz para aproximar $\pi$ é:
-$$ \pi = 4 x (1 - \frac{1}{3} + \frac{1}{5} - \frac{1}{7} + \frac{1}{9} + \dots) = 4 * \sum_{n=0}^{\infty} \frac{(-1)^n}{2 n + 1} $$
+$$ \pi = 4 * (1 - \frac{1}{3} + \frac{1}{5} - \frac{1}{7} + \frac{1}{9} + \dots) = 4 * \sum_{n=0}^{\infty} \frac{(-1)^n}{2 n + 1} $$
 
 Implemente a função `leibniz(k)` que resulta no somatório dos primeiros `k` termos desta série.
 Por exemplo: 
