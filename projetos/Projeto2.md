@@ -13,7 +13,7 @@ Observe o JSON ficheiro [nuclear_power_plants.json](../scripts/projeto2/dados/nu
 Pode ler o conteúdo do ficheiro JSON para uma estrutura de dados em Python da seguinte forma:
 ```python
 import json
-with open('nuclear_power_plants','r') as f: str = f.read()
+with open('dados/nuclear_power_plants','r') as f: str = f.read()
 dados = json.loads(str)
 ```
 O resultado guardado na variável `dados` será uma lista de centrais nucleares, em que cada central é representada por um dicionário com campos como o seu nome, o seu país ou a sua geolocalização.
