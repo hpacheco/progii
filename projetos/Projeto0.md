@@ -3,6 +3,7 @@
 Nas primeiras aulas vamos reavivar os nossos conhecimentos fundamentais de programação em Python: cálculo numérico, listas, iteração e processamento de strings.
 
 Aceda ao repositório [replit](https://replit.com/@up652136/Prog2-Proj0) do Projeto 0, onde pode encontrar um ficheiro `projeto0.py`:
+
 - Criando uma conta no [replit](https://replit.com/) e fazendo `Fork` do projeto, pode resolver o projeto online utilizando o IDE web.
 - Pode também fazer download dos ficheiros na pasta [projeto0](../scripts/projeto0) para desenvolver o projeto no seu computador e utilizando um IDE à sua escolha.
 

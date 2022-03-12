@@ -3,6 +3,7 @@
 Neste primeiro projeto vamos relembrar alguns conceitos base da programação em Python e aplicá-los no processamento de ficheiros de texto.
 
 Aceda ao repositório [replit](https://replit.com/@up652136/Prog2-Proj1) do Projeto 1, onde pode encontrar um ficheiro `projeto1.py`:
+
 - Criando uma conta no [replit](https://replit.com/) e fazendo `Fork` do projeto, pode resolver o projeto online utilizando o IDE web.
 - Pode também fazer download dos ficheiros na pasta [projeto1](../scripts/projeto1) para desenvolver o projeto no seu computador e utilizando um IDE à sua escolha.
 

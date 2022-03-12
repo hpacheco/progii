@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>Projeto 2</title>
+  <style>
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      {   }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+    code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+    code span.at { color: #7d9029; } /* Attribute */
+    code span.bn { color: #40a070; } /* BaseN */
+    code span.bu { } /* BuiltIn */
+    code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #4070a0; } /* Char */
+    code span.cn { color: #880000; } /* Constant */
+    code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+    code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+    code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+    code span.dt { color: #902000; } /* DataType */
+    code span.dv { color: #40a070; } /* DecVal */
+    code span.er { color: #ff0000; font-weight: bold; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #40a070; } /* Float */
+    code span.fu { color: #06287e; } /* Function */
+    code span.im { } /* Import */
+    code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+    code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+    code span.op { color: #666666; } /* Operator */
+    code span.ot { color: #007020; } /* Other */
+    code span.pp { color: #bc7a00; } /* Preprocessor */
+    code span.sc { color: #4070a0; } /* SpecialChar */
+    code span.ss { color: #bb6688; } /* SpecialString */
+    code span.st { color: #4070a0; } /* String */
+    code span.va { color: #19177c; } /* Variable */
+    code span.vs { color: #4070a0; } /* VerbatimString */
+    code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">Projeto 2</h1>
+</header>
+<h1 id="projeto-2---análise-de-dados">Projeto 2 - Análise de dados</h1>
+<p>Neste segundo projeto vamos investigar os conceitos base de análise de dados em Python de uma perspetiva prática, e aplicá-los na leitura e processamento de dados em formatos comunmente presentes na web.</p>
+<p>Aceda ao repositório <a href="https://replit.com/@up652136/Prog2-Proj2">replit</a> do Projeto 2, onde pode encontrar um ficheiro <code>projeto2.py</code>:</p>
+<ul>
+<li>Criando uma conta no <a href="https://replit.com/">replit</a> e fazendo <code>Fork</code> do projeto, pode resolver o projeto online utilizando o IDE web.</li>
+<li>Pode também fazer download dos ficheiros na pasta <a href="../scripts/projeto2">projeto2</a> para desenvolver o projeto no seu computador e utilizando um IDE à sua escolha.</li>
+</ul>
+<h2 id="tarefa-1-json">Tarefa 1 (JSON)</h2>
+<p>Observe o JSON ficheiro <a href="../scripts/projeto2/dados/nuclear_power_plants.json">nuclear_power_plants.json</a>, retirado <a href="https://github.com/cristianst85/GeoNuclearData/blob/master/data/json/denormalized/nuclear_power_plants.json">daqui</a>, que contém uma listagem das centrais nucleares existentes no planeta. Pode ler o conteúdo do ficheiro JSON para uma estrutura de dados em Python da seguinte forma:</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> json</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="cf">with</span> <span class="bu">open</span>(<span class="st">&#39;nuclear_power_plants&#39;</span>,<span class="st">&#39;r&#39;</span>) <span class="im">as</span> f: <span class="bu">str</span> <span class="op">=</span> f.read()</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>dados <span class="op">=</span> json.loads(<span class="bu">str</span>)</span></code></pre></div>
+<p>O resultado guardado na variável <code>dados</code> será uma lista de centrais nucleares, em que cada central é representada por um dicionário com campos como o seu nome, o seu país ou a sua geolocalização.</p>
+<p>Explore este conjunto de dados escrevendo programas Python que respondam às seguintes questões:</p>
+<ul>
+<li>Qual o país com maior capacidade acumulada de energia nuclear? Considere apenas estações com estado operacional. Complete a definição da função <code>paisMaisNuclear</code>.</li>
+<li>Qual o tipo de reator cuja média de anos de construção da central é mais recente? Complete a definição da função <code>reatorMaisRecente</code>.</li>
+<li>Qual o país com 3 das centrais com maior capacidade? Procure centrais por ordem decrescente de capacidade até encontrar 3 do mesmo país. Complete a definição da função <code>paisTresMaioresCentrais</code>.</li>
+<li>Quantas centrais nucleares existem num raio de 500km de Paris? Calcule a distância em km entre duas geolocalizações utilizando a função <code>geodist</code> e sabendo que Paris tem latitude <code>48.8703520765571</code> e longitude <code>2.3466898684084248</code>. Complete a definição da função <code>centraisParis</code>.</li>
+</ul>
+<h2 id="tarefa-2-geojson">Tarefa 2 (GeoJSON)</h2>
+<p>De forma a visualizar mais facilmente os dados, defina a função <code>formataCentrais(f,centrais)</code> que recebe uma função <code>f</code> que formata cada central, uma lista de dados de centrais e a converte no formato GeoJSON, aplicando a <code>f</code> a cada central da lista de centrais recebida. O formato GeoJSON é JSON válido, e segue uma estrutura específica para representar marcadores geográficos e metadados associados. Por exemplo, uma estrutura só com um ponto deverá ter o seguinte formato (como o campo features é uma lista suporta múltiplos pontos).</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>{</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;type&quot;</span>: <span class="st">&quot;FeatureCollection&quot;</span>, </span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;features&quot;</span>: [</span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>        {</span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>            <span class="st">&quot;geometry&quot;</span>: {</span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>                <span class="st">&quot;type&quot;</span>: <span class="st">&quot;Point&quot;</span>, </span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a>                <span class="st">&quot;coordinates&quot;</span>: [</span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>                    <span class="bu">float</span> com valor de longitude, </span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a>                    <span class="bu">float</span> com valor de latitude</span>
+<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a>                ]</span>
+<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a>            }, </span>
+<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a>            <span class="st">&quot;type&quot;</span>: <span class="st">&quot;Feature&quot;</span>, </span>
+<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a>            <span class="st">&quot;properties&quot;</span>: um dicionário com a metainformação associada ao ponto geográfico</span>
+<span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a>            }</span>
+<span id="cb2-15"><a href="#cb2-15" aria-hidden="true" tabindex="-1"></a>        }]</span>
+<span id="cb2-16"><a href="#cb2-16" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div>
+<p>Coloque toda a metainformação da central nas propriedades de cada central. Para organizar melhor o código, defina e utilize uma função auxiliar <code>formataCentral(central)</code> que converte uma <code>central</code> num feature GeoJSON. Guarde a lista de centrais resultante num ficheiro GEOJSON <code>centrais.geojson</code> utilizando o seguinte código:</p>
+<div class="sourceCode" id="cb3"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>geodados <span class="op">=</span> formataCentrais(formataCentral,dados)</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="cf">with</span> <span class="bu">open</span>(<span class="st">&#39;centrais.geojson&#39;</span>, <span class="st">&#39;w&#39;</span>) <span class="im">as</span> f:</span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>  json.dump(geodados,f)</span></code></pre></div>
+<p>Pode facilmente visualizar o ficheiro resultante num mapa interativo e inspecionar a sua meta-informação em <a href="https://geojson.io/" class="uri">https://geojson.io/</a>.</p>
+<p>Explore as propriedades de cada marcador que o formato GeoJSON suporta em <a href="https://geojson.io/" class="uri">https://geojson.io/</a>. Defina a função <code>formataCentralEstilo</code> que altera as propriedades de cada marcador utilizando:</p>
+<ul>
+<li>uma cor diferente por cada país</li>
+<li>um símbolo diferente por cada tipo de reator. Consulte a lista de símbolos <a href="https://map.michelstuyts.be/icons/">aqui</a>.</li>
+</ul>
+<p>Grave e observe o resultado estilizado:</p>
+<div class="sourceCode" id="cb4"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>geodados2 <span class="op">=</span> formataCentrais(formataCentralEstilo,dados)</span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="cf">with</span> <span class="bu">open</span>(<span class="st">&#39;centrais2.geojson&#39;</span>, <span class="st">&#39;w&#39;</span>) <span class="im">as</span> f:</span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>  json.dump(geodados2,f)</span></code></pre></div>
+<h2 id="tarefa-3-numpy">Tarefa 3 (NumPy)</h2>
+<p>Faça download para uma pasta local do ficheiro CSV <a href="../scripts/projeto2/dados/nuclear_country_year.csv">nuclear_country_year.csv</a>, adaptado <a href="https://github.com/owid/energy-data">deste</a> repositório, que contém estatísticas de energia nuclear gerada (como percentagem da energia total gerada) por cada país ao longo dos anos desde 1960 até 2014.</p>
+<p>Este ficheiro CSV é essencialmente uma matriz de valores numéricos, que pode ser lida para um array 2D utilizando a biblioteca numpy da seguinte forma.</p>
+<div class="sourceCode" id="cb5"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>dados3 <span class="op">=</span> np.genfromtxt(<span class="st">&#39;dados/nuclear_country_year.csv&#39;</span>,delimiter<span class="op">=</span><span class="st">&#39;,&#39;</span>,filling_values<span class="op">=</span><span class="dv">0</span>)</span></code></pre></div>
+<p>Repare que os campos não numéricos, como nomes de países, são convertidos no valor <code>0</code> por defeito. Dessa forma. o <code>numpy</code> não é muito conveniente para ler dados não numéricos, o que no entanto é possível se alterarmos o tipo de dados de todas as colunas. Uma forma de ler apenas a primeira coluna com os nomes dos países seria a seguinte:</p>
+<div class="sourceCode" id="cb6"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>paises3 <span class="op">=</span> np.genfromtxt(<span class="st">&#39;dados/nuclear_country_year.csv&#39;</span>,delimiter<span class="op">=</span><span class="st">&#39;,&#39;</span>,dtype<span class="op">=</span><span class="bu">object</span>,usecols<span class="op">=</span>[<span class="dv">0</span>])</span></code></pre></div>
+<p>Explore este conjunto de dados escrevendo programas Python que respondam às seguintes questões:</p>
+<ul>
+<li>Quantas vezes um país ultrapassou a meta dos <code>30%</code> de energia nuclear gerada num ano? Complete a definição da função <code>trintaPorCento</code>.</li>
+<li>Qual o ano em que, em média de todos os países, houve uma maior percentagem de energia nuclear gerada? Complete a definição da função <code>anoMaisNuclear</code>.</li>
+<li>Por década, quantos países produziram energia nuclear? O resultado deve ser uma lista de inteiros por ordem crescente de década. Complete a definição da função <code>nuclearDecadas</code>.</li>
+<li>Que países abandonaram a energia nuclear? Retorne uma sequência com os nomes dos países. Complete a definição da função <code>naoMaisNuclear</code>.</li>
+</ul>
+<h2 id="tarefa-4-pandas">Tarefa 4 (Pandas)</h2>
+<p>Faça download para uma pasta local do ficheiro CSV <a href="../scripts/projeto2/dados/owid-energy-data.csv">owid-energy-data.csv</a>, retirado <a href="https://github.com/owid/energy-data">deste</a> repositório, que contém estatísticas de energia gerada por cada país mundial. Carregue este ficheiro para um <code>DataFrame</code> utilizando o <code>pandas</code>:</p>
+<div class="sourceCode" id="cb7"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>dados4 <span class="op">=</span> pd.read_csv(<span class="st">&#39;dados/owid-energy-data.csv&#39;</span>)</span></code></pre></div>
+<p>Explore este conjunto de dados escrevendo programas Python que respondam às seguintes questões:</p>
+<ul>
+<li>Qual o país que teve maior percentagem de energias renováveis em 2020 e com que percentagem? Complete a definição da função <code>maisRenovaveis2020</code>, que retorna um par (país,percentagem).</li>
+<li>Qual a preponderância de cada tipo de energia em Portugal em 2020? Retorne uma lista de pares <code>(tipo,percentagem)</code> por ordem decrescente de percentagens, em que cada tipo é um elemento da lista <code>['gas','coal','nuclear','oil','solar','wind','hydro','other_renewables']</code>. Complete a definição da função <code>energiaPortugal2020</code>.</li>
+<li>Qual o país do mundo mais dependente de carvão, para cada ano? Ignore países e anos para os quais não existem dados. Complete a definição da função <code>maisDependentesCarvao</code>. O resultado deve ser um dicionário <code>{ ano : país }</code>.</li>
+<li>Qual a média, para cada país da União Europeia, de percentagem de dependência de gás entre 1990 e 2021? Utilize a listagem de países <code>eu_countries</code>. Complete a definição da função <code>gasUE</code>. O resultado deve ser um dicionário <code>{ ano : média }</code>.</li>
+</ul>
+<h2 id="tarefa-5-pandas-valorização">Tarefa 5 (Pandas) (Valorização)</h2>
+<p>Faça download para uma pasta local do ficheiro CSV <a href="../scripts/projeto2/dados/pordata-energy-import.xlsx">portdata-energy-import.xlsx</a>, retirado do <a href="https://www.pordata.pt/en/Europe/Energy+import+dependency-3601">PORDATA</a>, que contém estatísticas de percentagem de energia importada para países da União Europeia.</p>
+<p>Pode ler os dados para um <code>DataFrame</code> com o comando:</p>
+<div class="sourceCode" id="cb8"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a>dados5 <span class="op">=</span> pd.read_excel(<span class="st">&#39;dados/pordata_energy_import.xlsx&#39;</span>,sheet_name<span class="op">=</span><span class="st">&#39;Table&#39;</span>)</span></code></pre></div>
+<p>Cruze estes dados com a tabela de dados de energia mundial da Tarefa 4, de forma a responder programaticamente às seguintes questões:</p>
+<ul>
+<li>Para cada país da União Europeia listado nos <code>dados5</code>, qual o ano em que importou menos menos energia não renovável? Ignore dados de anos em falta. Complete a definição da função <code>anoMaisRenovavelEU</code>.</li>
+</ul>
+</body>
+</html>

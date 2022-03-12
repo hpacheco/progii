@@ -18,6 +18,8 @@ Podem consultar todo o material do ano anterior na sub-página [2021](2021/) no 
 * [Projeto 2 - Análise de dados](projetos/Projeto2.md)
 * [Projeto 3 - Visualização e animação de dados](projetos/Projeto3.md)
 
+**Nota:** Tarefas de **Valorização** são opcionais, e contarão para além da nota máxima do projeto. Servirão para colmatar as notas de outros exercícios no mesmo ou noutro Projeto.
+
 ## Avaliação
 
 Os projetos práticos devem ser entregues por email para o docente do turno respetivo até às seguintes datas.
@@ -33,8 +35,9 @@ As defesas presenciais dos projetos práticos decorrerão num dia a decidir no f
 
 ## Melhoria de Nota
 
-A melhoria dos trabalhos pode ser feita realizando todas as tarefas de todos os projetos.
-O trabalho de melhoria poderá incluir também tarefas adicionais.
+A melhoria dos trabalhos pode ser feita realizando todas as tarefas de todos os projetos, incluindo tarefas de valorização.
+Em melhoria, tarefas de valorização não contarão para além da nota máxima do projeto.
+O trabalho de melhoria poderá incluir outras tarefas adicionais.
 
 **Os alunos que desejem efetuar melhoria de nota devem ter aprovação à cadeira na época normal, e contactar o docente a informar da sua intenção em fazer melhoria.**
 
