@@ -28,7 +28,7 @@ class TestProj2(unittest.TestCase):
     def test_naoMaisNuclear(self):
         l1 = list(naoMaisNuclear(dados3,paises3))
         l2 = ['Italy','Japan','Lithuania']
-        self.assertEqual(l1,l2)
+        self.assertEqual(set(l1),set(l2))
 
     def test_maisRenovaveis2020(self):
         x,y = maisRenovaveis2020(dados4)

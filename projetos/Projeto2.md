@@ -9,12 +9,13 @@ Aceda ao repositório [replit](https://replit.com/@up652136/Prog2-Proj2) do Proj
 
 ## Tarefa 1 (JSON)
 
-Observe o JSON ficheiro [nuclear_power_plants.json](../scripts/projeto2/dados/nuclear_power_plants.json), retirado [daqui](https://github.com/cristianst85/GeoNuclearData/blob/master/data/json/denormalized/nuclear_power_plants.json), que contém uma listagem das centrais nucleares existentes no planeta.
+Observe o ficheiro JSON [nuclear_power_plants.json](../scripts/projeto2/dados/nuclear_power_plants.json), retirado [daqui](https://github.com/cristianst85/GeoNuclearData/blob/master/data/json/denormalized/nuclear_power_plants.json), que contém uma listagem das centrais nucleares existentes no planeta.
 Pode ler o conteúdo do ficheiro JSON para uma estrutura de dados em Python da seguinte forma:
 ```python
 import json
-with open('dados/nuclear_power_plants','r') as f: str = f.read()
-dados = json.loads(str)
+with open('dados/nuclear_power_plants','r') as f:
+  dados_str = f.read()
+dados = json.loads(dados_str)
 ```
 O resultado guardado na variável `dados` será uma lista de centrais nucleares, em que cada central é representada por um dicionário com campos como o seu nome, o seu país ou a sua geolocalização.
 

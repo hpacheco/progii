@@ -10,4 +10,4 @@ render:
 	
 	cd scripts/projeto0; tree -H '.' --noreport --charset utf-8 -P "*.py" -o index.html
 	cd scripts/projeto1; tree -H '.' --noreport --charset utf-8 -I "*_sols.py" -I "__pycache__" -I "*.html" -o index.html
-	cd scripts/projeto2; tree -H '.' --noreport --charset utf-8 -I "*_sols.py" -I "__pycache__" -I "*.html" -o index.html
+	cd scripts/projeto2; tree -H '.' --noreport --charset utf-8 -I "*_sols.py" -I "__pycache__" -I "*.html" -I "*.geojson" -o index.html
