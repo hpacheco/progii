@@ -37,13 +37,15 @@ O resultado organizado esperado é:
 ```
 
 Complete as seguintes definições auxiliares:
+
 - A função `separaLinha` que parte uma linha (string sem newlines) numa lista de palavras;
 - A função `separaLinhas`, que parte uma lista de linhas numa lista de listas de linhas, usando como delimitador strings vazias;
 - A função `organizaCapitulos`, que recebe uma lista de de listas de linhas correspondente ao texto (sem linhas em branco) dos capítulos de um sermão e retorna uma lista de capítulos como descrito em cima.
 
 # Tarefa 3
 
-Complete as definições das seguintes funções, que recebem como argumento um sermão organizado como descrito na Tarefa 2.
+Complete as definições das seguintes funções, que recebem como argumento um sermão organizado como descrito na Tarefa 2:
+
 - A função `totais` que retorna um tuplo com os números totais de capítulos, parágrafos e palavras (todas as palavras do texto, incluindo título, descrição e capítulos);
 - A função `deusPeixes` que retorna quantas vezes as palavras 'Deus' e 'peixes' ocorrem no mesmo parágrafo;
 - A função `maiorParagrafo` que retorna o nome do capítulo com maior média de palavras por parágrafo. Caso haja mais do que um capítulo com a maior média, deverá retornar a primeira ocorrência. Assuma que a média de um capítulo sem parágrafos é 0.
@@ -86,6 +88,7 @@ O formato [Markdown](https://www.markdownguide.org/basic-syntax/) suporta uma si
 
 Neste exemplo, o título aparece formatado como Título 1, e cada capítulo como Título 2. Cada parágrafo encontra-se separado por uma linha em branco. Os parágrafos da descrição encontram-se formatados como um só bloco de citação.
 Cada palavra do texto também se encontra formatada de acordo com o resultado da função ``spellcheck``(para a palavra normalizada) definida acima:
+
 * palavras no dicionário Português não têm qualquer formatação;
 * palavras no dicionário Latim encontram-se em *itálico*;
 * palavras que não se encontrem em nenhum dos dicionários encontram-se ~~rasuradas~~.

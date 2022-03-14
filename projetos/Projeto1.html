@@ -240,9 +240,19 @@
 <span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>]</span></code></pre></div>
 <p>O resultado organizado esperado é:</p>
 <div class="sourceCode" id="cb2"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>([<span class="st">&#39;SERMÃO&#39;</span>,<span class="st">&#39;DE&#39;</span>,<span class="st">&#39;EXEMPLO&#39;</span>],[[<span class="st">&#39;A&#39;</span>,<span class="st">&#39;título&#39;</span>,<span class="st">&#39;de&#39;</span>,<span class="st">&#39;exemplo.&#39;</span>],[<span class="st">&#39;Veni,&#39;</span>,<span class="st">&#39;vidi,&#39;</span>,<span class="st">&#39;vici.&#39;</span>]],[(<span class="st">&#39;I&#39;</span>,[[<span class="st">&#39;Parágrafo&#39;</span>,<span class="st">&#39;um.&#39;</span>],[<span class="st">&#39;Parágrafo&#39;</span>,<span class="st">&#39;dois.&#39;</span>]])])</span></code></pre></div>
-<p>Complete as seguintes definições auxiliares: - A função <code>separaLinha</code> que parte uma linha (string sem newlines) numa lista de palavras; - A função <code>separaLinhas</code>, que parte uma lista de linhas numa lista de listas de linhas, usando como delimitador strings vazias; - A função <code>organizaCapitulos</code>, que recebe uma lista de de listas de linhas correspondente ao texto (sem linhas em branco) dos capítulos de um sermão e retorna uma lista de capítulos como descrito em cima.</p>
+<p>Complete as seguintes definições auxiliares:</p>
+<ul>
+<li>A função <code>separaLinha</code> que parte uma linha (string sem newlines) numa lista de palavras;</li>
+<li>A função <code>separaLinhas</code>, que parte uma lista de linhas numa lista de listas de linhas, usando como delimitador strings vazias;</li>
+<li>A função <code>organizaCapitulos</code>, que recebe uma lista de de listas de linhas correspondente ao texto (sem linhas em branco) dos capítulos de um sermão e retorna uma lista de capítulos como descrito em cima.</li>
+</ul>
 <h1 id="tarefa-3">Tarefa 3</h1>
-<p>Complete as definições das seguintes funções, que recebem como argumento um sermão organizado como descrito na Tarefa 2. - A função <code>totais</code> que retorna um tuplo com os números totais de capítulos, parágrafos e palavras (todas as palavras do texto, incluindo título, descrição e capítulos); - A função <code>deusPeixes</code> que retorna quantas vezes as palavras ‘Deus’ e ‘peixes’ ocorrem no mesmo parágrafo; - A função <code>maiorParagrafo</code> que retorna o nome do capítulo com maior média de palavras por parágrafo. Caso haja mais do que um capítulo com a maior média, deverá retornar a primeira ocorrência. Assuma que a média de um capítulo sem parágrafos é 0.</p>
+<p>Complete as definições das seguintes funções, que recebem como argumento um sermão organizado como descrito na Tarefa 2:</p>
+<ul>
+<li>A função <code>totais</code> que retorna um tuplo com os números totais de capítulos, parágrafos e palavras (todas as palavras do texto, incluindo título, descrição e capítulos);</li>
+<li>A função <code>deusPeixes</code> que retorna quantas vezes as palavras ‘Deus’ e ‘peixes’ ocorrem no mesmo parágrafo;</li>
+<li>A função <code>maiorParagrafo</code> que retorna o nome do capítulo com maior média de palavras por parágrafo. Caso haja mais do que um capítulo com a maior média, deverá retornar a primeira ocorrência. Assuma que a média de um capítulo sem parágrafos é 0.</li>
+</ul>
 <h1 id="tarefa-4">Tarefa 4</h1>
 <p>Faça download para uma pasta local dos ficheiros <a href="../scripts/projeto1/dados/la.txt">la.txt</a> e <a href="../scripts/projeto1/dados/pt.txt">pt.txt</a>, que contêm dois dicionários que consistem em listas exaustivas de palavras em Latim e em Português.</p>
 <p>Analise o código que lê o conteúdo dos ficheiros para dois <code>set</code>s de palavras <code>la_dic</code> e <code>pt_dic</code>. Dada uma palavra normalizada (sem pontuação nem maiúsculas), podemos definir facilmente a função <code>spellcheck</code> que verifica se uma palavra dada está em algum dos dicionários.</p>
@@ -264,7 +274,12 @@
 <span id="cb6-8"><a href="#cb6-8" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb6-9"><a href="#cb6-9" aria-hidden="true" tabindex="-1"></a>Parágrafo dois.</span></code></pre></div>
 <p>O formato <a href="https://www.markdownguide.org/basic-syntax/">Markdown</a> suporta uma sintaxe especial de texto para definir títulos, estilos de letra e outras formatações; consulte a documentação. Pode visualizar o texto formatado utilizando escrevendo o seu conteúdo para um ficheiro com extensão <code>.md</code>, por exemplo <code>sermao.md</code> e utilizar a pré-visualização automática do IDE. Pode também copiar o texto para um pré-visualizador web como <a href="https://markdownlivepreview.com/">este</a></p>
-<p>Neste exemplo, o título aparece formatado como Título 1, e cada capítulo como Título 2. Cada parágrafo encontra-se separado por uma linha em branco. Os parágrafos da descrição encontram-se formatados como um só bloco de citação. Cada palavra do texto também se encontra formatada de acordo com o resultado da função <code>spellcheck</code>(para a palavra normalizada) definida acima: * palavras no dicionário Português não têm qualquer formatação; * palavras no dicionário Latim encontram-se em <em>itálico</em>; * palavras que não se encontrem em nenhum dos dicionários encontram-se <del>rasuradas</del>. Repare que apenas a palavra original (excluindo caracteres de pontuação) se encontra formatada.</p>
+<p>Neste exemplo, o título aparece formatado como Título 1, e cada capítulo como Título 2. Cada parágrafo encontra-se separado por uma linha em branco. Os parágrafos da descrição encontram-se formatados como um só bloco de citação. Cada palavra do texto também se encontra formatada de acordo com o resultado da função <code>spellcheck</code>(para a palavra normalizada) definida acima:</p>
+<ul>
+<li>palavras no dicionário Português não têm qualquer formatação;</li>
+<li>palavras no dicionário Latim encontram-se em <em>itálico</em>;</li>
+<li>palavras que não se encontrem em nenhum dos dicionários encontram-se <del>rasuradas</del>. Repare que apenas a palavra original (excluindo caracteres de pontuação) se encontra formatada.</li>
+</ul>
 <p>Para isso, é útil definir a função auxiliar <code>formataPalavra</code>, que deve receber uma palavra, normalizá-la, correr o spellchecker e retornar a palavra formatada. Por exemplo, para uma palavra em Inglês:</p>
 <div class="sourceCode" id="cb7"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>formataPalavra(<span class="st">&#39;English?&#39;</span>)</span></code></pre></div>
 <p>Deve retornar a palavra rasurada:</p>
