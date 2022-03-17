@@ -60,7 +60,7 @@ Esta planificação serve para dar uma ideia resumida das aulas planeadas e/ou d
 * T02 (07/03): [Ambiente de desenvolvimento e conceitos base](slides/t02.pdf)
 * T03 (10/03): [Iteração, condicionais e funções](slides/t03.pdf)
 * T04 (14/03): [Strings, listas e tuplos](slides/t04.pdf)
-* T05 (17/03): Ficheiros 
+* T05 (17/03): [Ficheiros](slides/t05.pdf)
 * T06 (21/03): Dicionários e sets 
 * T07 (24/03): Compreensões 
 * T08 (28/03): Classes e objetos 

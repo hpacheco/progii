@@ -5,6 +5,7 @@ render:
 	pandoc projetos/Projeto0.md -t html --mathjax --standalone --metadata title="Projeto 0" > projetos/Projeto0.html
 	pandoc projetos/Projeto1.md -t html --mathjax --standalone --metadata title="Projeto 1" > projetos/Projeto1.html
 	pandoc projetos/Projeto2.md -t html --mathjax --standalone --metadata title="Projeto 2" > projetos/Projeto2.html
+	pandoc projetos/Projeto3.md -t html --mathjax --standalone --metadata title="Projeto 3" > projetos/Projeto3.html
 	pandoc README.md -t html --standalone --metadata title="21/22" > index.html
 	perl -i -pe's/.md/.html/g' index.html
 	
