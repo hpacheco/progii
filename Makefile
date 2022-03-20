@@ -12,3 +12,11 @@ render:
 	cd scripts/projeto0; tree -H '.' --noreport --charset utf-8 -P "*.py" -o index.html
 	cd scripts/projeto1; tree -H '.' --noreport --charset utf-8 -I "*_sols.py" -I "__pycache__" -I "*.html" -o index.html
 	cd scripts/projeto2; tree -H '.' --noreport --charset utf-8 -I "*_sols.py" -I "__pycache__" -I "*.html" -I "*.geojson" -o index.html
+	cd scripts/projeto3; rm -rf images/icons/rus/*.png; rm -rf images/icons/ukr/*.png; tree -H '.' --noreport --charset utf-8 -I "*_sols.py" -I "__pycache__" -I "*.html" -o index.html
+    
+make update:
+	cd scripts/projeto3/dados; \
+	curl -O https://raw.githubusercontent.com/zhukovyuri/VIINA/master/Data/events_latest.csv
+    
+make highlight:
+	highlight -O rtf tmp.py | pbcopy

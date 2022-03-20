@@ -3,7 +3,7 @@
 Bem-vindo ao repositório de suporte à cadeira de [Programação II 2021/2022](https://sigarra.up.pt/fcup/pt/ucurr_geral.ficha_uc_view?pv_ocorrencia_id=488503).
 Neste repositório poderá encontrar todo o material de suporte à cadeira.
 
-Pode navegar todo o conteúdo desta página no [repositório](https://github.com/hpacheco/progii) associado.
+Pode navegar todo o conteúdo desta página no [repositório](https://github.com/hpacheco/progii) associado, que inclui os exemplos de código `Python` utilizados nas [aulas](https://github.com/hpacheco/progii/aulas).
 
 O formato da cadeira deste ano será similar à do ano anterior, exceptuando os temas dos projetos.
 Podem consultar todo o material do ano anterior na sub-página [2021](2021/) no mesmo repositório, incluindo:
@@ -61,7 +61,7 @@ Esta planificação serve para dar uma ideia resumida das aulas planeadas e/ou d
 * T03 (10/03): [Iteração, condicionais e funções](slides/t03.pdf)
 * T04 (14/03): [Strings, listas e tuplos](slides/t04.pdf)
 * T05 (17/03): [Ficheiros](slides/t05.pdf)
-* T06 (21/03): Dicionários e sets 
+* T06 (21/03): [Dicionários e sets](slides/t06.pdf)
 * T07 (24/03): Compreensões 
 * T08 (28/03): Classes e objetos 
 * T09 (31/03): Formatos de dados 
@@ -92,7 +92,7 @@ Esta planificação serve para dar uma ideia resumida das aulas planeadas e/ou d
 
 * P01 (07/03): [Projeto 0 - Desenferrujar](projetos/Projeto0.md)
 * P02 (14/03): [Projeto 0 - Desenferrujar](projetos/Projeto0.md)
-* P03 (24/03): [Projeto 1 - Análise de texto](projetos/Projeto1.md)
+* P03 (21/03): [Projeto 1 - Análise de texto](projetos/Projeto1.md)
 * P04 (28/03): [Projeto 1 - Análise de texto](projetos/Projeto1.md)
 
 * P05 (04/04): [Projeto 2 - Análise de dados](projetos/Projeto2.md)

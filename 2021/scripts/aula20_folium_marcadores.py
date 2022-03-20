@@ -14,7 +14,7 @@ for i,row in gdf.iterrows():
      if row['temperatura'] >= 20: co='red';
      elif row['temperatura'] >= 10: co='orange';
      elif row['temperatura'] >= 0: co='blue'
-     else: co='gray';
+     else: co='other';
      icn = folium.Icon(color=co, icon='glyphicon-cloud')
      folium.Marker(location=(row['geometry'].y,row['geometry'].x) \
                   ,icon=icn \

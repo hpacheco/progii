@@ -4,8 +4,8 @@ Neste primeiro projeto vamos relembrar alguns conceitos base da programação em
 
 Aceda ao repositório [replit](https://replit.com/@up652136/Prog2-Proj1) do Projeto 1, onde pode encontrar um ficheiro `projeto1.py`:
 
-- Criando uma conta no [replit](https://replit.com/) e fazendo `Fork` do projeto, pode resolver o projeto online utilizando o IDE web.
-- Pode também fazer download dos ficheiros na pasta [projeto1](../scripts/projeto1) para desenvolver o projeto no seu computador e utilizando um IDE à sua escolha.
+- Criando uma conta no [replit](https://replit.com/) e fazendo `Fork` do projeto, pode resolver o projeto online utilizando o IDE web. 
+- Pode consultar os ficheiros individuais na pasta [projeto1](../scripts/projeto1) e fazer download dos mesmos para desenvolver o projeto no seu computador e utilizando um IDE à sua escolha. Alternativamente, pode fazer download de todo o projeto no [replit](https://replit.com/@up652136/Prog2-Proj1) como um arquivo zip.
 
 Neste projeto vamos processar o texto completo do *Sermão de Santo António aos Peixes* do *Padre António Vieira*, extrair métricas simples e reformatar o texto.
 

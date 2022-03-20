@@ -8,6 +8,8 @@ for i,line in enumerate(lines):
     if line.isnumeric():
         estrofes.append(lines[i+1:i+9])
 
+#print(estrofes)
+
 # imprime estrofes
 for estrofe in estrofes:
     for verso in estrofe: print(verso)
@@ -26,35 +28,35 @@ print(numversos)
 print(sum(map(len,estrofes)))
 
 def rem_verso(verso):
-    for c in verso:
-        if not c.isspace() and not c.isalpha():
-            verso = verso.replace(c, '')
-    return verso
+   for c in verso:
+       if not c.isspace() and not c.isalpha():
+           verso = verso.replace(c, '')
+   return verso
 
 for estrofe in estrofes:
-    for i,verso in enumerate(estrofe):
-        estrofe[i] = rem_verso(verso)
+   for i,verso in enumerate(estrofe):
+       estrofe[i] = rem_verso(verso)
 
-# escreve estrofes para um ficheiro
+#escreve estrofes para um ficheiro
 with open('estrofes.txt','w') as f:
-    for estrofe in estrofes:
-        for verso in estrofe:
-            # um verso por linha
-            f.write(verso+"\n")
-        # linha de espaço entre estrofes
-        f.write("\n")
+   for estrofe in estrofes:
+       for verso in estrofe:
+#            um verso por linha
+           f.write(verso+"\n")
+#        linha de espaço entre estrofes
+       f.write("\n")
 
 # versão imperativa
 npalavras = 0
 for estrofe in estrofes:
-    for verso in estrofe:
-        npalavras += len(verso.split())
+   for verso in estrofe:
+       npalavras += len(verso.split())
 
 # versão funcional
 def sum_verso(verso):
-    return len(verso.split())
+   return len(verso.split())
 def sum_estrofe(estrofe):
-    return sum(map(sum_verso,estrofe))
+   return sum(map(sum_verso,estrofe))
 npalavras = sum(map(sum_estrofe,estrofes))
 
 print(npalavras)
