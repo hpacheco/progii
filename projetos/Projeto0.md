@@ -5,7 +5,8 @@ Nas primeiras aulas vamos reavivar os nossos conhecimentos fundamentais de progr
 Aceda ao repositório [replit](https://replit.com/@up652136/Prog2-Proj0) do Projeto 0, onde pode encontrar um ficheiro `projeto0.py`:
 
 - Criando uma conta no [replit](https://replit.com/) e fazendo `Fork` do projeto, pode resolver o projeto online utilizando o IDE web.
-- Pode também fazer download dos ficheiros na pasta [projeto0](../scripts/projeto0) para desenvolver o projeto no seu computador e utilizando um IDE à sua escolha.
+- Pode consultar os ficheiros individuais na pasta [projeto0](../scripts/projeto0) e fazer download dos mesmos para desenvolver o projeto no seu computador e utilizando um IDE à sua escolha.
+- Pode fazer download de todo o projeto como um arquivo zip [aqui](../scripts/projeto0.zip).
 
 Neste projeto (primeiras duas semanas de aulas práticas) vamos resolver livremente alguns exercícios lecionados em edições anteriores da cadeira anterior de [Programação I](https://sigarra.up.pt/fcup/pt/UCURR_GERAL.FICHA_UC_VIEW?pv_ocorrencia_id=489202). Sinta-se à vontade para requisitar mais ou novos exercícios aos docentes.
 

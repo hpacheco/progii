@@ -1,5 +1,5 @@
 #lê ficheiro como lista de linhas sem \n
-with open('../dados/lusiadas.txt','r') as f:
+with open('../../dados/lusiadas.txt','r') as f:
     lines = f.read().splitlines()
 
 # cria lista de estrofes

@@ -5,7 +5,8 @@ Neste primeiro projeto vamos relembrar alguns conceitos base da programação em
 Aceda ao repositório [replit](https://replit.com/@up652136/Prog2-Proj1) do Projeto 1, onde pode encontrar um ficheiro `projeto1.py`:
 
 - Criando uma conta no [replit](https://replit.com/) e fazendo `Fork` do projeto, pode resolver o projeto online utilizando o IDE web. 
-- Pode consultar os ficheiros individuais na pasta [projeto1](../scripts/projeto1) e fazer download dos mesmos para desenvolver o projeto no seu computador e utilizando um IDE à sua escolha. Alternativamente, pode fazer download de todo o projeto no [replit](https://replit.com/@up652136/Prog2-Proj1) como um arquivo zip.
+- Pode consultar os ficheiros individuais na pasta [projeto1](../scripts/projeto1) e fazer download dos mesmos para desenvolver o projeto no seu computador e utilizando um IDE à sua escolha.
+- Pode fazer download de todo o projeto como um arquivo zip [aqui](../scripts/projeto1.zip).
 
 Neste projeto vamos processar o texto completo do *Sermão de Santo António aos Peixes* do *Padre António Vieira*, extrair métricas simples e reformatar o texto.
 
@@ -40,7 +41,7 @@ Complete as seguintes definições auxiliares:
 
 - A função `separaLinha` que parte uma linha (string sem newlines) numa lista de palavras;
 - A função `separaLinhas`, que parte uma lista de linhas numa lista de listas de linhas, usando como delimitador strings vazias;
-- A função `organizaCapitulos`, que recebe uma lista de de listas de linhas correspondente ao texto (sem linhas em branco) dos capítulos de um sermão e retorna uma lista de capítulos como descrito em cima.
+- A função `organizaCapitulos`, que recebe uma lista de listas de linhas correspondente ao texto (sem linhas em branco) dos capítulos de um sermão e retorna uma lista de capítulos como descrito em cima.
 
 # Tarefa 3
 

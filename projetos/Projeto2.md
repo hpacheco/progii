@@ -5,7 +5,8 @@ Neste segundo projeto vamos investigar os conceitos base de análise de dados em
 Aceda ao repositório [replit](https://replit.com/@up652136/Prog2-Proj2) do Projeto 2, onde pode encontrar um ficheiro `projeto2.py`:
 
 - Criando uma conta no [replit](https://replit.com/) e fazendo `Fork` do projeto, pode resolver o projeto online utilizando o IDE web. 
-- Pode consultar os ficheiros individuais na pasta [projeto2](../scripts/projeto2) e fazer download dos mesmos para desenvolver o projeto no seu computador e utilizando um IDE à sua escolha. Alternativamente, pode fazer download de todo o projeto no [replit](https://replit.com/@up652136/Prog2-Proj2) como um arquivo zip.
+- Pode consultar os ficheiros individuais na pasta [projeto2](../scripts/projeto2) e fazer download dos mesmos para desenvolver o projeto no seu computador e utilizando um IDE à sua escolha.
+- Pode fazer download de todo o projeto como um arquivo zip [aqui](../scripts/projeto2.zip).
 
 ## Tarefa 1 (JSON)
 
