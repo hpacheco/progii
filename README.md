@@ -3,7 +3,7 @@
 Bem-vindo ao repositório de suporte à cadeira de [Programação II 2021/2022](https://sigarra.up.pt/fcup/pt/ucurr_geral.ficha_uc_view?pv_ocorrencia_id=488503).
 Neste repositório poderá encontrar todo o material de suporte à cadeira.
 
-Pode navegar todo o conteúdo desta página no [repositório](https://github.com/hpacheco/progii) associado, que inclui os exemplos de código `Python` utilizados nas [aulas](https://github.com/hpacheco/progii/scripts/aulas).
+Pode navegar todo o conteúdo desta página no [repositório](https://github.com/hpacheco/progii) associado, que inclui os exemplos de código `Python` utilizados nas [aulas](https://github.com/hpacheco/progii/tree/master/scripts/aulas).
 
 O formato da cadeira deste ano será similar à do ano anterior, exceptuando os temas dos projetos.
 Podem consultar todo o material do ano anterior na sub-página [2021](2021/) no mesmo repositório, incluindo:
