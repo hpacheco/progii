@@ -63,7 +63,7 @@ Esta planificação serve para dar uma ideia resumida das aulas planeadas e/ou d
 * T05 (17/03): [Ficheiros](slides/t05.pdf)
 * T06 (21/03): [Dicionários e sets](slides/t06.pdf)
 * T07 (24/03): [Compreensões](slides/t07.pdf)
-* T08 (28/03): Classes e objetos 
+* T08 (28/03): [Classes e objetos](slides/t08.pdf)
 * T09 (31/03): Formatos de dados 
 
 > *Entrega do Projeto 1*

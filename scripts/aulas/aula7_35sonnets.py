@@ -1,6 +1,6 @@
 import urllib.request
 url = 'http://www.gutenberg.org/files/19978/19978-0.txt'
-urllib.request.urlretrieve(url,'../../dados/35sonnets.txt')
+#urllib.request.urlretrieve(url,'../../dados/35sonnets.txt')
 with open('../../dados/35sonnets.txt','r') as f: ls = f.read().splitlines()
 
 # testa se linha é numeração romana
