@@ -85,7 +85,7 @@ Parágrafo um.
 
 Parágrafo dois.
 ```
-O formato [Markdown](https://www.markdownguide.org/basic-syntax/) suporta uma sintaxe especial de texto para definir títulos, estilos de letra e outras formatações; consulte a documentação. Pode visualizar o texto formatado utilizando escrevendo o seu conteúdo para um ficheiro com extensão `.md`, por exemplo `sermao.md` e utilizar a pré-visualização automática do IDE. Pode também copiar o texto para um pré-visualizador web como [este](https://markdownlivepreview.com/)
+O formato [Markdown](https://www.markdownguide.org/basic-syntax/) suporta uma sintaxe especial de texto para definir títulos, estilos de letra e outras formatações; consulte a documentação. Pode visualizar o texto formatado escrevendo o seu conteúdo para um ficheiro com extensão `.md`, por exemplo `sermao.md` e utilizar a pré-visualização automática do IDE. Pode também copiar o texto para um pré-visualizador web como [este](https://markdownlivepreview.com/)
 
 Neste exemplo, o título aparece formatado como Título 1, e cada capítulo como Título 2. Cada parágrafo encontra-se separado por uma linha em branco. Os parágrafos da descrição encontram-se formatados como um só bloco de citação.
 Cada palavra do texto também se encontra formatada de acordo com o resultado da função ``spellcheck``(para a palavra normalizada) definida acima:

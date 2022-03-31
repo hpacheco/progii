@@ -64,21 +64,21 @@ Esta planificação serve para dar uma ideia resumida das aulas planeadas e/ou d
 * T06 (21/03): [Dicionários e sets](slides/t06.pdf)
 * T07 (24/03): [Compreensões](slides/t07.pdf)
 * T08 (28/03): [Classes e objetos](slides/t08.pdf)
-* T09 (31/03): Formatos de dados 
+* T09 (31/03): Apoio à resolução dos projetos
 
 > *Entrega do Projeto 1*
 
-* T10 (04/04): Computação numérica com arrays (numpy) 
-* T11 (07/04): Análise de dados tabulares (pandas) 
+* T10 (04/04): Formatos de dados 
+* T11 (07/04): Computação numérica com arrays (numpy) 
 * T12 (21/04): Análise de dados tabulares (pandas)
-* T13 (25/04): Gráficos 
+* T13 (25/04): Análise de dados tabulares (pandas)
 * T14 (28/04): Gráficos 
-* T15 (09/05): Gráficos interativos 
+* T15 (09/05): Gráficos
 * T16 (12/05): Apoio à resolução dos projetos
 
 > *Entrega do Projeto 2*
 
-* T17 (16/05): Mapas 
+* T17 (16/05): Gráficos interativos  
 * T18 (19/05): Mapas
 * T19 (23/05): Mapas web (folium)
 * T20 (26/05): Gráficos 2D (pygame) 
