@@ -24,23 +24,23 @@ with open('../../dados/weather-type-classe.json','r') as f:
     data = json.load(f)['data']
 
 print(data)
-
-classe = { d['idWeatherType'] : d['descIdWeatherTypePT'] for d in data }
-print(classe)
-tempo = classe[previsao]
-print(tempo)
-
-import calendar
-
-def day_month(d):
-    return str(d.day)+' '+calendar.month_abbr[d.month]
-
-weather_dif = { day_month(d) : classe[w] for d,w in weather.items() }
-print(weather_dif)
-
-with open("test.json","w") as f:
-    json.dump(weather_dif,f)
-
-with open("test.json","r") as f:
-    weather_dif2 = json.load(f)
-print(weather_dif2 == weather_dif)
+#
+# classe = { d['idWeatherType'] : d['descIdWeatherTypePT'] for d in data }
+# print(classe)
+# tempo = classe[previsao]
+# print(tempo)
+#
+# import calendar
+#
+# def day_month(d):
+#     return str(d.day)+' '+calendar.month_abbr[d.month]
+#
+# weather_dif = { day_month(d) : classe[w] for d,w in weather.items() }
+# print(weather_dif)
+#
+# with open("test.json","w") as f:
+#     json.dump(weather_dif,f)
+#
+# with open("test.json","r") as f:
+#     weather_dif2 = json.load(f)
+# print(weather_dif2 == weather_dif)
