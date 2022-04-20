@@ -27,7 +27,7 @@ Explore este conjunto de dados escrevendo programas Python que respondam às seg
 * Qual o país com 3 das centrais com maior capacidade? Procure centrais por ordem decrescente de capacidade até encontrar 3 do mesmo país. Complete a definição da função `paisTresMaioresCentrais`.
 * Quantas centrais nucleares existem num raio de 500km de Paris? Calcule a distância em km entre duas geolocalizações utilizando a função `geodist` e sabendo que Paris tem latitude `48.8703520765571` e longitude `2.3466898684084248`. Complete a definição da função `centraisParis`. 
 
-## Tarefa 2 (GeoJSON)
+## Tarefa 2 (GeoJSON) (Valorização)
 
 De forma a visualizar mais facilmente os dados, defina a função `formataCentrais(f,centrais)` que recebe uma função `f` que formata cada central, uma lista de dados de centrais e a converte no formato GeoJSON, aplicando a `f` a cada central da lista de centrais recebida. Ignore centrais sem dados de geolocalização.
 O formato GeoJSON é JSON válido, e segue uma estrutura específica para representar marcadores geográficos e metadados associados. 
