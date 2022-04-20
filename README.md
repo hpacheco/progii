@@ -26,7 +26,7 @@ Os projetos práticos devem ser entregues por email para o docente do turno resp
 Estas datas podem vir a ser alteradas consoante o calendário académico.
 
 * Projeto 1: 3 Abril
-* Projeto 2: 15 Maio
+* Projeto 2: ~~15 Maio~~ 22 Maio
 * Projeto 3: 07 Junho
 
 As defesas presenciais dos projetos práticos decorrerão num dia a decidir no final do semestre.
@@ -71,20 +71,19 @@ Esta planificação serve para dar uma ideia resumida das aulas planeadas e/ou d
 * T10 (04/04): [Formatos de dados](slides/t10.pdf)
 * T11 (07/04): [Computação numérica com arrays (numpy)](slides/t11.pdf)
 * T12 (21/04): Análise de dados tabulares (pandas)
-* T13 (25/04): Análise de dados tabulares (pandas)
-* T14 (28/04): Gráficos 
-* T15 (09/05): Gráficos
-* T16 (12/05): Apoio à resolução dos projetos
+* T13 (28/04): Análise de dados tabulares (pandas)
+* T14 (09/05): Gráficos 
+* T15 (12/05): Gráficos
+* T16 (16/05): Apoio à resolução dos projetos
+* T17 (19/05): Gráficos interativos
 
 > *Entrega do Projeto 2*
 
-* T17 (16/05): Gráficos interativos  
-* T18 (19/05): Mapas
-* T19 (23/05): Mapas web (folium)
-* T20 (26/05): Gráficos 2D (pygame) 
-* T21 (30/05): Animações (pygame)
-* T22 (02/06): Aplicações interativas (pygame) 
-* T23 (06/06): Apoio à resolução dos projetos
+* T18 (23/05): Mapas
+* T19 (26/05): Mapas web (folium)
+* T20 (30/05): Gráficos 2D (pygame) 
+* T21 (02/06): Animações (pygame)
+* T22 (06/06): Apoio à resolução dos projetos
 
 > *Entrega do Projeto 3*
 
@@ -96,10 +95,9 @@ Esta planificação serve para dar uma ideia resumida das aulas planeadas e/ou d
 * P04 (28/03): [Projeto 1 - Análise de texto](projetos/Projeto1.md)
 
 * P05 (04/04): [Projeto 2 - Análise de dados](projetos/Projeto2.md)
-* P06 (25/04): [Projeto 2 - Análise de dados](projetos/Projeto2.md)
 * P07 (09/05): [Projeto 2 - Análise de dados](projetos/Projeto2.md)
+* P08 (16/05): [Projeto 2 - Análise de dados](projetos/Projeto2.md)
 
-* P08 (16/05): [Projeto 3 - Visualização e animação de dados](projetos/Projeto3.md)
 * P09 (23/05): [Projeto 3 - Visualização e animação de dados](projetos/Projeto3.md)
 * P10 (30/05): [Projeto 3 - Visualização e animação de dados](projetos/Projeto3.md)
 * P11 (06/06): [Projeto 3 - Visualização e animação de dados](projetos/Projeto3.md)
