@@ -2,10 +2,9 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 dcc=plt.imread("../../dados/dcc.jpg")
+#print(dcc)
 print(dcc.shape)
 x,y,z = dcc.shape
-
-print ((x*2 * y*2) / (x*y))
 
 dcc_big = np.empty((x*2, y*2, z), dtype=dcc.dtype)
 for i,row in enumerate(dcc):

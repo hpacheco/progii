@@ -9,7 +9,7 @@ x,y,z = dcc.shape
 dcc_blur = np.empty((x,y,z),dtype=dcc.dtype)
 
 # blurriness level
-blur = 5
+blur = 2
 
 for i in range(x):
     for j in range(y):
