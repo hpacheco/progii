@@ -72,7 +72,7 @@ Esta planificação serve para dar uma ideia resumida das aulas planeadas e/ou d
 * T11 (07/04): [Computação numérica com arrays (numpy)](slides/t11.pdf)
 * T12 (21/04): [Análise de dados tabulares (pandas)](slides/t12.pdf)
 * T13 (28/04): [Análise de dados tabulares (pandas)](slides/t13.pdf)
-* T14 (09/05): Gráficos 
+* T14 (09/05): [Gráficos](slides/t14.pdf)
 * T15 (12/05): Gráficos
 * T16 (16/05): Gráficos interativos
 * T17 (19/05): Apoio à resolução dos projetos
