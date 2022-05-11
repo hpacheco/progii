@@ -75,7 +75,7 @@ Também vai ser útil converter a coluna `date`num objeto do tipo `datetime64` e
 
 ### 2. Desenhar animação
 
-Vamos utilizar os mapas diários sobre o conflito publicados pelo [Institute for the Study of War](https://www.understandingwar.org/). Podem consultar alguns destes mapas na pasta [maps](../scripts/projeto3/images/maps), cujo nome é referente a um dia e cujo conteúdo realça as zonas de conflito nesse dia. 
+Vamos utilizar os mapas diários sobre o conflito publicados pelo [Institute for the Study of War](https://www.understandingwar.org/). Podem consultar alguns destes mapas na pasta [mapas](../scripts/projeto3/mapas), cujo nome é referente a um dia e cujo conteúdo realça as zonas de conflito nesse dia. 
 
 A classe `Animacao` facilita o processo de criação de uma animação `Pygame` para esta tarefa:
 
