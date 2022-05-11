@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>Projeto 3</title>
+  <style>
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      {   }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+    code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+    code span.at { color: #7d9029; } /* Attribute */
+    code span.bn { color: #40a070; } /* BaseN */
+    code span.bu { } /* BuiltIn */
+    code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #4070a0; } /* Char */
+    code span.cn { color: #880000; } /* Constant */
+    code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+    code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+    code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+    code span.dt { color: #902000; } /* DataType */
+    code span.dv { color: #40a070; } /* DecVal */
+    code span.er { color: #ff0000; font-weight: bold; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #40a070; } /* Float */
+    code span.fu { color: #06287e; } /* Function */
+    code span.im { } /* Import */
+    code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+    code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+    code span.op { color: #666666; } /* Operator */
+    code span.ot { color: #007020; } /* Other */
+    code span.pp { color: #bc7a00; } /* Preprocessor */
+    code span.sc { color: #4070a0; } /* SpecialChar */
+    code span.ss { color: #bb6688; } /* SpecialString */
+    code span.st { color: #4070a0; } /* String */
+    code span.va { color: #19177c; } /* Variable */
+    code span.vs { color: #4070a0; } /* VerbatimString */
+    code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">Projeto 3</h1>
+</header>
+<h1 id="projeto-3---visualização-e-animação-de-dados">Projeto 3 - Visualização e animação de dados</h1>
+<p>Neste terceiro projeto vamos investigar as bibliotecas base de visualização de dados em Python de uma perspetiva prática, e aplicá-las para gerar gráficos e mapas a partir de dados previamente processados.</p>
+<p>Aceda ao repositório <a href="https://replit.com/@up652136/Prog2-Proj3">replit</a> do Projeto 3, onde pode encontrar um ficheiro <code>projeto3.py</code>:</p>
+<ul>
+<li>Criando uma conta no <a href="https://replit.com/">replit</a> e fazendo <code>Fork</code> do projeto, pode resolver o projeto online utilizando o IDE web.</li>
+<li>Pode consultar os ficheiros individuais na pasta <a href="../scripts/projeto3">projeto3</a> e fazer download dos mesmos para desenvolver o projeto no seu computador e utilizando um IDE à sua escolha.</li>
+<li>Pode fazer download de todo o projeto como um arquivo zip <a href="../scripts/projeto3.zip">aqui</a>.</li>
+</ul>
+<h2 id="tarefa-1-gráficos">Tarefa 1 (Gráficos)</h2>
+<p>Observe os seguintes ficheiros CSV:</p>
+<ul>
+<li><a href="../scripts/projeto3/dados/brent.csv">brent.csv</a>, retirado <a href="https://www.macrotrends.net/2480/brent-crude-oil-prices-10-year-daily-chart">daqui</a>, que contém a evolução do preço em Dólares por Barril de Brent nos mercados internacionais;</li>
+<li><a href="../scripts/projeto3/dados/gasolina.csv">gasolina.csv</a>, retirado <a href="https://precoscombustiveis.dgeg.gov.pt/estatistica/preco-medio-diario/">daqui</a>, que contém a evolução do preço em Euros por Litro de Gasolina Simples 95 em Portugal, desde 2015.</li>
+</ul>
+<p><strong>Complete</strong> a função <code>desenhaPrecos</code> que desenha um gráfico que demonstre a forte correlação entre os preços do barril de Brent e da Gasolina Simples 95, desde 2019. Para obter nota máxima nesta tarefa, o gráfico deve:</p>
+<ul>
+<li>desenhar cada curva com um estilo (linhas, marcadores, cores, áreas, barras, etc) diferente;</li>
+<li>conter informação explicativa na label de cada eixo e/ou numa legenda;</li>
+<li>desenhar cada curva num eixo dos Y independente;</li>
+<li>marcar com anotações dois momentos relevantes: o início da pandemia de COVID-19 e o início da guerra na Ucrânia.</li>
+</ul>
+<h2 id="tarefa-2-gráficos-dinâmicos">Tarefa 2 (Gráficos Dinâmicos)</h2>
+<p>Observe os ficheiros CSV contidos na pasta <a href="../scripts/projeto3/dados/ukraine-refugees">ukraine-refugees</a>, obtidos <a href="https://github.com/datadesk/ukraine-refugee-tracker/tree/main/raw/daily">aqui</a>, que contêm dados de refugiados ucranianos durante o conflito atual para diversos países europeus.</p>
+<ol type="1">
+<li><strong>Complete</strong> a definição da função <code>desenhaRefugiadosDia</code> que recebe um objecto <code>Axes</code> matplotlib e um dia <code>YYYY-mm-dd</code> e desenha um gráfico <em>pie</em> nesse <code>Axes</code> com os números de refugiados Ucranianos para os diferentes países nesse dia. Cada fatia da tarte deve mencionar o país em questão e o número de refugiados.</li>
+<li><strong>Complete</strong> a definição da função <code>desenhaRefugiadosDias</code> que cria um gráfico dinâmico para os vários dias de conflito disponíveis. Utilize um <code>Slider</code> matplotlib para controlar o dia e evite erros quando houver dias em falta.</li>
+</ol>
+<h2 id="tarefa-3-mapas-valorização">Tarefa 3 (Mapas) (Valorização)</h2>
+<p>Esta tarefa é inspirada <a href="https://data.humdata.org/visualization/ukraine-humanitarian-operations/">neste</a> visualizador de dados sobre o conflito atual na Ucrânia.</p>
+<p>Observe os seguintes ficheiros:</p>
+<ul>
+<li><a href="../scripts/projeto3/dados/Ukraine-regions.geojson">Ukraine-regions.geojson</a>, retirado <a href="https://raw.githubusercontent.com/org-scn-design-studio-community/sdkcommunitymaps/master/geojson/Europe/Ukraine-regions.json">daqui</a>, que contém informação sobre os contornos geográficos de cada uma das regiões da Ucrânia. Pode visualizar as regiões num mapa online carregando o ficheiro em <a href="https://geojson.io/" class="uri">https://geojson.io/</a>.</li>
+<li><a href="../scripts/projeto3/dados/ukraine-population.csv">ukraine-population.csv</a>, adaptado <a href="http://database.ukrcensus.gov.ua/PXWEB2007/eng/news/op_popul_e.asp">daqui</a>, que contém a população da Ucrânia por região no início do ano de 2022.</li>
+</ul>
+<p>Utilizando o <code>Folium</code>, desenhe um mapa <em>chloropeth</em> das regiões da Ucrânia, em que a cor de cada região é proporcional à densidade populacional de cada região (pessoas / km2). Siga os seguintes passos:</p>
+<ol type="1">
+<li><p><strong>Complete</strong> a definição da função <code>populacaoUcrania</code> que combina ambos os ficheiros num só <code>GeoDataFrame</code>. Notas:</p>
+<ul>
+<li>A função deve retornar um novo <code>GeoDataFrame</code> com duas novas colunas <code>regiao</code> (nome de cada região) e <code>densidade</code> (densidade populacional de cada região).</li>
+<li>Considere uma densidade por defeito (por exemplo 0) para regiões sem informação de população.</li>
+<li>Ajuste manualmente a densidade da cidade de Kiev, que é muito maior, para evitar que “ofusque” todas as outras densidades.</li>
+<li>A área de cada região já se encontra disponível no ficheiro GeoJSON com dados de regiões.</li>
+<li>Os nomes de regiões em ambos os datasets não são iguais. Deve fazer o mapeamento manualmente.</li>
+</ul></li>
+<li><p>Consulte a função a função <code>desenhaPopulacaoUcrania</code> que desenha o mapa <em>cloropeth</em>. Adapte a seu gosto a posição e zoom iniciais, a palete de cores (consulte padrões <a href="https://colorbrewer2.org/">aqui</a>) ou outras propriedades do mapa.</p></li>
+<li><p><strong>Acrescente</strong> informação adicional relevante a cada região do seu mapa, como nome, população total, área, etc. Para isso deve acrescentar colunas ao <code>GeoDataFrame</code> (na função <code>populacaoUcrania</code>), e mapear o conteúdo dessas colunas na forma de <em>tooltips</em> e/ou <em>popups</em>; <strong>adapte</strong> o código comentado da função <code>desenhaRegioesUcrania</code>. Pode abrir e visualizar o ficheiro <code>mapa.html</code> resultante com um browser web à escolha.</p></li>
+</ol>
+<h2 id="tarefa-4-animações">Tarefa 4 (Animações)</h2>
+<p>O objetivo desta tarefa é analisar o dataset <a href="https://github.com/zhukovyuri/VIINA">VIINA</a> que contém um registo de eventos militares extraídos de notícias nos mídia referentes ao conflito atual na Ucrânia, atualizado diariamente no ficheiro <a href="https://raw.githubusercontent.com/zhukovyuri/VIINA/master/Data/events_latest.csv">events_latest.csv</a>, e construir uma animação com o <code>Pygame</code> que permita visualizar esses mesmos dados.</p>
+<h3 id="processar-dados">1. Processar dados</h3>
+<p>Este dataset é automaticamente gerado a partir de informação online de notícias, utilizando algoritmos de aprendizagem por computador que classificam a probabilidade do evento ter certas propriedades, como ter sido iniciado por uma entidade específica. Pode consultar as entidades envolvidas na variável <code>event_a</code>.</p>
+<p>O primeiro passo é então categorizar cada evento com uma entidade <code>a</code>. Para isso deve analisar e agregar os dados das colunas que começam por <code>a_</code>, respetivamente, e atribuir um modo <code>ukr</code>, <code>rus</code> ou <code>other</code> consoante a componente com maior probabilidade. Também vai ser útil converter a coluna <code>date</code>num objeto do tipo <code>datetime64</code> e a coluna <code>time</code> numa coluna <code>minutes</code> com o número total de minutos. <strong>Complete</strong> a definição da função <code>processaEventos</code>, que lê o ficheiro <a href="../scripts/projeto3/dados/events_latest.csv">events_latest.csv</a> com o registo dos eventos para um <code>DataFrame</code> e retorna um <code>DataFrame</code> com o formato similar ao seguinte (ignore os dados concretos):</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>         date  longitude   latitude     a   minutes</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="dv">0</span>    <span class="dv">2022</span><span class="op">-</span><span class="dv">0</span><span class="er">2</span><span class="op">-</span><span class="dv">24</span>  <span class="fl">38.002536</span>  <span class="fl">48.306080</span>    ukr       <span class="dv">10</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="dv">1</span>    <span class="dv">2022</span><span class="op">-</span><span class="dv">0</span><span class="er">2</span><span class="op">-</span><span class="dv">24</span>  <span class="fl">37.802850</span>  <span class="fl">48.015884</span>  other       <span class="dv">11</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="dv">2</span>    <span class="dv">2022</span><span class="op">-</span><span class="dv">0</span><span class="er">2</span><span class="op">-</span><span class="dv">25</span>  <span class="fl">37.802850</span>  <span class="fl">48.015884</span>  other       <span class="dv">12</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="dv">3</span>    <span class="dv">2022</span><span class="op">-</span><span class="dv">0</span><span class="er">2</span><span class="op">-</span><span class="dv">26</span>  <span class="fl">30.523550</span>  <span class="fl">50.450441</span>    rus       <span class="dv">13</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>...       ...        ...        ...    ...      ...</span></code></pre></div>
+<h3 id="desenhar-animação">2. Desenhar animação</h3>
+<p>Vamos utilizar os mapas diários sobre o conflito publicados pelo <a href="https://www.understandingwar.org/">Institute for the Study of War</a>. Podem consultar alguns destes mapas na pasta <a href="../scripts/projeto3/images/maps">maps</a>, cujo nome é referente a um dia e cujo conteúdo realça as zonas de conflito nesse dia.</p>
+<p>A classe <code>Animacao</code> facilita o processo de criação de uma animação <code>Pygame</code> para esta tarefa:</p>
+<ul>
+<li>O construtor <code>__init__</code> cria uma nova animação, carregando um mapa dado e configurando a janela.</li>
+<li>O método <code>run</code> corre a animação, com uma dada <em>framerate</em> em frames por segundo. Cada frame corresponde a um minuto do dia em animação.</li>
+<li>O método <code>desenhaFrame</code> é chamado a cada minuto/frame da animação. <strong>Complete</strong> a sua definição; o método recebe o ecrã, o novo dia/mapa, o minuto/frame atual e um <code>DataFrame</code> com os eventos para esse dia/mapa; o seu objetivo é desenhar os eventos referentes ao minuto atual no mapa. <strong>Notas:</strong>
+<ul>
+<li>Sinalize eventos de forma diferente consoante a entidade a quem pertencem. Pode sinalizar eventos utilizando as imagens, cores, formas geométricas <code>Pygame</code> ou qualquer outra marcação que ache interessante.</li>
+<li>Deve usar os métodos <code>toX</code> e <code>toY</code> para converter coordenadas de longitude e latitude, respetivamente, em coordenadas <code>PyGame</code> no ecrã. Note que estes métodos são uma simplificação que não tem em consideração a curvatura da Terra; para uma maior precisão poderíamos utilizar o <code>matplotlib</code>.</li>
+<li>Se não <em>limpar</em> o mapa a cada frame, o comportamente natural será os vários eventos ao longo do tempo se irem acumulando no ecrã à medida que ocorrem. Se <em>limpar</em> o mapa a cada frame, apenas os eventos do minuto atual serão visualizados. Qualquer comportamento é aceitável.</li>
+</ul></li>
+</ul>
+<h3 id="melhorar-animação-valorização">3. Melhorar animação (Valorização)</h3>
+<p>Melhore a sua animação, por exemplo de uma das seguintes formas:</p>
+<ul>
+<li>Faça com que cada evento seja visualizado durante um período de tempo ligeiramente maior do que o minuto a que pertence (e.g. incluindo os 2 minutos anteriores e posteriores), e inclua uma animação (e.g., aparece/desaparece, cresce/diminui, muda de cor, etc).</li>
+<li>Acrescente informação de data e tempo ao ecrã.</li>
+<li>Acrescente à animação de cada evento uma indicação visual da precisão geográfica do evento.</li>
+<li>Acrescente à animação de cada evento uma indicação do tipo de evento.</li>
+</ul>
+</body>
+</html>
