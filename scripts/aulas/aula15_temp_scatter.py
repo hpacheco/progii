@@ -26,7 +26,6 @@ tmins = tmins.melt(id_vars=["year"],var_name="season",value_name="tmin")
 tmins.set_index('year',inplace=True)
 years = tmins.groupby('season').idxmin().rename(columns={'tmin':'year'})
 temps = tmins.groupby('season').min()
-print(years,temps)
 tmins = years.join(temps)
 
 # colapsar as estações para índices

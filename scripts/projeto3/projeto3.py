@@ -126,9 +126,9 @@ class Animacao:
     def toX(self,lon): return (lon - self.min_lon) * (self.width / self.dif_lon)
     def toY(self,lat): return (self.dif_lat - (lat - self.min_lat)) * (self.height / self.dif_lat)
 
-    def desenhaFrame(self,screen,mapa,minute,idf):
+    def desenhaFrame(self,screen,minute):
         """desenha um frame, correspondente a um minuto nos eventos"""
-        """recebe um ecrâ, um mapa para um dado dia, um minuto desse dia e um dataframe com eventos nesse minuto"""
+        """recebe um ecrâ e um minuto"""
         return None
 
     def run(self,fps):
