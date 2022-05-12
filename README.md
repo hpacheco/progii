@@ -75,7 +75,7 @@ Esta planificação serve para dar uma ideia resumida das aulas planeadas e/ou d
 * T14 (09/05): [Gráficos](slides/t14.pdf)
 * T15 (12/05): [Gráficos](slides/t15.pdf)
 * T16 (16/05): Gráficos interativos
-* T17 (19/05): Apoio à resolução dos projetos
+* T17 (19/05): Apoio à resolução dos projetos (FC6 182)
 
 > *Entrega do Projeto 2*
 
