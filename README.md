@@ -79,7 +79,7 @@ Esta planificação serve para dar uma ideia resumida das aulas planeadas e/ou d
 
 > *Entrega do Projeto 2*
 
-* T18 (23/05): Mapas
+* T18 (23/05): [Mapas](slides/t18.pdf)
 * T19 (26/05): Mapas web (folium)
 * T20 (30/05): Gráficos 2D (pygame) 
 * T21 (02/06): Animações (pygame)

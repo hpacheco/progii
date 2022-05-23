@@ -3,7 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import contextily as ctx
 
-# copiado do exemplo anterior aula17_geojson_cidades.py
+# copiado do exemplo anterior aula17_6_geojson_cidades.py
 data = pd.read_csv('../dados/pt.csv')
 df = data[['city','population']].copy()
 df.fillna(1000,inplace=True)
