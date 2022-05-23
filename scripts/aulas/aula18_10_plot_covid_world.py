@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 
 # paises com códigos 3-dígitos
 gdf3 = gpd.read_file("../../dados/countries.geojson")
-#gdf3 = gdf3.rename(columns={'ADMIN':'Country'})
+gdf3 = gdf3.rename(columns={'ADMIN':'Country'})
 #print(gdf3)
 
 # conversão códigos
@@ -14,15 +14,17 @@ codes = codes.rename(columns={'ISO3166-1-Alpha-3':'ISO_A3','ISO3166-1-Alpha-2':'
 
 # países com códigos 2- e 3-dígitos
 gdf32 = pd.merge(gdf3,codes,how='left')
-#print(gdf32)
+print(gdf32)
 
 # dados covid-19 WHO, apenas precisamos dos dados mais recentes para cada país
 df = pd.read_csv("../../dados/WHO-COVID-19-global-data.csv")
 df = df.groupby(by='Country').tail(1)
+print(df)
 
 df = df.rename(columns={'Country_code':'ISO_A2','Cumulative_deaths':'Deaths'})
 df = df[['ISO_A2','Deaths']]
 gdf = pd.merge(gdf32,df,how='inner')
+print(gdf)
 
 ax = gdf.plot(cmap='Reds',column='Deaths')
 ax.axis('off')

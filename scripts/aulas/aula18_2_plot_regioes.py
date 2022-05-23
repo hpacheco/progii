@@ -13,11 +13,11 @@ ax = df_map.plot()
 # experimentem comentar/descomentar este bloco
 # altera os limites (tem que ser antes de desenhar o mapa)
 minx, miny, maxx, maxy = df_map.total_bounds
-ax.set_xlim(minx,0)
-ax.set_ylim(miny,maxy*2)
+#ax.set_xlim(minx,0)
+#ax.set_ylim(miny,maxy*2)
 
 # experimentem comentar/descomentar este bloco
 # acrescenta o mapa
-ctx.add_basemap(ax,zoom=5,crs=df_map.crs)
+#ctx.add_basemap(ax,zoom=5,crs=df_map.crs)
 
 plt.show()
