@@ -27,7 +27,7 @@ Estas datas podem vir a ser alteradas consoante o calendário académico.
 
 * Projeto 1: 3 Abril
 * Projeto 2: ~~15 Maio~~ 22 Maio
-* Projeto 3: 07 Junho
+* Projeto 3: ~~07 Junho~~ 12 Junho
 
 As defesas presenciais dos projetos práticos decorrerão num dia a decidir no final do semestre.
 
@@ -81,9 +81,10 @@ Esta planificação serve para dar uma ideia resumida das aulas planeadas e/ou d
 
 * T18 (23/05): [Mapas](slides/t18.pdf)
 * T19 (26/05): [Mapas web (folium)](slides/t19.pdf)
-* T20 (30/05): Gráficos 2D (pygame) 
+* T20 (30/05): [Gráficos 2D (pygame)](slides/t20.pdf)
 * T21 (02/06): Animações (pygame)
-* T22 (06/06): Apoio à resolução dos projetos
+* T22 (06/06): Aplicações interativas (pygame)
+* T23 (09/06): Apoio à resolução dos projetos
 
 > *Entrega do Projeto 3*
 
