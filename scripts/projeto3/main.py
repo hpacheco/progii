@@ -14,5 +14,5 @@ from projeto3_sols import *
 # Tarefa 4
 
 #processaEventos()
-#animaEventos = Animacao(datetime.date(2022,5,10))
-#animaEventos.run(20)
+animaEventos = Animacao(datetime.date(2022,5,10))
+animaEventos.run(20)
