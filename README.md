@@ -84,7 +84,7 @@ Esta planificação serve para dar uma ideia resumida das aulas planeadas e/ou d
 * T20 (30/05): [Gráficos 2D (pygame)](slides/t20.pdf)
 * T21 (02/06): [Animações (pygame)](slides/t21.pdf)
 * T22 (06/06): Aplicações interativas (pygame)
-* T23 (09/06): Apoio à resolução dos projetos
+* T23 (09/06): Apoio à resolução dos projetos (FC6 182)
 
 > *Entrega do Projeto 3*
 
