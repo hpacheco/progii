@@ -99,7 +99,7 @@ class Satellite(pygame.sprite.Sprite):
         self.hidden = newhidden
         self.rect.center = RotPos
 
-    # initialize satellites
+# initialize satellites
 satellites = pygame.sprite.Group()
 for i,row in data.iterrows():
     perigee = row['Perigee (km)'] + earthRadius
