@@ -9,6 +9,8 @@ Aceda ao repositório [replit](https://replit.com/@up652136/Prog2-Proj3) do Proj
 - Pode consultar os ficheiros individuais na pasta [projeto3](../scripts/projeto3) e fazer download dos mesmos para desenvolver o projeto no seu computador e utilizando um IDE à sua escolha.
 - Pode fazer download de todo o projeto como um arquivo zip [aqui](../scripts/projeto3.zip).
 
+**Nota:** O replit do Projeto 3 original tem uma incompatibilidade de versões com o PyGame. Para correr a Tarefa 4 no replit, devem fazer fork [deste](https://replit.com/@up652136/Prog2-Proj3-PyGame) novo projeto.
+
 ## Tarefa 1 (Gráficos)
 
 Observe os seguintes ficheiros CSV:
