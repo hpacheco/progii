@@ -22,7 +22,7 @@ Podem consultar todo o material do ano anterior na sub-página [2021](2021/) no 
 
 ## Avaliação
 
-Os projetos práticos devem ser entregues por email para o docente do turno respetivo até às seguintes datas.
+Os projetos práticos devem ser entregues por email para o docente até às seguintes datas.
 Estas datas podem vir a ser alteradas consoante o calendário académico.
 
 * Projeto 1: 3 Abril
@@ -33,13 +33,22 @@ As defesas presenciais dos projetos práticos são **obrigatórias** e decorrer�
 
 **Nota:** A resolução dos projetos será acompanhada nas aulas práticas. A apreciação final dos projetos terá também em consideração o progresso dos alunos durante as aulas.
 
-## Melhoria de Nota
+## Recurso/Melhoria de Nota
 
-A melhoria dos trabalhos pode ser feita realizando todas as tarefas de todos os projetos, incluindo tarefas de valorização.
-Em melhoria, tarefas de valorização não contarão para além da nota máxima do projeto.
-O trabalho de melhoria poderá incluir outras tarefas adicionais.
+O recurso ou melhoria de nota podem ser feitos realizando todas as tarefas (normais e de valorização) dos Projetos 1, 2 e 3 e resolvendo adicionalmente o Projeto 4:
 
-**Os alunos que desejem efetuar melhoria de nota devem ter aprovação à cadeira na época normal, e contactar o docente a informar da sua intenção em fazer melhoria.**
+* Projeto 4 (Melhoria) (A publicar)
+
+As tarefas de valorização, opcionais na época normal, são obrigatórias para efetuar melhoria.
+De notar que em caso de recurso/melhoria, tarefas de valorização não contarão para além da nota máxima do projeto.
+
+**Os alunos que desejem efetuar recurso/melhoria de nota devem contactar o docente a informar da sua intenção.**
+
+Os trabalhos de recurso/melhoria devem ser entregues por email para o docente até às seguinte data:
+
+* Projeto 4: 17 Julho
+
+Tal como os trabalhos de época normal, os trabalhos de recurso/melhoria estão sujeitos a uma defesa presencial.
 
 ## Bibliografia
 
