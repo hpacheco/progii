@@ -5,7 +5,7 @@ A próximas tarefas são destinadas a alunos que desejem fazer recurso ou melhor
 
 Uma das principais características da F1 é a grande quantidade de dados dos carros em tempo real e a sua análise para maximizar performance. A biblioteca [FastF1](https://theoehrly.github.io/Fast-F1/) fornece uma grande quantidade de dados recolhidos ao longo de cada corrida. 
 
-Aceda ao repositório [replit](https://replit.com/@up652136/Prog2-Proj4) do Projeto 4, onde pode encontrar um ficheiro `projeto4.py`:
+Aceda ao repositório [replit](https://replit.com/@up652136/Prog2-Proj4) do Projeto 4, onde pode encontrar um ficheiro [projeto4.py](../scripts/projeto4/projeto4.py):
 
 - Criando uma conta no [replit](https://replit.com/) e fazendo `Fork` do projeto, pode resolver o projeto online utilizando o IDE web. 
 - Pode consultar os ficheiros individuais na pasta [projeto4](../scripts/projeto4) e fazer download dos mesmos para desenvolver o projeto no seu computador e utilizando um IDE à sua escolha.
@@ -39,6 +39,8 @@ No ficheiro `projeto4.py` pode encontrar duas funções pré-definidas que recol
 ```python
 {team1: {driver1: 15, driver2: 7}, ... } 
 ```
+
+O ficheiro [main.py](../scripts/projeto4/main.py) contém alguns testes que deve utilizar para verificar a correção da sua solução.
 
 **Nota:** Pode ser útil definir uma função auxiliar que calcula o resultado de um duelo para um evento, e combinar essa função para calcular o resultado agregado dos duelos para todos os eventos do campeonato.
 

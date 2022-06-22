@@ -218,7 +218,7 @@
 <h1 id="projeto-4---recurso-melhoria">Projeto 4 - Recurso / Melhoria</h1>
 <p>A próximas tarefas são destinadas a alunos que desejem fazer recurso ou melhora à cadeira. Para estas tarefas vamos utilizar como contexto o campeonato mundial de Formula 1, ou simplesmente F1.</p>
 <p>Uma das principais características da F1 é a grande quantidade de dados dos carros em tempo real e a sua análise para maximizar performance. A biblioteca <a href="https://theoehrly.github.io/Fast-F1/">FastF1</a> fornece uma grande quantidade de dados recolhidos ao longo de cada corrida.</p>
-<p>Aceda ao repositório <a href="https://replit.com/@up652136/Prog2-Proj4">replit</a> do Projeto 4, onde pode encontrar um ficheiro <code>projeto4.py</code>:</p>
+<p>Aceda ao repositório <a href="https://replit.com/@up652136/Prog2-Proj4">replit</a> do Projeto 4, onde pode encontrar um ficheiro <a href="../scripts/projeto4/projeto4.py">projeto4.py</a>:</p>
 <ul>
 <li>Criando uma conta no <a href="https://replit.com/">replit</a> e fazendo <code>Fork</code> do projeto, pode resolver o projeto online utilizando o IDE web.</li>
 <li>Pode consultar os ficheiros individuais na pasta <a href="../scripts/projeto4">projeto4</a> e fazer download dos mesmos para desenvolver o projeto no seu computador e utilizando um IDE à sua escolha.</li>
@@ -237,6 +237,7 @@
 <span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div>
 <p><strong>Complete</strong> a função <code>teamDuels</code>, que retorna os duelos por equipa durante um campeonato. O resultado deve ser um dicionário de dicionários com a seguinte forma:</p>
 <div class="sourceCode" id="cb2"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>{team1: {driver1: <span class="dv">15</span>, driver2: <span class="dv">7</span>}, ... } </span></code></pre></div>
+<p>O ficheiro <a href="../scripts/projeto4/main.py">main.py</a> contém alguns testes que deve utilizar para verificar a correção da sua solução.</p>
 <p><strong>Nota:</strong> Pode ser útil definir uma função auxiliar que calcula o resultado de um duelo para um evento, e combinar essa função para calcular o resultado agregado dos duelos para todos os eventos do campeonato.</p>
 <h2 id="tarefa-2-melhores-voltas-de-qualificação">Tarefa 2 (Melhores voltas de qualificação)</h2>
 <p>Outra informação que podemos obter é a telemetria (posição, velocidade, distância percorrida, etc) de cada carro em tempo real ao longo do seu percurso. A função <code>getQualifyingFastestLaps</code> retorna informação de telemetria (um <code>DataFrame</code> ordenado por tempo) da melhor volta de qualificação de cada piloto, com o seguinte formato:</p>
