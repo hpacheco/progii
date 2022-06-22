@@ -1,4 +1,4 @@
-from projeto4_sols import *
+from projeto4 import *
 
 import unittest
 
