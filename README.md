@@ -37,7 +37,7 @@ As defesas presenciais dos projetos práticos são **obrigatórias** e decorrer�
 
 O recurso ou melhoria de nota podem ser feitos realizando todas as tarefas (normais e de valorização) dos Projetos 1, 2 e 3 e resolvendo adicionalmente o Projeto 4:
 
-* Projeto 4 (Melhoria) (A publicar)
+* [Projeto 4 - Recurso / Melhoria](projetos/Projeto4.md)
 
 As tarefas de valorização, opcionais na época normal, são obrigatórias para efetuar melhoria.
 De notar que em caso de recurso/melhoria, tarefas de valorização não contarão para além da nota máxima do projeto.

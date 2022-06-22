@@ -6,6 +6,7 @@ render:
 	pandoc projetos/Projeto1.md -t html --mathjax --standalone --metadata title="Projeto 1" > projetos/Projeto1.html
 	pandoc projetos/Projeto2.md -t html --mathjax --standalone --metadata title="Projeto 2" > projetos/Projeto2.html
 	pandoc projetos/Projeto3.md -t html --mathjax --standalone --metadata title="Projeto 3" > projetos/Projeto3.html
+	pandoc projetos/Projeto4.md -t html --mathjax --standalone --metadata title="Projeto 4" > projetos/Projeto4.html
 	pandoc README.md -t html --standalone --metadata title="21/22" > index.html
 	perl -i -pe's/.md/.html/g' index.html
 	
@@ -13,6 +14,7 @@ render:
 	cd scripts/projeto1; tree -H '.' --noreport --charset utf-8 -I "*_sols.py" -I "__pycache__" -I "*.html" -o index.html
 	cd scripts/projeto2; tree -H '.' --noreport --charset utf-8 -I "*_sols.py" -I "__pycache__" -I "*.html" -I "*.geojson" -o index.html
 	cd scripts/projeto3; tree -H '.' --noreport --charset utf-8 -I "*_sols.py" -I "__pycache__" -I "*.html" -o index.html
+	cd scripts/projeto4; tree -H '.' --noreport --charset utf-8 -I "*_sols.py" -I "__pycache__" -I "*.html" -o index.html
     
 make update:
 	cd scripts/projeto3/dados; \
