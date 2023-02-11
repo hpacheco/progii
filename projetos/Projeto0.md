@@ -826,6 +826,40 @@ def ocorrencias(txt,c):
 ```
 </details>
 
+### Exercício 3.9
 
+Escreva uma função `contaSequencia(dna,par)` que retorna o número de ocorrências de uma `sequencia` de caracteres numa string de `dna`.
+Por exemplo:
+```python
+> contaSequencia('ACGTTACGGAACG','ACG')
+2
+```
 
+<details>
+<summary>Solução</summary>
+
+```python
+def contaSequencia(dna,par):
+  c = 0; i = 0
+  while (i < len(dna)):
+    if dna[i:i+len(par)] == par:
+      c = c + 1; i = i + len(par)
+    else: i = i + 1
+  return c
+```
+</details>
+
+<details>
+<summary>Solução 2 - string find</summary>
+
+```python
+def contaSequencia(dna,par):
+  c = 0; start = 0
+  while (start >= 0):
+      pos = dna.find(par,start)
+      if pos >= 0: c = c + 1; start = pos+len(par)
+      else: start = pos
+  return c   
+```
+</details>
 
