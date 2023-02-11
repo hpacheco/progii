@@ -77,7 +77,7 @@ def celsius(F):
 
 A distância entre dois pontos no plano de coordenadas $(x_1,y_1)$ e $(x_2,y_2)$ é dada por:
 $$d = \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}$$
-Implemente uma função dist($x_1$,$y_1$,$x_2$,$y_2$) que use esta fórmula para calcular a distância.
+Implemente uma função `dist(`$x_1$`,`$y_1$`,`$x_2$`,`$y_2$`)` que use esta fórmula para calcular a distância.
 Por exemplo:
 ```python
 > dist(1,1,4,4)
