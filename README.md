@@ -1,54 +1,34 @@
 # Programação II
 
-Bem-vindo ao repositório de suporte à cadeira de [Programação II 2021/2022](https://sigarra.up.pt/fcup/pt/ucurr_geral.ficha_uc_view?pv_ocorrencia_id=488503).
+Bem-vindo ao repositório de suporte à cadeira conjunta de [Programação II 2022/2023](https://sigarra.up.pt/fcup/pt/UCURR_GERAL.FICHA_UC_VIEW?pv_ocorrencia_id=507426) e [Estruturas de Dados para Bioinformática](https://sigarra.up.pt/fcup/pt/UCURR_GERAL.FICHA_UC_VIEW?pv_ocorrencia_id=507392).
 Neste repositório poderá encontrar todo o material de suporte à cadeira.
 
 Pode navegar todo o conteúdo desta página no [repositório](https://github.com/hpacheco/progii) associado, que inclui os exemplos de código `Python` utilizados nas [aulas](https://github.com/hpacheco/progii/tree/master/scripts/aulas).
 
-O formato da cadeira deste ano será similar à do ano anterior, exceptuando os temas dos projetos.
-Podem consultar todo o material do ano anterior na sub-página [2021](2021/) no mesmo repositório, incluindo:
+Pode consultar material de anos anteriores nas sub-páginas:
 
-* slides e vídeos das aulas teóricas
-* ficheiros de dados e programas Python de exemplo utilizados nas aulas práticas
+* [2021](2021/)
+* [2022](2022/)
 
 ## Projetos
 
 * [Projeto 0 - Desenferrujar](projetos/Projeto0.md)
-* [Projeto 1 - Análise de texto](projetos/Projeto1.md)
-* [Projeto 2 - Análise de dados](projetos/Projeto2.md)
-* [Projeto 3 - Visualização e animação de dados](projetos/Projeto3.md)
-
-**Nota:** Tarefas de **Valorização** são opcionais, e contarão para além da nota máxima do projeto. Servirão para colmatar as notas de outros exercícios no mesmo ou noutro Projeto.
+* Projeto 1 - Análise de texto
+* Projeto 2 - Análise de dados
+* Projeto 3 - Visualização e animação de dados
 
 ## Avaliação
 
 Os projetos práticos devem ser entregues por email para o docente até às seguintes datas.
 Estas datas podem vir a ser alteradas consoante o calendário académico.
 
-* Projeto 1: 3 Abril
-* Projeto 2: ~~15 Maio~~ 22 Maio
-* Projeto 3: ~~07 Junho~~ 12 Junho
+* Projeto 1: 19 Março
+* Projeto 2: 30 Abril
+* Projeto 3: 1 Junho
 
-As defesas presenciais dos projetos práticos são **obrigatórias** e decorrerão no dia **17 de Junho** de manhã, na sala FC6 137. O calendário para marcações das defesas dos trabalhos pode ser consultado neste [link](https://docs.google.com/spreadsheets/d/1RqclJ2Mo1O3s0cz9dA0_RIdMkFJkm2vcJpdjwRmCVag/edit?usp=sharing), fazendo login com a conta Google da UP. Cada aluno que deseje apresentar o trabalho deve contactar o docente para reservar uma slot de 15m antes do dia da apresentação.
+As defesas presenciais dos projetos práticos são **obrigatórias** e decorrerão numa data a definir depois do fim das aulas.
 
 **Nota:** A resolução dos projetos será acompanhada nas aulas práticas. A apreciação final dos projetos terá também em consideração o progresso dos alunos durante as aulas.
-
-## Recurso/Melhoria de Nota
-
-O recurso ou melhoria de nota podem ser feitos realizando todas as tarefas (normais e de valorização) dos Projetos 1, 2 e 3 e resolvendo adicionalmente o Projeto 4:
-
-* [Projeto 4 - Recurso / Melhoria](projetos/Projeto4.md)
-
-As tarefas de valorização, opcionais na época normal, são obrigatórias para efetuar melhoria.
-De notar que em caso de recurso/melhoria, tarefas de valorização não contarão para além da nota máxima do projeto.
-
-**Os alunos que desejem efetuar recurso/melhoria de nota devem contactar o docente a informar da sua intenção.**
-
-Os trabalhos de recurso/melhoria devem ser entregues por email para o docente até às seguinte data:
-
-* Projeto 4: 17 Julho
-
-Tal como os trabalhos de época normal, os trabalhos de recurso/melhoria estão sujeitos a uma defesa presencial.
 
 ## Bibliografia
 
@@ -65,50 +45,50 @@ Esta planificação serve para dar uma ideia resumida das aulas planeadas e/ou d
 
 ### Teóricas
 
-* T01 (03/03): [Apresentação da cadeira](slides/t01.pdf)
-* T02 (07/03): [Ambiente de desenvolvimento e conceitos base](slides/t02.pdf)
-* T03 (10/03): [Iteração, condicionais e funções](slides/t03.pdf)
-* T04 (14/03): [Strings, listas e tuplos](slides/t04.pdf)
-* T05 (17/03): [Ficheiros](slides/t05.pdf)
-* T06 (21/03): [Dicionários e sets](slides/t06.pdf)
-* T07 (24/03): [Compreensões](slides/t07.pdf)
-* T08 (28/03): [Classes e objetos](slides/t08.pdf)
-* T09 (31/03): Apoio à resolução dos projetos
+* T01 (13/02): Apresentação da cadeira
+* T02 (16/02): Ambiente de desenvolvimento e conceitos base
+* T03 (23/02): Iteração, condicionais e funções
+* T04 (27/02): Strings, listas e tuplos
+* T05 (02/03): Ficheiros
+* T06 (06/03): Dicionários e sets
+* T07 (09/03): Compreensões
+* T08 (13/03): Classes e objetos
+* T09 (16/03): Apoio à resolução dos projetos
 
 > *Entrega do Projeto 1*
 
-* T10 (04/04): [Formatos de dados](slides/t10.pdf)
-* T11 (07/04): [Computação numérica com arrays (numpy)](slides/t11.pdf)
-* T12 (21/04): [Análise de dados tabulares (pandas)](slides/t12.pdf)
-* T13 (28/04): [Análise de dados tabulares (pandas)](slides/t13.pdf)
-* T14 (09/05): [Gráficos](slides/t14.pdf)
-* T15 (12/05): [Gráficos](slides/t15.pdf)
-* T16 (16/05): [Gráficos interativos](slides/t16.pdf)
-* T17 (19/05): Apoio à resolução dos projetos (FC6 182)
+* T10 (20/03): Formatos de dados
+* T11 (23/03): Computação numérica com arrays (numpy)
+* T12 (27/03): Análise de dados tabulares (pandas)
+* T13 (10/04): Análise de dados tabulares (pandas)
+* T14 (17/04): Análise de dados em rede / grafos
+* T15 (20/04): Gráficos
+* T16 (24/04): Gráficos
+* T17 (27/04): Apoio à resolução dos projetos 
 
 > *Entrega do Projeto 2*
 
-* T18 (23/05): [Mapas](slides/t18.pdf)
-* T19 (26/05): [Mapas web (folium)](slides/t19.pdf)
-* T20 (30/05): [Gráficos 2D (pygame)](slides/t20.pdf)
-* T21 (02/06): [Animações (pygame)](slides/t21.pdf)
-* T22 (06/06): [Aplicações interativas (pygame)](slides/t22.pdf)
-* T23 (09/06): Apoio à resolução dos projetos (FC6 182)
+* T18 (04/05): Gráficos interativos
+* T19 (15/05): Mapas
+* T20 (18/05): Mapas
+* T21 (22/05): Visualização de grafos
+* T22 (25/05): Visualização web
+* T23 (29/05): Apoio à resolução dos projetos 
 
 > *Entrega do Projeto 3*
 
 ### Práticas
 
-* P01 (07/03): [Projeto 0 - Desenferrujar](projetos/Projeto0.md)
-* P02 (14/03): [Projeto 0 - Desenferrujar](projetos/Projeto0.md)
-* P03 (21/03): [Projeto 1 - Análise de texto](projetos/Projeto1.md)
-* P04 (28/03): [Projeto 1 - Análise de texto](projetos/Projeto1.md)
+* P01 (13/02): [Projeto 0 - Desenferrujar](projetos/Projeto0.md)
+* P02 (27/02): [Projeto 0 - Desenferrujar](projetos/Projeto0.md)
+* P03 (06/03): Projeto 1 - Análise de texto
+* P04 (20/03): Projeto 1 - Análise de texto
 
-* P05 (04/04): [Projeto 2 - Análise de dados](projetos/Projeto2.md)
-* P07 (09/05): [Projeto 2 - Análise de dados](projetos/Projeto2.md)
-* P08 (16/05): [Projeto 2 - Análise de dados](projetos/Projeto2.md)
+* P05 (27/03): Projeto 2 - Análise de dados
+* P07 (17/04): Projeto 2 - Análise de dados
+* P08 (24/04): Projeto 2 - Análise de dados
 
-* P09 (23/05): [Projeto 3 - Visualização e animação de dados](projetos/Projeto3.md)
-* P10 (30/05): [Projeto 3 - Visualização e animação de dados](projetos/Projeto3.md)
-* P11 (06/06): [Projeto 3 - Visualização e animação de dados](projetos/Projeto3.md)
+* P09 (15/05): Projeto 3 - Visualização e animação de dados
+* P10 (22/05): Projeto 3 - Visualização e animação de dados
+* P11 (29/05): Projeto 3 - Visualização e animação de dados
 

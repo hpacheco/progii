@@ -8,7 +8,7 @@ Aceda ao repositório [replit](https://replit.com/@up652136/Prog2-Proj0) do Proj
 - Pode consultar os ficheiros individuais na pasta [projeto0](../scripts/projeto0) e fazer download dos mesmos para desenvolver o projeto no seu computador e utilizando um IDE à sua escolha.
 - Pode fazer download de todo o projeto como um arquivo zip [aqui](../scripts/projeto0.zip).
 
-Neste projeto (primeiras duas semanas de aulas práticas) vamos resolver livremente alguns exercícios de programação básica em Python. Sinta-se à vontade para requisitar mais ou novos exercícios aos docentes.
+Neste projeto (primeiras duas semanas de aulas práticas) vamos resolver livremente alguns exercícios lecionados em edições anteriores da cadeira anterior de [Programação I](https://sigarra.up.pt/fcup/pt/UCURR_GERAL.FICHA_UC_VIEW?pv_ocorrencia_id=489202). Sinta-se à vontade para requisitar mais ou novos exercícios aos docentes.
 
 Este projeto é completamente livre e não sujeito a avaliação. Os alunos devem sentir-se à vontade para explorar exercícios de diferentes tipos, resolver exercícios em conjunto, discutir soluções com a turma ou pedir sugestões aos docentes.
 Este enunciado contém também uma potencial solução para cada exercício. A ideia é aferirmos os conhecimentos e lacunas de cada um para podermos adaptar o ritmo da cadeira e a matéria seguinte. Tentem resolver os exercícios antes de olhar para as soluções!

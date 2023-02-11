@@ -10,7 +10,8 @@ import math
 import matplotlib
 matplotlib.use('TkAgg')
 
-
+# usar a cache acelera o processo de correr os testes repetidamente
+# no replit, se ficar sem espaço disponível, deve desativar este feature
 if not os.path.exists("cache"): os.mkdir("cache")
 fastf1.Cache.enable_cache('cache')  # replace with your cache directory
 

@@ -15,11 +15,12 @@ class TestProj4(unittest.TestCase):
         d2020 = {'Alfa Romeo Racing': {'GIO': 9, 'RAI': 8}, 'AlphaTauri': {'GAS': 13, 'KVY': 4}, 'Ferrari': {'LEC': 13, 'VET': 4}, 'Haas F1 Team': {'GRO': 7, 'MAG': 10, 'FIT': 0}, 'McLaren': {'NOR': 9, 'SAI': 8}, 'Mercedes': {'BOT': 5, 'HAM': 12, 'RUS': 0}, 'Racing Point': {'PER': 11, 'STR': 5, 'HUL': 1}, 'Red Bull Racing': {'ALB': 0, 'VER': 17}, 'Renault': {'OCO': 2, 'RIC': 15}, 'Williams': {'LAT': 1, 'RUS': 16, 'AIT': 0}}
         self.assertEqual(teamDuels(2020),d2020)
 
-if __name__ == '__main__':
-    unittest.main(exit=False)
+# uncomment for testing T1
+#if __name__ == '__main__':
+#    unittest.main(exit=False)
 
 #T2
 
-drawFastestLaps(2021,'Austrian Grand Prix')
-
+# uncomment for running T2
+#drawFastestLaps(2021,'Austrian Grand Prix')
 
