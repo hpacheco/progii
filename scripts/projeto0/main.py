@@ -120,7 +120,6 @@ class TestStringMethods(unittest.TestCase):
         classifica(studs)
         sys.stdout = sys.__stdout__
         s = capturedOutput.getvalue()
-
         self.assertEqual(s, "# nome inválido\n# nome insuficiente\n# nome insuficiente\n# nome excelente\n")
 
     def test_2_6_1(self):
@@ -136,7 +135,6 @@ class TestStringMethods(unittest.TestCase):
         classifica(studs)
         sys.stdout = sys.__stdout__
         s = capturedOutput.getvalue()
-
         self.assertEqual(s,
                          "UP194187304 José Fonseca excelente\nUP194209183 Manuel Ferreira muito bom\nUP194294793 Maria Ramos suficiente\nUP194399128 Antonio Fernandes insuficiente\nUP194739873 Júlia Pinto inválido\nUP194739889 Manuela Faria suficiente\n")
 

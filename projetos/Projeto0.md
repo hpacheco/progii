@@ -2,17 +2,17 @@
 
 Nas primeiras aulas vamos reavivar os nossos conhecimentos fundamentais de programação em Python: cálculo numérico, listas, iteração e processamento de strings.
 
-Aceda ao repositório [replit](https://replit.com/@up652136/Prog2-Proj0) do Projeto 0, onde pode encontrar um ficheiro `projeto0.py`:
+Aceda ao repositório [replit](https://replit.com/@prog2bio2223/Projeto0) do Projeto 0, onde pode encontrar um ficheiro `projeto0.py`:
 
-- Criando uma conta no [replit](https://replit.com/) e fazendo `Fork` do projeto, pode resolver o projeto online utilizando o IDE web.
+- Fazendo login no [replit](https://replit.com/) com a conta Google UP (upXXXXX@g.uporto.pt) e acendendo ao [Projeto0]((https://replit.com/@prog2bio2223/Projeto0)).
 - Pode consultar os ficheiros individuais na pasta [projeto0](../scripts/projeto0) e fazer download dos mesmos para desenvolver o projeto no seu computador e utilizando um IDE à sua escolha.
-- Pode fazer download de todo o projeto como um arquivo zip [aqui](../scripts/projeto0.zip).
+- Pode fazer download de todo o projeto como um arquivo zip [aqui](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/hpacheco/progii/tree/master/scripts/projeto0).
 
 Neste projeto (primeiras duas semanas de aulas práticas) vamos resolver livremente alguns exercícios de programação básica em Python. Sinta-se à vontade para requisitar mais ou novos exercícios aos docentes.
 
 Este projeto é completamente livre e não sujeito a avaliação. Os alunos devem sentir-se à vontade para explorar exercícios de diferentes tipos, resolver exercícios em conjunto, discutir soluções com a turma ou pedir sugestões aos docentes.
 Este enunciado contém também uma potencial solução para cada exercício. A ideia é aferirmos os conhecimentos e lacunas de cada um para podermos adaptar o ritmo da cadeira e a matéria seguinte. Tentem resolver os exercícios antes de olhar para as soluções!
-O [replit](https://replit.com/@up652136/Prog2-Proj0) tem também um conjunto de testes para poderem testar a correção das vossas soluções para cada questão.
+O projeto tem também um conjunto de testes para poderem testar a correção das vossas soluções para cada questão.
 
 ## 1 - Cálculo numérico
 

@@ -36,8 +36,8 @@ As defesas presenciais dos projetos práticos são **obrigatórias** e decorrer�
 - Wes McKinney; Python for data analysis: Data wrangling with Pandas, NumPy, and IPython. O'Reilly Media, Inc. [interactive notebooks](https://github.com/wesm/pydata-book)
 - Jake VanderPlas; Python data science handbook: Essential tools for working with data. O'Reilly Media, Inc. [interactive edition](https://jakevdp.github.io/PythonDataScienceHandbook/)
 - Daniel Y. Chen; Pandas for Everyone, Addison-Wesley [supporting data](https://github.com/chendaniely/pandas_for_everyone)
-- Albert Sweigart; Making Games with Python & Pygame. Independent [interactive edition](https://inventwithpython.com/pygame/)
-- Paul Craven; Program Arcade Games: With Python and Pygame. Apress [interactive edition](http://programarcadegames.com/)
+- Christian Hill; Learning Scientific Programming with Python 2nd Edition. Cambridge University Press [interactive edition](https://scipython.com/book2/)
+- Martin Jones: Biological data exploration with Python, pandas and seaborn: Clean, filter, reshape and visualize complex biological datasets using the scientific Python stack. Independently published [supporting data edition](https://pythonforbiologists.com/)
 
 ## Planificação
 
