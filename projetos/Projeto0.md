@@ -418,7 +418,7 @@ UP194187304 José Fonseca excelente
 UP194209183 Manuel Ferreira muito bom
 UP194294793 Maria Ramos suficiente
 UP194399128 Antonio Fernandes insuficiente
-UP194739873 Júlia Pinto insuficiente
+UP194739873 Júlia Pinto inválido
 UP194739889 Manuela Faria suficiente
 ```
 
