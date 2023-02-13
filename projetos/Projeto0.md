@@ -2,9 +2,9 @@
 
 Nas primeiras aulas vamos reavivar os nossos conhecimentos fundamentais de programação em Python: cálculo numérico, listas, iteração e processamento de strings.
 
-Aceda ao repositório [replit](https://replit.com/@prog2bio2223/Projeto0) do Projeto 0, onde pode encontrar um ficheiro `projeto0.py`:
+Aceda aos ficheiros do Projeto 0, onde deve preencher as suas soluções num ficheiro `projeto0.py`:
 
-- Fazendo login no [replit](https://replit.com/) com a conta Google UP (upXXXXX@g.uporto.pt) e acendendo ao [Projeto0]((https://replit.com/@prog2bio2223/Projeto0)).
+- Fazendo login no [replit](https://replit.com/) com a conta Google UP (upXXXXX@g.uporto.pt), acendendo à Team [prog2bio2223](https://replit.com/team/prog2bio2223) e iniciando o Projeto0.
 - Pode consultar os ficheiros individuais na pasta [projeto0](../scripts/projeto0) e fazer download dos mesmos para desenvolver o projeto no seu computador e utilizando um IDE à sua escolha.
 - Pode fazer download de todo o projeto como um arquivo zip [aqui](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/hpacheco/progii/tree/master/scripts/projeto0).
 

@@ -1,6 +1,6 @@
 # Programação II
 
-Bem-vindo ao repositório de suporte à cadeira conjunta de [Programação II 2022/2023](https://sigarra.up.pt/fcup/pt/UCURR_GERAL.FICHA_UC_VIEW?pv_ocorrencia_id=507426) e [Estruturas de Dados para Bioinformática](https://sigarra.up.pt/fcup/pt/UCURR_GERAL.FICHA_UC_VIEW?pv_ocorrencia_id=507392).
+Bem-vindo ao repositório de suporte à cadeira conjunta de [Programação II 2022/2023](https://sigarra.up.pt/fcup/pt/UCURR_GERAL.FICHA_UC_VIEW?pv_ocorrencia_id=507426) e [Estruturas de Dados para Bioinformática 2022/2023](https://sigarra.up.pt/fcup/pt/UCURR_GERAL.FICHA_UC_VIEW?pv_ocorrencia_id=507392).
 Neste repositório poderá encontrar todo o material de suporte à cadeira.
 
 Pode navegar todo o conteúdo desta página no [repositório](https://github.com/hpacheco/progii) associado, que inclui os exemplos de código `Python` utilizados nas [aulas](https://github.com/hpacheco/progii/tree/master/scripts/aulas).
@@ -37,7 +37,7 @@ As defesas presenciais dos projetos práticos são **obrigatórias** e decorrer�
 - Jake VanderPlas; Python data science handbook: Essential tools for working with data. O'Reilly Media, Inc. [interactive edition](https://jakevdp.github.io/PythonDataScienceHandbook/)
 - Daniel Y. Chen; Pandas for Everyone, Addison-Wesley [supporting data](https://github.com/chendaniely/pandas_for_everyone)
 - Christian Hill; Learning Scientific Programming with Python 2nd Edition. Cambridge University Press [interactive edition](https://scipython.com/book2/)
-- Martin Jones: Biological data exploration with Python, pandas and seaborn: Clean, filter, reshape and visualize complex biological datasets using the scientific Python stack. Independently published [supporting data edition](https://pythonforbiologists.com/)
+- Martin Jones; Biological data exploration with Python, pandas and seaborn: Clean, filter, reshape and visualize complex biological datasets using the scientific Python stack. Independently published [supporting data edition](https://pythonforbiologists.com/)
 
 ## Planificação
 
@@ -45,7 +45,7 @@ Esta planificação serve para dar uma ideia resumida das aulas planeadas e/ou d
 
 ### Teóricas
 
-* T01 (13/02): Apresentação da cadeira
+* T01 (13/02): [Apresentação da cadeira](slides/t01.pdf)
 * T02 (16/02): Ambiente de desenvolvimento e conceitos base
 * T03 (23/02): Iteração, condicionais e funções
 * T04 (27/02): Strings, listas e tuplos
@@ -61,7 +61,7 @@ Esta planificação serve para dar uma ideia resumida das aulas planeadas e/ou d
 * T11 (23/03): Computação numérica com arrays (numpy)
 * T12 (27/03): Análise de dados tabulares (pandas)
 * T13 (10/04): Análise de dados tabulares (pandas)
-* T14 (17/04): Análise de dados em rede / grafos
+* T14 (17/04): Análise de grafos
 * T15 (20/04): Gráficos
 * T16 (24/04): Gráficos
 * T17 (27/04): Apoio à resolução dos projetos 
@@ -82,12 +82,13 @@ Esta planificação serve para dar uma ideia resumida das aulas planeadas e/ou d
 * P01 (13/02): [Projeto 0 - Desenferrujar](projetos/Projeto0.md)
 * P02 (27/02): [Projeto 0 - Desenferrujar](projetos/Projeto0.md)
 * P03 (06/03): Projeto 1 - Análise de texto
-* P04 (20/03): Projeto 1 - Análise de texto
+* P04 (13/03): Projeto 1 - Análise de texto
 
-* P05 (27/03): Projeto 2 - Análise de dados
+* P05 (20/03): Projeto 2 - Análise de dados
+* P06 (27/03): Projeto 2 - Análise de dados
 * P07 (17/04): Projeto 2 - Análise de dados
-* P08 (24/04): Projeto 2 - Análise de dados
 
+* P08 (24/04): Projeto 3 - Visualização e animação de dados
 * P09 (15/05): Projeto 3 - Visualização e animação de dados
 * P10 (22/05): Projeto 3 - Visualização e animação de dados
 * P11 (29/05): Projeto 3 - Visualização e animação de dados
