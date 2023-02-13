@@ -10,6 +10,8 @@ Pode consultar material de anos anteriores nas sub-páginas:
 * [2021](2021/)
 * [2022](2022/)
 
+[Replit Team invite link](https://replit.com/teams/join/fehodxuujtfzwgmwtzphocqwqwmbexls-prog2bio2223)
+
 ## Projetos
 
 * [Projeto 0 - Desenferrujar](projetos/Projeto0.md)
