@@ -863,3 +863,6 @@ def contaSequencia(dna,par):
 ```
 </details>
 
+## Mais exercícios
+
+Pode encontrar mais alguns exercícios na pasta [progi](progi) as fichas de exercícios da cadeira de Programação I.

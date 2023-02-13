@@ -10,7 +10,7 @@ Pode consultar material de anos anteriores nas sub-páginas:
 * [2021](2021/)
 * [2022](2022/)
 
-[Replit Team invite link](https://replit.com/teams/join/fehodxuujtfzwgmwtzphocqwqwmbexls-prog2bio2223)
+Para quem tiver problemas em entrar na na Team do Replit da cadeira, tem aqui um [Replit Team invite link](https://replit.com/teams/join/fehodxuujtfzwgmwtzphocqwqwmbexls-prog2bio2223).
 
 ## Projetos
 
