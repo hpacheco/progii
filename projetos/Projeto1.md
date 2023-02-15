@@ -69,7 +69,7 @@ O resultado da função deve ser um par de strings que forma uma [cadeia de DNA]
 ### Tarefa 5
 
 Complete a definição da função `leEnzima` que lê uma lista de restrições de enzimas no formato [staden](https://extras.csc.fi/staden/doc/manual/formats_unix_23.html).
-Pode encontrar uma listagem de enzimas neste formato na base de dados [REBASE](http://rebase.neb.com/rebase/link_staden). Encontra uma versão local [aqui](../scripts/projeto1/dados/link_standen.txt), que inclui o pequeno excerto:
+Pode encontrar uma listagem de enzimas neste formato na base de dados [REBASE](http://rebase.neb.com/rebase/link_staden). Encontra uma versão local [aqui](../scripts/projeto1/dados/link_staden.txt), que inclui o pequeno excerto:
 
 ```
 AanI/TTA'TAA//
