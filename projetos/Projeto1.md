@@ -47,7 +47,7 @@ Note que este exercício é principalmente pedagógico. Várias bibliotecas como
 ### Tarefa 4
 
 Complete a definição da função `leDNA` que lê uma sequência de DNA no formato [FASTA](https://blast.ncbi.nlm.nih.gov/Blast.cgi?CMD=Web&PAGE_TYPE=BlastDocs&DOC_TYPE=BlastHelp).
-Um exemplo de uma sequência de DNA de um fungo de fermento, com o código [U49845.1](https://www.ncbi.nlm.nih.gov/nuccore/U49845.1?report=fasta&log$=seqview), pode ser consultada na base de dados do [National Center for Biotechnology Information](https://www.ncbi.nlm.nih.gov/). Encontra uma versão local [aqui](../scripts/projeto1/U49845.1.fasta), que inclui o pequeno excerto:
+Um exemplo de uma sequência de DNA de um fungo de fermento, com o código [U49845.1](https://www.ncbi.nlm.nih.gov/nuccore/U49845.1?report=fasta&log$=seqview), pode ser consultada na base de dados do [National Center for Biotechnology Information](https://www.ncbi.nlm.nih.gov/). Encontra uma versão local [aqui](../scripts/projeto1/dados/U49845.1.fasta), que inclui o pequeno excerto:
 
 ```
 >U49845.1 Saccharomyces cerevisiae TCP1-beta gene, partial cds; and Axl2p (AXL2) and Rev7p (REV7) genes, complete cds
@@ -64,12 +64,12 @@ As seguintes linhas formam uma string que codifica a sequência de DNA, contendo
 | G     | guanine  |
 | T     | thymine  |
 
-O resultado da função deve ser um par de strings que forma uma cadeia de DNA, em que a primeira string é a sequência $5' \rightarrow 3'$ lida do ficheiro, e a segunda string é o complemento $3' \rightarrow 5'$, que pode ser calculada aplicando a função `nucleotidePair` a cada letra da primeira string.
+O resultado da função deve ser um par de strings que forma uma [cadeia de DNA](https://www.genome.gov/genetics-glossary/Base-Pair), em que a primeira string é a sequência $5' \rightarrow 3'$ lida do ficheiro, e a segunda string é o complemento $3' \rightarrow 5'$, que pode ser calculada aplicando a função `nucleotidePair` a cada letra da primeira string.
 
 ### Tarefa 5
 
 Complete a definição da função `leEnzima` que lê uma lista de restrições de enzimas no formato [staden](https://extras.csc.fi/staden/doc/manual/formats_unix_23.html).
-Pode encontrar uma listagem de enzimas neste formato na base de dados [REBASE](http://rebase.neb.com/rebase/link_staden). Encontra uma versão local [aqui](../scripts/projeto1/link_standen.txt), que inclui o pequeno excerto:
+Pode encontrar uma listagem de enzimas neste formato na base de dados [REBASE](http://rebase.neb.com/rebase/link_staden). Encontra uma versão local [aqui](../scripts/projeto1/dados/link_standen.txt), que inclui o pequeno excerto:
 
 ```
 AanI/TTA'TAA//
