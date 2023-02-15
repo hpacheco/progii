@@ -10,12 +10,12 @@ Pode consultar material de anos anteriores nas sub-páginas:
 * [2021](2021/)
 * [2022](2022/)
 
-Para quem tiver problemas em entrar na na Team do Replit da cadeira, tem aqui um [Replit Team invite link](https://replit.com/teams/join/fehodxuujtfzwgmwtzphocqwqwmbexls-prog2bio2223).
+Para quem tiver problemas em entrar na Team do Replit da cadeira, tem aqui um [Replit Team invite link](https://replit.com/teams/join/fehodxuujtfzwgmwtzphocqwqwmbexls-prog2bio2223).
 
 ## Projetos
 
 * [Projeto 0 - Desenferrujar](projetos/Projeto0.md)
-* Projeto 1 - Análise de texto
+* [Projeto 1 - Análise de texto](projetos/Projeto1.md)
 * Projeto 2 - Análise de dados
 * Projeto 3 - Visualização e animação de dados
 
@@ -39,7 +39,7 @@ As defesas presenciais dos projetos práticos são **obrigatórias** e decorrer�
 - Jake VanderPlas; Python data science handbook: Essential tools for working with data. O'Reilly Media, Inc. [interactive edition](https://jakevdp.github.io/PythonDataScienceHandbook/)
 - Daniel Y. Chen; Pandas for Everyone, Addison-Wesley [supporting data](https://github.com/chendaniely/pandas_for_everyone)
 - Christian Hill; Learning Scientific Programming with Python 2nd Edition. Cambridge University Press [interactive edition](https://scipython.com/book2/)
-- Martin Jones; Biological data exploration with Python, pandas and seaborn: Clean, filter, reshape and visualize complex biological datasets using the scientific Python stack. Independently published [supporting data edition](https://pythonforbiologists.com/)
+- Martin Jones; Biological data exploration with Python, pandas and seaborn: Clean, filter, reshape and visualize complex biological datasets using the scientific Python stack. Independently published [supporting data](https://pythonforbiologists.com/)
 
 ## Planificação
 
@@ -83,8 +83,8 @@ Esta planificação serve para dar uma ideia resumida das aulas planeadas e/ou d
 
 * P01 (13/02): [Projeto 0 - Desenferrujar](projetos/Projeto0.md)
 * P02 (27/02): [Projeto 0 - Desenferrujar](projetos/Projeto0.md)
-* P03 (06/03): Projeto 1 - Análise de texto
-* P04 (13/03): Projeto 1 - Análise de texto
+* P03 (06/03): [Projeto 1 - Análise de texto](projetos/Projeto1.md)
+* P04 (13/03): [Projeto 1 - Análise de texto](projetos/Projeto1.md)
 
 * P05 (20/03): Projeto 2 - Análise de dados
 * P06 (27/03): Projeto 2 - Análise de dados
