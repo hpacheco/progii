@@ -10,7 +10,7 @@ Pode consultar material de anos anteriores nas sub-páginas:
 * [2021](2021/)
 * [2022](2022/)
 
-Para quem tiver problemas em entrar na Team do Replit da cadeira, tem aqui um [Replit Team invite link](https://replit.com/teams/join/fehodxuujtfzwgmwtzphocqwqwmbexls-prog2bio2223).
+Para quem tiver problemas em entrar na Team [prog2bio2223](https://replit.com/team/prog2bio2223) do Replit da cadeira, tem aqui um [Replit Team invite link](https://replit.com/teams/join/fehodxuujtfzwgmwtzphocqwqwmbexls-prog2bio2223).
 
 ## Projetos
 
@@ -48,7 +48,7 @@ Esta planificação serve para dar uma ideia resumida das aulas planeadas e/ou d
 ### Teóricas
 
 * T01 (13/02): [Apresentação da cadeira](slides/t01.pdf)
-* T02 (16/02): Ambiente de desenvolvimento e conceitos base
+* T02 (16/02): [Ambiente de desenvolvimento e conceitos base](slides/t02.pdf)
 * T03 (23/02): Iteração, condicionais e funções
 * T04 (27/02): Strings, listas e tuplos
 * T05 (02/03): Ficheiros
