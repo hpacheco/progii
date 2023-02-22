@@ -49,7 +49,7 @@ Esta planificação serve para dar uma ideia resumida das aulas planeadas e/ou d
 
 * T01 (13/02): [Apresentação da cadeira](slides/t01.pdf)
 * T02 (16/02): [Ambiente de desenvolvimento e conceitos base](slides/t02.pdf)
-* T03 (23/02): Iteração, condicionais e funções
+* T03 (23/02): [Iteração, condicionais e funções](slides/t03.pdf)
 * T04 (27/02): Strings, listas e tuplos
 * T05 (02/03): Ficheiros
 * T06 (06/03): Dicionários e sets
