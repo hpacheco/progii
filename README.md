@@ -60,10 +60,10 @@ Esta planificação serve para dar uma ideia resumida das aulas planeadas e/ou d
 > *Entrega do Projeto 1*
 
 * T10 (20/03): Formatos de dados
-* T11 (23/03): Computação numérica com arrays (numpy)
-* T12 (27/03): Análise de dados tabulares (pandas)
-* T13 (10/04): Análise de dados tabulares (pandas)
-* T14 (17/04): Análise de grafos
+* T11 (23/03): Computação numérica com arrays (NumPy)
+* T12 (27/03): Análise de dados tabulares (Pandas)
+* T13 (10/04): Análise de dados tabulares (Pandas)
+* T14 (17/04): Análise de grafos (NetworkX)
 * T15 (20/04): Gráficos
 * T16 (24/04): Gráficos
 * T17 (27/04): Apoio à resolução dos projetos 
