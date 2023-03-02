@@ -50,7 +50,7 @@ Esta planificação serve para dar uma ideia resumida das aulas planeadas e/ou d
 * T01 (13/02): [Apresentação da cadeira](slides/t01.pdf)
 * T02 (16/02): [Ambiente de desenvolvimento e conceitos base](slides/t02.pdf)
 * T03 (23/02): [Iteração, condicionais e funções](slides/t03.pdf)
-* T04 (27/02): Strings, listas e tuplos
+* T04 (27/02): [Strings, listas e tuplos](slides/t04.pdf)
 * T05 (02/03): Ficheiros
 * T06 (06/03): Dicionários e sets
 * T07 (09/03): Compreensões
@@ -62,7 +62,7 @@ Esta planificação serve para dar uma ideia resumida das aulas planeadas e/ou d
 * T10 (20/03): Formatos de dados
 * T11 (23/03): Computação numérica com arrays (NumPy)
 * T12 (27/03): Análise de dados tabulares (Pandas)
-* T13 (10/04): Análise de dados tabulares (Pandas)
+* T13 (13/04): Análise de dados tabulares (Pandas)
 * T14 (17/04): Análise de grafos (NetworkX)
 * T15 (20/04): Gráficos
 * T16 (24/04): Gráficos
