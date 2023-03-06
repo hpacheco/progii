@@ -2,7 +2,7 @@
 
 #from testes import *
 
-from projeto1_sols import *
+from projeto1 import *
 
 import unittest
 
