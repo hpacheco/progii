@@ -27,7 +27,7 @@ print(numversos)
 #numero de versos (ordem superior)
 print(sum(map(len,estrofes)))
 
-# remove espaços e caracteres não alfanuméricos num verso
+# remove caracteres não espaço nem alfanuméricos num verso
 def rem_verso(verso):
    for c in verso:
        if not c.isspace() and not (c.isalpha() or c.isalnum()):
@@ -37,10 +37,10 @@ def rem_verso(verso):
 import re
 
 # remove espaços e caracteres não alfabéticos num verso (expressões regulares)
+# \S: qualquer caracter não de espaçamento
 # \W: qualquer caracter não alfanumérico
-# \s: qualquer caracter de espaçamento
 def rem_verso2(verso):
-    return re.sub("(\W|\s)","",verso)
+    return re.sub("(\S|\W)","",verso)
 
 # remove caracteres especiais em cada verso das estrofes
 # modificar listas in-place, cópia de strings

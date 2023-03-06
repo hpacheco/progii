@@ -28,4 +28,4 @@ print(encontraPalavras("^ra.*os$"))
 print(encontraPalavras("[^aeiou]*[aeiou][^aeiou]*",True))
 
 #palavras que usam no máximo duas vogais (sem considerar acentos)
-print(encontraPalavras("[^aeiou]*([aeiou][^aeiou]*){0,2}",normalize=True))
+print(encontraPalavras("[^aeiou]*([aeioux][^aeiou]*){0,2}",normalize=True))
