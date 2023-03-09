@@ -53,7 +53,7 @@ Esta planificação serve para dar uma ideia resumida das aulas planeadas e/ou d
 * T04 (27/02): Não houve aula
 * T05 (02/03): [Strings, listas e tuplos](slides/t05.pdf) 
 * T06 (06/03): [Ficheiros](slides/t06.pdf)
-* T07 (09/03): Dicionários e sets
+* T07 (09/03): [Dicionários e sets](slides/t07.pdf)
 * T08 (13/03): Compreensões
 * T09 (16/03): Apoio à resolução dos projetos
 
