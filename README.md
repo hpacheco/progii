@@ -55,7 +55,7 @@ Esta planificação serve para dar uma ideia resumida das aulas planeadas e/ou d
 * T06 (06/03): [Ficheiros](slides/t06.pdf)
 * T07 (09/03): [Dicionários e sets](slides/t07.pdf)
 * T08 (13/03): Compreensões
-* T09 (16/03): Apoio à resolução dos projetos
+* T09 (16/03): Apoio à resolução dos projetos (FC6 157)
 
 > *Entrega do Projeto 1*
 

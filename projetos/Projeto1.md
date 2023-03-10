@@ -96,7 +96,7 @@ Depois de um cabeçalho de algumas linhas, cada linha define uma enzima no forma
 
 A variável `nucleotideBases` representa esta tabela como um dicionário.
 
-Cada excerto pode conter um caracter especial `'` que determina a posição particular em que a enzima corta uma sequência de DNA; quando uma posição de corte não é definida concretamente, a posição de corte assumida é no fim do excerto no sentido $5' \rightarrow 3'$ e no início no sentido $3' \rightarrow 5'$. Quando o excerto `cut35` não é dado explicitamente, este pode ser calculado utilizando a função `nucleotidePair`.
+Cada excerto pode conter um caracter especial `'` que determina a posição particular em que a enzima corta uma sequência de DNA; quando uma posição de corte não é definida concretamente, a posição de corte assumida é no fim do excerto no sentido $5' \rightarrow 3'$ e no início no sentido $3' \rightarrow 5'$. Quando o excerto `cut35` não é dado explicitamente, este pode ser calculado utilizando a função `nucleotidePair`, e a sua posição de corte é o inverso da posição de corte do excerto `cut53`, i.e., contar o mesmo índice da direita para a esquerda.
 
 O resultado da função `leEnzima` deve ser uma base de dados de enzimas, representada como um dicionário de nomes de enzimas para representações de enzimas no formato `(excerto53,pos53,excerto35,pos35)`, em que `excerto53` e `excerto35` são excertos de DNA e `pos53` e `pos35` são respetivamente as posições de corte em cada excerto.
 
