@@ -16,8 +16,10 @@ Para quem tiver problemas em entrar na Team [prog2bio2223](https://replit.com/te
 
 * [Projeto 0 - Desenferrujar](projetos/Projeto0.md)
 * [Projeto 1 - Análise de texto](projetos/Projeto1.md)
-* Projeto 2 - Análise de dados
+* [Projeto 2 - Análise de dados](projetos/Projeto2.md)
 * Projeto 3 - Visualização e animação de dados
+
+**Nota:** Tarefas de **Valorização** são opcionais, e contarão para além da nota máxima do projeto. Servirão para colmatar as notas de outros exercícios no mesmo ou noutro Projeto.
 
 ## Avaliação
 
@@ -31,6 +33,10 @@ Estas datas podem vir a ser alteradas consoante o calendário académico.
 As defesas presenciais dos projetos práticos são **obrigatórias** e decorrerão numa data a definir depois do fim das aulas.
 
 **Nota:** A resolução dos projetos será acompanhada nas aulas práticas. A apreciação final dos projetos terá também em consideração o progresso dos alunos durante as aulas.
+
+## Recurso/Melhoria de Nota
+
+O recurso ou melhoria de nota poderão ser feitos realizando todas as tarefas (normais e de valorização) dos Projetos 1, 2 e 3, e realizando adicionalmente um Projeto 4 a anunciar.
 
 ## Bibliografia
 
@@ -86,9 +92,9 @@ Esta planificação serve para dar uma ideia resumida das aulas planeadas e/ou d
 * P03 (06/03): [Projeto 1 - Análise de texto](projetos/Projeto1.md)
 * P04 (13/03): [Projeto 1 - Análise de texto](projetos/Projeto1.md)
 
-* P05 (20/03): Projeto 2 - Análise de dados
-* P06 (27/03): Projeto 2 - Análise de dados
-* P07 (17/04): Projeto 2 - Análise de dados
+* P05 (20/03): [Projeto 2 - Análise de dados](projetos/Projeto2.md)
+* P06 (27/03): [Projeto 2 - Análise de dados](projetos/Projeto2.md)
+* P07 (17/04): [Projeto 2 - Análise de dados](projetos/Projeto2.md)
 
 * P08 (24/04): Projeto 3 - Visualização e animação de dados
 * P09 (15/05): Projeto 3 - Visualização e animação de dados
