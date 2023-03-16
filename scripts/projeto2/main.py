@@ -9,7 +9,7 @@ class TestStringMethods(unittest.TestCase):
     def test_totalEspecies(self):
         self.assertEqual(totalEspecies(), 5203)
 
-    def test_parenteComum(self):
+    def test_parenteMaisProximo(self):
         self.assertEqual(parenteMaisProximo('Homo sapiens','Macaca fuscata'), 'Catarrhini')
 
     # T2
