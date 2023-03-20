@@ -23,7 +23,8 @@ def classifica(n):
     elif n>-4: return 'seca severa'
     else : return 'seca extrema'
 
-meses_cs = { mes[0] : [classifica(float(n)) for n in mes[1:]] for mes in meses }
+meses_cs = { mes[0] : [classifica(float(n))\
+             for n in mes[1:]] for mes in meses }
 
 print(meses_cs)
 
