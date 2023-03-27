@@ -3,6 +3,7 @@ import json
 import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
+import geopy.distance
 
 # T1
 
@@ -69,6 +70,10 @@ def hubPorto():
 
 def temCaminhoDireto(estacao1,estacao2):
     return None
+
+def geodist(coords_1,coords_2):
+    """distance in km between two (latitude,longitude) coordinates"""
+    return geopy.distance.distance(coords_1,coords_2).km
 
 def caminhoMaisRapido(estacao1,estacao2):
     return None

@@ -24,7 +24,7 @@ print(anual[anual[:,1] == max_prec])
 
 # média de precipitação Sec. XX
 xx = anual[anual[:,0] < 2000]
-print(xx)
+#print(xx)
 xx_prec = np.mean(xx[:,1])
 print(xx_prec)
 

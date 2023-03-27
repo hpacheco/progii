@@ -1,8 +1,8 @@
 import urllib.request
 import numpy as np
 
-url = 'https://api.ipma.pt/open-data/observation/climate/mpdsi/porto/mpdsi-1312-porto.csv'
-urllib.request.urlretrieve(url,'mpdsi-1312-porto.csv')
+#url = 'https://api.ipma.pt/open-data/observation/climate/mpdsi/porto/mpdsi-1312-porto.csv'
+#urllib.request.urlretrieve(url,'mpdsi-1312-porto.csv')
 
 data = np.genfromtxt('mpdsi-1312-porto.csv',delimiter=',',skip_header=1)
 print(data)

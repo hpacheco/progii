@@ -69,7 +69,7 @@ Esta planificação serve para dar uma ideia resumida das aulas planeadas e/ou d
 
 * T10 (20/03): [Formatos de dados](slides/t10.pdf)
 * T11 (23/03): [Computação numérica com arrays (NumPy)](slides/t11.pdf)
-* T12 (27/03): Análise de dados tabulares (Pandas)
+* T12 (27/03): [Análise de dados tabulares (Pandas)](slides/t12.pdf)
 * T13 (13/04): Análise de dados tabulares (Pandas)
 * T14 (17/04): Análise de grafos (NetworkX)
 * T15 (20/04): Gráficos
