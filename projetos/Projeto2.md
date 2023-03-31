@@ -47,6 +47,8 @@ Como uma comparação elemento a elemento de duas sequência tem tipicamente mui
 
 Complete a definição da função `dotplot`, que recebe um inteiro `window`, um float `threshold` e dos ficheiros no formato FASTA, e desenha a matriz correspondente ao dotplot como um gráfico. Teste a sua função para diferentes valores de `window` e `threshold` com duas sequências de proteínas de Filamin-A em [humanos](https://www.uniprot.org/uniprotkb/P21333/entry) e em [ratos](https://www.uniprot.org/uniprotkb/Q8BTM8/entry) retiradas da base de dados [UNIPROT](https://www.uniprot.org/), e disponíveis localmente nos ficheiros [P21333.fasta](../scripts/projeto2/dados/P21333.fasta) e [Q8BTM8.fasta](../scripts/projeto2/dados/Q8BTM8.fasta).
 
+**Sugestão:** Comece por desenhar um dotplot apenas com `1` nas posições em que os caracteres das duas sequências são iguais, ignorando os parâmetros `window` e `threshold`, e depois generalize a sua solução para considerar esses parâmetros.
+
 ## Tarefa 3 (Pandas)
 
 Considere a base de dados de casos COVID registados em animais, atualizada [neste repositório](https://github.com/amel-github/sars-ani), com uma cópia local [aqui](../scripts/projeto2/dados/sars_ani_data.csv).
