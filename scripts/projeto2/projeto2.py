@@ -63,6 +63,30 @@ def mediaQuintas():
 
 # T4
 
+stops = pd.read_csv('dados/metro/stops.txt')
+shapes = pd.read_csv('dados/metro/shapes.txt')
+routes = pd.read_csv('dados/metro/routes.txt')
+
+def desenhaMetro():
+    metro = {
+    "type": "FeatureCollection", 
+    "features": [
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "type": "Feature",
+            "properties": {}
+        }]
+    }
+    with open("metro.geojson", "w") as f:
+        json.dump(metro,f,indent=4)
+    return None
+
 # T5
 
 def hubPorto():
