@@ -72,7 +72,7 @@ Esta planificação serve para dar uma ideia resumida das aulas planeadas e/ou d
 * T12 (27/03): [Análise de dados tabulares (Pandas)](slides/t12.pdf)
 * T13 (13/04): [Análise de dados tabulares (Pandas)](slides/t13.pdf)
 * T14 (17/04): [Análise de grafos (NetworkX)](slides/t14.pdf)
-* T15 (20/04): Gráficos (matplotlib)
+* T15 (20/04): [Gráficos (matplotlib)](slides/t15.pdf)
 * T16 (24/04): Gráficos (matplotlib)
 * T17 (27/04): Apoio à resolução dos projetos 
 
