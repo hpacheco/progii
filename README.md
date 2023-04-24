@@ -17,7 +17,7 @@ Para quem tiver problemas em entrar na Team [prog2bio2223](https://replit.com/te
 * [Projeto 0 - Desenferrujar](projetos/Projeto0.md)
 * [Projeto 1 - Análise de texto](projetos/Projeto1.md)
 * [Projeto 2 - Análise de dados](projetos/Projeto2.md)
-* Projeto 3 - Visualização e animação de dados
+* [Projeto 3 - Visualização e animação de dados](projetos/Projeto3.md)
 
 **Nota:** Tarefas de **Valorização** são opcionais, e contarão para além da nota máxima do projeto. Servirão para colmatar as notas de outros exercícios no mesmo ou noutro Projeto.
 
@@ -98,8 +98,8 @@ Esta planificação serve para dar uma ideia resumida das aulas planeadas e/ou d
 * P06 (27/03): [Projeto 2 - Análise de dados](projetos/Projeto2.md)
 * P07 (17/04): [Projeto 2 - Análise de dados](projetos/Projeto2.md)
 
-* P08 (24/04): Projeto 3 - Visualização e animação de dados
-* P09 (15/05): Projeto 3 - Visualização e animação de dados
-* P10 (22/05): Projeto 3 - Visualização e animação de dados
-* P11 (29/05): Projeto 3 - Visualização e animação de dados
+* P08 (24/04): [Projeto 3 - Visualização e animação de dados](projetos/Projeto3.md)
+* P09 (15/05): [Projeto 3 - Visualização e animação de dados](projetos/Projeto3.md)
+* P10 (22/05): [Projeto 3 - Visualização e animação de dados](projetos/Projeto3.md)
+* P11 (29/05): [Projeto 3 - Visualização e animação de dados](projetos/Projeto3.md)
 
