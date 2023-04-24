@@ -74,7 +74,7 @@ Esta planificação serve para dar uma ideia resumida das aulas planeadas e/ou d
 * T14 (17/04): [Análise de grafos (NetworkX)](slides/t14.pdf)
 * T15 (20/04): [Gráficos (matplotlib)](slides/t15.pdf)
 * T16 (24/04): [Gráficos (matplotlib)](slides/t16.pdf)
-* T17 (27/04): Apoio à resolução dos projetos 
+* T17 (27/04): Apoio à resolução dos projetos (FC6 184)
 
 > *Entrega do Projeto 2*
 

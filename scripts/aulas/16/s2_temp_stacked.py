@@ -11,10 +11,13 @@ tmins.dropna(inplace=True)
 tmaxs = dfs['tmax']
 tmaxs = tmaxs[years].copy()
 tmaxs.dropna(inplace=True)
+#print(tmins,tmaxs)
 
 temps = pd.merge(tmins,tmaxs,on='year',suffixes=('_tmin','_tmax'))
+#print(temps.info())
 temps['year'] = temps['year'].astype('uint16')
 temps.set_index('year',inplace=True)
+print(temps)
 # para sobrepor as duas temperaturas
 temps['Annual_tmax'] = temps['Annual_tmax'] - temps['Annual_tmin']
 temps.plot(kind='area',alpha=0.3,stacked=True,legend=False,ylabel='Temp (ºC)')
