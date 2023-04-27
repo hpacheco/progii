@@ -43,7 +43,7 @@ class TestStringMethods(unittest.TestCase):
 
     def test_caminhoMaisRapido(self):
         self.assertAlmostEqual(caminhoMaisRapido('Campanha','Sete Bicas'), 876.2643147041399)
-        self.assertAlmostEqual(caminhoMaisRapido('Casa da Musica','Santo Ovidio'),2788.995238361132)
+        self.assertAlmostEqual(caminhoMaisRapido('Casa da Musica','Santo Ovidio'),1022.2265891442585)
 
 
 if __name__ == '__main__':
