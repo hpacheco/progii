@@ -34,7 +34,7 @@ class TestStringMethods(unittest.TestCase):
     # T5
 
     def test_hubPorto(self):
-        self.assertEqual(hubPorto(),"Trindade")
+        self.assertEqual(hubPorto(),('Trindade', {'Linha Azul', 'Linha Amarela', 'Linha Verde', 'Linha Laranja', 'Linha Vermelha', 'Linha Violeta'}))
 
     def test_temCaminhoDireto(self):
         self.assertEqual(temCaminhoDireto('Trindade', 'Trindade'), True)
