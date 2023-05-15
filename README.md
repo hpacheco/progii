@@ -79,7 +79,7 @@ Esta planificação serve para dar uma ideia resumida das aulas planeadas e/ou d
 > *Entrega do Projeto 2*
 
 * T18 (04/05): [Gráficos interativos (matplotlib)](slides/t18.pdf)
-* T19 (15/05): Mapas
+* T19 (15/05): [Mapas](slides/t19.pdf)
 * T20 (18/05): Mapas
 * T21 (22/05): Visualização de grafos
 * T22 (25/05): Visualização web
