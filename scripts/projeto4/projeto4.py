@@ -13,7 +13,7 @@ fastf1.Cache.enable_cache('cache')  # replace with your cache directory
 
 # for a given year, returns a list of events
 def getSchedule(year):
-    schedule = pd.DataFrame(fastf1.events._get_schedule(year))
+    schedule = pd.DataFrame(fastf1.events._get_schedule_ff1(year))
     schedule.dropna(inplace=True)
     return list(schedule['EventName'])
 

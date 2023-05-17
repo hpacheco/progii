@@ -66,9 +66,6 @@ Para isso, deve gerar um `DataFrame` que contenha cada campo relevante para a an
 
 **Complete** a função `drawFastestLaps` que constrói a animação como um ficheiro HTML. Por exemplo, para a invocação `drawFastestLaps(2021,'Austrian Grand Prix')`, o resultado final deve ser uma animação similar à seguinte:
 
-<iframe
-  src="quali.html"
-  style="width:100%; height:300px;"
-></iframe>
+* [Aqui](https://hpacheco.github.io/progii/projetos/quali.html)
 
 
