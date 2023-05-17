@@ -59,7 +59,7 @@ def drawFastestLaps(year,eventName):
     laps = getQualifyingFastestLaps(year,eventName)
     df = None # construir dataframe a partir das
     fig = px.bar(df, orientation='h')  # acrescentar outros parâmetros para configurar o gráfico
-    fig.write_html("ipma.html")
+    fig.write_html("quali.html")
 
 
 
