@@ -3,7 +3,7 @@
 
 Neste terceiro projeto vamos investigar as bibliotecas base de visualização de dados em Python de uma perspetiva prática, e aplicá-las para gerar gráficos e mapas a partir de dados previamente processados.
 
-Aceda aos ficheiros do Projeto 3, onde deve preencher as suas soluções num ficheiro `projeto2.py`:
+Aceda aos ficheiros do Projeto 3, onde deve preencher as suas soluções num ficheiro `projeto3.py`:
 
 - Fazendo login no [replit](https://replit.com/) com a conta Google UP (upXXXXX@g.uporto.pt), acendendo à Team [prog2bio2223](https://replit.com/team/prog2bio2223) e iniciando o Projeto3.
 - Pode consultar os ficheiros individuais na pasta [projeto3](../scripts/projeto3) e fazer download dos mesmos para desenvolver o projeto no seu computador e utilizando um IDE à sua escolha.

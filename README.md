@@ -38,7 +38,20 @@ As defesas presenciais dos projetos práticos são **obrigatórias** e decorrer�
 
 ## Recurso/Melhoria de Nota
 
-O recurso ou melhoria de nota poderão ser feitos realizando todas as tarefas (normais e de valorização) dos Projetos 1, 2 e 3, e realizando adicionalmente um Projeto 4 a anunciar.
+O recurso ou melhoria de nota poderão ser feitos realizando todas as tarefas (normais e de valorização) dos Projetos 1, 2 e 3, e realizando adicionalmente o Projeto 4.
+
+* [Projeto 4 - Recurso / Melhoria](projetos/Projeto4.md)
+
+As tarefas de valorização, opcionais na época normal, são obrigatórias para efetuar melhoria.
+De notar que em caso de recurso/melhoria, tarefas de valorização não contarão para além da nota máxima do projeto.
+
+**Os alunos que desejem efetuar recurso/melhoria de nota devem contactar o docente a informar da sua intenção.**
+
+Os trabalhos de recurso/melhoria devem ser entregues por email para o docente até à seguinte data:
+
+* Projeto 4: 25 Junho
+
+Tal como os trabalhos de época normal, os trabalhos de recurso/melhoria estão sujeitos a uma defesa presencial.
 
 ## Bibliografia
 
