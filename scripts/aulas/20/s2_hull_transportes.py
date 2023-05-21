@@ -5,9 +5,9 @@ import pandas as pd
 import urllib.request
 import zipfile
 
-url = 'https://dados.gov.pt/en/datasets/r/7f2ee8cf-63d8-4b74-b1c2-f4b016963611'
-urllib.request.urlretrieve(url,'stops-porto.zip')
-with zipfile.ZipFile('stops-porto.zip', 'r') as r: r.extractall(".")
+#url = 'https://dados.gov.pt/en/datasets/r/7f2ee8cf-63d8-4b74-b1c2-f4b016963611'
+#urllib.request.urlretrieve(url,'stops-porto.zip')
+#with zipfile.ZipFile('stops-porto.zip', 'r') as r: r.extractall(".")
 
 df = pd.read_csv('stops.txt')
 gdf = gpd.GeoDataFrame(df,geometry=gpd.points_from_xy(df['stop_lon'],df['stop_lat']))

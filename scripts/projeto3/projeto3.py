@@ -42,7 +42,7 @@ def testeDesenhaNuclearCategoria():
     plt.show()
 
 def desenhaNuclear():
-    # cria radiobuttons e desenha um gráfico pie chamando testeDesenhaNuclearPais e testeDesenhaNuclearCategoria
+    # cria radiobuttons e desenha um gráfico pie chamando desenhaNuclearPais e desenhaNuclearCategoria
     return None
 
 # Tarefa 3
