@@ -2,6 +2,8 @@ import networkx as nx
 import matplotlib.pyplot as plt
 
 g = nx.karate_club_graph()
+print(g.nodes(data=True))
+print(g.edges(data=True))
 
 plt.figure(figsize=(9,6))
 

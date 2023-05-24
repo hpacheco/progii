@@ -95,8 +95,8 @@ Esta planificação serve para dar uma ideia resumida das aulas planeadas e/ou d
 * T19 (15/05): [Mapas](slides/t19.pdf)
 * T20 (18/05): [Mapas](slides/t20.pdf)
 * T21 (22/05): [Visualização de grafos](slides/t21.pdf)
-* T22 (25/05): Visualização web
-* T23 (29/05): Apoio à resolução dos projetos 
+* T22 (25/05): [Visualização web](slides/t22.pdf)
+* T23 (29/05): Apoio à resolução dos projetos (FC6 008)
 
 > *Entrega do Projeto 3*
 
