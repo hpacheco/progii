@@ -30,7 +30,7 @@ Estas datas podem vir a ser alteradas consoante o calendário académico.
 * Projeto 2: 30 Abril
 * Projeto 3: 1 Junho
 
-As defesas presenciais dos projetos práticos são **obrigatórias** e decorrerão numa data a definir depois do fim das aulas.
+As defesas presenciais dos projetos práticos são **obrigatórias** e decorrerão **no dia 5 Junho na sala FC6 140** durante todo o dia. O calendário das defesas dos trabalhos pode ser consultado no link abaixo. **Cada aluno que deseje apresentar o trabalho deve contactar o docente para reservar uma slot de 15m antes do dia da apresentação.**
 
 **Nota:** A resolução dos projetos será acompanhada nas aulas práticas. A apreciação final dos projetos terá também em consideração o progresso dos alunos durante as aulas.
 
