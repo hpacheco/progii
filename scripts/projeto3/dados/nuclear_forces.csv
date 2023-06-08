@@ -4,4 +4,3 @@ Reserve/ Nondeployed	2815	1938	410	10	105	170	164	90	30
 Deployed Nonstrategic	0	100	0	0	0	0	0	0	0
 Deployed Strategic	1674	1670	0	280	120	0	0	0	0
 Total Inventory	5889	5244	410	290	225	170	164	90	30
-SUM([Deployed Strategic] + [Deployed Nonstrategic] + [Reserve...	5,889	5,244							

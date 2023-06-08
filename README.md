@@ -34,7 +34,7 @@ As defesas presenciais dos projetos práticos são **obrigatórias** e decorrer�
 
 **Nota:** A resolução dos projetos será acompanhada nas aulas práticas. A apreciação final dos projetos terá também em consideração o progresso dos alunos durante as aulas.
 
-**Consultar**: O registo das submissões de cada projeto (e futuras notas) dos alunos estão registados [aqui](https://docs.google.com/spreadsheets/d/1SNGvlbinOwByjOfbgggLQjfOCpAcuFMgSEZqXliTQ1w/edit?usp=sharing). Para aceder à folha de cálculo, devem utilizar a conta Google institucional (upXXXXXXXXX@g.uporto.pt).
+**Consultar**: As notas dos alunos estão disponíveis [aqui](https://docs.google.com/spreadsheets/d/1SNGvlbinOwByjOfbgggLQjfOCpAcuFMgSEZqXliTQ1w/edit?usp=sharing). Para aceder à folha de cálculo, devem utilizar a conta Google institucional (upXXXXXXXXX@g.uporto.pt).
 
 ## Recurso/Melhoria de Nota
 
