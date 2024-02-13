@@ -865,4 +865,4 @@ def contaSequencia(dna,par):
 
 ## Mais exercícios
 
-Pode encontrar mais alguns exercícios na pasta [../2023/projetos/progi](progi), que contém as fichas de exercícios da cadeira de Programação I.
+Pode encontrar mais alguns exercícios na pasta [progi](../2023/projetos/progi), que contém as fichas de exercícios da cadeira de Programação I.
