@@ -11,12 +11,14 @@ Pode consultar material de anos anteriores nas sub-páginas:
 * [2022](2022/)
 * [2023](2023/)
 
+Para quem quiser utilizar o Replit da cadeira, podem associar-se à Team [prog2bio2324](https://replit.com/team/prog2bio2334) utilizando este [Replit Team invite link](https://replit.com/teams/join/gnzbpwendjczpojyqhubvjdsaybopilr-prog2bio2324).
+
 ## Projetos
 
 * [Projeto 0 - Desenferrujar](projetos/Projeto0.md)
-* [Projeto 1 - Análise de texto](projetos/Projeto1.md)
-* [Projeto 2 - Análise de dados](projetos/Projeto2.md)
-* [Projeto 3 - Visualização e animação de dados](projetos/Projeto3.md)
+* Projeto 1 - Análise de texto
+* Projeto 2 - Análise de dados
+* Projeto 3 - Visualização e animação de dados
 
 ## Avaliação
 
