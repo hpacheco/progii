@@ -307,7 +307,7 @@ window.mainloop()
 ```
 O resultado esperado será:
 
-![](ex_2_3_turtle.png)
+![](../2023/projetos/ex_2_3_turtle.png)
 
 <details>
 <summary>Solução</summary>
@@ -336,7 +336,7 @@ window.mainloop()
 ```
 O resultado esperado será o desenho da figura seguinte:
 
-![](ex_2_4_turtle.png)
+![](../2023/projetos/ex_2_4_turtle.png)
 
 <details>
 <summary>Solução</summary>
