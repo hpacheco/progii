@@ -6,7 +6,7 @@ Aceda aos ficheiros do Projeto 1, onde deve preencher as suas soluções num fic
 
 - Fazendo login no [replit](https://replit.com/) com a conta Google UP (upXXXXX@g.uporto.pt), acendendo à Team [prog2bio2223](https://replit.com/team/prog2bio2223) e iniciando o Projeto1.
 - Pode consultar os ficheiros individuais na pasta [projeto1](../scripts/projeto1) e fazer download dos mesmos para desenvolver o projeto no seu computador e utilizando um IDE à sua escolha.
-- Pode fazer download de todo o projeto como um arquivo zip [aqui](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/hpacheco/progii/tree/master/scripts/projeto1).
+- Pode fazer download de todo o projeto como um arquivo zip [aqui](https://download-directory.github.io/?url=https%3A%2F%2Fgithub.com%2Fhpacheco%2Fprogii%2Ftree%2Fmaster%2Fscripts%2Fprojeto1).
 
 Neste projeto vamos extrair métricas simples do texto completo da obra *A Relíqua* de *Eça de Queiroz* e analisar sequências de DNA.
 

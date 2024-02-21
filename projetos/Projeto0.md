@@ -6,7 +6,7 @@ Aceda aos ficheiros do Projeto 0, onde deve preencher as suas soluções num fic
 
 - Acendendo à Team [prog2bio2324](https://replit.com/team/prog2bio2223) e iniciando o Projeto0.
 - Pode consultar os ficheiros individuais na pasta [projeto0](../scripts/projeto0) e fazer download dos mesmos para desenvolver o projeto no seu computador e utilizando um IDE à sua escolha.
-- Pode fazer download de todo o projeto como um arquivo zip [aqui](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/hpacheco/progii/tree/master/scripts/projeto0).
+- Pode fazer download de todo o projeto como um arquivo zip [aqui](https://download-directory.github.io/?url=https%3A%2F%2Fgithub.com%2Fhpacheco%2Fprogii%2Ftree%2Fmaster%2Fscripts%2Fprojeto0).
 
 Neste projeto (primeiras duas semanas de aulas práticas) vamos resolver livremente alguns exercícios de programação básica em Python. Sinta-se à vontade para requisitar mais ou novos exercícios aos docentes.
 
