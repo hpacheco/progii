@@ -1,1 +1,370 @@
-{"name": "Aegon I", "gender": "male", "born": "27 BC", "died": "37 AC", "children": [{"name": "Maegor I", "gender": "male", "born": "12 AC", "died": "48 AC", "children": []}, {"name": "Aenys I", "gender": "male", "born": "7 AC", "died": "42 AC", "children": [{"name": "Rhaena Targaryen", "gender": "female", "born": "23 AC", "died": "73 AC", "children": []}, {"name": "Rhaena Targaryen", "gender": "female", "born": "23 AC", "died": "73 AC", "children": [{"name": "Aerea Targaryen", "gender": "female", "born": "42 AC", "died": "56 AC", "children": []}, {"name": "Rhaella Targaryen", "gender": "female", "born": "42 AC", "died": "73 AC", "children": []}]}, {"name": "Aegon Targaryen", "gender": "male", "born": "26 AC", "died": "43 AC", "children": [{"name": "Aerea Targaryen", "gender": "female", "born": "42 AC", "died": "56 AC", "children": []}, {"name": "Rhaella Targaryen", "gender": "female", "born": "42 AC", "died": "73 AC", "children": []}]}, {"name": "Viserys Targaryen", "gender": "male", "born": "29 AC", "died": "44 AC", "children": []}, {"name": "Jaehaerys I", "gender": "male", "born": "34 AC", "died": "103 AC", "children": [{"name": "Aegon Targaryen", "gender": "male", "born": "52 AC", "died": "52 AC", "children": []}, {"name": "Daenarys Targaryen", "gender": "female", "born": "53 AC", "died": "60 AC", "children": []}, {"name": "Aemon Targaryen", "gender": "male", "born": "55 AC", "died": "92 AC", "children": [{"name": "Rhaenys Targaryen", "gender": "female", "born": "74 AC", "died": "129 AC", "children": [{"name": "Laena Velaryon", "gender": "female", "born": "92 AC", "died": "120 AC", "children": [{"name": "Baela Targaryen", "gender": "female", "born": "116 AC", "died": "136-176 AC", "children": []}, {"name": "Rhaena Targaryen", "gender": "female", "born": "116 AC", "died": "136-176 AC", "children": []}]}, {"name": "Laenor Velaryon", "gender": "male", "born": "94 AC", "died": "120 AC", "children": []}]}]}, {"name": "Baelon Targaryen", "gender": "male", "born": "57 AC", "died": "101 AC", "children": [{"name": "Viserys I", "gender": "male", "born": "77 AC", "died": "129 AC", "children": [{"name": "Rhaenyra Targaryen", "gender": "female", "born": "97 AC", "died": "130 AC", "children": [{"name": "Jacaerys Velaryon", "gender": "male", "born": "114 AC", "died": "130 AC", "children": []}, {"name": "Lucerys Velaryon", "gender": "male", "born": "115 AC", "died": "129 AC", "children": []}, {"name": "Joffrey Velaryon", "gender": "male", "born": "117 AC", "died": "130 AC", "children": []}, {"name": "Aegon III", "gender": "male", "born": "120 AC", "died": "157 AC", "children": []}, {"name": "Viserys II", "gender": "male", "born": "122 AC", "died": "172 AC", "children": []}, {"name": "Visenya Targaryen", "gender": "female", "born": "129 AC", "died": "129 AC", "children": []}]}, {"name": "Baelon Targaryen", "gender": "male", "born": "105 AC", "died": "105 AC", "children": []}, {"name": "Aegon II", "gender": "male", "born": "107 AC", "died": "131 AC", "children": [{"name": "Jaehaerys Targaryen", "gender": "male", "born": "123 AC", "died": "129 AC", "children": []}, {"name": "Jaehaera Targaryen", "gender": "female", "born": "123 AC", "died": "133 AC", "children": []}, {"name": "Maelor Targaryen", "gender": "male", "born": "127 AC", "died": "130 AC", "children": []}]}, {"name": "Helaena Targaryen", "gender": "female", "born": "109 AC", "died": "130 AC", "children": []}, {"name": "Aemond Targaryen", "gender": "male", "born": "110 AC", "died": "130 AC", "children": []}, {"name": "Daeron Targaryen", "gender": "male", "born": "114 AC", "died": "130 AC", "children": []}]}, {"name": "Daemon Targaryen", "gender": "male", "born": "81 AC", "died": "130 AC", "children": []}, {"name": "Aegon Targaryen", "gender": "male", "born": "84 AC", "died": "85 AC", "children": []}]}, {"name": "Alyssa Targaryen", "gender": "female", "born": "60 AC", "died": "84 AC", "children": []}, {"name": "Maegelle Targaryen", "gender": "female", "born": "62 AC", "died": "90 AC", "children": []}, {"name": "Vaegon Targaryen", "gender": "male", "born": "63 AC", "died": "101 AC", "children": []}, {"name": "Daella Targaryen", "gender": "female", "born": "64 AC", "died": "82 AC", "children": [{"name": "Aemma Arryn", "gender": "female", "born": "82 AC", "died": "105 AC", "children": []}]}, {"name": "Saera Targaryen", "gender": "female", "born": "67 AC", "died": "101 AC", "children": []}, {"name": "Viserra Targaryen", "gender": "female", "born": "71 AC", "died": "87 AC", "children": []}, {"name": "Gaemon Targaryen", "gender": "male", "born": "73 AC", "died": "74 AC", "children": []}, {"name": "Valerion Targaryen", "gender": "male", "born": "77 AC", "died": "78 AC", "children": []}, {"name": "Gael Targaryen", "gender": "female", "born": "90 AC", "died": "99 AC", "children": []}]}, {"name": "Alysanne Targaryen", "gender": "female", "born": "36 AC", "died": "100 AC", "children": []}, {"name": "Vaella Targaryen", "gender": "female", "born": "39 AC", "died": "39 AC", "children": []}]}]}
+{
+    "name": "Aegon I",
+    "gender": "male",
+    "born": "27 BC",
+    "died": "37 AC",
+    "children": [
+        {
+            "name": "Maegor I",
+            "gender": "male",
+            "born": "12 AC",
+            "died": "48 AC",
+            "children": []
+        },
+        {
+            "name": "Aenys I",
+            "gender": "male",
+            "born": "7 AC",
+            "died": "42 AC",
+            "children": [
+                {
+                    "name": "Rhaena Targaryen",
+                    "gender": "female",
+                    "born": "23 AC",
+                    "died": "73 AC",
+                    "children": []
+                },
+                {
+                    "name": "Rhaena Targaryen",
+                    "gender": "female",
+                    "born": "23 AC",
+                    "died": "73 AC",
+                    "children": [
+                        {
+                            "name": "Aerea Targaryen",
+                            "gender": "female",
+                            "born": "42 AC",
+                            "died": "56 AC",
+                            "children": []
+                        },
+                        {
+                            "name": "Rhaella Targaryen",
+                            "gender": "female",
+                            "born": "42 AC",
+                            "died": "73 AC",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "Aegon Targaryen",
+                    "gender": "male",
+                    "born": "26 AC",
+                    "died": "43 AC",
+                    "children": [
+                        {
+                            "name": "Aerea Targaryen",
+                            "gender": "female",
+                            "born": "42 AC",
+                            "died": "56 AC",
+                            "children": []
+                        },
+                        {
+                            "name": "Rhaella Targaryen",
+                            "gender": "female",
+                            "born": "42 AC",
+                            "died": "73 AC",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "Viserys Targaryen",
+                    "gender": "male",
+                    "born": "29 AC",
+                    "died": "44 AC",
+                    "children": []
+                },
+                {
+                    "name": "Jaehaerys I",
+                    "gender": "male",
+                    "born": "34 AC",
+                    "died": "103 AC",
+                    "children": [
+                        {
+                            "name": "Aegon Targaryen",
+                            "gender": "male",
+                            "born": "52 AC",
+                            "died": "52 AC",
+                            "children": []
+                        },
+                        {
+                            "name": "Daenarys Targaryen",
+                            "gender": "female",
+                            "born": "53 AC",
+                            "died": "60 AC",
+                            "children": []
+                        },
+                        {
+                            "name": "Aemon Targaryen",
+                            "gender": "male",
+                            "born": "55 AC",
+                            "died": "92 AC",
+                            "children": [
+                                {
+                                    "name": "Rhaenys Targaryen",
+                                    "gender": "female",
+                                    "born": "74 AC",
+                                    "died": "129 AC",
+                                    "children": [
+                                        {
+                                            "name": "Laena Velaryon",
+                                            "gender": "female",
+                                            "born": "92 AC",
+                                            "died": "120 AC",
+                                            "children": [
+                                                {
+                                                    "name": "Baela Targaryen",
+                                                    "gender": "female",
+                                                    "born": "116 AC",
+                                                    "died": "136-176 AC",
+                                                    "children": []
+                                                },
+                                                {
+                                                    "name": "Rhaena Targaryen",
+                                                    "gender": "female",
+                                                    "born": "116 AC",
+                                                    "died": "136-176 AC",
+                                                    "children": []
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "name": "Laenor Velaryon",
+                                            "gender": "male",
+                                            "born": "94 AC",
+                                            "died": "120 AC",
+                                            "children": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Baelon Targaryen",
+                            "gender": "male",
+                            "born": "57 AC",
+                            "died": "101 AC",
+                            "children": [
+                                {
+                                    "name": "Viserys I",
+                                    "gender": "male",
+                                    "born": "77 AC",
+                                    "died": "129 AC",
+                                    "children": [
+                                        {
+                                            "name": "Rhaenyra Targaryen",
+                                            "gender": "female",
+                                            "born": "97 AC",
+                                            "died": "130 AC",
+                                            "children": [
+                                                {
+                                                    "name": "Jacaerys Velaryon",
+                                                    "gender": "male",
+                                                    "born": "114 AC",
+                                                    "died": "130 AC",
+                                                    "children": []
+                                                },
+                                                {
+                                                    "name": "Lucerys Velaryon",
+                                                    "gender": "male",
+                                                    "born": "115 AC",
+                                                    "died": "129 AC",
+                                                    "children": []
+                                                },
+                                                {
+                                                    "name": "Joffrey Velaryon",
+                                                    "gender": "male",
+                                                    "born": "117 AC",
+                                                    "died": "130 AC",
+                                                    "children": []
+                                                },
+                                                {
+                                                    "name": "Aegon III",
+                                                    "gender": "male",
+                                                    "born": "120 AC",
+                                                    "died": "157 AC",
+                                                    "children": []
+                                                },
+                                                {
+                                                    "name": "Viserys II",
+                                                    "gender": "male",
+                                                    "born": "122 AC",
+                                                    "died": "172 AC",
+                                                    "children": []
+                                                },
+                                                {
+                                                    "name": "Visenya Targaryen",
+                                                    "gender": "female",
+                                                    "born": "129 AC",
+                                                    "died": "129 AC",
+                                                    "children": []
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "name": "Baelon Targaryen",
+                                            "gender": "male",
+                                            "born": "105 AC",
+                                            "died": "105 AC",
+                                            "children": []
+                                        },
+                                        {
+                                            "name": "Aegon II",
+                                            "gender": "male",
+                                            "born": "107 AC",
+                                            "died": "131 AC",
+                                            "children": [
+                                                {
+                                                    "name": "Jaehaerys Targaryen",
+                                                    "gender": "male",
+                                                    "born": "123 AC",
+                                                    "died": "129 AC",
+                                                    "children": []
+                                                },
+                                                {
+                                                    "name": "Jaehaera Targaryen",
+                                                    "gender": "female",
+                                                    "born": "123 AC",
+                                                    "died": "133 AC",
+                                                    "children": []
+                                                },
+                                                {
+                                                    "name": "Maelor Targaryen",
+                                                    "gender": "male",
+                                                    "born": "127 AC",
+                                                    "died": "130 AC",
+                                                    "children": []
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "name": "Helaena Targaryen",
+                                            "gender": "female",
+                                            "born": "109 AC",
+                                            "died": "130 AC",
+                                            "children": []
+                                        },
+                                        {
+                                            "name": "Aemond Targaryen",
+                                            "gender": "male",
+                                            "born": "110 AC",
+                                            "died": "130 AC",
+                                            "children": []
+                                        },
+                                        {
+                                            "name": "Daeron Targaryen",
+                                            "gender": "male",
+                                            "born": "114 AC",
+                                            "died": "130 AC",
+                                            "children": []
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Daemon Targaryen",
+                                    "gender": "male",
+                                    "born": "81 AC",
+                                    "died": "130 AC",
+                                    "children": []
+                                },
+                                {
+                                    "name": "Aegon Targaryen",
+                                    "gender": "male",
+                                    "born": "84 AC",
+                                    "died": "85 AC",
+                                    "children": []
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Alyssa Targaryen",
+                            "gender": "female",
+                            "born": "60 AC",
+                            "died": "84 AC",
+                            "children": []
+                        },
+                        {
+                            "name": "Maegelle Targaryen",
+                            "gender": "female",
+                            "born": "62 AC",
+                            "died": "90 AC",
+                            "children": []
+                        },
+                        {
+                            "name": "Vaegon Targaryen",
+                            "gender": "male",
+                            "born": "63 AC",
+                            "died": "101 AC",
+                            "children": []
+                        },
+                        {
+                            "name": "Daella Targaryen",
+                            "gender": "female",
+                            "born": "64 AC",
+                            "died": "82 AC",
+                            "children": [
+                                {
+                                    "name": "Aemma Arryn",
+                                    "gender": "female",
+                                    "born": "82 AC",
+                                    "died": "105 AC",
+                                    "children": []
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Saera Targaryen",
+                            "gender": "female",
+                            "born": "67 AC",
+                            "died": "101 AC",
+                            "children": []
+                        },
+                        {
+                            "name": "Viserra Targaryen",
+                            "gender": "female",
+                            "born": "71 AC",
+                            "died": "87 AC",
+                            "children": []
+                        },
+                        {
+                            "name": "Gaemon Targaryen",
+                            "gender": "male",
+                            "born": "73 AC",
+                            "died": "74 AC",
+                            "children": []
+                        },
+                        {
+                            "name": "Valerion Targaryen",
+                            "gender": "male",
+                            "born": "77 AC",
+                            "died": "78 AC",
+                            "children": []
+                        },
+                        {
+                            "name": "Gael Targaryen",
+                            "gender": "female",
+                            "born": "90 AC",
+                            "died": "99 AC",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "Alysanne Targaryen",
+                    "gender": "female",
+                    "born": "36 AC",
+                    "died": "100 AC",
+                    "children": []
+                },
+                {
+                    "name": "Vaella Targaryen",
+                    "gender": "female",
+                    "born": "39 AC",
+                    "died": "39 AC",
+                    "children": []
+                }
+            ]
+        }
+    ]
+}
