@@ -1,4 +1,6 @@
 import unittest
+from io import StringIO
+import sys
 from projeto0 import *
 
 class TestStringMethods(unittest.TestCase):
@@ -7,7 +9,7 @@ class TestStringMethods(unittest.TestCase):
         # Enter code here
         self.assertEqual(contaSequencia('ACTGCTATCCATT', 'AT'), 2)
         self.assertEqual(contaSequencia('TTTTTCATT', 'TT'), 3)
-        self.assertEqual(contaSequencia('ACGTTACGGAACG', 'ACG'), 2)
+        self.assertEqual(contaSequencia('ACGTTACGGAACG', 'ACG'), 3)
 
     def test_3_8(self):
         # Enter code here
