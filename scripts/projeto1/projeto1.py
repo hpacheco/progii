@@ -22,7 +22,7 @@ def maiorDialogo(capitulos:dict[str,list[str]]) -> int:
 def mencoesPersonagens(capitulos:dict[str,list[str]],personagens:set[str]) -> list[tuple[str,float]]:
     return None
 
-def ohJacinto(capitulos:dict[str,list[str]]) -> list[str]:
+def ohJacinto(capitulos:dict[str,list[str]]) -> set[str]:
     return None
 
 # Parte 2
