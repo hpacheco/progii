@@ -17,7 +17,7 @@ Para quem quiser utilizar o Replit da cadeira, podem associar-se à Team [prog2b
 
 * [Projeto 0 - Desenferrujar](projetos/Projeto0.md)
 * [Projeto 1 - Análise de texto](projetos/Projeto1.md)
-* Projeto 2 - Análise de dados
+* [Projeto 2 - Análise de dados](projetos/Projeto2.md)
 * Projeto 3 - Visualização e animação de dados
 
 ## Avaliação
@@ -92,9 +92,9 @@ Esta planificação serve para dar uma ideia resumida das aulas planeadas e/ou d
 * P04 (2ª 11/03, 5ª 07/03): [Projeto 1 - Análise de texto](projetos/Projeto1.md)
 * P05 (2ª 18/03, 5ª 14/03): [Projeto 1 - Análise de texto](projetos/Projeto1.md)
 
-* P06 (2ª 08/04, 5ª 21/03): Projeto 2 - Análise de dados
-* P07 (2ª 15/04, 5ª 11/04): Projeto 2 - Análise de dados
-* P08 (2ª 22/04, 5ª 18/04): Projeto 2 - Análise de dados
+* P06 (2ª 08/04, 5ª 21/03): [Projeto 2 - Análise de dados](projetos/Projeto2.md)
+* P07 (2ª 15/04, 5ª 11/04): [Projeto 2 - Análise de dados](projetos/Projeto2.md)
+* P08 (2ª 22/04, 5ª 18/04): [Projeto 2 - Análise de dados](projetos/Projeto2.md)
 
 * P09 (2ª 29/04, 5ª 02/05): Projeto 3 - Visualização e animação de dados
 * P10 (2ª 13/05, 5ª 16/05): Projeto 3 - Visualização e animação de dados
