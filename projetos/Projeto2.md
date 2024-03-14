@@ -30,6 +30,8 @@ Considere como exemplo duas imagens retiradas do [Cell Image Library](http://www
 * Calcule um *threshold*. Para isso, vamos assumir que uma imagem em toms de cinzento tem uma cor mais preponderante correspondente ao seu fundo, que ficará a branco. Complete a definição da função `autoThreshold`, que recebe uma tolerância $i$ e lê uma imagem em tons de cinzento e returna um *threshold*, ou seja, um intervalo $[c-i..c+i]$ de cinzentos (entre 0 e 255) correspondente ao fundo, centrado na cor mais frequente $c$.
 * Converta uma imagem a preto e branco, com fundo branco, numa imagem a preto e branco do seu contorno. Complete a definição da função `toContour` que, para cada pixel da imagem inicial, o coloca a preto na imagem resultante caso algum dos seus pixéis circundantes tiver uma cor diferente, e a branco vice-versa.
 
+Considere a seguinte imagem de teste para exemplificar as transformações:
+
 RGB                        |  Grayscale                |  Black & White           | Contour
 :-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
 ![](../scripts/projeto2/dados/test.png)  |  ![](../scripts/projeto2/dados/test_gray.png) |  ![](../scripts/projeto2/dados/test_bw.png) |  ![](../scripts/projeto2/dados/test_contour.png)
