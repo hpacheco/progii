@@ -53,7 +53,7 @@ Considere o ficheiro [nominations.csv](../scripts/projeto2/dados/nominations.csv
 
 * Qual a pessoa que foi nomeada pelo maior número de entidades para o prémio Nobel? Complete a definição da função `maisNomeado`, que retorna um tuplo com o nome da pessoa e o número de vezes que foi nomeada por entidades diferentes. **Nota:** Se uma entidade nomeou duas vezes a mesma pessoa em anos diferentes, contará apenas uma vez.
 * Qual a maior rede de nomeações cruzadas, em que uma pessoa nomeou alguém e foi também nomeada diretamente por essa pessoa, ou nomeada indiretamente por outra(s) pessoa(s) nomeada(s) por quem nomeou, e assim sucessivamente. Complete a definição da função `nomeacoesCruzadas` que retorna um tuplo com o número de pessoas que se nomearam entre si e um conjunto com as categorias envolvidas.
-* Albert Einstein ganhou o prémio Nobel da Física em 1921. Richard Feynman recebeu o prémio em 1965. Qual a sequência de nomeações mais direta desde Einstein a Feynman?  Complete a definição da função `caminhoEinsteinFeynman`, que retorna uma lista com os nomes das personalidaades nomeadas por Einstein e que nomearam Feynman por ordem cronológica entre 1921 e 1965.
+* Albert Einstein ganhou o prémio Nobel da Física em 1921. Richard Feynman recebeu o prémio em 1965. Qual a sequência de nomeações mais direta desde Einstein a Feynman?  Complete a definição da função `caminhoEinsteinFeynman`, que retorna uma lista, por ordem cronológica entre 1921 e 1965, com os nomes das personalidades nomeadas por Einstein, e que successivamente nomearam outras personalidades que por fim nomearam Feynman.
 
 
 
