@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 #from projeto2 import *
-from t2 import *
+from t1 import *
 
 import unittest
 
@@ -11,7 +11,7 @@ class TestProj2(unittest.TestCase):
 
     def test_t1_maisPartilhados(self):
         r = maisPartilhados()
-        mais = (4, {('1981', 'physics'), ('1958', 'medicine'), ('2001', 'chemistry'), ('1973', 'physics'), ('2002', 'physics'), ('2011', 'medicine'), ('2015', 'medicine'), ('1997', 'chemistry'), ('1977', 'medicine'), ('2021', 'physics'), ('1947', 'medicine'), ('2002', 'chemistry'), ('2000', 'physics')})
+        mais = (4, {(2015, 'medicine'), (1958, 'medicine'), (1981, 'physics'), (2001, 'chemistry'), (2018, 'physics'), (2005, 'physics'), (2016, 'physics'), (1946, 'chemistry'), (2008, 'medicine'), (1972, 'chemistry'), (1977, 'medicine'), (2018, 'chemistry'), (1981, 'medicine'), (2014, 'medicine'), (2021, 'economics'), (1963, 'physics'), (2009, 'physics'), (2020, 'physics'), (1989, 'physics'), (2011, 'physics'), (2000, 'physics'), (1978, 'physics'), (1903, 'physics'), (2002, 'physics'), (1967, 'chemistry'), (2002, 'chemistry'), (2019, 'physics'), (1973, 'physics'), (1964, 'physics'), (1986, 'physics'), (1980, 'chemistry'), (2011, 'medicine'), (1997, 'chemistry'), (2017, 'physics'), (1947, 'medicine'), (2008, 'physics'), (2021, 'physics')})
         self.assertEqual(r, mais)
 
     def test_t1_multiLaureados(self):
