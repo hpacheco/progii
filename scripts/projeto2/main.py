@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 
-#from projeto2 import *
-from t1 import *
+from projeto2 import *
 
 import unittest
 
