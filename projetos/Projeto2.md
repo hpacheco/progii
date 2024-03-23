@@ -14,7 +14,7 @@ Estude os ficheiros [prize.json](../scripts/projeto2/dados/prize.json) e [laurea
 
 Explore este conjunto de dados escrevendo funções Python que respondam às seguintes questões:
 
-* Complete a definição da função `maisPartilhados`, que retorna um conjunto de pares de países e categorias com os prémios atribuídos ao maior número de co-laureados.
+* Complete a definição da função `maisPartilhados`, que retorna um conjunto de pares `(ano,categoria)` com os prémios atribuídos ao maior número de co-laureados. Nota: Tenha em consideração o campo `share` de cada laureado no ficheiro `prize.json`.
 * Complete a definição da função `multiLaureados`, que retorna um dicionário com as personalidades laureadas em mais do que uma categoria.
 * Complete a definição da função `anosSemPremio` que retorna um intervalo fechado com o maior número de anos consecutivos em que pelo menos um dos prémios não foi atribuído.
 * Complete a definição da função `rankingDecadas` que retorna, por cada década, o país com mais laureados, considerando o país de afiliação de cada laureado.
