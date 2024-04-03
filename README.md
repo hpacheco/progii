@@ -93,11 +93,11 @@ Esta planificação serve para dar uma ideia resumida das aulas planeadas e/ou d
 * P05 (2ª 18/03, 5ª 14/03): [Projeto 1 - Análise de texto](projetos/Projeto1.md)
 
 * P06 (2ª 08/04, 5ª 21/03): [Projeto 2 - Análise de dados](projetos/Projeto2.md)
-* P07 (2ª 15/04, 5ª 11/04): [Projeto 2 - Análise de dados](projetos/Projeto2.md)
-* P08 (2ª 22/04, 5ª 18/04): [Projeto 2 - Análise de dados](projetos/Projeto2.md)
+* P07 (2ª 15/04, 5ª 04/04): [Projeto 2 - Análise de dados](projetos/Projeto2.md)
+* P08 (2ª 22/04, 5ª 11/04): [Projeto 2 - Análise de dados](projetos/Projeto2.md)
 
-* P09 (2ª 29/04, 5ª 02/05): Projeto 3 - Visualização e animação de dados
-* P10 (2ª 13/05, 5ª 16/05): Projeto 3 - Visualização e animação de dados
-* P11 (2ª 20/05. 5ª 23/05): Projeto 3 - Visualização e animação de dados
-* P12 (2ª 27/05, 5ª 30/05): Projeto 3 - Visualização e animação de dados
+* P09 (2ª 29/04, 5ª 18/04): Projeto 3 - Visualização e animação de dados
+* P10 (2ª 13/05, 5ª 02/05): Projeto 3 - Visualização e animação de dados
+* P11 (2ª 20/05. 5ª 16/05): Projeto 3 - Visualização e animação de dados
+* P12 (2ª 27/05, 5ª 23/05): Projeto 3 - Visualização e animação de dados
 
