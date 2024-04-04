@@ -15,7 +15,7 @@ Vamos considerar um dataset clássico em bioinformática sobre dados de diagnós
 
 **Complete** a função `desenhaDiagnostico` que desenha um gráfico, no formato *scatter plot*, que evidencie a correlação entre alguns atributos e o diagnóstico final. Mais concretamente, desenhe um gráfico com os atributos `Uniformity of Cell Size` e Uniformity of `Cell Shape` nos eixos dos XX e YY, respetivamente. Desenhe cada ponto com uma cor indicativa do seu diagnóstico (atributo `Class`).
 
-Para obter nota máxima nesta tarefa, o gráfico deve contar alguns extras como, por exemplo:
+Para obter nota máxima nesta tarefa, o gráfico deve conter alguns extras como, por exemplo:
 
 * uma vez que podem existir várias entradas para o mesmo par de valores XY, desenhe o tamanho de cada ponto proporcionalmente ao número de entradas;
 * aumente a dimensionalidade do gráfico desenhando atributos adicionais como margens de erro ou estilos diferentes; (**NOTA:** Pode investigar quais os atributos mais correlacionados calculando o método `.corr()` do DataFrame.)
