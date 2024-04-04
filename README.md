@@ -73,7 +73,7 @@ Esta planificação serve para dar uma ideia resumida das aulas planeadas e/ou d
 
 * T06 (08/04): [Computação numérica com arrays (NumPy)](slides/t06.pdf)
 * T07 (15/04): [Análise de dados tabulares (Pandas)](slides/t07.pdf)
-* T08 (22/04): Análise de grafos (NetworkX) e Gráficos (matplotlib)
+* T08 (22/04): [Análise de grafos (NetworkX) e Gráficos (matplotlib)](slides/t08.pdf)
 
 > *Entrega do Projeto 2*
 
