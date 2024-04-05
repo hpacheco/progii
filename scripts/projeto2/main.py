@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 
-#from projeto2 import *
-from t2 import *
+from projeto2 import *
 
 import unittest
 
@@ -39,9 +38,13 @@ class TestProj2(unittest.TestCase):
       bw: np.ndarray = asarray(Image.open('dados/test_bw.png'))
       np.testing.assert_array_almost_equal(toBW(gray,(0,20)),bw,decimal=0)
 
-    def test_t2_autoThreshold(self):
-      r = autoThreshold('dados/test_bw.png',5)
+    def test_t2_autoThreshold_1(self):
+      r = autoThreshold('dados/test_gray.png',5)
       self.assertEqual(r,(0,5))
+
+    def test_t2_autoThreshold_2(self):
+      r = autoThreshold('dados/test_bw.png',5)
+      self.assertEqual(r,(250,255))
 
     def test_t2_toContour(self):
       bw: np.ndarray = asarray(Image.open('dados/test_bw.png'))

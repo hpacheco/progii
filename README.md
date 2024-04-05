@@ -39,9 +39,9 @@ O recurso ou melhoria de nota poderão ser feitos realizando todas as tarefas do
 
 * Projeto 4 - Recurso / Melhoria
 
-**Os alunos que desejem efetuar recurso/melhoria de nota devem contactar o docente a informar da sua intenção.**
+**Os alunos que desejem efetuar recurso/melhoria de nota devem contactar o regente a informar da sua intenção.**
 
-Os trabalhos de recurso/melhoria devem ser entregues por email para o docente até à seguinte data:
+Os trabalhos de recurso/melhoria devem ser entregues por email para o regente até à seguinte data:
 
 * Projeto 4: 25 Junho
 
