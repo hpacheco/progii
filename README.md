@@ -29,11 +29,13 @@ Estas datas podem vir a ser alteradas consoante o calendário académico.
 * Projeto 2: 28 Abril
 * Projeto 3: 2 Junho
 
+📒: As notas **parciais e preliminares** dos trabalhos práticos podem ser consultadas [nesta folha partilhada](https://docs.google.com/spreadsheets/d/1cM7C_4fxnVoSYW2BGYcB0tM-g25r4J4Rn6W03ndPxgw/edit?usp=sharing) (requer login com conta upXXXXXXXXX@g.uporto.pt). As notas práticas são **apenas indicativas** até à defesa final; para qualquer dúvida, clarificação ou correção, falar com os docentes.
+
 As defesas presenciais dos projetos práticos são **obrigatórias** e decorrerão em data a anunciar.
 
 **Nota:** A resolução dos projetos será acompanhada nas aulas práticas. A apreciação final dos projetos terá também em consideração o progresso dos alunos durante as aulas.
 
-## Recurso/Melhoria de Nota
+### Recurso/Melhoria de Nota
 
 O recurso ou melhoria de nota poderão ser feitos realizando todas as tarefas dos Projetos 1, 2 e 3, e realizando adicionalmente o Projeto 4.
 
