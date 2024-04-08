@@ -3,6 +3,7 @@ import numpy as np
 
 alignments = AlignIO.read(open("apoex.afa"), "fasta")
 d = { a.id : np.array(a) for a in alignments }
+#print(d)
 
 a1 = d['APE_BOVIN']
 a2 = d['APE_MOUSE']
