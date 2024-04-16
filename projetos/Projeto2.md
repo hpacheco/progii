@@ -45,7 +45,7 @@ Explore este conjunto de dados escrevendo programas Python que respondam às seg
 * Qual o ano de eleições com um maior número de eleitores na Área Metropolitana do Porto (considere dados totais e a região `NUTS III` com o mesmo nome)? Complete a definição da função `eleitoresPorto`, que retorna o ano em questão.
 * Qual a taxa de abstenção no país ao longo dos anos? Complete a definição da função `taxaAbstencao`, que retorna uma lista cronologicamente ordenada `(ano,percentagem)`.
 * Por cada município com pelo menos 10000 votantes num dos anos, qual o ano em que mais perderam votantes em relação às eleições anteriores? Complete a definição da função `perdaGrandesMunicipios`, que retorna um dicionário `{ municipio : ano }`.
-* Por cada região NUTS III, qual o município que mais perdeu (ou menos ganhou) e o que mais ganhou (ou menos perdeu) eleitores entre 1975 e 2022? Complete a definição da função `demografiaMunicipios`, que retorna um dicionário `{ regiao : (municipioPerdeu,municipioGanhou) }`.
+* Por cada região NUTS III, qual o município que mais perdeu (ou menos ganhou) e o que mais ganhou (ou menos perdeu) eleitores (dados totais) entre 1975 e 2022? Complete a definição da função `demografiaMunicipios`, que retorna um dicionário `{ regiao : (municipioPerdeu,municipioGanhou) }`.
 
 ## Tarefa 4 (NetworkX)
 
