@@ -22,7 +22,7 @@ novas['year'] = novas.index.year
 meses = novas.groupby(['month','year']).mean()
 # ordenar por data crescente (podíamos agrupar por (ano,mês) para evitar a ordenação)
 meses.sort_values(by=['year','month'], inplace=True)
-print(meses)
+#print(meses)
 
 meses.plot(kind='bar')
 plt.tight_layout()

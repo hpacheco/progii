@@ -3,6 +3,7 @@ from numpy import asarray
 from PIL import Image # package Pillow
 
 dcc=asarray(Image.open("../../../dados/dcc.jpg"))
+print(dcc)
 x,y,z = dcc.shape
 dcc_big = np.empty((x*2, y*2, z), dtype=dcc.dtype)
 for i,row in enumerate(dcc):
