@@ -17,7 +17,7 @@ Explore este conjunto de dados escrevendo funções Python que respondam às seg
 * Complete a definição da função `maisPartilhados`, que retorna o número máximo de co-laureados e um conjunto de pares `(ano,categoria)` com os prémios atribuídos ao maior número de co-laureados. **Nota:** No dataset dado no ficheiro `prize.json`, o número de laureados e o campo share de cada laureado podem ser inconsistentes, por exemplo, porque a informação sobre os laureados está incompleta. Para cada prémio, tenha em consideração o maior valor encontrado no campo `share` dos laureado.
 * Complete a definição da função `multiLaureados`, que retorna um dicionário com as personalidades laureadas em mais do que uma categoria.
 * Complete a definição da função `anosSemPremio` que retorna um intervalo fechado com o maior número de anos consecutivos em que pelo menos um dos prémios não foi atribuído.
-* Complete a definição da função `rankingDecadas` que retorna, por cada década, o país com mais laureados, considerando o país de afiliação de cada laureado.
+* Complete a definição da função `rankingDecadas` que retorna, por cada década, o país com mais laureados, considerando o país de afiliação de cada laureado. **Nota:** Leia os dados do ficheiro `laureate.json`.
 
 ## Tarefa 2 (NumPy)
 
@@ -42,7 +42,7 @@ Considere os dados sobre votações em eleições legislativas em Portugal, reco
 
 Explore este conjunto de dados escrevendo programas Python que respondam às seguintes questões:
 
-* Qual o ano de eleições com um maior número de eleitores na Área Metropolitana do Porto? Complete a definição da função `eleitoresPorto`, que retorna o ano em questão.
+* Qual o ano de eleições com um maior número de eleitores na Área Metropolitana do Porto (considere dados totais e a região `NUTS III` com o mesmo nome)? Complete a definição da função `eleitoresPorto`, que retorna o ano em questão.
 * Qual a taxa de abstenção no país ao longo dos anos? Complete a definição da função `taxaAbstencao`, que retorna uma lista cronologicamente ordenada `(ano,percentagem)`.
 * Por cada município com pelo menos 10000 votantes num dos anos, qual o ano em que mais perderam votantes em relação às eleições anteriores? Complete a definição da função `perdaGrandesMunicipios`, que retorna um dicionário `{ municipio : ano }`.
 * Por cada região NUTS III, qual o município que mais perdeu e o que mais ganhou eleitores entre 1975 e 2022? Complete a definição da função `demografiaMunicipios`, que retorna um dicionário `{ regiao : (municipioPerdeu,municipioGanhou) }`.
