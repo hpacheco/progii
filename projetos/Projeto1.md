@@ -26,10 +26,10 @@ Complete a definição da função `organizaCapitulos`, que retorna um dicionár
 
 Complete as definições das seguintes funções que calculam métricas sobre o texto integral da obra *A Cidade e as Serras* de *Eça de Queiroz*:
 
-- A função menorCapitulo que retorna qual o capítulo com menor número de caracteres. O tamanho de cada capítulo é a soma todos os caracteres dos seus parágrafos.
-- A função `maiorDialogo` que retorna o tamanho da maior sequência de monólogos consecutivos. Deve considerar que um monólogo é um parágrafo que se inicia com `--'.
+- A função `menorCapitulo` que retorna qual o capítulo com menor número de caracteres. O tamanho de cada capítulo é a soma todos os caracteres dos seus parágrafos.
+- A função `maiorDialogo` que retorna o tamanho da maior sequência de monólogos consecutivos. Deve considerar que um monólogo é um parágrafo que se inicia com `--`.
 - A função `mencoesPersonagens` que recebe um conjunto de nomes de personagens, e retorna o número de parágrafos que mencionam todas as personagens, por capítulo, com os capítulos ordenados primeiro por ordem decrescente de menções e segundo por número do capítulo.
-- A função `ohJacinto` que retorna um conjunto de monólogos endereçados ao Jacinto, personagem principal da obra. Deve considerar que um monólogo se endereça ao Jacinto quando o monólogo contém uma frase que contém a palavra `Jacintho' e que acaba em `!` ou em `?'. Cada frase termina num caracter de pontuação `.', '!' ou '?'.
+- A função `ohJacinto` que retorna um conjunto de monólogos endereçados ao Jacinto, personagem principal da obra. Deve considerar que um monólogo se endereça ao Jacinto quando o monólogo contém uma frase que contém a palavra `Jacintho` e que acaba em `!` ou em `?`. Cada frase termina num caracter de pontuação `.`, `!` ou `?`.
 
 ## Parte II - Análise de sequências de DNA
 

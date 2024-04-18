@@ -117,15 +117,15 @@ class TestProj1(unittest.TestCase):
 
     def test_t3_mencoesPersonagens_1(self):
       caps = organizaCapitulos(leParagrafos('dados/cidadeserras.txt'))
-      self.assertEqual(mencoesPersonagens(capitulos,{"Jacintho"}),[('VIII', 74), ('IX', 47), ('IV', 35), ('II', 31), ('III', 28), ('I', 27), ('XIII', 27), ('VI', 24), ('X', 24), ('VII', 19), ('XIV', 19), ('V', 11), ('XVI', 11), ('XI', 9), ('XV', 7), ('XII', 5)])
+      self.assertEqual(mencoesPersonagens(caps,{"Jacintho"}),[('VIII', 74), ('IX', 47), ('IV', 35), ('II', 31), ('III', 28), ('I', 27), ('XIII', 27), ('VI', 24), ('X', 24), ('VII', 19), ('XIV', 19), ('V', 11), ('XVI', 11), ('XI', 9), ('XV', 7), ('XII', 5)])
 
     def test_t3_mencoesPersonagens_2(self):
       caps = organizaCapitulos(leParagrafos('dados/cidadeserras.txt'))
-      self.assertEqual(mencoesPersonagens(capitulos,{"Jacintho","Zé Fernandes","Oriol","Marizac","Joanninha","Vicencia"}),[('I', 0), ('II', 0), ('III', 0), ('IV', 0), ('V', 0), ('VI', 0), ('VII', 0), ('VIII', 0), ('IX', 0), ('X', 0), ('XI', 0), ('XII', 0), ('XIII', 0), ('XIV', 0), ('XV', 0), ('XVI', 0)])
+      self.assertEqual(mencoesPersonagens(caps,{"Jacintho","Zé Fernandes","Oriol","Marizac","Joanninha","Vicencia"}),[('I', 0), ('II', 0), ('III', 0), ('IV', 0), ('V', 0), ('VI', 0), ('VII', 0), ('VIII', 0), ('IX', 0), ('X', 0), ('XI', 0), ('XII', 0), ('XIII', 0), ('XIV', 0), ('XV', 0), ('XVI', 0)])
 
     def test_t3_mencoesPersonagens_3(self):
       caps = organizaCapitulos(leParagrafos('dados/cidadeserras.txt'))
-      self.assertEqual(mencoesPersonagens(capitulos,{"Joanninha","Vicencia"}),[('XI', 2), ('XII', 2), ('I', 1), ('V', 1), ('XIV', 1), ('XVI', 1), ('II', 0), ('III', 0), ('IV', 0), ('VI', 0), ('VII', 0), ('VIII', 0), ('IX', 0), ('X', 0), ('XIII', 0), ('XV', 0)])
+      self.assertEqual(mencoesPersonagens(caps,{"Joanninha","Vicencia"}),[('XI', 2), ('XII', 2), ('I', 1), ('V', 1), ('XIV', 1), ('XVI', 1), ('II', 0), ('III', 0), ('IV', 0), ('VI', 0), ('VII', 0), ('VIII', 0), ('IX', 0), ('X', 0), ('XIII', 0), ('XV', 0)])
 
     def test_t3_ohJacinto(self):
       caps = organizaCapitulos(leParagrafos('dados/cidadeserras.txt'))

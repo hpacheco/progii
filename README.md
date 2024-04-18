@@ -29,19 +29,21 @@ Estas datas podem vir a ser alteradas consoante o calendário académico.
 * Projeto 2: 28 Abril
 * Projeto 3: 2 Junho
 
+📒: As notas **parciais e preliminares** dos trabalhos práticos podem ser consultadas [nesta folha partilhada](https://docs.google.com/spreadsheets/d/1cM7C_4fxnVoSYW2BGYcB0tM-g25r4J4Rn6W03ndPxgw/edit?usp=sharing) (requer login com conta upXXXXXXXXX@g.uporto.pt). As notas práticas são **apenas indicativas** até à defesa final; para qualquer dúvida, clarificação ou correção, falar com os docentes.
+
 As defesas presenciais dos projetos práticos são **obrigatórias** e decorrerão em data a anunciar.
 
 **Nota:** A resolução dos projetos será acompanhada nas aulas práticas. A apreciação final dos projetos terá também em consideração o progresso dos alunos durante as aulas.
 
-## Recurso/Melhoria de Nota
+### Recurso/Melhoria de Nota
 
 O recurso ou melhoria de nota poderão ser feitos realizando todas as tarefas dos Projetos 1, 2 e 3, e realizando adicionalmente o Projeto 4.
 
 * Projeto 4 - Recurso / Melhoria
 
-**Os alunos que desejem efetuar recurso/melhoria de nota devem contactar o docente a informar da sua intenção.**
+**Os alunos que desejem efetuar recurso/melhoria de nota devem contactar o regente a informar da sua intenção.**
 
-Os trabalhos de recurso/melhoria devem ser entregues por email para o docente até à seguinte data:
+Os trabalhos de recurso/melhoria devem ser entregues por email para o regente até à seguinte data:
 
 * Projeto 4: 25 Junho
 
@@ -71,9 +73,9 @@ Esta planificação serve para dar uma ideia resumida das aulas planeadas e/ou d
 
 > *Entrega do Projeto 1*
 
-* T06 (08/04): Computação numérica com arrays (NumPy)
-* T07 (15/04): Análise de dados tabulares (Pandas)
-* T08 (22/04): Análise de grafos (NetworkX) e Gráficos (matplotlib)
+* T06 (08/04): [Computação numérica com arrays (NumPy)](slides/t06.pdf)
+* T07 (15/04): [Análise de dados tabulares (Pandas)](slides/t07.pdf)
+* T08 (22/04): [Análise de grafos (NetworkX) e Gráficos (matplotlib)](slides/t08.pdf)
 
 > *Entrega do Projeto 2*
 
@@ -93,11 +95,11 @@ Esta planificação serve para dar uma ideia resumida das aulas planeadas e/ou d
 * P05 (2ª 18/03, 5ª 14/03): [Projeto 1 - Análise de texto](projetos/Projeto1.md)
 
 * P06 (2ª 08/04, 5ª 21/03): [Projeto 2 - Análise de dados](projetos/Projeto2.md)
-* P07 (2ª 15/04, 5ª 11/04): [Projeto 2 - Análise de dados](projetos/Projeto2.md)
-* P08 (2ª 22/04, 5ª 18/04): [Projeto 2 - Análise de dados](projetos/Projeto2.md)
+* P07 (2ª 15/04, 5ª 04/04): [Projeto 2 - Análise de dados](projetos/Projeto2.md)
+* P08 (2ª 22/04, 5ª 11/04): [Projeto 2 - Análise de dados](projetos/Projeto2.md)
 
-* P09 (2ª 29/04, 5ª 02/05): Projeto 3 - Visualização e animação de dados
-* P10 (2ª 13/05, 5ª 16/05): Projeto 3 - Visualização e animação de dados
-* P11 (2ª 20/05. 5ª 23/05): Projeto 3 - Visualização e animação de dados
-* P12 (2ª 27/05, 5ª 30/05): Projeto 3 - Visualização e animação de dados
+* P09 (2ª 29/04, 5ª 18/04): Projeto 3 - Visualização e animação de dados
+* P10 (2ª 13/05, 5ª 02/05): Projeto 3 - Visualização e animação de dados
+* P11 (2ª 20/05. 5ª 16/05): Projeto 3 - Visualização e animação de dados
+* P12 (2ª 27/05, 5ª 23/05): Projeto 3 - Visualização e animação de dados
 

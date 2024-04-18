@@ -14,10 +14,10 @@ Estude os ficheiros [prize.json](../scripts/projeto2/dados/prize.json) e [laurea
 
 Explore este conjunto de dados escrevendo funções Python que respondam às seguintes questões:
 
-* Complete a definição da função `maisPartilhados`, que retorna um conjunto de pares de países e categorias com os prémios atribuídos ao maior número de co-laureados.
+* Complete a definição da função `maisPartilhados`, que retorna o número máximo de co-laureados e um conjunto de pares `(ano,categoria)` com os prémios atribuídos ao maior número de co-laureados. **Nota:** No dataset dado no ficheiro `prize.json`, o número de laureados e o campo share de cada laureado podem ser inconsistentes, por exemplo, porque a informação sobre os laureados está incompleta. Para cada prémio, tenha em consideração o maior valor encontrado no campo `share` dos laureado.
 * Complete a definição da função `multiLaureados`, que retorna um dicionário com as personalidades laureadas em mais do que uma categoria.
 * Complete a definição da função `anosSemPremio` que retorna um intervalo fechado com o maior número de anos consecutivos em que pelo menos um dos prémios não foi atribuído.
-* Complete a definição da função `rankingDecadas` que retorna, por cada década, o país com mais laureados, considerando o país de afiliação de cada laureado.
+* Complete a definição da função `rankingDecadas` que retorna, por cada década, o país com mais laureados, considerando o país de afiliação de cada laureado. **Nota:** Leia os dados do ficheiro `laureate.json`.
 
 ## Tarefa 2 (NumPy)
 
@@ -30,16 +30,22 @@ Considere como exemplo duas imagens retiradas do [Cell Image Library](http://www
 * Calcule um *threshold*. Para isso, vamos assumir que uma imagem em toms de cinzento tem uma cor mais preponderante correspondente ao seu fundo, que ficará a branco. Complete a definição da função `autoThreshold`, que recebe uma tolerância $i$ e lê uma imagem em tons de cinzento e returna um *threshold*, ou seja, um intervalo $[c-i..c+i]$ de cinzentos (entre 0 e 255) correspondente ao fundo, centrado na cor mais frequente $c$.
 * Converta uma imagem a preto e branco, com fundo branco, numa imagem a preto e branco do seu contorno. Complete a definição da função `toContour` que, para cada pixel da imagem inicial, o coloca a preto na imagem resultante caso algum dos seus píxeis circundantes tiver uma cor diferente, e a branco vice-versa.
 
+Considere a seguinte imagem de teste para exemplificar as transformações:
+
+RGB                        |  Grayscale                |  Black & White           | Contour
+:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
+![](../scripts/projeto2/dados/test.png)  |  ![](../scripts/projeto2/dados/test_gray.png) |  ![](../scripts/projeto2/dados/test_bw.png) |  ![](../scripts/projeto2/dados/test_contour.png)
+
 ## Tarefa 3 (Pandas)
 
 Considere os dados sobre votações em eleições legislativas em Portugal, recolhidos pelo portal PORDATA [aqui](https://www.pordata.pt/municipios/eleitores+nas+eleicoes+para+a+assembleia+da+republica+total++votantes+e+abstencao-622), com uma versão local no ficheiro [legislativas.xlsx](../scripts/projeto2/dados/legislativas.xlsx).
 
 Explore este conjunto de dados escrevendo programas Python que respondam às seguintes questões:
 
-* Qual o ano de eleições com um maior número de eleitores na Área Metropolitana do Porto? Complete a definição da função `eleitoresPorto`, que retorna o ano em questão.
+* Qual o ano de eleições com um maior número de eleitores na Área Metropolitana do Porto (considere dados totais e a região `NUTS III` com o mesmo nome)? Complete a definição da função `eleitoresPorto`, que retorna o ano em questão.
 * Qual a taxa de abstenção no país ao longo dos anos? Complete a definição da função `taxaAbstencao`, que retorna uma lista cronologicamente ordenada `(ano,percentagem)`.
 * Por cada município com pelo menos 10000 votantes num dos anos, qual o ano em que mais perderam votantes em relação às eleições anteriores? Complete a definição da função `perdaGrandesMunicipios`, que retorna um dicionário `{ municipio : ano }`.
-* Por cada região NUTS III, qual o município que mais perdeu e o que mais ganhou eleitores entre 1975 e 2022? Complete a definição da função `demografiaMunicipios`, que retorna um dicionário `{ regiao : (municipioPerdeu,municipioGanhou) }`.
+* Por cada região NUTS III, qual o município que mais perdeu (ou menos ganhou) e o que mais ganhou (ou menos perdeu) eleitores (dados totais) entre 1975 e 2022? Complete a definição da função `demografiaMunicipios`, que retorna um dicionário `{ regiao : (municipioPerdeu,municipioGanhou) }`.
 
 ## Tarefa 4 (NetworkX)
 
@@ -47,7 +53,7 @@ Considere o ficheiro [nominations.csv](../scripts/projeto2/dados/nominations.csv
 
 * Qual a pessoa que foi nomeada pelo maior número de entidades para o prémio Nobel? Complete a definição da função `maisNomeado`, que retorna um tuplo com o nome da pessoa e o número de vezes que foi nomeada por entidades diferentes. **Nota:** Se uma entidade nomeou duas vezes a mesma pessoa em anos diferentes, contará apenas uma vez.
 * Qual a maior rede de nomeações cruzadas, em que uma pessoa nomeou alguém e foi também nomeada diretamente por essa pessoa, ou nomeada indiretamente por outra(s) pessoa(s) nomeada(s) por quem nomeou, e assim sucessivamente. Complete a definição da função `nomeacoesCruzadas` que retorna um tuplo com o número de pessoas que se nomearam entre si e um conjunto com as categorias envolvidas.
-* Albert Einstein ganhou o prémio Nobel da Física em 1921. Richard Feynman recebeu o prémio em 1965. Qual a sequência de nomeações mais direta desde Einstein a Feynman?  Complete a definição da função `caminhoEinsteinFeynman`, que retorna uma lista com os nomes das personalidaades nomeadas por Einstein e que nomearam Feynman por ordem cronológica entre 1921 e 1965.
+* Albert Einstein ganhou o prémio Nobel da Física em 1921. Richard Feynman recebeu o prémio em 1965. Qual a sequência de nomeações mais direta desde Einstein a Feynman?  Complete a definição da função `caminhoEinsteinFeynman`, que retorna uma lista, por ordem cronológica entre 1921 e 1965, com os nomes das personalidades nomeadas por Einstein, e que successivamente nomearam outras personalidades que por fim nomearam Feynman.
 
 
 
