@@ -80,7 +80,11 @@ def desenhaZonas():
     # preencher
     plt.show()
 
+def topLocation() -> tuple[str,str,float,float]:
+    return None
+
 def desenhaTop():
+    name,host_name,latitude,longitude = topLocation()
     # preencher
     plt.show()
 

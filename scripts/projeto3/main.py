@@ -22,6 +22,13 @@ class TestProj3(unittest.TestCase):
 
 # T3
 
+    def test_t3_topLocation(self):
+        n,h,la,lo = topLocation()
+        self.assertEqual(n,"GuestReady - Oporto Vintage")
+        self.assertEqual(h,"GuestReady")
+        self.assertAlmostEqual(la,41.165134)
+        self.assertAlmostEqual(lo,-8.630397)
+
 # T4
 
     def test_t4_constroiEcosistema(self):
