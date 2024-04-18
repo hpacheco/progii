@@ -18,7 +18,7 @@ Para quem quiser utilizar o Replit da cadeira, podem associar-se à Team [prog2b
 * [Projeto 0 - Desenferrujar](projetos/Projeto0.md)
 * [Projeto 1 - Análise de texto](projetos/Projeto1.md)
 * [Projeto 2 - Análise de dados](projetos/Projeto2.md)
-* Projeto 3 - Visualização e animação de dados
+* [Projeto 3 - Visualização e animação de dados](projetos/Projeto3.md)
 
 ## Avaliação
 
@@ -29,7 +29,7 @@ Estas datas podem vir a ser alteradas consoante o calendário académico.
 * Projeto 2: 28 Abril
 * Projeto 3: 2 Junho
 
-📒: As notas **parciais e preliminares** dos trabalhos práticos podem ser consultadas [nesta folha partilhada](https://docs.google.com/spreadsheets/d/1cM7C_4fxnVoSYW2BGYcB0tM-g25r4J4Rn6W03ndPxgw/edit?usp=sharing) (requer login com conta upXXXXXXXXX@g.uporto.pt). As notas práticas são **apenas indicativas** até à defesa final; para qualquer dúvida, clarificação ou correção, falar com os docentes.
+📒 As notas **parciais e preliminares** dos trabalhos práticos podem ser consultadas [nesta folha partilhada](https://docs.google.com/spreadsheets/d/1cM7C_4fxnVoSYW2BGYcB0tM-g25r4J4Rn6W03ndPxgw/edit?usp=sharing) (requer login com conta upXXXXXXXXX@g.uporto.pt). As notas práticas são **apenas indicativas** até à defesa final; para qualquer dúvida, clarificação ou correção, falar com os docentes.
 
 As defesas presenciais dos projetos práticos são **obrigatórias** e decorrerão em data a anunciar.
 
@@ -98,8 +98,8 @@ Esta planificação serve para dar uma ideia resumida das aulas planeadas e/ou d
 * P07 (2ª 15/04, 5ª 04/04): [Projeto 2 - Análise de dados](projetos/Projeto2.md)
 * P08 (2ª 22/04, 5ª 11/04): [Projeto 2 - Análise de dados](projetos/Projeto2.md)
 
-* P09 (2ª 29/04, 5ª 18/04): Projeto 3 - Visualização e animação de dados
-* P10 (2ª 13/05, 5ª 02/05): Projeto 3 - Visualização e animação de dados
-* P11 (2ª 20/05. 5ª 16/05): Projeto 3 - Visualização e animação de dados
-* P12 (2ª 27/05, 5ª 23/05): Projeto 3 - Visualização e animação de dados
+* P09 (2ª 29/04, 5ª 18/04): [Projeto 3 - Visualização e animação de dados](projetos/Projeto3.md)
+* P10 (2ª 13/05, 5ª 02/05): [Projeto 3 - Visualização e animação de dados](projetos/Projeto3.md)
+* P11 (2ª 20/05. 5ª 16/05): [Projeto 3 - Visualização e animação de dados](projetos/Projeto3.md)
+* P12 (2ª 27/05, 5ª 23/05): [Projeto 3 - Visualização e animação de dados](projetos/Projeto3.md)
 
