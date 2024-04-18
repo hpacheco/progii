@@ -37,7 +37,7 @@ Para obter nota máxima nesta tarefa, o gráfico deve conter alguns extras como,
 * Desenhar cada série num formato diferente, utilizando curvas/barras/áreas ou cores distintivas.
 * Conter uma legenda e/ou labels explicativas das séries e dos eixos em questão.
 
-## Tarefa 3 (Mapas) (Valorização)
+## Tarefa 3 (Mapas)
 
 Esta tarefa é inspirada [neste](https://insideairbnb.com/porto/) visualizador de dados do Airbnb, em particular para a área urbana do Porto.
 Observe os seguintes ficheiros:
