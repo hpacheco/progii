@@ -16,7 +16,7 @@ Fractais são uma classe de formas geométricas que se repetem recursivamente mu
 Vamos explorar uma sub-classe de fractais conhecida como [L-systems](https://en.wikipedia.org/wiki/L-system). Um L-system pode ser definido por uma string inicial, chamada axioma, e um conjunto de regras de re-escrita, que podem ser aplicadas um número $n$ de vezes ao axioma. A linguagem que define um L-system pode ser interpretada como um conjunto de instruções dadas a uma tartaruga (relembre o módulo `turtle`) para desenhar o fractal. Mais detalhes da linguagem [aqui](https://paulbourke.net/fractals/lsys/).
 Como exemplo, considere o L-system de uma árvore dado pelo axioma `F` e pelas regra `F` $\rightarrow$ `F[-F]F[+F][F]`. Para um ângulo inicial de $90º$ e rotações de $30º$, o desenho da árvore será o seguinte, para um número $n$ de níveis:
 
-[](lsystem.png) 
+![](lsystem.png) 
 
 1. **Complete** a função `expandeLSystem` que expande um L-system um número $n$ de vezes. Note que esta expansão é independente da linguagem em causa.
 2. **Complete** a função `desenhaLSystem` que desenha um L-system utilizando o `matplotlib`. Para isso, deve utilizar a função dada `desenhaTurtle` que recebe uma string e retorna um conjunto de segmentos de reta correspondente desenho do fractal.
@@ -55,7 +55,7 @@ Utilizando o `matplotlib` e o `contextily`, desenhe mapas para as seguintes fun�
 
 Esta tarefa pretende visualizar um tipo de relações comuns para analisar a biodiversidade de ecosistemas, conhecidas como [*food webs*](https://en.wikipedia.org/wiki/Food_web), ou *trophic networks*. Considere o ficheiro [bay.csv](../scripts/projeto3/dados/bay.csv), que modela uma matriz de transferência de biomassa entre diversas espécies/organismos num ecosistema marítimo. A intuição é que a matriz modela uma cadeia alimentar, em que haverá maior transferência de biomassa de presas para predadores. Uma forma clássica de visualizar a matriz é convertê-la num mapa de cores, como em baixo:
 
-[](bay.png) 
+![](bay.png) 
 
 Utilizando o `networkx`, desenhe um mapa circular de acordo com os seguintes passos:
 
