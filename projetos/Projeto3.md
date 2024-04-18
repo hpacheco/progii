@@ -37,7 +37,7 @@ Para obter nota máxima nesta tarefa, o gráfico deve conter alguns extras como,
 * Desenhar cada série num formato diferente, utilizando curvas/barras/áreas ou cores distintivas.
 * Conter uma legenda e/ou labels explicativas das séries e dos eixos em questão.
 
-## Tarefa 3 (Mapas) (Valorização)
+## Tarefa 3 (Mapas)
 
 Esta tarefa é inspirada [neste](https://insideairbnb.com/porto/) visualizador de dados do Airbnb, em particular para a área urbana do Porto.
 Observe os seguintes ficheiros:
@@ -48,8 +48,8 @@ Observe os seguintes ficheiros:
 Utilizando o `matplotlib` e o `contextily`, desenhe mapas para as seguintes funções:
 
 1. **Complete** a definição da função `desenhaZonas` que desenha no mapa as várias zonas (coluna `neighbourhood`), com cor proporcional ao número total de reviews (coluna `number_of_reviews`) por zona. **Sugestão:** Junte primeiro os dados dos dois ficheiros num só `GeoDataFrame`. 
-2. **Complete** a definição da função `desenhaAlojamentos`, que desenha no mapa dos alojamentos disponíveis na cidade do Porto (coluna `neighbourhood_group` igual a `PORTO`). Cada alojamento deve ter um formato de acordo com o seu tipo (coluna `room_type`), tamanho proporcional à fama disponibilidade (coluna `availability_365`) e cor proporcional ao preço (coluna `price`).
-3. **Complete** a definição da função `desenhaTop` que desenha no mapa a localização e o nome do alojamento mais central do anfitrião com mais alojamentos registados. Para isso deve considerar que o centro do Porto tme coordenadas GPS de longitude $-8.6308$ e latitude $41.1647$. **Nota:** Pode usar o método [distance](https://geopandas.org/en/stable/docs/reference/api/geopandas.GeoSeries.distance.html) para calcular a distância de um `GeoDataFrame` a um ponto.
+2. **Complete** a definição da função `desenhaAlojamentos`, que desenha no mapa dos alojamentos disponíveis na cidade do Porto (coluna `neighbourhood_group` igual a `PORTO`). Cada alojamento deve ter um formato de acordo com o seu tipo (coluna `room_type`), tamanho proporcional à disponibilidade (coluna `availability_365`) e cor proporcional ao preço (coluna `price`).
+3. **Complete** a definição da função `desenhaTop` que desenha no mapa a localização e o nome do alojamento mais central do anfitrião com mais alojamentos registados. Para isso deve considerar que o centro do Porto tem coordenadas GPS de longitude $-8.6308$ e latitude $41.1647$. **Nota:** Pode usar o método [distance](https://geopandas.org/en/stable/docs/reference/api/geopandas.GeoSeries.distance.html) para calcular a distância de um `GeoDataFrame` a um ponto.
 
 ## Tarefa 4 (Grafos)
 
@@ -66,6 +66,7 @@ Utilizando o `networkx`, desenhe um mapa circular de acordo com os seguintes pas
     * O layout deve refletir o *trophic level* de cada nodo.
     * O desenho de cada nodo deve incluir alguma referência ao seu nome.
     * O desenho de cada aresta (cor, espessura, etc) deve refletir a quantidade de biomassa transferida.
+    * Note que o colormap desenhado em cima assume uma escala logarítmica, isto porque as diferenças entre os vários nívels de transferência de biomassa são bastante grandes, e uma escala linear torna difícil diferenciar os valores intermédios dos valores extremos. Deve ter isso em consideração na sua visualização.
 
 
 
