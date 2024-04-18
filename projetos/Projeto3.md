@@ -66,6 +66,7 @@ Utilizando o `networkx`, desenhe um mapa circular de acordo com os seguintes pas
     * O layout deve refletir o *trophic level* de cada nodo.
     * O desenho de cada nodo deve incluir alguma referência ao seu nome.
     * O desenho de cada aresta (cor, espessura, etc) deve refletir a quantidade de biomassa transferida.
+    * Note que o colormap desenhado em cima assume uma escala logarítmica, isto porque as diferenças entre os vários nívels de transferência de biomassa são bastante grandes, e uma escala linear torna difícil diferenciar os valores intermédios dos valores extremos. Deve ter isso em consideração na sua visualização.
 
 
 
