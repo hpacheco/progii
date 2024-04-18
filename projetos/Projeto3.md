@@ -49,7 +49,7 @@ Utilizando o `matplotlib` e o `contextily`, desenhe mapas para as seguintes fun�
 
 1. **Complete** a definição da função `desenhaZonas` que desenha no mapa as várias zonas (coluna `neighbourhood`), com cor proporcional ao número total de reviews (coluna `number_of_reviews`) por zona. **Sugestão:** Junte primeiro os dados dos dois ficheiros num só `GeoDataFrame`. 
 2. **Complete** a definição da função `desenhaAlojamentos`, que desenha no mapa dos alojamentos disponíveis na cidade do Porto (coluna `neighbourhood_group` igual a `PORTO`). Cada alojamento deve ter um formato de acordo com o seu tipo (coluna `room_type`), tamanho proporcional à disponibilidade (coluna `availability_365`) e cor proporcional ao preço (coluna `price`).
-3. **Complete** a definição da função `desenhaTop` que desenha no mapa a localização e o nome do alojamento mais central do anfitrião com mais alojamentos registados. Para isso deve considerar que o centro do Porto tme coordenadas GPS de longitude $-8.6308$ e latitude $41.1647$. **Nota:** Pode usar o método [distance](https://geopandas.org/en/stable/docs/reference/api/geopandas.GeoSeries.distance.html) para calcular a distância de um `GeoDataFrame` a um ponto.
+3. **Complete** a definição da função `desenhaTop` que desenha no mapa a localização e o nome do alojamento mais central do anfitrião com mais alojamentos registados. Para isso deve considerar que o centro do Porto tem coordenadas GPS de longitude $-8.6308$ e latitude $41.1647$. **Nota:** Pode usar o método [distance](https://geopandas.org/en/stable/docs/reference/api/geopandas.GeoSeries.distance.html) para calcular a distância de um `GeoDataFrame` a um ponto.
 
 ## Tarefa 4 (Grafos)
 
