@@ -12,7 +12,7 @@ Aceda aos ficheiros do Projeto 3, onde deve preencher as suas soluções num fic
 
 ## Tarefa 1 (Gráficos)
 
-Fractais são uma classe de formas geométricas que se repetem recursivamente muito explorada em matemática, e com várias aplicações noutras área como biologia para explicar o crescimento de células, de plantas ou até a formação de cadeias de DNA.
+Fractais são uma classe de formas geométricas que se repetem recursivamente muito explorada em matemática, e com várias aplicações noutras áreas como biologia para explicar o crescimento de células, de plantas ou até a formação de cadeias de DNA.
 
 Vamos explorar uma sub-classe de fractais conhecida como [L-systems](https://en.wikipedia.org/wiki/L-system). Um L-system pode ser definido por uma string inicial, chamada axioma, e um conjunto de regras de re-escrita, que podem ser aplicadas um número $n$ de vezes ao axioma. A linguagem que define um L-system pode ser interpretada como um conjunto de instruções dadas a uma tartaruga (relembre o módulo `turtle`) para desenhar o fractal. Mais detalhes da linguagem [aqui](https://paulbourke.net/fractals/lsys/).
 Como exemplo, considere o L-system de uma árvore dado pelo axioma `F` e pelas regra `F` $\rightarrow$ `F[-F]F[+F][F]`. Para um ângulo inicial de $90º$ e rotações de $30º$, o desenho da árvore será o seguinte, para um número $n$ de níveis:
