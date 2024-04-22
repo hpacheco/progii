@@ -79,7 +79,7 @@ Esta planificação serve para dar uma ideia resumida das aulas planeadas e/ou d
 
 > *Entrega do Projeto 2*
 
-* T09 (29/04): Gráficos estáticos vs interativos (matplotlib)
+* T09 (29/04): [Gráficos estáticos vs interativos (matplotlib)](slides/t09.pdf)
 * T10 (13/05): Mapas
 * T11 (20/05): Visualização de grafos e Visualização web
 * T12 (27/05): Apoio à resolução dos projetos
