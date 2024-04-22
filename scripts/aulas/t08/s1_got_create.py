@@ -2,7 +2,7 @@ import json
 import networkx as nx
 
 import urllib.request
-urllib.request.urlretrieve("https://raw.githubusercontent.com/jeffreylancaster/game-of-thrones/master/data/characters.json",'got.json')
+#urllib.request.urlretrieve("https://raw.githubusercontent.com/jeffreylancaster/game-of-thrones/master/data/characters.json",'got.json')
 
 with open('got.json','r') as f:
     characters = json.load(f)["characters"]
