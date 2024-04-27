@@ -29,13 +29,15 @@ Considere como exemplo duas imagens retiradas do [Cell Image Library](http://www
 * Converta uma imagem a cores (em que uma cor RGB é definida por três componentes do tipo `uint8` entre 0 e 255), numa imagem em tons de cinzento (em que uma cor Grayscale é definida por um componente do tipo `uint8` entre 0 e 255). Existem diferentes formas de converter uma cor RGB numa cor Grayscale. Uma das formas é calcular a luminância da cor, dada pela seguinte fórmula (os humanos são mais sensíveis à cor verde daí esta ter mais peso na média pesada): $Y = 0.21 * R + 0.72 * G + 0.07 * B$. Complete a definição da função `toGrayscale` que recebe um array correspondente a uma imagem a cores e retorna um array correspondente a uma imagem em tons de cinzento.
 * Converta uma imagem em tons de cinzento numa imagem a preto e branco (em que cada cor é dada pelo valor 0 para preto ou 255 para branco). Complete a definição da função `toBW` que lê uma imagem em tons de cinzento e escreve numa imagem a preto e branco. Esta função recebe também um *threshold* de cores que serão convertidas em branco, na forma de um intervalo fechado entre 0 e 255. As restantes cores serão convertidas em preto.
 * Calcule um *threshold*. Para isso, vamos assumir que uma imagem em toms de cinzento tem uma cor mais preponderante correspondente ao seu fundo, que ficará a branco. Complete a definição da função `autoThreshold`, que recebe uma tolerância $i$ e lê uma imagem em tons de cinzento e returna um *threshold*, ou seja, um intervalo $[c-i..c+i]$ de cinzentos (entre 0 e 255) correspondente ao fundo, centrado na cor mais frequente $c$.
-* Converta uma imagem a preto e branco, com fundo branco, numa imagem a preto e branco do seu contorno. Complete a definição da função `toContour` que, para cada pixel da imagem inicial, o coloca a preto na imagem resultante caso algum dos seus píxeis circundantes tiver uma cor diferente, e a branco vice-versa.
+* Converta uma imagem a preto e branco, com fundo branco, numa imagem a preto e branco do seu contorno. Complete a definição da função `toContour` que, para cada pixel da imagem inicial, o coloca a preto na imagem resultante caso algum dos seus píxeis circundantes tiver uma cor diferente, e a branco vice-versa. **Nota:** Outros algoritmos para calcular contornos serão aceites, desde que façam sentido.
 
 Considere a seguinte imagem de teste para exemplificar as transformações:
 
 RGB                        |  Grayscale                |  Black & White           | Contour
 :-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
 ![](../scripts/projeto2/dados/test.png)  |  ![](../scripts/projeto2/dados/test_gray.png) |  ![](../scripts/projeto2/dados/test_bw.png) |  ![](../scripts/projeto2/dados/test_contour.png)
+
+**Nota:** Foram disponibilizados algums testes para as funções desta Tarefa, mas os alunos devem focar-se principalmente em garantir que os seus resultados fazem visualmente sentido, independentemente de detalhes ao nível dos píxeis que poderão variar.
 
 ## Tarefa 3 (Pandas)
 
