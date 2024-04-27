@@ -29,7 +29,7 @@ Estas datas podem vir a ser alteradas consoante o calendário académico.
 * Projeto 2: ~~28 Abril~~ 1 Maio
 * Projeto 3: 2 Junho
 
-📒 As notas **parciais e preliminares** dos trabalhos práticos podem ser consultadas [nesta folha partilhada](https://docs.google.com/spreadsheets/d/1cM7C_4fxnVoSYW2BGYcB0tM-g25r4J4Rn6W03ndPxgw/edit?usp=sharing) (requer login com conta upXXXXXXXXX@g.uporto.pt). As notas práticas são **apenas indicativas** até à defesa final; para qualquer dúvida, clarificação ou correção, falar com os docentes.
+📒 As notas **parciais e preliminares** dos trabalhos práticos podem ser consultadas [nesta folha partilhada](https://docs.google.com/spreadsheets/d/1cM7C_4fxnVoSYW2BGYcB0tM-g25r4J4Rn6W03ndPxgw/edit?usp=sharing) (requer login com conta upXXXXXXXXX@g.uporto.pt). Para os alunos que ainda não tiverem conta Google UP, podem activá-la na vossa página pessoal do Sigarra, tab `Apps U.Porto > Conta Google`. As notas práticas são **apenas indicativas** até à defesa final; para qualquer dúvida, clarificação ou correção, falar com os docentes.
 
 As defesas presenciais dos projetos práticos são **obrigatórias** e decorrerão em data a anunciar.
 
