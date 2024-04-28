@@ -58,6 +58,7 @@ Considere o ficheiro [nominations.csv](../scripts/projeto2/dados/nominations.csv
 * Qual a maior rede de nomeações cruzadas, em que uma pessoa nomeou alguém e foi também nomeada diretamente por essa pessoa, ou nomeada indiretamente por outra(s) pessoa(s) nomeada(s) por quem nomeou, e assim sucessivamente. Complete a definição da função `nomeacoesCruzadas` que retorna um tuplo com o número de pessoas que se nomearam entre si e um conjunto com as categorias envolvidas.
 * Albert Einstein ganhou o prémio Nobel da Física em 1921. Richard Feynman recebeu o prémio em 1965. Qual a sequência de nomeações mais direta desde Einstein a Feynman?  Complete a definição da função `caminhoEinsteinFeynman`, que retorna uma lista, por ordem de nomeação, com os nomes das personalidades que entre 1921 e 1965 fpram nomeadas por Einstein, e que successivamente nomearam outras personalidades que por fim nomearam Feynman. 
 
+**Nota:** Foram disponibilizados alguns testes para as funções desta Tarefa, mas pode haver diferenças nas soluções dos alunos dependendo de como processam espaços e separadores de nomes no ficheiro CSV original. Esses detalhes serão irrelevantes para avaliar as soluções, e todas serão aceites desde que a construção dos grafos e os algoritmos usados façam sentido.
 
 
 
