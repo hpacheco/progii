@@ -21,4 +21,6 @@ for character in characters:
                 if g.has_edge(me,other): g.edges[me,other]["kinds"].add(relation)
                 else: g.add_edge(me,other,kinds={relation})
 
-print(g)
+#print(g)
+#print(g.nodes(data=False))
+#print(g.edges(data=True))

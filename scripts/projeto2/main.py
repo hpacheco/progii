@@ -86,7 +86,7 @@ class TestProj2(unittest.TestCase):
 
     def test_t4_caminhoEinsteinFeynman(self):
       r = caminhoEinsteinFeynman()
-      res = [['Arthur Compton', 'Carl Anderson'], ['Werner Karl Heisenberg', 'Hans Albrecht Bethe']]
+      res = [['Arthur Compton', 'Carl Anderson'], ['Werner Karl Heisenberg', 'Hans Albrecht Bethe'],['Isidor Rabi', 'Hans Albrecht Bethe']]
       self.assertIn(r,res)
 
 if __name__ == '__main__':

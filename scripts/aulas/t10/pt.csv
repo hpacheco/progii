@@ -1,0 +1,349 @@
+city,lat,lng,country,iso2,admin_name,capital,population,population_proper
+Lisbon,38.7452,-9.1604,Portugal,PT,Lisboa,primary,506654,506654
+Sintra,38.7974,-9.3904,Portugal,PT,Lisboa,minor,377835,377835
+Vila Nova de Gaia,41.1333,-8.6167,Portugal,PT,Porto,minor,302295,302295
+Porto,41.1495,-8.6108,Portugal,PT,Porto,admin,237591,237591
+Braga,41.5333,-8.4167,Portugal,PT,Braga,admin,181494,181494
+Matosinhos,41.2077,-8.6674,Portugal,PT,Porto,minor,175478,175478
+Amadora,38.7500,-9.2333,Portugal,PT,Lisboa,minor,175136,175136
+Almada,38.6803,-9.1583,Portugal,PT,Setúbal,minor,174030,174030
+Oeiras,38.6970,-9.3017,Portugal,PT,Lisboa,minor,172120,172120
+Gondomar,41.1500,-8.5333,Portugal,PT,Porto,minor,168027,168027
+Guimarães,41.4450,-8.2908,Portugal,PT,Braga,minor,158124,158124
+Odivelas,38.8000,-9.1833,Portugal,PT,Lisboa,minor,144549,144549
+Coimbra,40.2111,-8.4291,Portugal,PT,Coimbra,admin,143396,143396
+Vila Franca de Xira,38.9500,-8.9833,Portugal,PT,Lisboa,minor,136886,136886
+Maia,41.2333,-8.6167,Portugal,PT,Porto,minor,135306,135306
+Setúbal,38.5243,-8.8926,Portugal,PT,Setúbal,admin,121185,121185
+Funchal,32.6500,-16.9167,Portugal,PT,Madeira,admin,111892,111892
+Viseu,40.6667,-7.9167,Portugal,PT,Viseu,admin,99274,99274
+Valongo,41.1833,-8.5000,Portugal,PT,Porto,minor,93858,93858
+Viana do Castelo,41.7000,-8.8333,Portugal,PT,Viana do Castelo,admin,88725,88725
+Paredes,41.2000,-8.3333,Portugal,PT,Porto,minor,86854,86854
+Vila do Conde,41.3500,-8.7500,Portugal,PT,Porto,minor,79533,79533
+Torres Vedras,39.0833,-9.2667,Portugal,PT,Lisboa,minor,79465,79465
+Aveiro,40.6389,-8.6553,Portugal,PT,Aveiro,admin,78450,78450
+Queluz,38.7566,-9.2545,Portugal,PT,Lisboa,,78273,78273
+Mafra,38.9333,-9.3333,Portugal,PT,Lisboa,minor,76685,76685
+Penafiel,41.2000,-8.2833,Portugal,PT,Porto,minor,72265,72265
+Loulé,37.1440,-8.0235,Portugal,PT,Faro,minor,70622,70622
+Ponta Delgada,37.7400,-25.6700,Portugal,PT,Azores,admin,68809,68809
+Moita,38.6500,-8.9833,Portugal,PT,Setúbal,minor,66029,66029
+Faro,37.0161,-7.9350,Portugal,PT,Faro,admin,64560,64560
+Póvoa de Varzim,41.3916,-8.7571,Portugal,PT,Porto,minor,63408,63408
+Palmela,38.5667,-8.9000,Portugal,PT,Setúbal,minor,62831,62831
+Santarém,39.2369,-8.6850,Portugal,PT,Santarém,admin,62200,62200
+Figueira da Foz,40.1508,-8.8618,Portugal,PT,Coimbra,minor,62125,62125
+Felgueiras,41.3667,-8.2000,Portugal,PT,Porto,minor,58065,58065
+Paços de Ferreira,41.2833,-8.3833,Portugal,PT,Porto,minor,56340,56340
+Castelo Branco,39.8230,-7.4931,Portugal,PT,Castelo Branco,admin,56109,56109
+Évora,38.5667,-7.9000,Portugal,PT,Évora,admin,55620,55620
+Portimão,37.1333,-8.5333,Portugal,PT,Faro,minor,55614,55614
+Pombal,39.9162,-8.6279,Portugal,PT,Leiria,minor,55217,55217
+Marco de Canavezes,41.1833,-8.1500,Portugal,PT,Porto,minor,53450,53450
+Vila Real,41.3002,-7.7398,Portugal,PT,Vila Real,admin,51850,51850
+Covilhã,40.2833,-7.5000,Portugal,PT,Castelo Branco,minor,51797,51797
+Caldas da Rainha,39.4069,-9.1363,Portugal,PT,Leiria,minor,51729,51729
+Montijo,38.7049,-8.9757,Portugal,PT,Setúbal,minor,51222,51222
+Rio Tinto,41.1833,-8.5667,Portugal,PT,Porto,,50713,50713
+Fafe,41.4500,-8.1667,Portugal,PT,Braga,minor,50633,50633
+Sesimbra,38.4437,-9.0996,Portugal,PT,Setúbal,minor,49500,49500
+Amora,38.6265,-9.1189,Portugal,PT,Setúbal,,48629,48629
+Vila Verde,41.6500,-8.4333,Portugal,PT,Braga,minor,47888,47888
+Lousada,41.2833,-8.2833,Portugal,PT,Porto,minor,47387,47387
+Corroios,38.6500,-9.1500,Portugal,PT,Setúbal,,46475,46475
+Ourém,39.6500,-8.5833,Portugal,PT,Santarém,minor,45932,45932
+Olhão,37.0278,-7.8389,Portugal,PT,Faro,minor,45396,45396
+Leiria,39.7444,-8.8072,Portugal,PT,Leiria,admin,45112,45112
+Ponte de Lima,41.7667,-8.5833,Portugal,PT,Viana do Castelo,minor,43498,43498
+Santa Cruz,32.6750,-16.8309,Portugal,PT,Madeira,,43005,43005
+Guarda,40.5364,-7.2683,Portugal,PT,Guarda,admin,42541,42541
+Chaves,41.7399,-7.4707,Portugal,PT,Vila Real,minor,41243,41243
+Tomar,39.6000,-8.4167,Portugal,PT,Santarém,minor,40677,40677
+Ílhavo,40.6000,-8.6667,Portugal,PT,Aveiro,minor,40349,40349
+Trofa,41.3374,-8.5596,Portugal,PT,Porto,minor,38999,38999
+Mafamude,41.1152,-8.6036,Portugal,PT,Porto,,38940,38940
+Ermezinde,41.2133,-8.5472,Portugal,PT,Porto,,38798,38798
+Silves,37.1833,-8.4333,Portugal,PT,Faro,minor,37126,37126
+Torres Novas,39.4833,-8.5333,Portugal,PT,Santarém,minor,36717,36717
+Beja,38.0333,-7.8833,Portugal,PT,Beja,admin,35854,35854
+Agualva,38.7700,-9.2988,Portugal,PT,Lisboa,,35824,35824
+Câmara de Lobos,32.6500,-16.9667,Portugal,PT,Madeira,,35666,35666
+Angra do Heroísmo,38.6558,-27.2153,Portugal,PT,Azores,,35402,35402
+Bragança,41.8000,-6.7500,Portugal,PT,Bragança,admin,35341,35341
+Esposende,41.5333,-8.7833,Portugal,PT,Braga,minor,34254,34254
+Ribeira Grande,37.8167,-25.5167,Portugal,PT,Azores,,32112,32112
+Espinho,41.0100,-8.6400,Portugal,PT,Aveiro,minor,31786,31786
+Lagos,37.1000,-8.6667,Portugal,PT,Faro,minor,31049,31049
+Anadia,40.4333,-8.4333,Portugal,PT,Aveiro,minor,29150,29150
+Benavente,38.9833,-8.8167,Portugal,PT,Santarém,minor,29019,29019
+Massamá,38.7568,-9.2748,Portugal,PT,Lisboa,,28112,28112
+Estarreja,40.7500,-8.5667,Portugal,PT,Aveiro,minor,26997,26997
+Lamego,41.0833,-7.8667,Portugal,PT,Viseu,minor,26691,26691
+Estoril,38.7057,-9.3977,Portugal,PT,Lisboa,,26399,26399
+Montemor-o-Velho,40.1667,-8.6833,Portugal,PT,Coimbra,minor,26171,26171
+Tavira,37.1309,-7.6506,Portugal,PT,Faro,minor,26167,26167
+Odemira,37.5833,-8.6333,Portugal,PT,Beja,minor,26066,26066
+Albergaria-a-Velha,40.6936,-8.4806,Portugal,PT,Aveiro,minor,25252,25252
+Portalegre,39.3167,-7.4167,Portugal,PT,Portalegre,admin,24930,24930
+Porto de Mós,39.6000,-8.8167,Portugal,PT,Leiria,minor,24342,24342
+Mirandela,41.4833,-7.1833,Portugal,PT,Bragança,minor,23850,23850
+Vizela,41.3833,-8.3000,Portugal,PT,Porto,,23736,23736
+Caniço,32.6412,-16.8504,Portugal,PT,Madeira,,23361,23361
+Oliveira do Bairro,40.5167,-8.5000,Portugal,PT,Aveiro,minor,23028,23028
+Vale de Cambra,40.8500,-8.4000,Portugal,PT,Aveiro,minor,22864,22864
+Arcos de Valdevez,41.8500,-8.4167,Portugal,PT,Viana do Castelo,minor,22847,22847
+Póvoa de Lanhoso,41.5667,-8.2667,Portugal,PT,Braga,minor,21886,21886
+Azambuja,39.0667,-8.8667,Portugal,PT,Lisboa,minor,21814,21814
+São João da Madeira,40.9000,-8.5000,Portugal,PT,Aveiro,minor,21713,21713
+Cacém,38.7704,-9.3081,Portugal,PT,Lisboa,,21289,21289
+Rio Maior,39.3333,-8.9333,Portugal,PT,Santarém,minor,21192,21192
+Praia da Vitória,38.7333,-27.0667,Portugal,PT,Azores,,21035,21035
+Elvas,38.8800,-7.1628,Portugal,PT,Portalegre,minor,20706,20706
+Baião,41.1667,-8.0333,Portugal,PT,Porto,minor,20522,20522
+Cinfães,41.0667,-8.0833,Portugal,PT,Viseu,minor,20427,20427
+Entroncamento,39.4667,-8.4667,Portugal,PT,Santarém,minor,20206,20206
+Celorico de Basto,41.3869,-8.0022,Portugal,PT,Braga,minor,20098,20098
+Alfena,41.2395,-8.5244,Portugal,PT,Porto,,20000,20000
+Soure,40.0500,-8.6333,Portugal,PT,Coimbra,minor,19245,19245
+Monção,42.0733,-8.4800,Portugal,PT,Viana do Castelo,minor,19230,19230
+Vila Real de Santo António,37.2000,-7.4167,Portugal,PT,Faro,minor,19156,19156
+Amares,41.6333,-8.3500,Portugal,PT,Braga,minor,18889,18889
+Sacavém,38.7944,-9.1053,Portugal,PT,Lisboa,,18469,18469
+Lousã,40.1125,-8.2469,Portugal,PT,Coimbra,minor,17604,17604
+Alcochete,38.7553,-8.9608,Portugal,PT,Setúbal,minor,17569,17569
+Montemor-o-Novo,38.6500,-8.2167,Portugal,PT,Évora,minor,17437,17437
+Peso da Régua,41.1632,-7.7890,Portugal,PT,Vila Real,minor,17131,17131
+Condeixa-a-Nova,40.1167,-8.5000,Portugal,PT,Coimbra,minor,17080,17080
+São Pedro do Sul,40.7500,-8.0667,Portugal,PT,Viseu,minor,16851,16851
+Ponte de Sôr,39.2500,-8.0167,Portugal,PT,Portalegre,minor,16722,16722
+Cabeceiras de Basto,41.5167,-8.0000,Portugal,PT,Braga,minor,16710,16710
+Quarteira,37.0695,-8.1006,Portugal,PT,Faro,,16131,16131
+Sertã,39.8008,-8.1003,Portugal,PT,Castelo Branco,minor,15880,15880
+Macedo de Cavaleiros,41.5333,-6.9500,Portugal,PT,Bragança,minor,15776,15776
+Serpa,37.9333,-7.5833,Portugal,PT,Beja,minor,15623,15623
+Castro Daire,40.9000,-7.9333,Portugal,PT,Viseu,minor,15339,15339
+Penacova,40.2667,-8.2667,Portugal,PT,Coimbra,minor,15251,15251
+Moura,38.1397,-7.4505,Portugal,PT,Beja,minor,15167,15167
+Nazaré,39.6000,-9.0667,Portugal,PT,Leiria,minor,15158,15158
+Horta,38.5333,-28.6333,Portugal,PT,Azores,,14994,14994
+Falagueira,38.7590,-9.2199,Portugal,PT,Lisboa,,14530,14530
+Cadaval,39.2500,-9.1000,Portugal,PT,Lisboa,minor,14525,14525
+Estremoz,38.8422,-7.5881,Portugal,PT,Évora,minor,14318,14318
+Sines,37.9536,-8.8712,Portugal,PT,Setúbal,minor,14238,14238
+Valença,42.0282,-8.6339,Portugal,PT,Viana do Castelo,minor,14127,14127
+Gouveia,40.5000,-7.6000,Portugal,PT,Guarda,minor,14046,14046
+Nelas,40.5167,-7.8500,Portugal,PT,Viseu,minor,14037,14037
+Gafanha da Nazaré,40.6333,-8.7167,Portugal,PT,Aveiro,,14021,14021
+Arruda dos Vinhos,38.9833,-9.0667,Portugal,PT,Lisboa,minor,13391,13391
+Ribeira Brava,32.6722,-17.0639,Portugal,PT,Madeira,,13375,13375
+Vila Pouca de Aguiar,41.4833,-7.6333,Portugal,PT,Vila Real,minor,13187,13187
+Ansião,39.9167,-8.4333,Portugal,PT,Leiria,minor,13128,13128
+Miranda do Corvo,40.1000,-8.3333,Portugal,PT,Coimbra,minor,13098,13098
+Alcácer do Sal,38.3725,-8.5133,Portugal,PT,Setúbal,minor,13046,13046
+Vieira do Minho,41.6333,-8.1333,Portugal,PT,Braga,minor,12997,12997
+Mira,40.4285,-8.7363,Portugal,PT,Coimbra,minor,12465,12465
+Sátão,40.7333,-7.7167,Portugal,PT,Viseu,minor,12444,12444
+Arcozelo,41.0555,-8.6395,Portugal,PT,Porto,,12393,12393
+Sever do Vouga,40.7167,-8.3667,Portugal,PT,Aveiro,minor,12356,12356
+Tábua,40.3667,-8.0333,Portugal,PT,Coimbra,minor,12071,12071
+Alijó,41.2764,-7.4749,Portugal,PT,Vila Real,minor,11942,11942
+Vendas Novas,38.6833,-8.4500,Portugal,PT,Évora,minor,11846,11846
+Costa de Caparica,38.6446,-9.2356,Portugal,PT,Setúbal,,11707,11707
+Óbidos,39.3585,-9.1760,Portugal,PT,Leiria,minor,11689,11689
+Calheta,32.7333,-17.1667,Portugal,PT,Madeira,,11521,11521
+Resende,41.1000,-7.9500,Portugal,PT,Viseu,minor,11364,11364
+Vila Franca do Campo,37.7167,-25.4333,Portugal,PT,Azores,,11229,11229
+Reguengos de Monsaraz,38.4167,-7.5333,Portugal,PT,Évora,minor,10828,10828
+Valadares,41.0997,-8.6403,Portugal,PT,Porto,,10678,10678
+São Brás de Alportel,37.1500,-7.8833,Portugal,PT,Faro,minor,10662,10662
+Murtosa,40.7369,-8.6386,Portugal,PT,Aveiro,minor,10585,10585
+Moimenta da Beira,40.9819,-7.6158,Portugal,PT,Viseu,minor,10212,10212
+Sobral de Monte Agraço,39.0167,-9.1500,Portugal,PT,Lisboa,minor,10156,10156
+Trancoso,40.7833,-7.3500,Portugal,PT,Guarda,minor,9878,9878
+Carregal do Sal,40.4333,-8.0000,Portugal,PT,Viseu,,9835,9835
+Idanha-a-Nova,39.9167,-7.2333,Portugal,PT,Castelo Branco,minor,9716,9716
+Pinhel,40.7833,-7.0667,Portugal,PT,Guarda,minor,9627,9627
+Melgaço,42.1167,-8.2667,Portugal,PT,Viana do Castelo,minor,9213,9213
+Vinhais,41.8167,-7.0000,Portugal,PT,Bragança,minor,9066,9066
+Almargem,38.8475,-9.2714,Portugal,PT,Lisboa,,8983,8983
+Aver-o-Mar,41.4039,-8.7690,Portugal,PT,Porto,,8961,8961
+Ponta do Sol,32.6811,-17.1042,Portugal,PT,Madeira,,8862,8862
+Ferreira do Zêzere,39.7000,-8.2833,Portugal,PT,Santarém,minor,8619,8619
+Torre de Moncorvo,41.2000,-7.1333,Portugal,PT,Bragança,minor,8572,8572
+Campo Maior,39.0167,-7.0667,Portugal,PT,Portalegre,minor,8456,8456
+Argoncilhe,41.0167,-8.5500,Portugal,PT,Aveiro,,8420,8420
+Vila Viçosa,38.7500,-7.4333,Portugal,PT,Évora,minor,8319,8319
+Proença-a-Nova,39.7500,-7.9167,Portugal,PT,Castelo Branco,minor,8314,8314
+Tarouca,41.0167,-7.7833,Portugal,PT,Viseu,minor,8048,8048
+Penalva do Castelo,40.6667,-7.6833,Portugal,PT,Viseu,minor,7956,7956
+São João da Pesqueira,41.1333,-7.4000,Portugal,PT,Viseu,minor,7874,7874
+Santana,32.8000,-16.8667,Portugal,PT,Madeira,,7719,7719
+Alpiarça,39.2593,-8.5850,Portugal,PT,Santarém,minor,7702,7702
+Celorico da Beira,40.6333,-7.4000,Portugal,PT,Guarda,minor,7693,7693
+Joane,41.4333,-8.4167,Portugal,PT,Braga,,7528,7528
+Mondim de Basto,41.4000,-7.9500,Portugal,PT,Vila Real,minor,7493,7493
+Miranda do Douro,41.5000,-6.2667,Portugal,PT,Bragança,minor,7482,7482
+Nisa,39.5167,-7.6500,Portugal,PT,Portalegre,minor,7450,7450
+Almodôvar,37.5114,-8.0603,Portugal,PT,Beja,minor,7449,7449
+Arraiolos,38.7229,-7.9843,Portugal,PT,Évora,minor,7363,7363
+Santa Marta de Penaguião,41.2000,-7.7833,Portugal,PT,Vila Real,minor,7356,7356
+Vila Nova da Barquinha,39.4500,-8.4333,Portugal,PT,Santarém,minor,7322,7322
+Vila Nova de Foz Côa,41.0833,-7.1333,Portugal,PT,Guarda,minor,7312,7312
+Castelões de Cepeda,41.2008,-8.3306,Portugal,PT,Porto,,7299,7299
+Alvaiázere,39.8333,-8.3833,Portugal,PT,Leiria,minor,7287,7287
+Poiares,40.2167,-8.2500,Portugal,PT,Coimbra,minor,7281,7281
+Castro Verde,37.6976,-8.0819,Portugal,PT,Beja,minor,7276,7276
+Mértola,37.6333,-7.6500,Portugal,PT,Beja,minor,7274,7274
+Terras de Bouro,41.7167,-8.3000,Portugal,PT,Braga,minor,7253,7253
+Almeida,40.7259,-6.9056,Portugal,PT,Guarda,minor,7242,7242
+Redondo,38.6464,-7.5464,Portugal,PT,Évora,minor,7031,7031
+Castro Marim,37.2167,-7.4500,Portugal,PT,Faro,minor,6747,6747
+Ribeira de Pena,41.5167,-7.8000,Portugal,PT,Vila Real,minor,6544,6544
+Portel,38.3000,-7.7000,Portugal,PT,Évora,minor,6428,6428
+Carrazeda de Anciães,41.2500,-7.3000,Portugal,PT,Bragança,minor,6373,6373
+Sabrosa,41.2651,-7.5751,Portugal,PT,Vila Real,minor,6361,6361
+Tabuaço,41.1167,-7.5667,Portugal,PT,Viseu,minor,6350,6350
+Povoação,37.7460,-25.2450,Portugal,PT,Azores,,6327,6327
+Armamar,41.1167,-7.6833,Portugal,PT,Viseu,minor,6297,6297
+Figueira de Castelo Rodrigo,40.9000,-6.9667,Portugal,PT,Guarda,minor,6260,6260
+São Martinho,38.8125,-9.4208,Portugal,PT,Lisboa,,6226,6226
+Madalena,38.5356,-28.5234,Portugal,PT,Azores,,6049,6049
+Monchique,37.3167,-8.6000,Portugal,PT,Faro,minor,6045,6045
+Celeiroz,41.5136,-8.4522,Portugal,PT,Braga,,6000,6000
+Penela,40.0333,-8.3833,Portugal,PT,Coimbra,minor,5983,5983
+Murça,41.4000,-7.4500,Portugal,PT,Vila Real,minor,5952,5952
+Vidigueira,38.2000,-7.8000,Portugal,PT,Beja,minor,5932,5932
+Aljezur,37.3178,-8.8000,Portugal,PT,Faro,minor,5884,5884
+Alandroal,38.7000,-7.4000,Portugal,PT,Évora,minor,5843,5843
+Olival,41.0711,-8.5272,Portugal,PT,Porto,,5812,5812
+Viana do Alentejo,38.3342,-8.0014,Portugal,PT,Évora,minor,5743,5743
+Oleiros,39.9167,-7.9167,Portugal,PT,Castelo Branco,minor,5721,5721
+Penamacor,40.1667,-7.1667,Portugal,PT,Castelo Branco,minor,5682,5682
+Vila do Porto,36.9450,-25.1450,Portugal,PT,Azores,,5552,5552
+Vila de Porto Santo,33.0619,-16.3564,Portugal,PT,Madeira,,5483,5483
+Aguiar da Beira,40.8180,-7.5414,Portugal,PT,Guarda,minor,5473,5473
+Golegã,39.4000,-8.4833,Portugal,PT,Santarém,minor,5465,5465
+Riachos,39.4453,-8.5142,Portugal,PT,Santarém,,5420,5420
+Velas,38.6817,-28.2079,Portugal,PT,Azores,,5398,5398
+Ourique,37.6500,-8.2250,Portugal,PT,Beja,minor,5389,5389
+Vila do Bispo,37.0825,-8.9119,Portugal,PT,Faro,minor,5258,5258
+Vila Nova de Paiva,40.8500,-7.7333,Portugal,PT,Viseu,minor,5176,5176
+Terrujem,38.8511,-9.3747,Portugal,PT,Lisboa,,5113,5113
+Alfândega da Fé,41.3500,-6.9667,Portugal,PT,Bragança,minor,5104,5104
+Sousel,38.9532,-7.6757,Portugal,PT,Portalegre,minor,5074,5074
+Fornos de Algodres,40.6167,-7.5333,Portugal,PT,Guarda,minor,4989,4989
+Mora,38.9333,-8.1500,Portugal,PT,Évora,minor,4978,4978
+Caranguejeira,39.7500,-8.7000,Portugal,PT,Leiria,,4972,4972
+Nordeste,37.8333,-25.1500,Portugal,PT,Azores,,4937,4937
+Cuba,38.1500,-7.8833,Portugal,PT,Beja,minor,4878,4878
+Real,41.5565,-8.4410,Portugal,PT,Braga,,4871,4871
+Pampilhosa da Serra,40.0500,-7.9500,Portugal,PT,Coimbra,minor,4756,4756
+Lajes,38.4000,-28.2500,Portugal,PT,Azores,,4711,4711
+Vimioso,41.5667,-6.5167,Portugal,PT,Bragança,minor,4669,4669
+Avis,39.0500,-7.8833,Portugal,PT,Portalegre,minor,4571,4571
+Mesão Frio,41.1667,-7.8833,Portugal,PT,Vila Real,minor,4433,4433
+Valpaços,41.6075,-7.3100,Portugal,PT,Vila Real,minor,4421,4421
+Santa Cruz da Graciosa,39.0833,-28.0167,Portugal,PT,Azores,,4391,4391
+Góis,40.1500,-8.1167,Portugal,PT,Coimbra,minor,4260,4260
+Vila Nova de Milfontes,37.7167,-8.7833,Portugal,PT,Beja,,4258,4258
+Constância,39.4833,-8.3333,Portugal,PT,Santarém,minor,4056,4056
+Sardoal,39.5333,-8.1667,Portugal,PT,Santarém,minor,3939,3939
+Arcozelo,41.7917,-8.5944,Portugal,PT,Viana do Castelo,,3932,3932
+Lorvão,40.2594,-8.3168,Portugal,PT,Coimbra,,3928,3928
+Pedrógão Grande,39.9167,-8.1500,Portugal,PT,Leiria,minor,3915,3915
+Freixo de Espada à Cinta,41.0833,-6.8000,Portugal,PT,Bragança,minor,3780,3780
+Calheta,38.6000,-28.0167,Portugal,PT,Azores,,3773,3773
+Armação de Pêra,37.1000,-8.3667,Portugal,PT,Faro,,3770,3770
+Vila Velha de Ródão,39.6500,-7.6667,Portugal,PT,Castelo Branco,minor,3521,3521
+Marvão,39.3942,-7.3772,Portugal,PT,Portalegre,minor,3512,3512
+Canas de Senhorim,40.5167,-7.9000,Portugal,PT,Viseu,,3509,3509
+Tramagal,39.4583,-8.2461,Portugal,PT,Santarém,,3500,3500
+Vila de Rei,39.6833,-8.1500,Portugal,PT,Castelo Branco,minor,3452,3452
+Manteigas,40.4000,-7.5333,Portugal,PT,Guarda,minor,3430,3430
+Riba de Ave,41.3933,-8.3883,Portugal,PT,Braga,,3425,3425
+Fronteira,39.0500,-7.6500,Portugal,PT,Portalegre,minor,3410,3410
+Castelo de Vide,39.4167,-7.4500,Portugal,PT,Portalegre,minor,3407,3407
+São Roque do Pico,38.5167,-28.3167,Portugal,PT,Azores,,3388,3388
+Monforte,39.0500,-7.4333,Portugal,PT,Portalegre,minor,3329,3329
+Valado de Frades,39.5892,-9.0194,Portugal,PT,Leiria,,3308,3308
+Fermentelos,40.5667,-8.5167,Portugal,PT,Aveiro,,3258,3258
+Castanheira de Pêra,40.0000,-8.2167,Portugal,PT,Leiria,minor,3191,3191
+Arronches,39.1167,-7.2833,Portugal,PT,Portalegre,minor,3165,3165
+São Vicente,32.7967,-17.0433,Portugal,PT,Madeira,,3136,3136
+Trouxemil,40.2756,-8.4528,Portugal,PT,Coimbra,,2999,2999
+Ferreiros,41.6308,-8.3686,Portugal,PT,Braga,,2879,2879
+Trofa,40.6114,-8.4673,Portugal,PT,Aveiro,,2732,2732
+Carvoeiro,37.1000,-8.4667,Portugal,PT,Faro,,2721,2721
+Mourão,38.3333,-7.3667,Portugal,PT,Évora,minor,2663,2663
+Alvito,38.2500,-7.9833,Portugal,PT,Beja,minor,2504,2504
+Barrancos,38.1307,-6.9761,Portugal,PT,Beja,minor,1834,1834
+Caminha,41.8779,-8.8382,Portugal,PT,Viana do Castelo,minor,1346,1346
+Boticas,41.6889,-7.6650,Portugal,PT,Vila Real,minor,1065,1065
+Barcelos,41.5347,-8.6150,Portugal,PT,Braga,minor,,
+Loures,38.8309,-9.1684,Portugal,PT,Lisboa,minor,,
+Santo Tirso,41.3428,-8.4775,Portugal,PT,Porto,minor,,
+Famalicão,41.4144,-8.5222,Portugal,PT,Braga,minor,,
+Cartaxo,39.1619,-8.7864,Portugal,PT,Santarém,minor,,
+Fundão,40.1392,-7.5019,Portugal,PT,Castelo Branco,minor,,
+Oliveira de Azemeis,40.8400,-8.4764,Portugal,PT,Aveiro,minor,,
+Ovar,40.8597,-8.6253,Portugal,PT,Aveiro,minor,,
+Lagoa,37.1347,-8.4528,Portugal,PT,Faro,minor,,
+Albufeira,37.0889,-8.2511,Portugal,PT,Faro,minor,,
+Águeda,40.5745,-8.4480,Portugal,PT,Aveiro,minor,,
+Peniche,39.3633,-9.3792,Portugal,PT,Leiria,minor,,
+Borba,38.8056,-7.4547,Portugal,PT,Évora,minor,,
+Marinha Grande,39.7478,-8.9322,Portugal,PT,Leiria,minor,,
+Salvaterra de Magos,39.0253,-8.7933,Portugal,PT,Santarém,minor,,
+Barreiro,38.6631,-9.0725,Portugal,PT,Setúbal,minor,,
+Cascais,38.6972,-9.4217,Portugal,PT,Lisboa,minor,,
+Ponte da Barca,41.8078,-8.4194,Portugal,PT,Viana do Castelo,minor,,
+Amarante,41.2728,-8.0825,Portugal,PT,Porto,minor,,
+Aljustrel,37.8775,-8.1653,Portugal,PT,Beja,minor,,
+Alcobaça,39.5522,-8.9775,Portugal,PT,Leiria,minor,,
+Oliveira do Hospital,40.3597,-7.8617,Portugal,PT,Coimbra,minor,,
+Abrantes,39.4667,-8.2000,Portugal,PT,Santarém,minor,,
+Santiago do Cacém,38.0167,-8.7000,Portugal,PT,Setúbal,minor,,
+Cantanhede,40.3464,-8.5942,Portugal,PT,Coimbra,minor,,
+Grândola,38.1833,-8.5667,Portugal,PT,Setúbal,minor,,
+Mangualde,40.6058,-7.7658,Portugal,PT,Viseu,minor,,
+Arouca,40.9289,-8.2436,Portugal,PT,Aveiro,minor,,
+Feira,40.9254,-8.5428,Portugal,PT,Aveiro,minor,,
+Seia,40.4203,-7.7033,Portugal,PT,Guarda,minor,,
+Coruche,38.9581,-8.5283,Portugal,PT,Santarém,minor,,
+Chamusca,39.3594,-8.4808,Portugal,PT,Santarém,minor,,
+Crato,39.2844,-7.6444,Portugal,PT,Portalegre,minor,,
+Belmonte,40.3583,-7.3514,Portugal,PT,Castelo Branco,minor,,
+Vagos,40.5553,-8.6814,Portugal,PT,Aveiro,minor,,
+Tondela,40.5164,-8.0808,Portugal,PT,Viseu,minor,,
+Arganil,40.2183,-8.0542,Portugal,PT,Coimbra,minor,,
+Gavião,39.4650,-7.9369,Portugal,PT,Portalegre,minor,,
+Santa Comba Dão,40.3981,-8.1303,Portugal,PT,Viseu,minor,,
+Mogadouro,41.3392,-6.7200,Portugal,PT,Bragança,minor,,
+Paredes de Coura,41.9111,-8.5597,Portugal,PT,Viana do Castelo,minor,,
+Seixal,38.6428,-9.1061,Portugal,PT,Setúbal,minor,,
+Alenquer,39.0531,-9.0092,Portugal,PT,Lisboa,minor,,
+Mêda,40.9631,-7.2631,Portugal,PT,Guarda,minor,,
+Vouzela,40.7231,-8.1122,Portugal,PT,Viseu,minor,,
+Mação,39.5533,-7.9986,Portugal,PT,Santarém,minor,,
+Trofa,41.4878,-7.9613,Portugal,PT,Braga,minor,,
+Alter do Chão,39.1974,-7.6589,Portugal,PT,Portalegre,minor,,
+Mortágua,40.3947,-8.2328,Portugal,PT,Viseu,minor,,
+Bombarral,39.2672,-9.1581,Portugal,PT,Leiria,minor,,
+Vila Nova de Cerveira,41.9400,-8.7444,Portugal,PT,Viana do Castelo,minor,,
+Sabugal,40.3519,-7.0894,Portugal,PT,Guarda,minor,,
+Almeirim,39.2090,-8.6164,Portugal,PT,Santarém,minor,,
+Alcanena,39.4589,-8.6689,Portugal,PT,Santarém,minor,,
+Mealhada,40.3781,-8.4514,Portugal,PT,Aveiro,minor,,
+Sernancelhe,40.9003,-7.4942,Portugal,PT,Viseu,minor,,
+Batalha,39.6603,-8.8247,Portugal,PT,Leiria,minor,,
+Figueiró dos Vinhos,39.9019,-8.2750,Portugal,PT,Leiria,minor,,
+Vila Flor,41.3067,-7.1522,Portugal,PT,Bragança,minor,,
+Castelo de Paiva,41.0630,-8.2647,Portugal,PT,Aveiro,minor,,
+Penedono,40.9831,-7.3894,Portugal,PT,Viseu,minor,,
+Oliveira de Frades,40.7314,-8.1767,Portugal,PT,Viseu,minor,,
+Vizela,41.3828,-8.2647,Portugal,PT,Braga,minor,,
+Montalegre,41.8239,-7.7900,Portugal,PT,Vila Real,minor,,
+Alcoutim,37.4717,-7.4722,Portugal,PT,Faro,minor,,
+Lourinhã,39.2425,-9.3122,Portugal,PT,Lisboa,minor,,
+Ferreira do Alentejo,38.0500,-8.1000,Portugal,PT,Beja,minor,,
