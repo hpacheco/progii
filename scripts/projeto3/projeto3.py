@@ -50,9 +50,6 @@ def desenhaLSystem(l:lsystem,n:int):
 packaging_waste = pd.read_csv('dados/env_waspac.tsv',na_values=":")
 municipal_waste = pd.read_csv('dados/env_wasmun.tsv',na_values=":")
 
-packaging_waste.plot()
-plt.show()
-
 def desenhaReciclagemPaisIndice(ax,pais,indice):
 
     # desenha um gráfico
