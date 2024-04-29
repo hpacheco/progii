@@ -14,11 +14,11 @@ tmaxs.dropna(inplace=True)
 #print(tmins,tmaxs)
 
 temps = pd.merge(tmins,tmaxs,on='year',suffixes=('_tmin','_tmax'))
-#print(temps.info())
+print(temps.info())
 temps['year'] = temps['year'].astype('uint16')
 temps.set_index('year',inplace=True)
 print(temps)
-# para sobrepor as duas temperaturas
+# para sobrepor as duas temperaturas, ordem interessa (coluna min antes de coluna max)
 temps['Annual_tmax'] = temps['Annual_tmax'] - temps['Annual_tmin']
 temps.plot(kind='area',alpha=0.3,stacked=True,legend=False,ylabel='Temp (ºC)')
 

@@ -37,8 +37,9 @@ precs.dropna(inplace=True)
 precs['year'] = precs['year'].astype('uint16')
 precs.set_index('year',inplace=True)
 
-# cria dois eixos nos Y
+# para o eixo dos X ser indepndente
 ax.set_yticks([])
+# cria dois eixos dos Y
 # renomear ax no exemplo anterior para ax1
 ax1 = ax.twinx()
 ax2 = ax1.twinx()
