@@ -19,7 +19,7 @@ button = Button(rect,'Mostrar / Esconder')
 # a função que reage ao evento
 def reage(info):
     # lê e altera a visibilidade do gráfico
-    ax.set_visible(not ax.get_visible())
+    ln.set_visible(not ln.get_visible())
     plt.draw()
 
 # liga o evento à função
