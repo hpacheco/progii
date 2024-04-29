@@ -20,7 +20,7 @@ Como exemplo, considere o L-system de uma árvore dado pelo axioma `F` e pelas r
 ![](lsystem.png) 
 
 1. **Complete** a função `expandeLSystem` que expande um L-system um número $n$ de vezes. Note que esta expansão é independente da linguagem em causa.
-2. **Complete** a função `desenhaLSystem` que desenha um L-system utilizando o `matplotlib`. Para isso, deve utilizar a função dada `desenhaTurtle` que recebe uma string e retorna um conjunto de segmentos de reta correspondente desenho do fractal.
+2. **Complete** a função `desenhaLSystem` que desenha um L-system utilizando o `matplotlib`. Para isso, deve utilizar a função dada `desenhaTurtle` que recebe uma string e retorna uma lista de segmentos de reta (sendo cada segmento de reta uma lista de pontos) correspondente desenho do fractal.
 
 Para obter nota máxima nesta tarefa, o gráfico deve conter alguns extras em termos de formatação, ao critério dos alunos. Como sugestões, podem por exemplo:
 * Desenhar simultaneamente os vários passos de crescimento do fractal com uma cor diferente.
