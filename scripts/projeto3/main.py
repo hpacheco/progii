@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-from projeto3_sol import *
+from projeto3 import *
 
 import unittest
 
