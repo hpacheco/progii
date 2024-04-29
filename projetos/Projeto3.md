@@ -62,7 +62,7 @@ Utilizando o `networkx`, desenhe um mapa circular de acordo com os seguintes pas
 
 0. Inspecione o `DataFrame` `bay` que reproduz a informação sobre o ecosistema. Cada linha corresponde a uma espécie/organismo, em que cada coluna define a quantidade de biomassa transferida para uma outra espécie/organismo. Cada linha contém também uma última coluna com o [*trophic level*](https://en.wikipedia.org/wiki/Trophic_level), ou seja, a posição que essa espécie ocupa na cadeia alimentar.
 1. Complete a definição da função `constroiEcosistema` que retorna um grafo direcionado correspondente. Cada espécie/organismo deve ser um nodo, com um atributo `level` que inclui o seu *trophic level*, e cada transferência de biomassa (não nula) deve dar lugar a uma aresta direcionada, com um atributo `transfer` que inclui a quantidade de biomassa transferida.
-2. **Complete** a definição da função `desenhaEcosistema`, que desenha o grafo construido pela função anterior. Configure a formatação a seu gosto, respeitando a seguintes indicações:
+2. **Complete** a definição da função `desenhaEcosistema`, que desenha o grafo construído pela função anterior. Configure a formatação a seu gosto, respeitando a seguintes indicações:
 
     * O layout deve refletir o *trophic level* de cada nodo.
     * O desenho de cada nodo deve incluir alguma referência ao seu nome.
