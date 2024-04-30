@@ -35,7 +35,8 @@ Considere o dataset de reciclagem nos vários países da União Europeia, public
 2. **Complete** a definição da função `desenhaReciclagem` que cria um gráfico dinâmico de reciclagem na UE. Utilize botões interativos matplotlib para selecionar quer o país, quer o tipo de reciclagem. Deve desenhar dinamicamente um gráfico para a seleção escolhida.
 
 Para obter nota máxima nesta tarefa, o gráfico deve conter alguns extras como, por exemplo:
-* Desenhar cada série num formato diferente, utilizando curvas/barras/áreas ou cores distintivas.
+
+* Desenhar cada série num formato diferente, utilizando por exemplo diferentes curvas/barras/áreas, cores, marcadores, etc.
 * Conter uma legenda e/ou labels explicativas das séries e dos eixos em questão.
 
 ## Tarefa 3 (Mapas)
