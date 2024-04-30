@@ -23,7 +23,7 @@ Como exemplo, considere o L-system de uma árvore dado pelo axioma `F` e pelas r
 2. **Complete** a função `desenhaLSystem` que desenha um L-system utilizando o `matplotlib`. Para isso, deve utilizar a função dada `desenhaTurtle` que recebe uma string e retorna uma lista de segmentos de reta (sendo cada segmento de reta uma lista de pontos) correspondente desenho do fractal.
 
 Para obter nota máxima nesta tarefa, o gráfico deve conter alguns extras em termos de formatação, ao critério dos alunos. Como sugestões, podem por exemplo:
-* Desenhar simultaneamente os vários passos de crescimento do fractal com uma cor diferente.
+* Desenhar simultaneamente os vários passos de crescimento do fractal com uma formatação diferente (cor, grossura, etc).
 * Desenhar linhas ou controlar eixos para indicar o crescimento do fractal a cada nível.
 * Acrescentar informação explicativa numa legenda.
 
