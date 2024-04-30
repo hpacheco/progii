@@ -34,7 +34,7 @@ Considere o dataset de reciclagem nos vários países da União Europeia, public
 1. **Complete** a definição da função `desenhaReciclagemPaisIndice` que recebe um objeto `Axes` matplotlib e o nome de um país, e desenha um gráfico nesse `Axes` com a evolução anual do índice (packaging, municipal ou total combinado) de reciclagem desse país (um país da UE ou a totalidade dos 27). Lide como entender com dados em falta.
 2. **Complete** a definição da função `desenhaReciclagem` que cria um gráfico dinâmico de reciclagem na UE. Utilize botões interativos matplotlib para selecionar quer o país, quer o tipo de reciclagem. Deve desenhar dinamicamente um gráfico para a seleção escolhida.
 
-Para obter nota máxima nesta tarefa, o gráfico deve conter alguns extras como, por exemplo:
+Para obter nota máxima nesta tarefa, o gráfico deve conter alguns extras em termos de formatação, ao critério dos alunos. Como sugestões, podem por exemplo:
 
 * Desenhar cada série num formato diferente, utilizando por exemplo diferentes curvas/barras/áreas, cores, marcadores, etc.
 * Conter uma legenda e/ou labels explicativas das séries e dos eixos em questão.
