@@ -57,8 +57,9 @@ def desenhaReciclagemPaisIndice(ax,pais,indice):
     return None
 
 def testeDesenhaReciclagemPaisIndice():
-    desenhaReciclagemPaisIndice(plt,'Russia')
-    plt.show()
+    _,ax = plt.subplots()
+    desenhaReciclagemPaisIndice(ax,'Russia')
+    ax.show()
 
 def desenhaReciclagem():
     # cria botões e desenha um gráfico chamando desenhaReciclagemPaisIndice
