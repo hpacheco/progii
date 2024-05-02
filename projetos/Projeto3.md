@@ -23,7 +23,7 @@ Como exemplo, considere o L-system de uma árvore dado pelo axioma `F` e pelas r
 2. **Complete** a função `desenhaLSystem` que desenha um L-system utilizando o `matplotlib`. Para isso, deve utilizar a função dada `desenhaTurtle` que recebe uma string e retorna uma lista de segmentos de reta (sendo cada segmento de reta uma lista de pontos) correspondente desenho do fractal.
 
 Para obter nota máxima nesta tarefa, o gráfico deve conter alguns extras em termos de formatação, ao critério dos alunos. Como sugestões, podem por exemplo:
-* Desenhar simultaneamente os vários passos de crescimento do fractal com uma cor diferente.
+* Desenhar simultaneamente os vários passos de crescimento do fractal com uma formatação diferente (cor, grossura, etc).
 * Desenhar linhas ou controlar eixos para indicar o crescimento do fractal a cada nível.
 * Acrescentar informação explicativa numa legenda.
 
@@ -34,8 +34,9 @@ Considere o dataset de reciclagem nos vários países da União Europeia, public
 1. **Complete** a definição da função `desenhaReciclagemPaisIndice` que recebe um objeto `Axes` matplotlib e o nome de um país, e desenha um gráfico nesse `Axes` com a evolução anual do índice (packaging, municipal ou total combinado) de reciclagem desse país (um país da UE ou a totalidade dos 27). Lide como entender com dados em falta.
 2. **Complete** a definição da função `desenhaReciclagem` que cria um gráfico dinâmico de reciclagem na UE. Utilize botões interativos matplotlib para selecionar quer o país, quer o tipo de reciclagem. Deve desenhar dinamicamente um gráfico para a seleção escolhida.
 
-Para obter nota máxima nesta tarefa, o gráfico deve conter alguns extras como, por exemplo:
-* Desenhar cada série num formato diferente, utilizando curvas/barras/áreas ou cores distintivas.
+Para obter nota máxima nesta tarefa, o gráfico deve conter alguns extras em termos de formatação, ao critério dos alunos. Como sugestões, podem por exemplo:
+
+* Desenhar cada série num formato diferente, utilizando por exemplo diferentes curvas/barras/áreas, cores, marcadores, etc.
 * Conter uma legenda e/ou labels explicativas das séries e dos eixos em questão.
 
 ## Tarefa 3 (Mapas)
