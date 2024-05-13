@@ -18,7 +18,8 @@ gdf32 = pd.merge(gdf3,codes,how='left')
 
 # dados covid-19 WHO
 df = pd.read_csv("WHO-COVID-19-global-data.csv")
-df = df.groupby(by='Country').tail(1)
+df = df.groupby(by='Country').tail(1) # data mais recente
+print(df.iloc[0]["Date_reported"])
 
 df = df.rename(columns={'Country_code':'ISO_A2','Cumulative_deaths':'Deaths'})
 df = df[['ISO_A2','Deaths']]

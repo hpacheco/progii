@@ -1,8 +1,8 @@
 import geopandas as gpd
 import urllib.request
 
-url = 'https://raw.githubusercontent.com/dssg-pt/covid19pt-data/master/extra/mapas/portugal.geojson'
-urllib.request.urlretrieve(url,'portugal.geojson')
+#url = 'https://raw.githubusercontent.com/dssg-pt/covid19pt-data/master/extra/mapas/portugal.geojson'
+#urllib.request.urlretrieve(url,'portugal.geojson')
 
 # carregar ficheiro geojson com as regiões de Portugal
 df_map = gpd.read_file("portugal.geojson")

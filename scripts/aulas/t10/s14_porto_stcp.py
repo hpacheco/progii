@@ -26,6 +26,7 @@ routes = sorted(set(df["route_id"]))
 fig,ax = plt.subplots(figsize=(10,8))
 ax.axis('off')
 
+# colormaps reference: https://matplotlib.org/stable/users/explain/colors/colormaps.html
 colors = pltcolors.ListedColormap(plt.get_cmap("nipy_spectral")(np.linspace(0,1,len(routes)))).colors
 routecolors = {}
 for i,route in enumerate(routes):
@@ -35,6 +36,7 @@ buttons = CheckButtons(plt.axes([0.9, 0, 0.1, 1]),routes,[True]*len(routes),chec
 checkall = Button(plt.axes([0.2, 0.9, 0.2, 0.05]),"Check All")
 uncheckall = Button(plt.axes([0.5, 0.9, 0.2, 0.05]),"Uncheck All")
 
+# um dicionário de rotas para linhas matplotlib
 lns = {}
 for trip_id,trip in df.groupby(by="trip_id"):
     #print(trip_id,trip)
@@ -44,6 +46,7 @@ for trip_id,trip in df.groupby(by="trip_id"):
     ln, = ax.plot(trip_lons,trip_lats,color=routecolors[route])
     lns[route] = lns.get(route,[]) + [ln]
 
+# um dicionário de rotas para se estão ou não visíveis no gráfico
 visibles = { route : True for route in routes }
 
 def redrawRoute(route):
