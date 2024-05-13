@@ -32,7 +32,7 @@ Para obter nota máxima nesta tarefa, o gráfico deve conter alguns extras em te
 Considere o dataset de reciclagem nos vários países da União Europeia, publicado em kg/habitante separadamente por resíduos de [packaging](https://ec.europa.eu/eurostat/databrowser/view/env_waspac/default/table) ou [municipal](https://ec.europa.eu/eurostat/databrowser/view/ENV_WASMUN/default/table) e disponível localmente nos ficheiros [env_waspac.tsv](../scripts/projeto3/dados/env_waspac.tsv) e [env_wasmun.tsv](../scripts/projeto3/dados/env_wasmun.tsv), respetivamente.
 
 1. **Complete** a definição da função `desenhaReciclagemPaisIndice` que recebe um objeto `Axes` matplotlib e o nome de um país, e desenha um gráfico nesse `Axes` com a evolução anual do índice (packaging, municipal ou total combinado) de reciclagem desse país (um país da UE ou a totalidade dos 27). Lide como entender com dados em falta.
-2. **Complete** a definição da função `desenhaReciclagem` que cria um gráfico dinâmico de reciclagem na UE. Utilize botões interativos matplotlib para selecionar quer o país, quer o tipo de reciclagem. Deve desenhar dinamicamente um gráfico para a seleção escolhida.
+2. **Complete** a definição da função `desenhaReciclagem` que cria um gráfico dinâmico de reciclagem na UE. Utilize botões interativos matplotlib para selecionar quer o país, quer o tipo de reciclagem (packaging, municipal ou total combinado). Deve desenhar dinamicamente um gráfico para a seleção escolhida.
 
 Para obter nota máxima nesta tarefa, o gráfico deve conter alguns extras em termos de formatação, ao critério dos alunos. Como sugestões, podem por exemplo:
 
