@@ -47,8 +47,8 @@ def desenhaLSystem(l:lsystem,n:int):
 
 # Tarefa 2
 
-packaging_waste = pd.read_csv('dados/env_waspac.tsv',na_values=":")
-municipal_waste = pd.read_csv('dados/env_wasmun.tsv',na_values=":")
+packaging_waste = pd.read_csv('dados/env_waspac.tsv',na_values=[":",": "])
+municipal_waste = pd.read_csv('dados/env_wasmun.tsv',na_values=[":",": "])
 
 def desenhaReciclagemPaisIndice(ax,pais,indice):
 
@@ -58,7 +58,7 @@ def desenhaReciclagemPaisIndice(ax,pais,indice):
 
 def testeDesenhaReciclagemPaisIndice():
     _,ax = plt.subplots()
-    desenhaReciclagemPaisIndice(ax,'Russia',"packaging")
+    desenhaReciclagemPaisIndice(ax,'RS',"packaging")
     plt.show()
 
 def desenhaReciclagem():
