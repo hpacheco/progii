@@ -28,6 +28,7 @@ ax.axis('off')
 
 # colormaps reference: https://matplotlib.org/stable/users/explain/colors/colormaps.html
 colors = pltcolors.ListedColormap(plt.get_cmap("nipy_spectral")(np.linspace(0,1,len(routes)))).colors
+#print(colors)
 routecolors = {}
 for i,route in enumerate(routes):
     routecolors[route] = colors[i]

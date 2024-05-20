@@ -24,6 +24,7 @@ print(df.iloc[0]["Date_reported"])
 df = df.rename(columns={'Country_code':'ISO_A2','Cumulative_deaths':'Deaths'})
 df = df[['ISO_A2','Deaths']]
 gdf = pd.merge(gdf32,df,how='inner')
+print(gdf.info())
 
 ax = gdf.plot(cmap='Reds',column='Deaths')
 ax.axis('off')

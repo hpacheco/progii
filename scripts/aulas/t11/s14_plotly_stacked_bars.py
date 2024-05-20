@@ -7,7 +7,7 @@ men = pd.DataFrame(men_means,columns=['age'])
 men['sex'] = 'man'
 women = pd.DataFrame(women_means,columns=['age'])
 women['sex'] = 'woman'
-df = pd.concat([men,women])
+df = pd.concat([men,women]) # junta linhas dos DataFrames
 df.reset_index(inplace=True,names='country')
 
 fig = px.bar(df, x='country', y='age',color='sex')

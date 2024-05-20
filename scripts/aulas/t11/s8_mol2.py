@@ -19,8 +19,8 @@ def mol2Bonds(filename):
     df_bonds.set_index(['bond_id'], inplace=True)
     return df_bonds
 
-url = 'https://raw.githubusercontent.com/choderalab/openmoltools/master/openmoltools/chemicals/benzene/benzene.mol2'
-urllib.request.urlretrieve(url,'benzene.mol2')
+#url = 'https://raw.githubusercontent.com/choderalab/openmoltools/master/openmoltools/chemicals/benzene/benzene.mol2'
+#urllib.request.urlretrieve(url,'benzene.mol2')
 
 atoms = mol2Atoms('benzene.mol2')
 print(atoms)
@@ -37,9 +37,11 @@ g.add_edges_from(edges)
 xys = { n : (i['x'],i['y']) for n,i in nodes }
 names = { n : i['atom_name'][0] for n,i in nodes }
 
+# anel de átomos que formal formam um ciclo
 aromatics = [ (i,j) for i,j,k in edges if k['bond_type'] == 'ar' ]
 
 arcycle = nx.find_cycle(g,aromatics[0])
+print(arcycle)
 def arwidth(i,j):
     e = (i,j) if (i,j) in arcycle else (j,i)
     idx = arcycle.index(e)

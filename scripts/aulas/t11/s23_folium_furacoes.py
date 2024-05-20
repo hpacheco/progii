@@ -3,8 +3,8 @@ import urllib.request
 import folium
 from folium import plugins
 
-url = 'https://raw.githubusercontent.com/ResidentMario/hurdat2/master/data/atlantic_storms.csv'
-urllib.request.urlretrieve(url,'atlantic_storms.csv')
+#url = 'https://raw.githubusercontent.com/ResidentMario/hurdat2/master/data/atlantic_storms.csv'
+#urllib.request.urlretrieve(url,'atlantic_storms.csv')
 
 data = pd.read_csv('atlantic_storms.csv',usecols=['date','name','latitude','longitude','maximum_sustained_wind_knots'])
 data['date'] = pd.to_datetime(data['date'])

@@ -74,7 +74,7 @@ def desenhaZonas():
     # preencher
     plt.show()
 
-def desenhaZonas():
+def desenhaAlojamentos():
     # preencher
     plt.show()
 
