@@ -12,6 +12,8 @@ df = df.rename(columns={'Country_code':'ISO_A2','Cumulative_deaths':'Deaths'})
 df = df[['ISO_A2','Deaths']]
 gdf = pd.merge(codes,df,how='inner')
 
+print(gdf)
+
 with open('../t10/countries.geojson','r') as f: geojson = json.load(f)
 
 mapa = folium.Map([41.1579,-8.6291],zoom_start=3)

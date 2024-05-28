@@ -39,6 +39,8 @@ tmaxs['type'] = 'max'
 df = pd.concat([tmins,tmaxs])
 df.reset_index(inplace=True)
 
+print(df)
+
 fig = px.scatter(df, x="year", y="temp",color='season',symbol='type')
 fig.write_html("ipma.html")
 

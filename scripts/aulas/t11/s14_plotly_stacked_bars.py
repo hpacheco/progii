@@ -9,6 +9,7 @@ women = pd.DataFrame(women_means,columns=['age'])
 women['sex'] = 'woman'
 df = pd.concat([men,women]) # junta linhas dos DataFrames
 df.reset_index(inplace=True,names='country')
+print(df)
 
 fig = px.bar(df, x='country', y='age',color='sex')
 fig.write_html("demography.html")
