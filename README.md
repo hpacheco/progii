@@ -39,7 +39,7 @@ Estas datas podem vir a ser alteradas consoante o calendário académico.
 
 O recurso ou melhoria de nota poderão ser feitos realizando todas as tarefas dos Projetos 1, 2 e 3, e realizando adicionalmente o Projeto 4.
 
-* Projeto 4 - Recurso / Melhoria
+* [Projeto 4 - Recurso / Melhoria](projetos/Projeto4.md)
 
 **Os alunos que desejem efetuar recurso/melhoria de nota devem contactar o regente a informar da sua intenção.**
 

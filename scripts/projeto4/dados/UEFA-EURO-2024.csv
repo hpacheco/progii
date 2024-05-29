@@ -1,0 +1,52 @@
+play_date,home_team,away_team,stadium,match_type,home_team_photo,home_team_flag,home_team_link,home_team_group,home_team_group_order,home_team_is_real,away_team_photo,away_team_flag,away_team_link,away_team_group,away_team_group_order,away_team_is_real,stadium_photo
+"2024-06-14 19:00:00",Germany,Scotland,Munich,"Group Stage",,de.png,,"Group A",1,1,,gb-sct.png,,"Group A",2,1,munich.avif
+"2024-06-15 13:00:00",Hungary,Switzerland,Cologne,"Group Stage",,hu.png,,"Group A",3,1,,ch.png,,"Group A",4,1,cologne.webp
+"2024-06-15 16:00:00",Spain,Croatia,Berlin,"Group Stage",,es.png,,"Group B",1,1,,hr.png,,"Group B",2,1,berlin.avif
+"2024-06-15 19:00:00",Italy,Albania,Dortmund,"Group Stage",,it.png,,"Group B",3,1,,al.png,,"Group B",4,1,dortmund.webp
+"2024-06-16 13:00:00",Poland,Netherlands,Hamburg,"Group Stage",,pl.png,,"Group D",1,1,,nl.png,,"Group D",2,1,hamburg.webp
+"2024-06-16 16:00:00",Slovenia,Denmark,Stuttgart,"Group Stage",,si.png,,"Group C",1,1,,dk.png,,"Group C",2,1,stuttgart.avif
+"2024-06-16 19:00:00",Serbia,England,Gelsenkirchen,"Group Stage",,rs.png,,"Group C",3,1,,gb-eng.png,,"Group C",4,1,gelsenkirchen.avif
+"2024-06-17 13:00:00",Romania,Ukraine,Munich,"Group Stage",,ro.png,,"Group E",3,1,,ua.png,,"Group E",4,1,munich.avif
+"2024-06-17 16:00:00",Belgium,Slovakia,Frankfurt,"Group Stage",,be.png,,"Group E",1,1,,sk.png,,"Group E",2,1,frankfurt.avif
+"2024-06-17 19:00:00",Austria,France,Düsseldorf,"Group Stage",,at.png,,"Group D",3,1,,fr.png,,"Group D",4,1,dusseldorf.avif
+"2024-06-18 16:00:00",Turkey,Georgia,Dortmund,"Group Stage",,tr.png,,"Group F",1,1,,ge.png,,"Group F",2,1,dortmund.webp
+"2024-06-18 19:00:00",Portugal,"Czechia",Leipzig,"Group Stage",,pt.png,,"Group F",3,1,,cz.png,,"Group F",4,1,leipzig.avif
+"2024-06-19 13:00:00",Croatia,Albania,Hamburg,"Group Stage",,hr.png,,"Group B",2,1,,al.png,,"Group B",4,1,hamburg.webp
+"2024-06-19 16:00:00",Germany,Hungary,Stuttgart,"Group Stage",,de.png,,"Group A",1,1,,hu.png,,"Group A",3,1,stuttgart.avif
+"2024-06-19 19:00:00",Scotland,Switzerland,Cologne,"Group Stage",,gb-sct.png,,"Group A",2,1,,ch.png,,"Group A",4,1,cologne.webp
+"2024-06-20 13:00:00",Slovenia,Serbia,Munich,"Group Stage",,si.png,,"Group C",1,1,,rs.png,,"Group C",3,1,munich.avif
+"2024-06-20 16:00:00",Denmark,England,Frankfurt,"Group Stage",,dk.png,,"Group C",2,1,,gb-eng.png,,"Group C",4,1,frankfurt.avif
+"2024-06-20 19:00:00",Spain,Italy,Gelsenkirchen,"Group Stage",,es.png,,"Group B",1,1,,it.png,,"Group B",3,1,gelsenkirchen.avif
+"2024-06-21 13:00:00",Slovakia,Ukraine,Düsseldorf,"Group Stage",,sk.png,,"Group E",2,1,,ua.png,,"Group E",4,1,dusseldorf.avif
+"2024-06-21 18:00:00",Poland,Austria,Berlin,"Group Stage",,pl.png,,"Group D",1,1,,at.png,,"Group D",3,1,berlin.avif
+"2024-06-21 19:00:00",Netherlands,France,Leipzig,"Group Stage",,nl.png,,"Group D",2,1,,fr.png,,"Group D",4,1,leipzig.avif
+"2024-06-22 13:00:00",Georgia,"Czechia",Hamburg,"Group Stage",,ge.png,,"Group F",2,1,,cz.png,,"Group F",4,1,hamburg.webp
+"2024-06-22 16:00:00",Turkey,Portugal,Dortmund,"Group Stage",,tr.png,,"Group F",1,1,,pt.png,,"Group F",3,1,dortmund.webp
+"2024-06-22 19:00:00",Belgium,Romania,Cologne,"Group Stage",,be.png,,"Group E",1,1,,ro.png,,"Group E",3,1,cologne.webp
+"2024-06-23 19:00:00",Switzerland,Germany,Frankfurt,"Group Stage",,ch.png,,"Group A",4,1,,de.png,,"Group A",1,1,frankfurt.avif
+"2024-06-23 19:00:00",Scotland,Hungary,Stuttgart,"Group Stage",,gb-sct.png,,"Group A",2,1,,hu.png,,"Group A",3,1,stuttgart.avif
+"2024-06-24 19:00:00",Albania,Spain,Düsseldorf,"Group Stage",,al.png,,"Group B",4,1,,es.png,,"Group B",1,1,dusseldorf.avif
+"2024-06-24 19:00:00",Croatia,Italy,Leipzig,"Group Stage",,hr.png,,"Group B",2,1,,it.png,,"Group B",3,1,leipzig.avif
+"2024-06-25 16:00:00",Netherlands,Austria,Berlin,"Group Stage",,nl.png,,"Group D",2,1,,at.png,,"Group D",3,1,berlin.avif
+"2024-06-25 16:00:00",France,Poland,Dortmund,"Group Stage",,fr.png,,"Group D",4,1,,pl.png,,"Group D",1,1,dortmund.webp
+"2024-06-25 19:00:00",England,Slovenia,Cologne,"Group Stage",,gb-eng.png,,"Group C",4,1,,si.png,,"Group C",1,1,cologne.webp
+"2024-06-25 19:00:00",Denmark,Serbia,Munich,"Group Stage",,dk.png,,"Group C",2,1,,rs.png,,"Group C",3,1,munich.avif
+"2024-06-26 16:00:00",Slovakia,Romania,Frankfurt,"Group Stage",,sk.png,,"Group E",2,1,,ro.png,,"Group E",3,1,frankfurt.avif
+"2024-06-26 16:00:00",Ukraine,Belgium,Stuttgart,"Group Stage",,ua.png,,"Group E",4,1,,be.png,,"Group E",1,1,stuttgart.avif
+"2024-06-26 19:00:00",Georgia,Portugal,Gelsenkirchen,"Group Stage",,ge.png,,"Group F",2,1,,pt.png,,"Group F",3,1,gelsenkirchen.avif
+"2024-06-26 19:00:00","Czechia",Turkey,Hamburg,"Group Stage",,cz.png,,"Group F",4,1,,tr.png,,"Group F",1,1,hamburg.webp
+"2024-06-29 16:00:00","Second Group A","Second Group B",Berlin,"Round of 16",,,,"Group A",0,0,,,,"Group B",0,0,berlin.avif
+"2024-06-29 19:00:00","First Group A","Second Group C",Dortmund,"Round of 16",,,,"Group A",0,0,,,,"Group C",0,0,dortmund.webp
+"2024-06-30 16:00:00","First Group C","Third Group D/E/F",Gelsenkirchen,"Round of 16",,,,"Group A",0,0,,,,"Group D",0,0,gelsenkirchen.avif
+"2024-06-30 19:00:00","First Group B","Third Group A/D/E/F",Cologne,"Round of 16",,,,"Group B",0,0,,,,"Group A",0,0,cologne.webp
+"2024-07-01 16:00:00","Second Group D","Second Group E",Düsseldorf,"Round of 16",,,,"Group D",0,0,,,,"Group E",0,0,dusseldorf.avif
+"2024-07-01 19:00:00","First Group F","Third Group A/B/C",Frankfurt,"Round of 16",,,,"Group F",0,0,,,,"Group A",0,0,frankfurt.avif
+"2024-07-02 16:00:00","First Group E","Third Group A/B/C/D",Munich,"Round of 16",,,,"Group E",0,0,,,,"Group A",0,0,munich.avif
+"2024-07-02 19:00:00","First Group D","Second Group F",Leipzig,"Round of 16",,,,"Group D",0,0,,,,"Group F",0,0,leipzig.avif
+"2024-07-05 16:00:00","Winner 39","Winner 37",Stuttgart,"Quarter finals",,,,"Group A",0,0,,,,"Group A",0,0,stuttgart.avif
+"2024-07-05 19:00:00","Winner 41","Winner 42",Hamburg,"Quarter finals",,,,"Group A",0,0,,,,"Group A",0,0,hamburg.webp
+"2024-07-06 16:00:00","Winner 40","Winner 38",Düsseldorf,"Quarter finals",,,,"Group A",0,0,,,,"Group A",0,0,dusseldorf.avif
+"2024-07-06 19:00:00","Winner 43","Winner 44",Berlin,"Quarter finals",,,,"Group A",0,0,,,,"Group A",0,0,berlin.avif
+"2024-07-09 19:00:00","Winner 45","Winner 46",Munich,Semi-final,,,,"Group A",0,0,,,,"Group A",0,0,munich.avif
+"2024-07-10 19:00:00","Winner 47","Winner 48",Dortmund,Semi-final,,,,"Group A",0,0,,,,"Group A",0,0,dortmund.webp
+"2024-07-14 19:00:00","Winner 49","Winner 50",Berlin,Final,,,,"Group A",0,0,,,,"Group A",0,0,berlin.avif
