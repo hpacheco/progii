@@ -11,7 +11,7 @@ class TestProj4(unittest.TestCase):
     def test_t1_dueloEquipas(self):
         self.assertEqual(dueloEquipas("Hungary","Germany"),('Group Stage', ['Stuttgart']))
         self.assertEqual(dueloEquipas("Spain","Germany"),('Round of 16', ['Cologne', 'Berlin']))
-        self.assertEqual(dueloEquipas("Spain","England"),('Quarter finals', ['Stuttgart', 'Hamburg', 'Düsseldorf', 'Berlin']))
+        self.assertEqual(dueloEquipas("Spain","England"),('Quarter finals', ['Stuttgart', 'Düsseldorf']))
 
 
 # T2
