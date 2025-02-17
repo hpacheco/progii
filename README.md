@@ -1,6 +1,6 @@
 # Programação II
 
-Bem-vindo ao repositório de suporte à cadeira conjunta de [Programação II 2023/2024](https://sigarra.up.pt/fcup/pt/ucurr_geral.ficha_uc_view?pv_ocorrencia_id=529466), [Programação II 2023/2024](https://sigarra.up.pt/fcup/pt/ucurr_geral.ficha_uc_view?pv_ocorrencia_id=530106) e [Estruturas de Dados para Bioinformática 2023/2024](https://sigarra.up.pt/fcup/pt/ucurr_geral.ficha_uc_view?pv_ocorrencia_id=528094).
+Bem-vindo ao repositório de suporte à cadeira conjunta de [Estruturas de Dados para Bioinformática 2024/2025](https://sigarra.up.pt/fcup/pt/ucurr_geral.ficha_uc_view?pv_ocorrencia_id=548141).
 Neste repositório poderá encontrar todo o material de suporte à cadeira.
 
 Pode navegar todo o conteúdo desta página no [repositório](https://github.com/hpacheco/progii) associado, que inclui os exemplos de código `Python` utilizados nas [aulas](https://github.com/hpacheco/progii/tree/master/scripts/aulas).
@@ -10,8 +10,7 @@ Pode consultar material de anos anteriores nas sub-páginas:
 * [2021](2021/)
 * [2022](2022/)
 * [2023](2023/)
-
-Para quem quiser utilizar o Replit da cadeira, podem associar-se à Team [prog2bio2324](https://replit.com/team/prog2bio2334) utilizando este [Replit Team invite link](https://replit.com/teams/join/gnzbpwendjczpojyqhubvjdsaybopilr-prog2bio2324).
+* [2024](2024/)
 
 ## Projetos
 
@@ -25,29 +24,11 @@ Para quem quiser utilizar o Replit da cadeira, podem associar-se à Team [prog2b
 Os projetos práticos devem ser realizados em grupos de 2 elementos, e devem ser entregues por email para o regente até às seguintes datas.
 Estas datas podem vir a ser alteradas consoante o calendário académico.
 
-* Projeto 1: 24 Março
-* Projeto 2: ~~28 Abril~~ 1 Maio
-* Projeto 3: 2 Junho
-
-📒 As notas **parciais e preliminares** dos trabalhos práticos podem ser consultadas [nesta folha partilhada](https://docs.google.com/spreadsheets/d/1cM7C_4fxnVoSYW2BGYcB0tM-g25r4J4Rn6W03ndPxgw/edit?usp=sharing) (requer login com conta upXXXXXXXXX@g.uporto.pt). Para os alunos que ainda não tiverem conta Google UP, podem activá-la na vossa página pessoal do Sigarra, tab `Apps U.Porto > Conta Google`. As notas práticas são **apenas indicativas** até à defesa final; para qualquer dúvida, clarificação ou correção, falar com os docentes.
-
-:new: As defesas presenciais dos projetos práticos são **obrigatórias** e decorrerão dia 17 de Junho. Cada grupo deve consultar [esta folha partilhada](https://docs.google.com/spreadsheets/d/1cM7C_4fxnVoSYW2BGYcB0tM-g25r4J4Rn6W03ndPxgw/edit?usp=sharing) e mandar um email ao regente (hpacheco@fc.up.pt) a reservar uma slot. Alunos da turma CC1028_PL4 deverão reservar uma slot com o professor Hélder; alunos das outras turmas poderão escolher o professor Hugo ou a professora Evelin.
+* Projeto 1: 23 Março
+* Projeto 2: 13 Abril
+* Projeto 3: 1 Junho
 
 **Nota:** A resolução dos projetos será acompanhada nas aulas práticas. A apreciação final dos projetos terá também em consideração o progresso dos alunos durante as aulas.
-
-### Recurso/Melhoria de Nota
-
-O recurso ou melhoria de nota poderão ser feitos realizando todas as tarefas dos Projetos 1, 2 e 3, e realizando adicionalmente o Projeto 4.
-
-* [Projeto 4 - Recurso / Melhoria](projetos/Projeto4.md)
-
-**Os alunos que desejem efetuar recurso/melhoria de nota devem contactar o regente a informar da sua intenção.**
-
-Os trabalhos de recurso/melhoria devem ser entregues por email para o regente até à seguinte data:
-
-* Projeto 4: 25 Junho
-
-Tal como os trabalhos de época normal, os trabalhos de recurso/melhoria estão sujeitos a uma defesa presencial.
 
 ## Bibliografia
 
@@ -61,45 +42,47 @@ Tal como os trabalhos de época normal, os trabalhos de recurso/melhoria estão 
 
 ## Planificação
 
+As aulas *Teórico-Práticas* decorrerão num só bloco semanal. Terão uma primeira parte *Teórica*, de apresentação de conceitos, e uma segunda parte *Prática*, de trabalho nos projetos.
+
 Esta planificação serve para dar uma ideia resumida das aulas planeadas e/ou dadas, e está sujeita a alteração.
 
 ### Teóricas
 
-* T01 (19/02): [Apresentação da cadeira, ambiente de desenvolvimento e conceitos base](slides/t01.pdf)
-* T02 (26/02): [Iteração, recursividade e tipos base (strings, listas, tuplos)](slides/t02.pdf)
-* T03 (04/03): [Ficheiros, dicionários e sets](slides/t03.pdf)
-* T04 (11/03): [Compreensões e formatos de dados](slides/t04.pdf)
-* T05 (18/03): Apoio à resolução dos projetos
+* T01 (20/02): Apresentação da cadeira, ambiente de desenvolvimento e conceitos base
+* T02 (27/02): Iteração, recursividade e tipos base (strings, listas, tuplos)
+* T03 (06/03): Ficheiros, dicionários e sets
+* T04 (13/03): Compreensões e formatos de dados
+* T05 (20/03): Apoio à resolução dos projetos
 
 > *Entrega do Projeto 1*
 
-* T06 (08/04): [Computação numérica com arrays (NumPy)](slides/t06.pdf)
-* T07 (15/04): [Análise de dados tabulares (Pandas)](slides/t07.pdf)
-* T08 (22/04): [Análise de grafos (NetworkX) e Gráficos (matplotlib)](slides/t08.pdf)
+* T06 (27/03): Computação numérica com arrays (NumPy)
+* T07 (03/04): Análise de dados tabulares (Pandas)
+* T08 (10/04): Análise de grafos (NetworkX) e Gráficos (matplotlib)
 
 > *Entrega do Projeto 2*
 
-* T09 (29/04): [Gráficos estáticos vs interativos (matplotlib)](slides/t09.pdf)
-* T10 (13/05): [Mapas](slides/t10.pdf)
-* T11 (20/05): [Visualização de grafos e Visualização web](slides/t11.pdf)
-* T12 (27/05): Apoio à resolução dos projetos
+* T09 (24/04): Gráficos estáticos vs interativos (matplotlib)
+* T10 (15/05): Mapas
+* T11 (22/05): Visualização de grafos e Visualização web
+* T12 (29/05): Apoio à resolução dos projetos
 
 > *Entrega do Projeto 3*
 
 ### Práticas
 
-* P01 (2ª 19/02, 5ª 15/02): [Projeto 0 - Desenferrujar](projetos/Projeto0.md)
-* P02 (2ª 26/02, 5ª 22/02): [Projeto 0 - Desenferrujar](projetos/Projeto0.md)
-* P03 (2ª 04/03, 5ª 29/02): [Projeto 1 - Análise de texto](projetos/Projeto1.md)
-* P04 (2ª 11/03, 5ª 07/03): [Projeto 1 - Análise de texto](projetos/Projeto1.md)
-* P05 (2ª 18/03, 5ª 14/03): [Projeto 1 - Análise de texto](projetos/Projeto1.md)
+* P01 (20/02): [Projeto 0 - Desenferrujar](projetos/Projeto0.md)
+* P02 (27/02): [Projeto 0 - Desenferrujar](projetos/Projeto0.md)
+* P03 (06/03): [Projeto 1 - Análise de texto](projetos/Projeto1.md)
+* P04 (13/03): [Projeto 1 - Análise de texto](projetos/Projeto1.md)
+* P05 (20/03): [Projeto 1 - Análise de texto](projetos/Projeto1.md)
 
-* P06 (2ª 08/04, 5ª 21/03): [Projeto 2 - Análise de dados](projetos/Projeto2.md)
-* P07 (2ª 15/04, 5ª 04/04): [Projeto 2 - Análise de dados](projetos/Projeto2.md)
-* P08 (2ª 22/04, 5ª 11/04): [Projeto 2 - Análise de dados](projetos/Projeto2.md)
+* P06 (27/03): [Projeto 2 - Análise de dados](projetos/Projeto2.md)
+* P07 (03/04): [Projeto 2 - Análise de dados](projetos/Projeto2.md)
+* P08 (10/04): [Projeto 2 - Análise de dados](projetos/Projeto2.md)
 
-* P09 (2ª 29/04, 5ª 18/04): [Projeto 3 - Visualização e animação de dados](projetos/Projeto3.md)
-* P10 (2ª 13/05, 5ª 02/05): [Projeto 3 - Visualização e animação de dados](projetos/Projeto3.md)
-* P11 (2ª 20/05. 5ª 16/05): [Projeto 3 - Visualização e animação de dados](projetos/Projeto3.md)
-* P12 (2ª 27/05, 5ª 23/05): [Projeto 3 - Visualização e animação de dados](projetos/Projeto3.md)
+* P09 (24/04): [Projeto 3 - Visualização e animação de dados](projetos/Projeto3.md)
+* P10 (15/05): [Projeto 3 - Visualização e animação de dados](projetos/Projeto3.md)
+* P11 (22/05): [Projeto 3 - Visualização e animação de dados](projetos/Projeto3.md)
+* P12 (29/05): [Projeto 3 - Visualização e animação de dados](projetos/Projeto3.md)
 
