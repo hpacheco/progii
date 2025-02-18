@@ -1,6 +1,6 @@
 # Programação II
 
-Bem-vindo ao repositório de suporte à cadeira conjunta de [Estruturas de Dados para Bioinformática 2024/2025](https://sigarra.up.pt/fcup/pt/ucurr_geral.ficha_uc_view?pv_ocorrencia_id=548141).
+Bem-vindo ao repositório de suporte à cadeira de [Estruturas de Dados para Bioinformática 2024/2025](https://sigarra.up.pt/fcup/pt/ucurr_geral.ficha_uc_view?pv_ocorrencia_id=548141).
 Neste repositório poderá encontrar todo o material de suporte à cadeira.
 
 Pode navegar todo o conteúdo desta página no [repositório](https://github.com/hpacheco/progii) associado, que inclui os exemplos de código `Python` utilizados nas [aulas](https://github.com/hpacheco/progii/tree/master/scripts/aulas).
