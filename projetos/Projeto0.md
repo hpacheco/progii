@@ -4,7 +4,6 @@ Nas primeiras aulas vamos reavivar os nossos conhecimentos fundamentais de progr
 
 Aceda aos ficheiros do Projeto 0, onde deve preencher as suas soluções num ficheiro `projeto0.py`:
 
-- Acendendo à Team [prog2bio2324](https://replit.com/team/prog2bio2223) e iniciando o Projeto0.
 - Pode consultar os ficheiros individuais na pasta [projeto0](../scripts/projeto0) e fazer download dos mesmos para desenvolver o projeto no seu computador e utilizando um IDE à sua escolha.
 - Pode fazer download de todo o projeto como um arquivo zip [aqui](https://download-directory.github.io/?url=https%3A%2F%2Fgithub.com%2Fhpacheco%2Fprogii%2Ftree%2Fmaster%2Fscripts%2Fprojeto0).
 
@@ -396,11 +395,11 @@ programa que imprime o número, nome e classificação segundo essa tabela da li
 
 |   pontuação               |  mensagem      | 
 |:-------------------------:|:--------------:|
-| $$< 0 \,\vee > 100$$      | "inválido"     |
+| $$< 0 \vee > 100$$      | "inválido"     |
 | $$< 50$$                  | "insuficiente" |
-| $$\geq 50 \,\wedge < 70$$ | "suficiente"   |
-| $$\geq 70 \,\wedge < 80$$ | "bom"          |
-| $$\geq 80 \,\wedge < 90$$ | "muito bom"    |
+| $$\geq 50 \wedge < 70$$ | "suficiente"   |
+| $$\geq 70 \wedge < 80$$ | "bom"          |
+| $$\geq 80 \wedge < 90$$ | "muito bom"    |
 | $$\geq 90$$               | "excelente"    |
 
 Por exemplo, para a seguinte lista de pontuações:
