@@ -8,7 +8,9 @@ Aceda aos ficheiros do Projeto 1, onde deve preencher as suas soluções num fic
 - Pode fazer download de todo o projeto como um arquivo zip [aqui](https://download-directory.github.io/?url=https%3A%2F%2Fgithub.com%2Fhpacheco%2Fprogii%2Ftree%2Fmaster%2Fscripts%2Fprojeto1).
 - Se o link anterior não funcionar, pode fazer download de todo o repositório git como um arquivo zip [aqui](https://github.com/hpacheco/progii/archive/refs/heads/master.zip).
 
-Neste projeto vamos extrair métricas simples do texto da obra *Anecdotes of the Habits and Instinct of Animals* de *Mrs. R. Lee* e analisar sequências de DNA. Para cada tarefa, o ficheiro dado [main.py](../scripts/projeto1/main.py) contém um conjunto de testes que pode utilizar para validar as suas soluções. No entanto, os testes apenas funcionarão como referência: passar nos testes não implica ter nota máxima, nem falhar os testes implica que a solução esteja errada.
+Neste projeto vamos extrair métricas simples do texto da obra *Anecdotes of the Habits and Instinct of Animals* de *Mrs. R. Lee* e analisar sequências de DNA.
+
+Para cada tarefa, o ficheiro dado [main.py](../scripts/projeto1/main.py) contém um conjunto de testes que pode utilizar para validar as suas soluções. No entanto, os testes apenas funcionarão como referência: passar nos testes não implica ter nota máxima, nem falhar os testes implica que a solução esteja errada.
 
 ## Parte I - Análise de obras literárias
 
@@ -16,11 +18,15 @@ Considere o ficheiro [anecdotes.txt](../scripts/projeto1/dados/anecdotes.txt), r
 
 ### Tarefa 1
 
-Complete a função `leParagrafos` que lê o conteúdo de um ficheiro de texto para uma lista de paragrafos, em que cada parágrafo é uma lista de linhas de texto sem caracteres newline. Parágrafos aparecem separados por linhas em branco no ficheiro de entrada e devem ser concatenados numa só string no resultado, separando cada linha por um espaço. **NOTA:** Utilize o parâmetro `encoding='utf-8-sig'` para evitar problemas de formatação do texto. 
+Complete a função `leParagrafos` que lê o conteúdo de um ficheiro de texto para uma lista de paragrafos, em que cada parágrafo é uma lista de linhas de texto sem caracteres newline. Parágrafos aparecem separados por linhas em branco no ficheiro de entrada e devem ser concatenados numa só string no resultado, separando cada linha por um espaço.
+
+**NOTA:** Utilize o parâmetro `encoding='utf-8-sig'` para evitar problemas de formatação do texto. 
 
 ### Tarefa 2
 
-Complete a definição da função `constroiIndiceAnimais`, que retorna uma lista de pares, em que o primeiro elemento é o título desse capítulo (decomposto num dicionário `{singular : plural }` contendo os animais a que se refere) e o segundo elemento é uma lista de parágrafos que ocorrem por ordem nesse capítulo. Note que deve ignorar as linhas iniciais que ocorrem antes do primeiro capítulo. Note que os nomes de animais nos títulos dos capítulos se encontram no plural, e pode usar a função dada `singularize` para determinar (quase sempre corretamente) o seu singular. Deve também usar a lista `animals` dada para determinar se uma palavra é um nome de um animal.
+Complete a definição da função `constroiIndiceAnimais`, que retorna uma lista de pares, em que o primeiro elemento é o título desse capítulo (decomposto num dicionário `{singular : plural }` contendo os animais a que se refere) e o segundo elemento é uma lista de parágrafos que ocorrem por ordem nesse capítulo.
+
+Note que deve ignorar as linhas iniciais que ocorrem antes do primeiro capítulo. Note que os nomes de animais nos títulos dos capítulos se encontram no plural, e pode usar a função dada `singularize` para determinar (quase sempre corretamente) o seu singular. Deve também usar a lista `animals` dada para determinar se uma palavra é um nome de um animal.
 
 ### Tarefa 3
 
@@ -31,7 +37,7 @@ Complete as definições das seguintes funções que calculam métricas sobre o 
 - A função `outrasMencoes` que retorna um dicionário `{ animal : menções }`, em que `animal` é um nome singular de um animal que aparece no título de um capítulo e `menções` é o número de menções a esse animal em capítulos dedicados outros animais.
 - A função `fleschKincaid` que calcula o [Flesch-Kincaid readability level](https://en.wikipedia.org/wiki/Flesch%E2%80%93Kincaid_readability_tests), amplamente utilizado para determinar a dificuldade de leitura de um texto. Este índice é calculado de acordo com a seguinte fórmula:
 
-$$ 206.835 - 1.015 \left( \frac{\text{#palavras}}{{\text{#frases}}} \right) - 84.6 \left( \frac{\text{#sílabas}}{\text{#palavras}} \right) $$
+$$ 206.835 - 1.015 \left( \frac{\text{\#palavras}}{{\text{\#frases}}} \right) - 84.6 \left( \frac{\text{\#sílabas}}{\text{\#palavras}} \right) $$
 
 O cálculo deste índice é bastante sensível à forma como processem o texto, e será relativamente natural que obtenham valores diferentes dos que se encontram nos testes de referência. Algumas notas:
 
