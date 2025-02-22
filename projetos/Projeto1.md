@@ -37,9 +37,9 @@ Complete as definições das seguintes funções que calculam métricas sobre o 
 - A função `outrasMencoes` que retorna um dicionário `{ animal : menções }`, em que `animal` é um nome singular de um animal que aparece no título de um capítulo e `menções` é o número de menções a esse animal em capítulos dedicados outros animais.
 - A função `fleschKincaid` que calcula o [Flesch-Kincaid readability level](https://en.wikipedia.org/wiki/Flesch%E2%80%93Kincaid_readability_tests), amplamente utilizado para determinar a dificuldade de leitura de um texto. Este índice é calculado de acordo com a seguinte fórmula:
 
-$$ 206.835 - 1.015 \left( \frac{\#\text{palavras}}{{\#\text{frases}}} \right) - 84.6 \left( \frac{\#\text{sílabas}}{\#\text{palavras}} \right) $$
+$$ 206.835 - 1.015 \left( \frac{\sharp\text{palavras}}{{\sharp\text{frases}}} \right) - 84.6 \left( \frac{\sharp\text{sílabas}}{\sharp\text{palavras}} \right) $$
 
-O cálculo deste índice é bastante sensível à forma como processem o texto, e será relativamente natural que obtenham valores diferentes dos que se encontram nos testes de referência. O acaracter `#` indica "números totais de". Algumas notas:
+O cálculo deste índice é bastante sensível à forma como processem o texto, e será relativamente natural que obtenham valores diferentes dos que se encontram nos testes de referência. O caracter $\sharp$ indica "números totais de". Algumas notas:
 
 * Ignore o texto dos títulos de cada capítulo.
 * Parta cada parágrafo em frases, considerando os caracteres de separação `.!?`.
