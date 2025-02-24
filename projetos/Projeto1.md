@@ -32,7 +32,7 @@ Note que deve ignorar as linhas iniciais que ocorrem antes do primeiro capítulo
 
 Complete as definições das seguintes funções que calculam métricas sobre o texto integral:
 
-- A função `menorCapitulo` que retorna o índice do capítulo com o menor número de parágrafos.
+- A função `menorCapitulo` que retorna o índice (a começar em 0) do capítulo com o menor número de parágrafos.
 - A função `maiorMonologo` que retorna qual o maior monólogo do texto e o seu respetivo capítulo. Um monólogo é uma sequência de texto delimitada pelo caracter `"`.
 - A função `outrasMencoes` que retorna um dicionário `{ animal : menções }`, em que `animal` é um nome singular de um animal que aparece no título de um capítulo e `menções` é o número de menções a esse animal em capítulos dedicados outros animais.
 - A função `fleschKincaid` que calcula o [Flesch-Kincaid readability level](https://en.wikipedia.org/wiki/Flesch%E2%80%93Kincaid_readability_tests), amplamente utilizado para determinar a dificuldade de leitura de um texto. Este índice é calculado de acordo com a seguinte fórmula:
@@ -42,8 +42,8 @@ $$ 206.835 - 1.015 \left( \frac{\sharp\text{palavras}}{{\sharp\text{frases}}} \r
 O cálculo deste índice é bastante sensível à forma como processem o texto, e será relativamente natural que obtenham valores diferentes dos que se encontram nos testes de referência. O caracter $\sharp$ indica "números totais de". Algumas notas:
 
 * Ignore o texto dos títulos de cada capítulo.
-* Parta cada parágrafo em frases, considerando os caracteres de separação `.!?`.
-* Parta cada frase eme palavras considerando apenas caracteres do alfanuméricos e espaços, ignorando qualquer outro caracter de pontuação.
+* Parta cada parágrafo em frases, considerando apenas os caracteres de pontuação `.!?` como separadores de frases.
+* Parta cada frase em palavras considerando apenas caracteres alfanuméricos e espaços, ignorando qualquer outro caracter de pontuação.
 * Calcule o número de sílabas de cada palavra utilizando a função `syllables` fornecida.
 
 ## Parte II - Análise de sequências de DNA
@@ -53,7 +53,7 @@ Note que este exercício é principalmente pedagógico. Várias bibliotecas como
 
 ### Tarefa 4
 
-Complete a definição da função `leProtenia` que lê uma proteína no formato [FASTA](https://blast.ncbi.nlm.nih.gov/Blast.cgi?CMD=Web&PAGE_TYPE=BlastDocs&DOC_TYPE=BlastHelp).
+Complete a definição da função `leProteina` que lê uma proteína no formato [FASTA](https://blast.ncbi.nlm.nih.gov/Blast.cgi?CMD=Web&PAGE_TYPE=BlastDocs&DOC_TYPE=BlastHelp).
 Um exemplo de uma proteína encontrada no ser humano, com o código [P68871.2](https://www.ncbi.nlm.nih.gov/nuccore/P68871.2?report=fasta&log$=seqview), pode ser consultada na base de dados do [National Center for Biotechnology Information](https://www.ncbi.nlm.nih.gov/). Encontra uma versão local [aqui](../scripts/projeto1/dados/P68871.2.fasta), que inclui o pequeno excerto:
 
 ```
@@ -71,7 +71,7 @@ O resultado da função deve ser um tuplo, cujo primeiro elemento é o cabeçalh
 Complete a definição da função `findMotifs` que recebe uma proteína (lida na tarefa anterior) e retorna uma sequência de *motifs*, subsequências da cadeia de aminoácidos da proteína que tipicamente desempenham uma dada função biológica.
 
 A ideia da função `findMotifs` é replicar parte da funcionalidade do [PROSITE](https://prosite.expasy.org/), que pode utilizar para desenvolver uma intuição do comportamento esperado desta tarefa.
-O resultado deve ser uma listagem de todos os *motifs* encontrados na sequência original.
+O resultado deve ser uma string com a listagem de todos os *motifs* encontrados na sequência original.
 Para identificar os *motifs*, vamos utilizar a [base de dados do PROSITE](../scripts/projeto1/dados/P68871.2.fasta), com uma cópia disponível no ficheiro [prosite.dat](../scripts/projeto1/dados/prosite.dat). Cada entrada na base de dados tem o seguinte formato:
 
 ```
