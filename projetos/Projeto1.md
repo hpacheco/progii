@@ -90,7 +90,7 @@ DO   PDOC00001;
 Vamos ter particular interesse nos campos:
 
 * `AC`: o identificador científico do *motif*
-* `PA`: um padrão que determina as várias possíveis sequências de aminoácidos que constituem o *motif*. Pode encontrar a notação PROSITE para tais padrões na Wikipedia: [sequence motif notation](https://en.wikipedia.org/wiki/Sequence_motif). Note que o caracter `-` é só para legibilidade do padrão e deve ser ignorado na leitura da sequência.
+* `PA`: um padrão que determina as várias possíveis sequências de aminoácidos que constituem o *motif*. Pode encontrar a notação PROSITE para tais padrões na [Wikipedia](https://en.wikipedia.org/wiki/Sequence_motif#PROSITE_pattern_notation). Note que o caracter `-` é só para legibilidade do padrão e deve ser ignorado na leitura da sequência.
 * `CC`: um campo de comentários, no qual só vamos ter interesse nos metadados `SITE`, que indicam a posição relativa no *motif* em que um dado aminoácido ocorre e a sua função.
 
 Para a proteína de exemplo, o resultado da tarefa deve ser uma string também no formato FASTA com a seguinte informação:
