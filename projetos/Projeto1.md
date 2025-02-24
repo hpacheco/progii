@@ -125,7 +125,7 @@ TPEE
 ...
 ```
 
-- A função `mostFrequentSites`, que retorna um dicionário que mapeia funções de *sites* numa lista de posições onde esses sites ocorrem na proteína. Para a proteína de exemplo, o resultado será (ignorando ordem):
+- A função `mostFrequentSites`, que retorna um dicionário que mapeia funções de *sites* numa lista de posições onde esses sites ocorrem na proteína. Para a proteína de exemplo, o resultado será (ignorando ordem das chaves):
 
 ```
 {'phosphorylation': [5, 39, 45, 50, 88], 'amidation': [64], 'myristyl': [84, 137]}
