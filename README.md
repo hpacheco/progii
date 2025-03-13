@@ -51,7 +51,7 @@ Esta planificação serve para dar uma ideia resumida das aulas planeadas e/ou d
 * T01 (20/02): [Apresentação da cadeira, ambiente de desenvolvimento e conceitos base](slides/t01.pdf)
 * T02 (27/02): [Iteração, recursividade e tipos base (strings, listas, tuplos)](slides/t02.pdf)
 * T03 (06/03): [Ficheiros, dicionários e sets](slides/t03.pdf)
-* T04 (13/03): Compreensões e formatos de dados
+* T04 (13/03): [Compreensões e formatos de dados](slides/t04.pdf)
 * T05 (20/03): Apoio à resolução dos projetos
 
 > *Entrega do Projeto 1*
