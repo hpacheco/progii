@@ -9,8 +9,8 @@ context.verify_mode = ssl.CERT_NONE
 url = 'https://api.ipma.pt/open-data/observation/climate/mpdsi/porto/mpdsi-1312-porto.csv'
 filename = 'mpdsi-1312-porto.csv'
 
-with urllib.request.urlopen(url, context=context) as response, open(filename, 'wb') as out_file:
-    out_file.write(response.read())
+#with urllib.request.urlopen(url, context=context) as response, open(filename, 'wb') as out_file:
+#    out_file.write(response.read())
 
 with open('mpdsi-1312-porto.csv','r') as f:
     table = csv.reader(f)

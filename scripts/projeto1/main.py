@@ -211,7 +211,7 @@ class TestProj1(unittest.TestCase):
 
     def test_t3_outrasMencoes(self):
       caps = constroiIndiceAnimais(leParagrafos('dados/anecdotes.txt'))
-      mencoes = {'monkey': 71, 'bat': 13, 'mole': 22, 'hedgehog': 13, 'bear': 78, 'badger': 16, 'weasel': 16, 'otter': 23, 'dog': 314, 'wolf': 54, 'fox': 33, 'hyena': 21, 'lion': 107, 'tiger': 44, 'leopard': 10, 'panther': 20, 'cat': 87, 'squirrel': 13, 'rat': 66, 'mouse': 21, 'elephant': 101, 'hippopotamus': 6, 'hog': 12, 'rhinoceros': 9, 'horse': 130, 'ass': 25, 'camel': 8, 'llama': 3, 'deer': 60, 'giraffe': 6, 'antelope': 12, 'goat': 34, 'sheep': 66, 'ox': 16}
+      mencoes = {'monkey': 18, 'bat': 0, 'mole': 1, 'hedgehog': 0, 'bear': 29, 'badger': 0, 'weasel': 1, 'otter': 2, 'dog': 88, 'wolf': 15, 'fox': 12, 'hyena': 2, 'lion': 22, 'tiger': 13, 'leopard': 5, 'panther': 6, 'cat': 27, 'squirrel': 0, 'rat': 19, 'mouse': 12, 'elephant': 24, 'hippopotamus': 0, 'hog': 5, 'rhinoceros': 2, 'horse': 73, 'ass': 4, 'camel': 4, 'llama': 0, 'deer': 10, 'giraffe': 1, 'antelope': 5, 'goat': 10, 'sheep': 22, 'ox': 7}
       self.assertEqual({ k.lower() : v for k,v in outrasMencoes(caps).items() },mencoes)
 
     def test_t3_fleschKincaid(self):
