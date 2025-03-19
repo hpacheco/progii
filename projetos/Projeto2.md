@@ -45,7 +45,7 @@ Comece por analisar o resultado da função `readMSA` dada, que lê as respetiva
 
 Complete a definição da função `createBLOSUM()`, que cria uma matriz de substituição a partir de um MSA. Pode consultar a entrada sobre o método [BLOSUM](https://en.wikipedia.org/wiki/BLOSUM) na Wikipedia para mais informações. No entanto, vamos assumir algumas simplificações e calcular a matrix de acordo com os seguintes passos:
 
-1. Calcule a frequência de cada aminoácido em todas as sequências. Ignorando *gaps*, a frequência de um aminoácido $A$ é dada por $f(A) = \frac{\text{número de ocorrências do aminoácido}}{número total de aminoácidos}}$.
+1. Calcule a frequência de cada aminoácido em todas as sequências. Ignorando *gaps*, a frequência de um aminoácido $A$ é dada por $f(A) = \frac{\text{número de ocorrências do aminoácido}}{\text{número total de aminoácidos}}$.
 2. Calcule a probabilidade $P(A,B)$ de dois aminoácidos $A$ e $B$ estarem alinhados em duas sequências, ou seja, $A$ e $B$ aparecerem na mesma posição de sequências de proteínas diferentes. Outra vez ignorando *gaps*, esta probabilidade é dada por $P(A,B) = \frac{\text{número de ocorrências do par $(A,B)$}}{\text{número total de pares}}$. Note que a ordem dos elementos do par é irrelevante, ou seja, $P(A,B) = P(B,A)$. Desta forma, para uma dada posição existem $\left( \frac{n}{2} \right)$ pares de aminoácidos possíveis (se não houver aminoácidos em falta), onde $n$ é o número de sequências a serem comparadas.
 3. Calcule a matrix de substituição $S(A,B) = \log_2 \left( \frac{P(A,B)}{f(A) * f(B)} \right )$, arredondando cada entrada a um valor inteiro. Para o MSA de exemplo, o resultado é a seguinte matrix simétrica de $20x20$:
 
