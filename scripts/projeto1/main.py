@@ -31,7 +31,7 @@ HGKK
 >sp|P68871.2|HBB_HUMAN|PA [ACS=PS00008] [location=137..142]
 GVANAL"""
 
-overlappingNP001138820 = """>NP_001362750.1|PA [ACS=PS00005,PS00006,PS00008] [location=350..358]
+overlappingNP001362750=""">NP_001362750.1|PA [ACS=PS00005,PS00006,PS00008] [location=350..358]
 GSMGSFSEK
 >NP_001362750.1|PA [ACS=PS00008,PS00008] [location=81..90]
 GTAEGAVDAM
@@ -43,8 +43,8 @@ SSSED
 SSKD
 >NP_001362750.1|PA [ACS=PS00005,PS00009] [location=381..384]
 TGRR
->NP_001362750.1|PA [ACS=PS00004,PS00029] [location=488..504]
-KRLSSQLILLQAWTSHL
+>NP_001362750.1|PA [ACS=PS00004,PS00029] [location=483..504]
+LGMFLKRLSSQLILLQAWTSHL
 >NP_001362750.1|PA [ACS=PS00004,PS00009] [location=713..718]
 KGKRSS
 >NP_001362750.1|PA [ACS=PS00005,PS00006] [location=852..856]
@@ -151,14 +151,14 @@ SPQE
 >NP_001138820.1|PA [ACS=PS00006] [location=425..428]
 SPGE"""
 
-overlappingQ9HCK0 = """>sp|Q9HCK0.2|ZBT26_HUMAN|PA [ACS=PS00005,PS00006,PS00028] [location=340..348]
-SLQDHLNLH
+overlappingQ9HCK0 = """>sp|Q9HCK0.2|ZBT26_HUMAN|PA [ACS=PS00005,PS00006,PS00028] [location=328..348]
+CKICGKTFSQKCSLQDHLNLH
 >sp|Q9HCK0.2|ZBT26_HUMAN|PA [ACS=PS00005,PS00006] [location=196..199]
 SKKD
 >sp|Q9HCK0.2|ZBT26_HUMAN|PA [ACS=PS00001,PS00006] [location=222..226]
 NSTVE
->sp|Q9HCK0.2|ZBT26_HUMAN|PA [ACS=PS00005,PS00028] [location=308..320]
-TQKGNLHRHMRVH
+>sp|Q9HCK0.2|ZBT26_HUMAN|PA [ACS=PS00005,PS00028] [location=300..320]
+CLLCGKTFTQKGNLHRHMRVH
 >sp|Q9HCK0.2|ZBT26_HUMAN|PA [ACS=PS00005] [location=2..4]
 SER
 >sp|Q9HCK0.2|ZBT26_HUMAN|PA [ACS=PS00001] [location=65..68]
@@ -270,7 +270,7 @@ class TestProj1(unittest.TestCase):
 
     def test_t6_overlappingMotifs_2(self):
       m = overlappingMotifs("dados/NP_001362750.1.motifs.fasta").rstrip()
-      self.assertEqual(m.splitlines(),overlappingNP001138820.rstrip().splitlines())
+      self.assertEqual(m.splitlines(),overlappingNP001362750.rstrip().splitlines())
 
     def test_t6_overlappingMotifs_3(self):
       m = overlappingMotifs("dados/NP_001138820.1.motifs.fasta").rstrip()
