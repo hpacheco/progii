@@ -1,6 +1,7 @@
 
 import json
 import numpy as np
+import pandas as pd
 from haversine import haversine, Unit
 
 ## T1
@@ -45,6 +46,8 @@ def mostSimilarSequences(blosum: np.ndarray[np.int8]) -> tuple[str,str]:
 
 ## T3
 
+perdas = pd.read_excel("dados/eea_s_eu-sdg-13-40_p_1980-2023_v03_r00.xlsx",skiprows=list(range(0,6))+list(range(46,53)),sheet_name="LOSS_CP_MEUR")
+
 # EuroVoc EU regions
 regioesEuroVoc = {
     'Central and Eastern Europe':
@@ -67,6 +70,11 @@ def registoAnual() -> dict[int,str]:
     return None
 
 ## T4
+
+def geodist(coords1,coords2):
+    """distance in km between two (latitude,longitude) coordinates"""
+    #return geopy.distance.distance(coords_1,coords_2).km
+    return haversine(coords1,coords2, unit=Unit.KILOMETERS)
 
 def habitatsMorcegos() -> int:
     return None

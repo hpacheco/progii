@@ -9,8 +9,8 @@ context.verify_mode = ssl.CERT_NONE
 url = 'https://raw.githubusercontent.com/dssg-pt/covid19pt-data/master/amostras.csv'
 filename = 'amostras.csv'
 
-with urllib.request.urlopen(url, context=context) as response, open(filename, 'wb') as out_file:
-    out_file.write(response.read())
+#with urllib.request.urlopen(url, context=context) as response, open(filename, 'wb') as out_file:
+#    out_file.write(response.read())
 
 amostras = pd.read_csv('amostras.csv',index_col='data')
 amostras.fillna(0,inplace=True)
