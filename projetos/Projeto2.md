@@ -41,6 +41,8 @@ Explore este ficheiro de dados escrevendo funções Python que respondam às seg
 
 Um dos problemas mais comuns em bioinformática prende-se com o alinhamento e comparação de sequências. Considere o ficheiro [16SRNA_Deino_87seq.aln.fasta](../scripts/projeto2/dados/16SRNA_Deino_87seq.aln.fasta) de um *multiple sequence alignment* (MSA) retirado [deste](https://www.ncbi.nlm.nih.gov/tools/msaviewer/tutorial1/) tutorial. Em particular, o ficheiro contém várias sequências de proteínas, no formato FASTA, previamente alinhadas.
 
+**Nota:** Por lapso, o ficheiro FASTA dado contém sequências de proteínas e não de aminoácidos. Podem resolver o exercício utilizando os 20 aminoácidos, em que grande parte deles vão ter 0 ocorrências, o que está a ocorrer no exemplo dado, ou contabilizar apenas os 5 nucleótidos possíveis `ACGTU`, e calcular uma matrix de $5x5$.
+
 Comece por analisar o resultado da função `readMSA` dada, que lê as respetivas sequências alinhadas de um ficheiro FASTA. Note que todas as sequências têm o mesmo comprimento. Existem precisamente 20 letras de aminoácidos possíveis: `ACDEFGHIKLMNPQRSTVWY`. O caracter `-` denota um *gap*, ou seja, um aminoácido em falta e é utilizado para alinhar sequências originalmente de tamanhos diferentes.
 
 Complete a definição da função `createBLOSUM()`, que cria uma matriz de substituição a partir de um MSA. Pode consultar a entrada sobre o método [BLOSUM](https://en.wikipedia.org/wiki/BLOSUM) na Wikipedia para mais informações. No entanto, vamos assumir algumas simplificações e calcular a matrix de acordo com os seguintes passos:
