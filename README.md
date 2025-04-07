@@ -17,7 +17,7 @@ Pode consultar material de anos anteriores nas sub-páginas:
 * [Projeto 0 - Desenferrujar](projetos/Projeto0.md)
 * [Projeto 1 - Análise de texto](projetos/Projeto1.md)
 * [Projeto 2 - Análise de dados](projetos/Projeto2.md)
-* Projeto 3 - Visualização e animação de dados
+* [Projeto 3 - Visualização e animação de dados](projetos/Projeto3.md)
 
 ## Avaliação
 
@@ -81,8 +81,8 @@ Esta planificação serve para dar uma ideia resumida das aulas planeadas e/ou d
 * P07 (03/04): [Projeto 2 - Análise de dados](projetos/Projeto2.md)
 * P08 (10/04): [Projeto 2 - Análise de dados](projetos/Projeto2.md)
 
-* P09 (24/04): Projeto 3 - Visualização e animação de dados
-* P10 (15/05): Projeto 3 - Visualização e animação de dados
-* P11 (22/05): Projeto 3 - Visualização e animação de dados
-* P12 (29/05): Projeto 3 - Visualização e animação de dados
+* P09 (24/04): [Projeto 3 - Visualização e animação de dados](projetos/Projeto3.md)
+* P10 (15/05): [Projeto 3 - Visualização e animação de dados](projetos/Projeto3.md)
+* P11 (22/05): [Projeto 3 - Visualização e animação de dados](projetos/Projeto3.md)
+* P12 (29/05): [Projeto 3 - Visualização e animação de dados](projetos/Projeto3.md)
 
