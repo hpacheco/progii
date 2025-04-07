@@ -40,15 +40,15 @@ Para obter nota máxima nesta tarefa, o gráfico deve conter alguns extras em te
 
 ## Tarefa 3 (Mapas)
 
-Esta tarefa é inspirada no visualizador de dados do portal [invasoras.pt](https://invasoras.pt/) que regista avistamentos de espécies invasoras em Portugal. Observe os seguintes ficheiros:
+Esta tarefa é inspirada no visualizador de dados do portal [invasoras.pt](https://invasoras.pt/) que regista avistamentos de espécies de plantas invasoras em Portugal. Observe os seguintes ficheiros:
 
-* [0014932-250310093411724.csv](../scripts/projeto3/dados/0014932-250310093411724.csv), retirado do portal [GBIF](https://www.gbif.org/pt/dataset/feb41318-374b-4ed6-b61e-0369993abedc) que contém um dataset de listagem dos avistamentos de espécies de plantas invasoras em Portugal num período temporal de 7 anos.
+* [0014932-250310093411724.csv](../scripts/projeto3/dados/0014932-250310093411724.csv), retirado do portal [GBIF](https://www.gbif.org/pt/dataset/feb41318-374b-4ed6-b61e-0369993abedc) que contém um dataset das ocorrências registadas num período temporal de 7 anos.
 * [distritos.geojson](../scripts/projeto3/dados/distritos.geojson), que contém a delimitação geográfica dos vários distritos de Portugal.
 
 Utilizando o `matplotlib` e o `contextily`, desenhe mapas para as seguintes funções:
 
-* Complete a definição da função `desenhaInvasoras`, que desenha um mapa dos vários distritos de Portugal Continental (ignorando as ilhas, para as quais não existem dados significativos neste dataset), com a cor de cada distrito sendo proporcional ao número de espécies invasoras diferentes registadas ao longo do tempo nesse distrito.  **Sugestão:** Junte primeiro os dados dos dois ficheiros num só `GeoDataFrame`. 
-* Complete a definição da função `desenhaPorto`, que desenha um mapa das ocorrências registadas no distrito do Porto. Cada ocorrência deve ter formato de acordo com a espécie (coluna `species`), cor diferente de acordo com o utilizador que reportou a ocorrência (coluna `identifiedBy`) e tamanho tão maior quanto mais recente for o registo da ocorrência .
+* Complete a definição da função `desenhaInvasoras`, que desenha um mapa dos vários distritos de Portugal Continental (ignorando as ilhas, para as quais não existem dados significativos neste dataset), com a cor de cada distrito sendo proporcional ao número de espécies invasoras diferentes registadas ao longo do tempo nesse distrito. **Sugestão:** Junte primeiro os dados dos dois ficheiros num só `GeoDataFrame`. 
+* Complete a definição da função `desenhaPorto`, que desenha um mapa das ocorrências registadas no distrito do Porto. Cada ocorrência deve ter formato de acordo com a espécie (coluna `species`), cor diferente de acordo com o utilizador que reportou a ocorrência (coluna `identifiedBy`) e tamanho tão maior quanto mais recente for o registo da ocorrência . **Sugestão:** Converta o primeiro ficheiro num `GeoDataFrame`, convertendo as suas colunas que têm coordenadas geográficas apropriadamente.
 
 Para obter nota máxima nesta tarefa, deve aprimorar o desenho dos mapas adequadamente, como por exemplo acrescentando backgrounds, ajustando zoom ou acrescentando labels ou legendas.
 
