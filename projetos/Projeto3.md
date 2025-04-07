@@ -42,8 +42,6 @@ Para obter nota máxima nesta tarefa, o gráfico deve conter alguns extras em te
 
 Esta tarefa é inspirada no visualizador de dados do portal [invasoras.pt](https://invasoras.pt/) que regista avistamentos de espécies invasoras em Portugal. Observe os seguintes ficheiros:
 
-https://www.gbif.org/pt/dataset/feb41318-374b-4ed6-b61e-0369993abedc
-
 * [0014932-250310093411724.csv](../scripts/projeto3/dados/0014932-250310093411724.csv), retirado do portal [GBIF](https://www.gbif.org/pt/dataset/feb41318-374b-4ed6-b61e-0369993abedc) que contém um dataset de listagem dos avistamentos de espécies de plantas invasoras em Portugal num período temporal de 7 anos.
 * [distritos.geojson](../scripts/projeto3/dados/distritos.geojson), que contém a delimitação geográfica dos vários distritos de Portugal.
 
