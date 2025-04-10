@@ -79,5 +79,7 @@ def geodist(coords1,coords2):
 def habitatsMorcegos() -> int:
     return None
 
+regioesVizinhas = {('Évora', 'Setúbal'), ('Coimbra', 'Viseu'), ('Santarém', 'Setúbal'), ('Leiria', 'Lisboa'), ('Porto', 'VilaReal'), ('CasteloBranco', 'Guarda'), ('Bragança', 'VilaReal'), ('Aveiro', 'Porto'), ('Coimbra', 'Guarda'), ('Beja', 'Évora'), ('Aveiro', 'Viseu'), ('CasteloBranco', 'Coimbra'), ('Guarda', 'Viseu'), ('Beja', 'Faro'), ('Porto', 'Viseu'), ('Leiria', 'Santarém'), ('Braga', 'VilaReal'), ('CasteloBranco', 'Leiria'), ('Bragança', 'Viseu'), ('VilaReal', 'Viseu'), ('CasteloBranco', 'Santarém'), ('Évora', 'Santarém'), ('Coimbra', 'Leiria'), ('Braga', 'VianadoCastelo'), ('Portalegre', 'Santarém'), ('Aveiro', 'Coimbra'), ('Braga', 'Porto'), ('CasteloBranco', 'Portalegre'), ('Bragança', 'Guarda'), ('Évora', 'Portalegre'), ('Lisboa', 'Santarém'), ('Beja', 'Setúbal')}
+
 def corredorVidaSelvagem() -> list[str]:
     return None
