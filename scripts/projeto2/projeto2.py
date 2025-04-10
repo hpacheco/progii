@@ -51,11 +51,11 @@ perdas = pd.read_excel("dados/eea_s_eu-sdg-13-40_p_1980-2023_v03_r00.xlsx",skipr
 # EuroVoc EU regions
 regioesEuroVoc = {
     'Central and Eastern Europe':
-        [ 'Albania', 'Armenia', 'Azerbaijan', 'Belarus', 'Bosnia and Herzegovina', 'Bulgaria', 'Czech Republic', 'Croatia', 'Georgia', 'Hungary', 'Moldova', 'Montenegro', 'North Macedonia', 'Poland', 'Romania', 'Russia', 'Serbia', 'Slovakia', 'Slovenia', 'Ukraine'],
+        [ 'Albania', 'Armenia', 'Azerbaijan', 'Belarus', 'Bosnia and Herzegovina', 'Bulgaria', 'Czechia', 'Croatia', 'Georgia', 'Hungary', 'Moldova', 'Montenegro', 'North Macedonia', 'Poland', 'Romania', 'Russia', 'Serbia', 'Slovakia', 'Slovenia', 'Ukraine'],
     'Northern Europe':
         ['Denmark','Estonia','Finland','Iceland','Latvia','Lithuania','Norway','Sweden'],
     'Southern Europe':
-        [ 'Cyprus', 'Greece', 'Holy See', 'Italy', 'Malta', 'Portugal', 'San Marino', 'Spain', 'Turkey'],
+        [ 'Cyprus', 'Greece', 'Holy See', 'Italy', 'Malta', 'Portugal', 'San Marino', 'Spain', 'Türkiye'],
     'Western Europe':
         ['Andorra','Austria','Belgium','France','Germany','Ireland','Liechtenstein','Luxembourg','Monaco','Netherlands','Switzerland','United Kingdom']
     }
