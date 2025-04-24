@@ -25,7 +25,7 @@ Os projetos práticos devem ser realizados em grupos de 2 elementos, e devem ser
 Estas datas podem vir a ser alteradas consoante o calendário académico.
 
 * Projeto 1: 23 Março
-* Projeto 2: 13 Abril
+* Projeto 2: ~~13 Abril~~ 20 Abril
 * Projeto 3: 1 Junho
 
 **Nota:** A resolução dos projetos será acompanhada nas aulas práticas. A apreciação final dos projetos terá também em consideração o progresso dos alunos durante as aulas.
