@@ -25,7 +25,7 @@ def desenhaHeatMap():
 
 #T2
 
-df = pd.read_csv('dados/estat_proj_stp24.tsv', sep='\t',index_col="freq,indic_de,projection,geo\TIME_PERIOD")
+df = pd.read_csv('dados/estat_proj_stp24.tsv', sep='\t',index_col="freq,indic_de,projection,geo\\TIME_PERIOD")
 
 def desenhaPopulacaoPaisIndice(ax,pais,indice):
 

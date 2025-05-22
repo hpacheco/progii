@@ -16,8 +16,8 @@ context.verify_mode = ssl.CERT_NONE
 url = 'https://opendata.porto.digital/dataset/5275c986-592c-43f5-8f87-aabbd4e4f3a4/resource/f6b85210-3b86-4617-8327-405f50791cf0/download/gtfs-stcp-2023-09.zip'
 filename = 'stops-stcp.zip'
 
-with urllib.request.urlopen(url, context=context) as response, open(filename, 'wb') as out_file:
-    out_file.write(response.read())
+#with urllib.request.urlopen(url, context=context) as response, open(filename, 'wb') as out_file:
+#    out_file.write(response.read())
 
 with zipfile.ZipFile('stops-stcp.zip', 'r') as r: r.extractall("stops-stcp")
 

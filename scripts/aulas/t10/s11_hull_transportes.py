@@ -13,8 +13,8 @@ context.verify_mode = ssl.CERT_NONE
 url = 'https://dados.gov.pt/en/datasets/r/7f2ee8cf-63d8-4b74-b1c2-f4b016963611'
 filename = 'stops-porto.zip'
 
-with urllib.request.urlopen(url, context=context) as response, open(filename, 'wb') as out_file:
-    out_file.write(response.read())
+#with urllib.request.urlopen(url, context=context) as response, open(filename, 'wb') as out_file:
+#    out_file.write(response.read())
 
 with zipfile.ZipFile(filename, 'r') as r: r.extractall(".")
 
