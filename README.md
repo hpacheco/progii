@@ -30,6 +30,10 @@ Estas datas podem vir a ser alteradas consoante o calendário académico.
 
 **Nota:** A resolução dos projetos será acompanhada nas aulas práticas. A apreciação final dos projetos terá também em consideração o progresso dos alunos durante as aulas.
 
+:new: As defesas presenciais dos projetos práticos são **obrigatórias** e decorrerão dia 16 de Junho, na sala FC6 029. Cada grupo deve consultar [esta folha partilhada](https://docs.google.com/spreadsheets/d/1MWbK4wxlX1pLXQfo2Ue_qOUZQJpy02LuYSlP8gZsBuw/edit?usp=sharing) e mandar um email ao regente (hpacheco@fc.up.pt) a reservar uma slot.
+
+:new: Acesso às folhas de cálculo requer login com conta upXXXXXXXXX@g.uporto.pt. Para os alunos que ainda não tiverem conta Google UP, podem activá-la na vossa página pessoal do Sigarra, tab `Apps U.Porto > Conta Google`.
+
 ## Bibliografia
 
 - Allen Downey; How to think like a computer scientist. ISBN: 0-9716775-0-6 [interactive edition](https://runestone.academy/runestone/books/published/thinkcspy/index.html) 
